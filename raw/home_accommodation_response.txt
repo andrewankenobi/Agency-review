@@ -1,18 +1,18 @@
 *   **Letting Agent:** Home Accommodation
-*   **Bills Included on Listings?:** Not Found (The website focuses on student accommodation in Sheffield. While many student accommodations include bills [9, 11, 16, 34, 35, 39, 40], the website itself doesn't explicitly state if *all* their listings are bills-inclusive. Some general sources state bills are often included in student lets [16, 34], while others mention listings both with and without bills [27].)
+*   **Bills Included on Listings?:** Some (Common for student accommodation, but not guaranteed unless specified on the listing. Their website mentions "affordable prices" but not explicitly all-inclusive bills across all properties.)
 *   **Website Url:** https://homeaccommodation.co.uk
-*   **Student Listings Live:** Yes [3]
-*   **Key channels live on:** Not Found (While general student letting portals like Rightmove Student, Zoopla, OnTheMarket, and UniHomes exist [11, 19, 27, 38], there's no specific mention of Home Accommodation listing on them in the search results.)
-*   **Branches:** 1 (Based on the single address found) [3]
+*   **Student Listings Live:** Yes (The agency specializes in student homes in Sheffield)
+*   **Key channels live on:** StuRents (Mentioned on website), Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
+*   **Branches:** 1 (Based on single address provided)
 *   **Key Contact Person:**
-    *   Full Name: Not Found
+    *   Full Name: Not Found (Family-owned business, but specific names not listed)
     *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 0114 2685454 (WhatsApp only: 07871778367) [3]
-    *   Address: 305 Western Bank, Sheffield, S10 2TJ [3]
-    *   Email: info@homeaccommodation.co.uk [3]
+    *   Phone: 0114 2685454 (WhatsApp only: 07871778367 - during office hours)
+    *   Address: 305 Western Bank, Sheffield, S10 2TJ
+    *   Email: info@homeaccommodation.co.uk
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** The website specifies they are *not* @Home Accommodation Ltd (London) [3]. There is a "HOME ACCOMMODATION LIMITED" registered on Companies House (Company number 14729317) with a different address in Stevenage, Hertfordshire [8], it's unclear if this is the same entity as the Sheffield-based agency.
-*   **Notes/Comments:** The agency appears to specialize in student accommodation specifically in Sheffield [3]. Finding details beyond the basic contact information on their website was difficult. No key personnel or specific portal listings were identified. The distinction from a London-based company with a similar name is noted on their contact page [3].
+*   **Other Linkedin/Extra Details:** Family-owned business with over 20 years experience. Members of NRLA (National Residential Landlords Association) and SSLA (Sheffield & District Landlord Association). Specializes in Sheffield student accommodation near Sheffield University and Sheffield Hallam campuses.
+*   **Notes/Comments:** Primarily focused on the Sheffield student market. Contact information is readily available on their website. No presence found on major UK property portals (Rightmove, Zoopla, OTM) or LinkedIn during this search. They explicitly state on their contact page they are *not* @Home Accommodation Ltd (London).

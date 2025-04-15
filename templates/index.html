@@ -824,7 +824,9 @@
                             <div class="detail-item">
                                 <div class="detail-section">
                                     <div class="detail-section-label">Address</div>
-                                    <div class="detail-value">${agency['contact_info']?.address || 'N/A'}</div>
+                                    <div class="detail-value">
+                                        ${agency['contact_info']?.operational_address || agency['contact_info']?.registered_address || 'N/A'}
+                                    </div>
                                 </div>
                                 <div class="detail-section">
                                     <div class="detail-section-label">Phone</div>

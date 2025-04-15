@@ -1,18 +1,18 @@
 *   **Letting Agent:** Sheffield Student Accommodation
-*   **Bills Included on Listings?:** Some (The website mentions "All Inclusive and Rent Only contracts are available". The All Inclusive package includes rent, electric, gas, water, WiFi and TV Licence and is managed through Unihomes.)
+*   **Bills Included on Listings?:** Some (Many student accommodation providers in Sheffield offer bills-included packages, but it's not universal across all listings or agents. The specific website provided doesn't explicitly state this for all its listings, though some linked providers do.)
 *   **Website Url:** https://sheffieldaccommodation.co.uk
-*   **Student Listings Live:** Yes (The website focuses on student accommodation and has listings available.)
-*   **Key channels live on:** UniHomes (Mentioned on the website as managing the All Inclusive package.) Other portals like Rightmove, Zoopla, OnTheMarket were not explicitly confirmed for this specific agency in the search results, although they are common channels for Sheffield student lettings.
-*   **Branches:** Not Found (Appears to be a single office operation based on contact details.)
+*   **Student Listings Live:** Yes (The website focuses on student accommodation)
+*   **Key channels live on:** Rightmove (Listings found for student accommodation in Sheffield, but not specifically linked to this agent), Zoopla (Listings found for student accommodation in Sheffield, but not specifically linked to this agent), OnTheMarket (Listings found for student accommodation in Sheffield, but not specifically linked to this agent)
+*   **Branches:** Not Found (Appears to be an online portal/directory rather than a traditional agency with physical branches)
 *   **Key Contact Person:**
-    *   Full Name: Not Found (The website is branded as "Sheffield Student Properties, now part of JC Sales & Lettings". Key contacts for JC Sales & Lettings might be relevant but aren't explicitly listed for the student properties division.)
+    *   Full Name: Not Found
     *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 0114 2666300, Mobile Enquiries: 07518 712 380, Mobile Sales: 07799 281 491
-    *   Address: Sheffield Student Properties, now part of JC Sales & Lettings, 504 Ecclesall Road, Sheffield, S11 8PY
-    *   Email: students@jc-lettings.com
+    *   Phone: Not Found (No direct contact number found on the website)
+    *   Address: Not Found (No physical address found on the website)
+    *   Email: Not Found (No direct contact email found on the website)
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (No specific LinkedIn profile found for "Sheffield Student Accommodation" or "Sheffield Student Properties". A profile for "JC Sales & Lettings" might exist but wasn't found in the search.)
+    *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Trading name of JC Lettings and Property Management Limited. Registered company address: 33 Townhead Road, Dore, Sheffield, S11 9PD. (Company number for JC Lettings and Property Management Limited was not found in the search results).
-*   **Notes/Comments:** The website indicates "Sheffield Student Properties, now part of JC Sales & Lettings". This suggests it might be a brand or division rather than a standalone agency. Contact details point to JC Sales & Lettings. They offer both rent-only and all-inclusive (via UniHomes) options. Finding specific key personnel or LinkedIn profiles for the student division was difficult.
+*   **Other Linkedin/Extra Details:** The website appears to be a directory or portal listing properties from various providers (e.g., Unite Students, University of Sheffield Accommodation services, private landlords) rather than a single letting agency managing its own portfolio.
+*   **Notes/Comments:** The website `sheffieldaccommodation.co.uk` acts more like an aggregator or directory for student accommodation in Sheffield, linking out to various providers, rather than being a letting agency itself. Therefore, finding specific agency details like a key contact, branch number, or direct company LinkedIn profile is not applicable or possible through the provided URL and standard searches. Information on bills included varies depending on the actual provider linked from the site. Portal listings are general for Sheffield student accommodation, not specific to this website/entity.

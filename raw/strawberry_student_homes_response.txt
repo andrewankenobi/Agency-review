@@ -1,18 +1,18 @@
 *   **Letting Agent:** Strawberry Student Homes
-*   **Bills Included on Listings?:** Some (Listings show prices both excluding and including bills)
+*   **Bills Included on Listings?:** Some (Listings show price excluding bills and price including bills)
 *   **Website Url:** https://strawberrystudenthomes.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** UniHomes (Mentioned on UniHomes website), Rightmove (Mentioned on Sheffield Hallam Students' Union website as a place to search), Zoopla (Not Found), OnTheMarket (Not Found)
-*   **Branches:** 1 (Based on single address found)
+*   **Key channels live on:** Rightmove (0 listings found), Zoopla (0 listings found), OnTheMarket (0 listings found), StrawberryStudentHomes.co.uk (58 listings)
+*   **Branches:** 1
 *   **Key Contact Person:**
     *   Full Name: Chris Ashton
     *   Position: Operations Director and Business Manager
 *   **Contact Information:**
-    *   Phone: 0114 2668315
-    *   Address: 343 Ecclesall Road, Sheffield, S11 8PF
+    *   Phone: 0114 266 8315
+    *   Address: 343 Ecclesall Rd, Sharrow, Sheffield S11 8PF
     *   Email: info@strawberrystudenthomes.co.uk
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
+    *   Company Profile URL: Not Found (A profile exists but seems inactive/minimal: https://www.linkedin.com/company/strawberry-student-homes/)
     *   Key Contact Profile URL: Not Found
 *   **Other Linkedin/Extra Details:** Company Number: 10012377 (STRAWBERRY STUDENT HOMES LIMITED)
-*   **Notes/Comments:** The agency is a family-run business established over 30 years ago, specializing in student accommodation in the Ecclesall Road area of Sheffield. They state they own and manage all their properties. Key contacts listed on their website include Chris Ashton (Operations Director), Jemma Ashton (Office Manager), and Amy (Admin Manager). Companies House lists Christopher Geoffrey Ashton, David Paul Allen, and Robert Harold Allen as active directors.
+*   **Notes/Comments:** Family-run business established over 30 years ago, specializing in student accommodation in Sheffield, particularly around Ecclesall Road. They own and manage their properties. Listings are primarily on their own website; major portals currently show no listings, possibly due to the academic cycle or listing strategy. They offer properties with and without bills included. Chris Ashton is listed as Operations Director on the website and mentioned as Director in a news article. Companies House lists Christopher Geoffrey Ashton as an active director.

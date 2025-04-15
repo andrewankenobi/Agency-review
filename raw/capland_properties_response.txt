@@ -1,18 +1,18 @@
 *   **Letting Agent:** Capland Properties
-*   **Bills Included on Listings?:** Some (Offers options with and without bills included)
+*   **Bills Included on Listings?:** Some (Listings mention options with and without bills included)
 *   **Website Url:** https://capland.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** OnTheMarket, UniHomes (Mentioned on their blog)
-*   **Branches:** 1 (Based on Sheffield address)
+*   **Key channels live on:** Rightmove (Mentioned as agent), Zoopla (Not Found), OnTheMarket (Not Found), Studentpad (Listings found), UniHomes (Listings found), StuRents (Listings found)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
     *   Full Name: Rex Caplan
-    *   Position: Director / Secretary
+    *   Position: Head of Business / Landlord
 *   **Contact Information:**
-    *   Phone: 0114 268 7222 (Sheffield number found on website contact page and blog)
-    *   Address: 353 Ecclesall Road, Sheffield, S11 8PF (From Companies House and website contact page)
-    *   Email: info@capland.co.uk (From website contact page and blog)
+    *   Phone: 0114 2687222
+    *   Address: 353 Ecclesall Road, Sheffield, S11 8PF
+    *   Email: info@capland.co.uk / helen@capland.co.uk
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (Searches returned unrelated companies or profiles)
+    *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
 *   **Other Linkedin/Extra Details:** Company Number: 03854195 (CAPLAND PROPERTIES LIMITED)
-*   **Notes/Comments:** Specializes in student accommodation in Sheffield (Ecclesall Road, Broomhill, Broomhall, Crookesmoor, City Centre). The website URL provided (capland.co.uk) redirects to capland.co.uk/sheffield. Initial search results mentioned a Leeds address (128 Woodhouse Lane, LS2 9EN) and phone (0113 245 0011) but the primary website, contact details, Companies House registration, and recent blog posts all point strongly to Sheffield operations under company number 03854195 with Rex Caplan as a director. There might be or have been a separate Leeds operation, potentially under a different company structure (e.g., CAPLAND PROPERTIES LTD, company number 02400311, registered in Leeds with different directors), but the provided website focuses solely on Sheffield.
+*   **Notes/Comments:** Capland Properties is a family-run business specializing in student accommodation in Sheffield for over 50 years. They own the properties they rent out. They list properties in areas like Ecclesall, Crookes, Broomhill, Crookesmoor, Broomhall & City Centre. They partner with UniHomes for bills packages but state they are independent companies. They are listed on several student-specific portals. No specific listing counts were found on the major portals during this search.

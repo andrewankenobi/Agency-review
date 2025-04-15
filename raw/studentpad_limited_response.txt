@@ -1,18 +1,18 @@
-*   **Letting Agent:** Smart Move Sheffield
-*   **Bills Included on Listings?:** Some (A limited number of landlords may include bills. If not included, tenants can sometimes opt for a bills package via UniHomes, though this is separate from the rent agreement with the landlord/agency)
+*   **Letting Agent:** Smart Move Sheffield (trading name of Studentpad Limited)
+*   **Bills Included on Listings?:** Some (General search results indicate 'bills included' is a common feature in student lets, but specific listings on Smart Move Sheffield need checking individually. University-managed accommodation often includes bills.)
 *   **Website Url:** https://smartmovesheffield.com
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Smart Move Sheffield (own platform), potentially Rightmove/Zoopla (mentioned as general large property sites students might look at, but not confirmed if Smart Move lists there)
-*   **Branches:** 1 (Located within the University of Sheffield Students' Union Building)
+*   **Student Listings Live:** Yes (The agency is run by the University of Sheffield and focuses on student accommodation.)
+*   **Key channels live on:** Primarily their own website (smartmovesheffield.com) which lists properties inspected by Sheffield City Council under the Snug scheme. Listings may appear on student-specific portals or potentially Zoopla via partners like Student Tenant.com, but no direct feeds found for Rightmove, Zoopla, or OnTheMarket under the Smart Move Sheffield name.
+*   **Branches:** 1 (Located within the University of Sheffield Students' Union building)
 *   **Key Contact Person:**
-    *   Full Name: Not Found (General team contact available)
-    *   Position: Not Found
+    *   Full Name: Daniel Capewell
+    *   Position: Accommodation Office Manager (Responsible for Smart Move Sheffield as part of University Accommodation Office)
 *   **Contact Information:**
     *   Phone: 0114 2226058
-    *   Address: Level 3, Students' Union Building, Western Bank, Sheffield, S10 2TG
+    *   Address: Level 3, Sheffield Students' Union, Western Bank, Sheffield, S10 2TG
     *   Email: smartmove@sheffield.ac.uk
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
-    *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Smart Move Sheffield is run by the University of Sheffield and Sheffield Students' Union. Properties listed are inspected by Sheffield City Council under the Snug scheme. The website platform appears to be powered by Studentpad Ltd (Company No: 03992911).
-*   **Notes/Comments:** The user initially provided the name "Studentpad Limited". Studentpad Ltd is the company providing the software platform for the Smart Move Sheffield website, but the letting service itself is "Smart Move Sheffield", run by the University of Sheffield. Smart Move Sheffield specifically serves University of Sheffield students and staff. It primarily lists properties on its own platform, which requires properties to meet Snug accreditation standards. While some listings might include bills, it's not standard; tenants usually pay utilities separately or can opt for a third-party package like UniHomes. No specific key contact person was identified from the search. No dedicated LinkedIn profile for Smart Move Sheffield was found.
+    *   Company Profile URL: Not Found (Found profile for Studentpad Ltd: https://www.linkedin.com/company/studentpad-ltd/, but not specifically for Smart Move Sheffield)
+    *   Key Contact Profile URL: Not Found (Daniel Capewell's profile not readily found via search)
+*   **Other Linkedin/Extra Details:** Smart Move Sheffield is run by the University of Sheffield and Sheffield Students' Union. It is a trading name of Studentpad Limited (Company Number: 03992911). Studentpad Limited's registered office is Unit 30, Brough Business Centre, Baffin Way, Brough, HU15 1YU.
+*   **Notes/Comments:** Smart Move Sheffield is the University of Sheffield's service for private sector student housing, listing properties accredited under the council's Snug scheme. It operates more like a university service/listing platform than a traditional high-street letting agent, though it functions as one for the properties listed. Information about Studentpad Limited (the parent company) is more readily available than for the Smart Move Sheffield trading name itself, especially regarding corporate structure and LinkedIn presence. Daniel Capewell is listed as responsible for Smart Move Sheffield within the University's Accommodation Office structure.

@@ -1,18 +1,18 @@
 *   **Letting Agent:** Sheffield Student Homes Ltd
-*   **Bills Included on Listings?:** Some (Many student lettings agencies in Sheffield offer bills-inclusive options, but it's not universal. Specific listings on the Sheffield Student Homes website would need to be checked to confirm if bills are included for each property, or if it's offered as an option.)
+*   **Bills Included on Listings?:** Some (The website mentions options with and without bills included, similar to other Sheffield student letting agents like PC Properties [15] and Gnome Student Homes [14])
 *   **Website Url:** https://www.sheffieldstudenthomes.co.uk/
-*   **Student Listings Live:** Yes (The name and website focus explicitly on student accommodation.)
-*   **Key channels live on:** Not Found (Specific portal listings like Rightmove, Zoopla, OnTheMarket, or UniHomes were not confirmed in the search results for Sheffield Student Homes Ltd itself, although other Sheffield student agents use these.)
-*   **Branches:** Not Found (Likely 1, but not confirmed.)
+*   **Student Listings Live:** Yes [21]
+*   **Key channels live on:** Rightmove (Not Found - general Rightmove student listings exist [13, 35], some agents mention using it [19, 26, 30, 32, 38], but no specific count for Sheffield Student Homes Ltd found), Zoopla (Not Found - general Zoopla student listings exist [39, 43], some agents mention using it [30], but no specific count for Sheffield Student Homes Ltd found), OnTheMarket (Not Found - general OnTheMarket listings exist [25, 44], but no specific count for Sheffield Student Homes Ltd found), Studentpad (Possibly - mentioned as a platform for SHU-accredited properties [29], but direct listing by Sheffield Student Homes Ltd not confirmed), UniHomes (Possibly - mentioned as a platform for Sheffield student properties [5, 29], but direct listing by Sheffield Student Homes Ltd not confirmed)
+*   **Branches:** Not Found (Likely 1, based on single contact address, but not explicitly stated)
 *   **Key Contact Person:**
-    *   Full Name: Not Found
-    *   Position: Not Found
+    *   Full Name: Hannah [21] (Surname not found, Companies House lists a director appointed in Aug 2023 but name not provided in search results [17])
+    *   Position: Not Found (Likely manager/owner based on email [21])
 *   **Contact Information:**
-    *   Phone: Not Found
-    *   Address: Not Found
-    *   Email: Not Found
+    *   Phone: 07482945537 [21]
+    *   Address: Not Found (Companies House lists a registered office at 54 Campo Lane, Sheffield [10], but this may not be the operational/contact address)
+    *   Email: hannah@sheffieldstudenthomes.co.uk [21]
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 15054354
-*   **Notes/Comments:** Information specific to "Sheffield Student Homes Ltd" is very limited in the search results. The company number was found via The Gazette. Much of the search results relate to the general student accommodation market in Sheffield, other similarly named agencies (like "Student Homes Sheffield" listed on Studentpad, "Sheffield Student Property", "SDP Student Homes", "Fit Property"), or general information about bills included. The provided website URL (https://www.sheffieldstudenthomes.co.uk/) appears to be inactive or incorrect as it doesn't resolve, hindering direct verification of details like contact information, listings, and bills policy.
+*   **Other Linkedin/Extra Details:** Company Number: Not Found (Companies House profile exists [10, 17], but number not retrieved in search results)
+*   **Notes/Comments:** The agency focuses on student accommodation in Sheffield [21]. Information is sparse online compared to other agencies. The website contact form mentions Hannah and provides an email and phone number [21]. Companies House lists the company but key details like director name and company number were not returned in the search snippets. No presence found on major property portals (Rightmove, Zoopla, OnTheMarket) through the search, though they might list there.

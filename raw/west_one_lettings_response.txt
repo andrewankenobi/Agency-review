@@ -1,18 +1,18 @@
 *   **Letting Agent:** West One Lettings
-*   **Bills Included on Listings?:** Some (Listings mention "All inclusive rent" including bills for some properties like 3-6 bed apartments, while others state bills are excluded or can be added for a fee. UniHomes listings mention bills included.)
+*   **Bills Included on Listings?:** Some (Listings specify if bills are included or excluded. Some properties offer all-inclusive rent, while others exclude utilities or offer partial inclusion for an extra fee.)
 *   **Website Url:** https://westone-student-accommodation-sheffield.co.uk/
-*   **Student Listings Live:** Yes (The website focuses heavily on student accommodation)
-*   **Key channels live on:** UniHomes, Rightmove (Mentioned in search results, though specific listings weren't checked on Rightmove/Zoopla/OTM)
-*   **Branches:** 1 (The contact address is consistently listed as West One Plaza, Fitzwilliam Street)
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** West One Website (Own listings), Rightmove (1 listing found), Zoopla (1 listing found), OnTheMarket (1 listing found), UniHomes (1 listing found). (Note: Counts are based on limited search results and may not reflect the total number of listings across all platforms.)
+*   **Branches:** 1 (The office is located at West One Plaza)
 *   **Key Contact Person:**
-    *   Full Name: Karen Fox (Mentioned as Office Manager in a document)
-    *   Position: Office Manager
+    *   Full Name: Karen Fox
+    *   Position: Office Manager, Letting Negotiator (Based on a 2020 document, may be outdated)
 *   **Contact Information:**
-    *   Phone: 0114 272 2400 (Primary number listed) / 0114 213 3371 (Listed for Gatecrasher Apartments)
-    *   Address: West One Lettings Office, West One Plaza, Fitzwilliam Street, Sheffield S1 4JB
-    *   Email: residential@cityestates.com / city@westonespace.com / gatecrasher@westonespace.com (Multiple emails found associated with West One/City Estates)
+    *   Phone: 0114 272 2400 (General/City Office), 0114 213 3371 (Gatecrasher Apartments)
+    *   Address: West One Lettings Office, West One Plaza, Fitzwilliam Street, Sheffield, S1 4JB
+    *   Email: city@westonespace.com (General/City Office), gatecrasher@westonespace.com (Gatecrasher Apartments)
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (Searches mainly returned profiles for "West One Loans", a different entity)
+    *   Company Profile URL: Not Found (A profile for Homely Serviced Apartments, which lists West One Apartments, was found, but not for West One Lettings itself)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** West One Lettings is part of the West One Property Solutions Group, the brand name for City Estates, a family-run business. They state they are property owners, not just letting agents. The website footer mentions Elmsdale Estates Ltd (Registered company address: 11 Broomgrove Rd, Sheffield, S10 2LW). A dissolved company "WEST ONE ACCOMMODATION LIMITED" (04336491) exists but seems unrelated to the current operation.
-*   **Notes/Comments:** The agency emphasizes they own the properties they manage, primarily focusing on student accommodation in Sheffield city centre. Information suggests they are part of a larger property group (City Estates/Elmsdale Estates Ltd). Multiple contact emails were found. Bills inclusion varies by property type. Found listings on UniHomes and mentions on Rightmove.
+*   **Other Linkedin/Extra Details:** West One Lettings is part of the West One Property Solutions Group / City Estates, a family-run business. They state they are property owners/landlords, not just letting agents. The parent company is Elmsdale Estates Ltd, Registered company address: 11 Broomgrove Rd, Sheffield, S10 2LW. (Note: A dissolved company "WEST ONE ACCOMMODATION LIMITED" Company number 04336491 exists, but seems unrelated to the current operation).
+*   **Notes/Comments:** The agency focuses heavily on student accommodation in Sheffield City Centre and surrounding student areas (Ecclesall Road, Broomhall etc.). They manage several specific apartment buildings like West One, Gatecrasher, Hutton's Buildings, Porterbrook, etc. Information on specific key contacts like Karen Fox is from older documents and might have changed. They emphasize direct dealing as property owners. Some listings mention bills included, others exclude them or offer partial packages.

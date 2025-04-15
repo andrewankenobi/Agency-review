@@ -13,7 +13,7 @@ Using the Google Search tool, find and consolidate information about the specifi
 *   **Bills Included on Listings?:** [Yes/No/Some/Not Found]
 *   **Website Url:** [Provided URL]
 *   **Student Listings Live:** [Yes/No/Not Found]
-*   **Key channels live on:** [List names like Rightmove, Zoopla, OnTheMarket, UniHomes where found]
+*   **Key channels live on:** [List names and counts like "Rightmove (74 listings)", "Zoopla (380 listings)", "OnTheMarket (Not Found)". Include specific counts where available, otherwise just list the channel name.]
 *   **Branches:** [Number or Not Found]
 *   **Key Contact Person:**
     *   Full Name: [Name or Not Found]
@@ -38,7 +38,7 @@ Example format:
 * Bills Included on Listings?: Some
 * Website Url: https://example.com
 * Student Listings Live: Yes
-* Key channels live on: Rightmove, Zoopla
+* Key channels live on: Rightmove (74 listings), Zoopla (380 listings), OnTheMarket (6 listings)
 * Branches: 2
 * Key Contact Person:
   * Full Name: John Smith

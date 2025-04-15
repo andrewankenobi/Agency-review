@@ -1,18 +1,18 @@
 *   **Letting Agent:** Sheffield Property To Let
-*   **Bills Included on Listings?:** Not Found (Listings on the website do not explicitly state if bills are included or not, though many other student letting agents in Sheffield offer bills-included options [4, 7, 8, 22, 23, 31])
+*   **Bills Included on Listings?:** Yes (Some properties explicitly mention "all-inclusive bills")
 *   **Website Url:** https://sheffieldpropertytolet.co.uk
-*   **Student Listings Live:** Yes [2]
-*   **Key channels live on:** Not Found (Agency not found listed on Rightmove [6, 25], Zoopla [19], OnTheMarket [24], or UniHomes [3, 23])
-*   **Branches:** Not Found (Only one address listed [2, 9])
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). Listings appear to be primarily on their own website.
+*   **Branches:** Not Found (Appears to be a single entity/independent landlord)
 *   **Key Contact Person:**
-    *   Full Name: Not Found
+    *   Full Name: Not Found (Website refers to "independent landlords" who are former graduates)
     *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 07951515970 [2, 9]
-    *   Address: 104 Banner Cross Road, Sheffield, South Yorkshire, S11 9HR [2, 9]
-    *   Email: info@sheffieldpropertytolet.co.uk [2, 9]
+    *   Phone: 07951515970
+    *   Address: 104 Banner Cross Road, Sheffield, South Yorkshire, S11 9HR
+    *   Email: info@sheffieldpropertytolet.co.uk
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Not Found (No company number or affiliations like ARLA found in search results)
-*   **Notes/Comments:** The agency focuses on student accommodation in Sheffield and has been operating for over 20 years [2]. Contact information is readily available on their website [2, 9]. However, details about key personnel, company registration, affiliations, and presence on major property portals were not found in the search results. Many other agents in Sheffield explicitly mention bills-included options, but this agent does not specify on their site [2].
+*   **Other Linkedin/Extra Details:** Company Number: 11688971 (SHEFFIELD PROPERTY TO LET LTD)
+*   **Notes/Comments:** The agency describes itself as "independent landlords and not agents", specializing in student accommodation for over 30 years. They focus on properties near Sheffield universities. No listings found on major portals (Rightmove, Zoopla, OnTheMarket) during this search.

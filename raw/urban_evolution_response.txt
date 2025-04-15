@@ -1,18 +1,18 @@
 *   **Letting Agent:** Urban Evolution
-*   **Bills Included on Listings?:** Yes (Found on specific student listings on Rightmove and their website, also mentioned on OpenRent listing)
+*   **Bills Included on Listings?:** Some (Varies by property - some are all-inclusive, some include only water/wifi, some include none. Student properties often include all bills.)
 *   **Website Url:** https://urbanevolutionlettings.co.uk
-*   **Student Listings Live:** Yes (Specific sections on website for Liverpool & Luton, also mentioned on Rightmove and Yell)
-*   **Key channels live on:** Rightmove, allAgents (Potentially Zoopla and OnTheMarket listed under allAgents profile, but not confirmed with live listings)
-*   **Branches:** 2 (Liverpool and Luton mentioned on allAgents and website)
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Rightmove (Listings detected, count not specified), OnTheMarket (6 listings), Zoopla (Not Found for Urban Evolution Lettings, found for "Urban Lettings" and "Evolution SE" which seem unrelated)
+*   **Branches:** 2 (Liverpool and Luton mentioned on website and other sources)
 *   **Key Contact Person:**
-    *   Full Name: Michael Shields (Director of Facilities Management), Ross Paul Spencer (Director), Daniel George (Head of Lettings - mentioned in 2020 article)
-    *   Position: Director / Head of Lettings
+    *   Full Name: Not Found (Multiple staff names mentioned in reviews, but no specific key contact/director identified)
+    *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 0151 453 0685 (Liverpool - Home.co.uk), 0151 227 2223 (Liverpool - Yell/Endole/X1 Lettings), 01582 800309 (Luton - allAgents)
-    *   Address: Third Floor Honeycomb & Helix Building, Edmund Street, Liverpool, L3 9NG (Rightmove/GOV.UK); 4 Dumfries Street, Luton, Bedfordshire LU1 5FT (allAgents)
-    *   Email: block@theurbanevolution.co.uk (Block Management - X1 Lettings), General contact via website form/chatbot
+    *   Phone: 0151 312 8213 (Liverpool), 01582 377381 / 01582 800309 (Luton)
+    *   Address: Edmund Street, Liverpool, L3 9NG (Multiple variations found: Third Floor Honeycomb & Helix Building; Suite 101, 1 Old Hall Street); 4 Dumfries Street, Luton, LU1 5FT
+    *   Email: lettings@theurbanevolution.co.uk
 *   **LinkedIn:**
-    *   Company Profile URL: https://www.linkedin.com/company/urban-evolution-property-management/ (Inferred from Yell listing and general search, though not explicitly found in snippets)
+    *   Company Profile URL: https://www.linkedin.com/company/urban-evolution-lettings/ (Inferred from website links and search results)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 11247750 (URBAN EVOLUTION PROPERTY MANAGEMENT LTD - GOV.UK). ICO Registration: ZA614157. Member of The Property Ombudsman (T00886). Operates in Liverpool, Luton, Sheffield, Nottingham, Newcastle.
-*   **Notes/Comments:** The company operates as Urban Evolution Lettings and Urban Evolution Property Management Ltd. They specialize in new-build residential and student accommodation. Multiple phone numbers and addresses found, likely corresponding to different branches or departments (Lettings vs Block Management). Found several staff names on allAgents but no clear single 'key contact' beyond the Directors/Head of Lettings. Bills included seems common, especially for student properties. Website emphasizes chatbot for contact.
+*   **Other Linkedin/Extra Details:** Company Number for URBAN EVOLUTION PROPERTY MANAGEMENT LTD: 11247750. Member of The Property Ombudsman (T00886).
+*   **Notes/Comments:** Primarily focused on student and residential apartments in city centres, particularly Liverpool and Luton. Also manage properties in Nottingham, Newcastle, and Sheffield. Multiple addresses found for the Liverpool branch. Zoopla search results were ambiguous, showing unrelated agencies. Specific listing counts on portals were not consistently available. No single key contact person was clearly identifiable from the search results.

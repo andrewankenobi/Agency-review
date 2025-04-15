@@ -1,18 +1,18 @@
 *   **Letting Agent:** Fit Property Lettings Agent
-*   **Bills Included on Listings?:** Some (Offers "Bills Included Option" or "Bills Managed" service)
+*   **Bills Included on Listings?:** Some (Their website mentions "Bills Managed" as a service and Rightmove listings mention "Bills inclusive package available")
 *   **Website Url:** https://www.fitproperty.com/
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove, Zoopla, UniHomes
-*   **Branches:** 1 (Based on single address found)
+*   **Key channels live on:** Rightmove (28 listings found on Home.co.uk, 151 student listings found directly on Rightmove in Highfields, Sheffield; specific number varies), Own Website (Listings present), Zoopla (Not Found), OnTheMarket (Not Found)
+*   **Branches:** 1 (Based in Sheffield)
 *   **Key Contact Person:**
-    *   Full Name: Adam (Lettings Manager), Jenn (Office Manager), Natasha (Business Development Manager), Claire (Property Manager)
-    *   Position: Lettings Manager, Office Manager, Business Development Manager, Property Manager (No single director/owner identified from search results)
+    *   Full Name: Adam O'Brien (Mentioned as Director of Fit Property in an article about StudentTenant)
+    *   Position: Director
 *   **Contact Information:**
-    *   Phone: 01142 725773 (Website), 0114 697 2820 (Rightmove/Home.co.uk)
-    *   Address: 144 Charles Street, Sheffield S1 2NE (Website), 100 Matilda Street, Sheffield, S1 4QF (Home.co.uk)
-    *   Email: hello@fitproperty.com
+    *   Phone: 0114 272 5773 (from website), 0114 212 5773 (from website FAQs), 0114 697 2820 (from Home.co.uk & Rightmove)
+    *   Address: 100, Matilda Street, Sheffield, S1 4QF (from Home.co.uk)
+    *   Email: Not Found (Enquiry form available on website)
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
-    *   Key Contact Profile URL: Not Found (Joel Walker, former Head of Property Management, found on LinkedIn via news article, but no current key contact profile located)
-*   **Other Linkedin/Extra Details:** Company No. 10744654
-*   **Notes/Comments:** The agency focuses on student and residential lettings in Sheffield. There are discrepancies in the listed address and phone number between the agency's website and third-party portals like Rightmove and Home.co.uk. The website lists key team members but not a specific director. UniHomes is mentioned as a partner on their website. OnTheMarket presence was not confirmed.
+    *   Key Contact Profile URL: Not Found
+*   **Other Linkedin/Extra Details:** Joel Walker, former Head of Property Management at Fit Property, moved to Spicerhaart Lettings. Fit Property is Client Money Protect insured.
+*   **Notes/Comments:** Primarily focused on Sheffield student and residential lettings. Multiple phone numbers listed across different sources. No dedicated email address found, only web forms. No company LinkedIn profile found. Key contact identified from an external article. Listing counts on portals vary and may change frequently.

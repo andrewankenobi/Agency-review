@@ -139,7 +139,12 @@ def process_raw_response(client: genai.Client, file_path: str) -> Dict[str, Any]
         "channels": [],
         "Branches": "Not Found",
         "key_contact": {"full_name": "Not Found", "position": "Not Found"},
-        "contact_info": {"phone": "Not Found", "address": "Not Found", "email": "Not Found"},
+        "contact_info": {
+            "phone": "Not Found",
+            "registered_address": "Not Found",
+            "operational_address": "Not Found",
+            "email": "Not Found"
+        },
         "linkedin": "Not Found",
         "other_linkedin": "Not Found",
         "notes": ""
@@ -154,7 +159,7 @@ The data should follow this exact structure:
     "Website Url": "URL",
     "bills_included": "Yes/No/Some/Not Found",
     "student_listings": "Yes/No/Not Found",
-    "channels": ["Rightmove", "Zoopla", "OnTheMarket", "UniHomes"],
+    "channels": ["Rightmove (74 listings)", "Zoopla (380 listings)", "OnTheMarket (Not Found)"],
     "Branches": "Number or Not Found",
     "key_contact": {
         "full_name": "Name or Not Found",
@@ -162,7 +167,8 @@ The data should follow this exact structure:
     },
     "contact_info": {
         "phone": "Phone or Not Found",
-        "address": "Address or Not Found",
+        "registered_address": "Registered office address or Not Found",
+        "operational_address": "Main operational address or Not Found",
         "email": "Email or Not Found"
     },
     "linkedin": "URL or Not Found",
@@ -175,9 +181,14 @@ Important:
 2. Use "Not Found" for any information that cannot be reliably determined *from the text*.
 3. For bills_included, use "Yes", "No", "Some", or "Not Found".
 4. For student_listings, use "Yes", "No", or "Not Found".
-5. For channels, only include portals explicitly mentioned *in the text*.
+5. For channels, include the number of listings if available in the text (e.g., "Rightmove (74 listings)"). If a channel is mentioned but no listing count is found, just include the channel name. If a channel is explicitly noted as not found, use "(Not Found)".
 6. For Branches, use the number found or "Not Found".
 7. Extract the agency name and URL from the text if possible, otherwise use placeholders.
+8. For addresses:
+   - registered_address: The official registered office address (usually from Companies House)
+   - operational_address: The main office where the business operates
+   - If only one address is found, use it for operational_address
+   - If multiple addresses are found, distinguish between registered and operational
 
 Research text to analyze:
 """
@@ -387,7 +398,7 @@ def process_agency_batch(
     print(f"Starting research for {total_agencies} agencies...", flush=True)
     
     # Use max_workers=5 for parallel processing to avoid hitting rate limits
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=20) as executor:
         # Submit all tasks and store futures
         future_to_agency = {
             executor.submit(process_agency, agency, system_prompt, client): agency

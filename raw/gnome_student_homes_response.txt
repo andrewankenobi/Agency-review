@@ -1,11 +1,11 @@
 *   **Letting Agent:** Gnome Student Homes
-*   **Bills Included on Listings?:** Some (Listings show prices both excluding and including bills)
+*   **Bills Included on Listings?:** Some (Listings show options for both "Bills Included" and "Excluding Bills")
 *   **Website Url:** https://gnomestudenthomes.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** UniHomes (Partnership badge visible on website), potentially others but not explicitly confirmed in search results.
-*   **Branches:** 1 (Office based on Ecclesall Road, Sheffield)
+*   **Key channels live on:** Own Website (78 listings), Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Not Found
+    *   Full Name: Not Found (A review mentions a "Landlord Guy" but no specific name or position is given)
     *   Position: Not Found
 *   **Contact Information:**
     *   Phone: 0114 2684860
@@ -14,5 +14,5 @@
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Associated company "GNOME HOMES LIMITED" found on Companies House, but no direct link confirmed.
-*   **Notes/Comments:** The agency specializes in student housing in Sheffield, particularly around Ecclesall Road, City Centre, and Crookesmoor. They offer properties with and without bills included. Contact information is readily available on their website. No specific key contact person or LinkedIn profiles were found. They have a partnership with UniHomes.
+*   **Other Linkedin/Extra Details:** Not Found
+*   **Notes/Comments:** The agency focuses on student accommodation in Sheffield, particularly around Ecclesall Road, City Centre, and Crookesmoor. They state they have been in the Sheffield student housing market for over 30 years. Listings appear primarily on their own website, with options for bills included or excluded. No presence found on major portals (Rightmove, Zoopla, OnTheMarket) or LinkedIn.

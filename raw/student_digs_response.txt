@@ -1,18 +1,18 @@
-*   **Letting Agent:** Student Digs (Trading name of Kexgill Ltd)
-*   **Bills Included on Listings?:** Yes (Many listings on the website state "Bills Included", and Kexgill also mentions "All inclusive" options) [3, 31]
+*   **Letting Agent:** Student Digs (Operated by My Student Digs Limited)
+*   **Bills Included on Listings?:** Some (Majority of properties offered with the option of a bills-inclusive package; flats/studios in blocks typically include utilities; houses offer a choice)
 *   **Website Url:** https://studentdigs.uk
-*   **Student Listings Live:** Yes [6, 9, 19, 22]
-*   **Key channels live on:** Kexgill (the parent company) is listed on Rightmove, Zoopla, OnTheMarket, potentially UniHomes (Hull is listed as affordable on UniHomes study). Student Digs itself was not explicitly found on these portals during the search, but Kexgill properties are listed. [19, 20, 25, 30, 48]
-*   **Branches:** Not Found (Student Digs appears specific to Hull, but the parent company Kexgill Ltd has multiple branches across the UK and Europe including Hull, Nottingham, Newcastle, Preston, Liverpool, Salford, Bradford, Middlesbrough, Germany, and Denmark) [4, 10, 29, 36, 44]
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). (Note: Their website mentions marketing across "all platforms" but doesn't specify which ones. A third-party source mentions they advertise on third-party property sites but doesn't name them).
+*   **Branches:** 1 (Based on the single address listed: 63 Regent Road, Leicester, LE1 6YF)
 *   **Key Contact Person:**
-    *   Full Name: Richard Stott [12, 15, 24, 39, 42]
-    *   Position: Group Managing Director (of Kexgill Ltd) [12, 24, 29, 42]
-*   **Contact Information:** (For Student Digs / Kexgill Hull)
-    *   Phone: +44 (0) 1482 343818 [10, 12, 16, 18, 24, 29]
-    *   Address: 103 Cottingham Road, Hull, HU5 2DG (Main Trading Address for Kexgill Ltd) / 11/13 Salmon Grove, Kingston upon Hull, East Yorkshire, HU6 7SX (Kexgill Group Address) / 56 Cottingham Road, Hull, HU6 7RA (Registered Office for Kexgill Ltd) [4, 5, 11, 12, 16, 18, 29]
-    *   Email: info@kexgill.com / hull@kexgill.com (Implied from other branch emails) [10, 18, 29]
+    *   Full Name: Not Found (Endole lists Mr Benjamin Thomas Lacey-Birch as a Director of My Student Digs Limited, but this company is marked as 'Dissolved'. It's unclear if he is the current key contact for the trading entity 'Student Digs').
+    *   Position: Not Found
+*   **Contact Information:**
+    *   Phone: 0116 350 1595 (also listed 0330 3214461 on FAQs page)
+    *   Address: 63 Regent Road, Leicester, LE1 6YF
+    *   Email: info@studentdigs.uk
 *   **LinkedIn:**
-    *   Company Profile URL: https://www.linkedin.com/company/kexgill-group/ (Kexgill Group) [24, 37]
-    *   Key Contact Profile URL: Not Found (Richard Stott is listed as Director/MD on Endole/RICS but a specific profile URL wasn't returned in search results) [12, 15, 24]
-*   **Other Linkedin/Extra Details:** Kexgill Ltd Company Number: 01391421 [4, 5, 11] Kexgill Group operates the "University Quarter" brand. [42, 44] Kexgill has operations in Germany (Kexgill Immobilien GmbH) and Denmark. [29, 47]
-*   **Notes/Comments:** Student Digs is a trading name specifically used for Kexgill's Hull student accommodation website (studentdigs.uk redirects to student-accommodation-hull.co.uk, which is a Kexgill site). The primary entity is Kexgill Ltd / Kexgill Group, which operates nationally and internationally. Information primarily relates to Kexgill Ltd as the parent company. Found multiple addresses associated with Kexgill in Hull.
+    *   Company Profile URL: Not Found (Endole mentions a LinkedIn profile with 56 followers, but no URL is provided in the search results).
+    *   Key Contact Profile URL: Not Found
+*   **Other Linkedin/Extra Details:** My Student Digs Limited (Company operating Student Digs) is listed as 'Dissolved' on Endole, incorporated Jan 31, 2017. Registered office listed as Welwyn Garden City, Hertfordshire on Endole, but trading address is Leicester. Focuses on student accommodation in Leicester, Chester, Nottingham, and Sheffield.
+*   **Notes/Comments:** The agency focuses heavily on student accommodation in Leicester, with additional properties listed in Chester, Nottingham, and Sheffield. There's conflicting information regarding the operating company (My Student Digs Limited) status, listed as 'Dissolved' by Endole, yet the website and services appear active as of early 2025. Difficulty finding specific listings on major portals (Rightmove, Zoopla, OTM) via search, though they state they market widely.

@@ -1,18 +1,18 @@
 *   **Letting Agent:** SheffieldRooms
-*   **Bills Included on Listings?:** Yes (Website highlights "All Inclusive Bills" on listings)
+*   **Bills Included on Listings?:** Yes (Stated as 'ALL' bills included on their website)
 *   **Website Url:** https://sheffieldrooms.co.uk
-*   **Student Listings Live:** Yes (Focuses on student and professional accommodation)
-*   **Key channels live on:** Rightmove, Zoopla, UniHomes (Based on search results and UniHomes partnership)
-*   **Branches:** 1 (Based on single address listed)
+*   **Student Listings Live:** Yes (Website has a dedicated "Student Properties" section and mentions properties are accredited under the SNUG scheme for students)
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). (No listings found on major portals via search, suggesting they may list primarily on their own site or other platforms not easily searchable via Google).
+*   **Branches:** Not Found (Appears to be a single, family-run operation based on website description)
 *   **Key Contact Person:**
-    *   Full Name: Julie Hopkins / Paul Hopkins / Andy Cartwright (Website privacy policy lists Paul & Julie Hopkins as Landlords/Data Controllers. Another agency website, sheffieldaccommodation.co.uk, lists Andy Heywood/Cartwright. SheffieldRooms.co.uk lists Julie Hopkins' mobile. Andy Cartwright has a LinkedIn profile linked to Sheffield Rooms & Accommodation Ltd.)
-    *   Position: Landlord / Director (Likely roles based on context)
+    *   Full Name: Julie Hopkins
+    *   Position: Owner / Landlord (Also listed as Data Controller)
 *   **Contact Information:**
-    *   Phone: 07946 253595 (Julie Hopkins mobile from website/privacy policy) / 0114 213 4780 (Listed on some directories, but primary contact seems mobile)
-    *   Address: 176-178 London Road, Sheffield, S2 4LT (Listed on directories, but privacy policy lists 20 Ashgate Road, Sheffield, S10 3BZ)
-    *   Email: info@sheffieldrooms.co.uk (From website/privacy policy)
+    *   Phone: 07946 253595 (Julie Hopkins) / 07817 841965 (Paul Hopkins - listed as Landlord on Privacy Notice)
+    *   Address: 20 Ashgate Road, Sheffield, S10 3BZ (Listed as Data Controller address on Privacy Notice)
+    *   Email: info@sheffieldrooms.co.uk
 *   **LinkedIn:**
-    *   Company Profile URL: https://www.linkedin.com/company/sheffield-rooms-&-accommodation-ltd/
-    *   Key Contact Profile URL: https://uk.linkedin.com/in/andy-cartwright-75087723 (Andy Cartwright)
-*   **Other Linkedin/Extra Details:** Company Name appears to be Sheffield Rooms & Accommodation Ltd, Company Number: 07301093. Website states they are a family-run company operating since 1997. Award-winning landlords according to Sheffield Council.
-*   **Notes/Comments:** Focuses on student and professional house shares in Sheffield, often advertising all-inclusive bills. Contact details show some variation between the website, privacy policy, and directory listings. Andy Cartwright appears linked via LinkedIn and another similar domain (sheffieldaccommodation.co.uk), while Paul & Julie Hopkins are named in the privacy policy for sheffieldrooms.co.uk.
+    *   Company Profile URL: Not Found
+    *   Key Contact Profile URL: Not Found
+*   **Other Linkedin/Extra Details:** Family-run company since 1997. Award-winning landlords (Sheffield Council mentioned). Properties are HMO registered. Deposits registered with a government-backed scheme.
+*   **Notes/Comments:** Information primarily sourced from the agency's website (sheffieldrooms.co.uk). Difficulty finding listings on major property portals (Rightmove, Zoopla, OnTheMarket) or LinkedIn profiles. The address provided is from the Privacy Notice and may be an administrative address rather than a public office.

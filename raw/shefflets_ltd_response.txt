@@ -1,18 +1,18 @@
 *   **Letting Agent:** Shefflets Ltd
-*   **Bills Included on Listings?:** Some (Found listings mentioning "bills included", particularly for student house shares) [16, 17]
+*   **Bills Included on Listings?:** Some (One listing found explicitly states "ALL BILLS INCLUDED" [29], others may or may not. The term "bills included" is a popular search term for renters [18])
 *   **Website Url:** https://shefflets.com
-*   **Student Listings Live:** Yes [16, 23]
-*   **Key channels live on:** Rightmove, Zoopla, OnTheMarket [2, 8, 9, 14]
-*   **Branches:** 1 (Based on single address found) [4, 5, 7, 10]
+*   **Student Listings Live:** Yes (They market properties suitable for students, e.g., a 5-bed house share [29], and partner with Housing Hand, a guarantor service often used by students [30]. Some listings are marked "Student friendly" on portals [16, 35])
+*   **Key channels live on:** Rightmove (Listings found [15, 29, 34, 39]), Zoopla (31 rental listings, 8 sales listings found [8, 19]), OnTheMarket (Not Found)
+*   **Branches:** 1 (Based on single address found [2, 7, 20, 31, 36])
 *   **Key Contact Person:**
-    *   Full Name: Lynsey Gaskell [7, 18, 27]
-    *   Position: Director [7, 18, 27]
+    *   Full Name: Kevin Gaskell [7, 20, 21] or Lynsey Elaine Gaskell [7, 20, 27]
+    *   Position: Director [7, 20, 27] (Kevin Gaskell's occupation listed as Portfolio Manager [7, 20])
 *   **Contact Information:**
-    *   Phone: 0114 321 77 77 [4, 6, 29]
-    *   Address: 953 Ecclesall Road, Banner Cross, Sheffield, S11 8TN [4, 5, 6, 7, 10, 15, 29]
-    *   Email: info@shefflets.com [4, 6]
+    *   Phone: 0114 321 77 77 [2, 31, 36]
+    *   Address: 953 Ecclesall Road, Banner Cross, Sheffield, S11 8TN [2, 7, 20, 31, 36]
+    *   Email: info@shefflets.com [2, 31]
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found [19, 24, 26] (Mentioned on some directory sites but no direct link found in search results)
+    *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 06215529 [2, 5, 6, 7] | Directors listed as Kevin Gaskell and Lynsey Elaine Gaskell [7] | Trading as Shefflets and Sheffsales [2] | Family run business [2, 25]
-*   **Notes/Comments:** Shefflets appears to be a family-run agency focusing on Sheffield lettings and sales. They actively market on major UK property portals. Found specific mention of student lets and some listings with bills included. Contact details and company information were readily available. No active LinkedIn company profile was easily discoverable via search.
+*   **Other Linkedin/Extra Details:** Company Number: 06215529 [7, 14, 22]. Shefflets is described as a family-run business [22]. Kevin and Lynsey Gaskell were co-founders of Vouch, a referencing platform, but moved on in 2020 to focus solely on Shefflets [33, 38, 40]. Awarded Gold Winner Estate Agent in Sheffield (S7-11) in 2022 & 2024 by British Property Awards [36].
+*   **Notes/Comments:** Information readily available on their website and Companies House. Active on major property portals Rightmove and Zoopla. Explicitly mentions catering to landlords and tenants/buyers [22]. Some listings indicate bills included, but it doesn't appear to be standard across all properties.

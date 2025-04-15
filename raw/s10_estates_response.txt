@@ -1,18 +1,18 @@
 *   **Letting Agent:** S10 Estates
-*   **Bills Included on Listings?:** Some (Website mentions "Optional bills inclusive service" and specific listings mention "Bills inclusive option available")
+*   **Bills Included on Listings?:** Some (Optional bills inclusive service mentioned on website)
 *   **Website Url:** https://s10estates.com
-*   **Student Listings Live:** Yes (Website focuses on student accommodation in Sheffield)
-*   **Key channels live on:** Not Found (Searches did not confirm listings on Rightmove, Zoopla, OnTheMarket, or UniHomes, although other agents in the S10 area use them)
-*   **Branches:** 1 (Implied, single address found)
+*   **Student Listings Live:** Yes (Website focuses on student accommodation)
+*   **Key channels live on:** S10Estates.com (Listings visible), Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
     *   Full Name: Amein Nasser
     *   Position: CEO / Director
 *   **Contact Information:**
-    *   Phone: 07930551001 (Listed on contact page for inquiries)
-    *   Address: 35 Pickmere Road, Sheffield, S10 1GY (Listed on contact page and Companies House)
+    *   Phone: 07930551001 (Amein Nasser's number listed on contact page)
+    *   Address: 35 Pickmere Road, Sheffield, S10 1GY (Registered office address)
     *   Email: info@s10estates.com
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 10285179 (S10 ESTATES LTD). Directors listed on Companies House: Amein Saleh Nasser and Nabeel Saleh Nasser. Website also lists Sami Nasser as Estate Manager.
-*   **Notes/Comments:** S10 Estates is a family-owned business specializing in student accommodation in the S10 area of Sheffield. Contact details are primarily listed under Amein Nasser on the website. The address listed on the website (35 Pickmere Road) matches the correspondence address for the directors on Companies House. No evidence found of listings on major property portals.
+*   **Other Linkedin/Extra Details:** Company Number: 10285179 (S10 ESTATES LTD)
+*   **Notes/Comments:** S10 Estates appears to be a family-run business specializing in student accommodation in the S10 area of Sheffield. They list properties directly on their website. No evidence found of listings on major UK property portals (Rightmove, Zoopla, OnTheMarket). The website mentions Amein, Sami, and Nabeel Nasser as key personnel. Companies House lists Amein Nasser and Nabeel Nasser as active directors. A different address (20 Highnam Crescent Road, Sheffield S10 1BZ) is mentioned on a Wix.com version of their site, but the Pickmere Road address is the registered office.

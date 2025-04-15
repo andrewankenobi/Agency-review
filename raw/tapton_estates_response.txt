@@ -1,18 +1,18 @@
 *   **Letting Agent:** Tapton Estates
-*   **Bills Included on Listings?:** Some (Listings mention "Bills included" or "Bills inclusive option available")
+*   **Bills Included on Listings?:** Some (Many listings mention "Bills included" or "Bills inclusive option available")
 *   **Website Url:** https://taptonestates.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove, UniHomes (Implied by listings found, but not explicitly stated on their site or other sources found)
+*   **Key channels live on:** Rightmove (Listings found, count not specified), Zoopla (Not Found), OnTheMarket (Not Found), Home.co.uk (9 listings)
 *   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Not Found (Companies House lists directors for TAPTON ESTATES LIMITED and TAPTON ESTATES PROPERTIES LIMITED, but no operational key contact person identified)
-    *   Position: Not Found
+    *   Full Name: Sarah Elizabeth Siggs
+    *   Position: Director / Secretary (Based on Companies House data for TAPTON ESTATES PROPERTIES LIMITED)
 *   **Contact Information:**
-    *   Phone: 0114 268 3325 (from website) / 0114 697 1885 (from Home.co.uk & Rightmove)
-    *   Address: 8-10 Broomhall Road, Broomhall, Sheffield, S10 2DR
+    *   Phone: 0114 268 3325
+    *   Address: 8-10 Broomhall Road, Broomhall, Sheffield, S10 2DR (Also listed as Broom Hall, 8-10 Broomhall Road)
     *   Email: info@taptonestates.co.uk
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: TAPTON ESTATES PROPERTIES LIMITED (05735481), TAPTON ESTATES LIMITED (02966854). Described as a family-run business with over 20 years of experience.
-*   **Notes/Comments:** Primarily focused on student and professional lettings in Sheffield. Multiple phone numbers were found across different sources. No specific key contact person (like a Lettings Manager or Director actively involved in day-to-day) was easily identifiable from the search results. Listings were found on Rightmove and UniHomes via search, suggesting they use these portals.
+*   **Other Linkedin/Extra Details:** Company Number: 05735481 (TAPTON ESTATES PROPERTIES LIMITED). Described as a family-run business with over 20 years of experience.
+*   **Notes/Comments:** Primarily focused on student and professional lettings in Sheffield, particularly near the universities. Multiple listings indicate options for bills included. Found listings on Rightmove and Home.co.uk, but not Zoopla or OnTheMarket in the search results. Contact details and company information were consistent across sources. Key contact identified via Companies House. No specific LinkedIn profiles were found in the search results. An older address (206 Whitham Road, Sheffield, S10 2SS) was also mentioned in some sources.

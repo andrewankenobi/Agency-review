@@ -1,18 +1,18 @@
 *   **Letting Agent:** Smart Moves Group
-*   **Bills Included on Listings?:** Some (Listings on Rightmove, Zoopla, and their own site mention bills included for specific properties, particularly house shares/rooms and student accommodation)
+*   **Bills Included on Listings?:** Not Found (Searches on their website and general property sites did not yield specific information about whether bills are typically included in their listings. Some general rental sites mention 'bills included' as a filter, but this isn't specific to Smart Moves Group's listings.)
 *   **Website Url:** https://smartmovesgroup.com
-*   **Student Listings Live:** Yes (They mention managing student houses and list student properties on portals like Zoopla and OnTheMarket)
-*   **Key channels live on:** Rightmove, Zoopla, OnTheMarket
-*   **Branches:** 1 (Based on address found and lack of multiple branch listings)
+*   **Student Listings Live:** Yes (Zoopla mentions they manage "typical student houses" in addition to city centre apartments in Bradford.)
+*   **Key channels live on:** Zoopla (Listings found, count not specified), OnTheMarket (Listings found, count not specified), Rightmove (Mentioned as a portal they use, but specific listings not confirmed in search results).
+*   **Branches:** 1 (Based on address found on Zoopla and GetAgent, primarily operating in Bradford).
 *   **Key Contact Person:**
-    *   Full Name: Not Found (Companies House lists directors, but no specific key letting contact identified)
-    *   Position: Not Found
+    *   Full Name: Abid Hussain
+    *   Position: Director / Secretary / PSC (Person with Significant Control)
 *   **Contact Information:**
-    *   Phone: 01274 649119 (Found on Zoopla, PrimeLocation, GetAgent)
-    *   Address: Lindsay House, 11 Southbrook Terrace, Bradford, BD7 1AD (Found on GetAgent, Zoopla lists BD7)
-    *   Email: Not Found (No direct email found on website or portals)
+    *   Phone: 01274 649119 (from Zoopla/PrimeLocation), 01274 304111 (from Endole)
+    *   Address: Lindsey House, 11 Southbrook Terrace, Bradford, BD7 1AD (from Zoopla/GetAgent/OnTheMarket). *Note: Endole lists a different registered office: Trust House C/O Isaacs St James Business Park, 5 New Augustus Street Bradford West Yorkshire BD1 5LL.*
+    *   Email: Not Found (Endole mentions email available in their app, but not publicly listed in search results).
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number for SMART MOVES GROUP LTD is 06218018 (from Companies House)
-*   **Notes/Comments:** The agency focuses on Bradford city centre lettings, including apartments and student houses. Some search results point to other companies with similar names (Smart Move, Smartmove) in different locations (Inverness, Peterborough, Northern Ireland, Newark, Fort Lauderdale, Australia), which are distinct entities. Found evidence of bills included on specific listings, particularly student/shared accommodation. No specific key contact person readily identifiable from online sources. No company LinkedIn profile found.
+*   **Other Linkedin/Extra Details:** Company Number: 06220272 (Private limited company, Incorporated 19 April 2007). Status listed as "Liquidation" on Endole and a "Petition to wind up" notice found on The Gazette, suggesting potential financial distress or restructuring. Operates as Smart Property Management Ltd for rentals. Specialises in Bradford city centre apartments.
+*   **Notes/Comments:** The agency seems focused on the Bradford area, particularly city centre apartments and some student housing. There are conflicting addresses (operational vs. registered office). The company status listed as "Liquidation" on Endole and the winding-up petition require careful consideration, as this indicates significant financial issues. Multiple businesses named "Smart Moves" exist in property (Inverness, Peterborough, Tarleton, Waterford) and other sectors, requiring careful differentiation. The target company is specifically the one based in Bradford with website smartmovesgroup.com.

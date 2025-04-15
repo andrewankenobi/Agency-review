@@ -1,18 +1,24 @@
-*   **Letting Agent:** MBA Lettings (MBA Lettings & Property Management Ltd)
-*   **Bills Included on Listings?:** Some (Listings mention "ALL INCLUSIVE RENT", "Gas and Water Included in Rent", or "excludes utilities")
+*   **Letting Agent:** MBA Lettings & Property Management Ltd
+*   **Bills Included on Listings?:** Not Found (General information about 'bills included' was found, but not specific to MBA Lettings' standard practice. It's best to check individual listings.)
 *   **Website Url:** https://www.mbalettings.com/
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove, UniHomes (Mentioned in search results, presence on Zoopla/OnTheMarket not confirmed)
+*   **Key channels live on:** Rightmove (Listings found, count not specified), Zoopla (Not Found), OnTheMarket (Not Found)
 *   **Branches:** 1 (Based in Broomhill, Sheffield)
 *   **Key Contact Person:**
-    *   Full Name: Sally Williams (Mentioned as Director on RICS and Studio Hundreds site) / Mark Bennett (Mentioned as Managing Director on Rightmove)
-    *   Position: Director / Managing Director
+    *   Full Name: Mark Bennett
+    *   Position: Managing Director
+    *   Full Name: Sally Williams
+    *   Position: Director
+    *   Full Name: Gary Clarke
+    *   Position: Lettings Manager
+    *   Full Name: Michael Siggs
+    *   Position: Finance Manager
 *   **Contact Information:**
     *   Phone: 0114 267 6267
-    *   Address: 221 Fulwood Road, Broomhill, Sheffield, South Yorkshire, S10 3BA (from website contact page) / 501 Glossop Road, Broomhill, Sheffield, S10 2QE (from RICS and MBA Sheffield Surveyors site)
+    *   Address: 221 Fulwood Road, Broomhill, Sheffield, South Yorkshire, S10 3BA (Previously listed at 501 Glossop Road, S10 2QE)
     *   Email: admin@mbalettings.com
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Regulated by RICS (Royal Institution of Chartered Surveyors). Sister business is MBA Sheffield Surveyors.
-*   **Notes/Comments:** The agency specializes in student and professional lettings in Sheffield, particularly Broomhill. There are conflicting addresses listed (221 Fulwood Road vs 501 Glossop Road) and two potential key contacts mentioned across different sources. They manage over 150 student houses and over 300 properties total.
+*   **Other Linkedin/Extra Details:** Company Number for M.B.A. LETTINGS & PROPERTY MANAGEMENT LIMITED available via Companies House (Number not specified in search results). They are independent Chartered Surveyors regulated by RICS.
+*   **Notes/Comments:** MBA Lettings specializes in both student and professional lettings in Sheffield and North Derbyshire. They have been established for over 12-15 years. Contact details vary slightly across sources (address), but the Fulwood Road address appears on their current contact page. While they list on Rightmove, presence/counts on Zoopla and OnTheMarket were not confirmed in the search results. No company or key contact LinkedIn profiles were found.
