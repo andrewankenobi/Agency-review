@@ -1,12 +1,12 @@
 *   **Letting Agent:** PC Properties
-*   **Bills Included on Listings?:** Some (Rent averages £110/week with bills, £90/week without)
+*   **Bills Included on Listings?:** Some (Offers all-inclusive bills options for students, often via a third-party like Unihomes; professional lets usually exclude bills)
 *   **Website Url:** https://pcproperties.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found), Own Website (Listings available)
+*   **Key channels live on:** Not Found (Their website doesn't specify, and search results don't list them on major portals like Rightmove, Zoopla, or OnTheMarket. They appear to list directly on their own site.)
 *   **Branches:** 1 (Based on the single address found)
 *   **Key Contact Person:**
-    *   Full Name: Peter and Collete (Last names not specified in search results)
-    *   Position: Landlords/Agency Staff (Specific titles not found)
+    *   Full Name: Peter Turkington
+    *   Position: Manager & Company Secretary
 *   **Contact Information:**
     *   Phone: 0114 267 6177
     *   Address: 398 Ecclesall Road, Sheffield, S11 8PJ
@@ -14,5 +14,5 @@
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 12290063 (PC PROPERTY LIMITED) - Note: There are multiple companies with similar names (e.g., PC Properties (SW) Limited - 10309832), but 12290063 seems most relevant based on business type (letting/management).
-*   **Notes/Comments:** The agency focuses on student and professional lettings in Sheffield, particularly in areas like Ecclesall, Broomhall, Crookes, and Broomhill. They emphasize their long experience (20+ years) and responsive maintenance. Listings appear primarily on their own website; presence on major portals like Rightmove, Zoopla, or OnTheMarket was not confirmed in the search results. Testimonials mention Peter and Collete as key contacts.
+*   **Other Linkedin/Extra Details:** Appears to be a family-run business with over 20 years of experience, specializing in student and professional lettings in Sheffield (S10 & S11 areas). Voted 'Landlord of the Year' multiple times in Sheffield Landlord Awards. Company Number: Potentially 12290063 (PC PROPERTY LIMITED) or 10309832 (PC Properties (SW) Limited - though this seems Cornwall based), but confirmation needed.
+*   **Notes/Comments:** The agency focuses heavily on the Sheffield student market. They emphasize their local knowledge and maintenance service. Finding specific listing counts on major portals was unsuccessful; they may rely primarily on their own website and local reputation. There are other companies with similar names (e.g., PC Lettings in Barrow/Ulverston, PC Properties (SW) Ltd in Cornwall), but the provided URL clearly points to the Sheffield-based agency.

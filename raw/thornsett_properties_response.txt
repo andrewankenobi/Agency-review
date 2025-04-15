@@ -1,18 +1,18 @@
 *   **Letting Agent:** Thornsett Properties
-*   **Bills Included on Listings?:** Some (Their website mentions some city centre properties offer inclusive packages, and specific listings mention bills included or bills inclusive options)
+*   **Bills Included on Listings?:** Some (Some city centre properties offer inclusive packages; some listings mention bills included options, sometimes via a 3rd party like UniHomes, often with fair usage policies)
 *   **Website Url:** https://www.thornsett.com/
-*   **Student Listings Live:** Yes (They specialize in student accommodation since 1985)
-*   **Key channels live on:** Rightmove (Listings found), UniHomes (Listings found), StuRents (Listings found), Zoopla (Not Found - search results show properties *in* Thornsett, not *by* Thornsett Properties), OnTheMarket (Not Found - search results show properties *in* Thornsett, not *by* Thornsett Properties)
-*   **Branches:** 2 (City Centre Office: 70 Campo Lane, Sheffield, S1 2EG; Crookesmoor Office (Registered Office/By Appointment Only): 195 Crookes Valley Road, Sheffield, S10 1BA)
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Rightmove (2 listings found via Home.co.uk, other listings visible directly on Rightmove), Zoopla (Not Found - search results show properties *in* Thornsett, not *by* Thornsett Properties), OnTheMarket (Not Found)
+*   **Branches:** 2 (City Centre Office: 70 Campo Lane, Sheffield, S1 2EG; Crookesmoor Office: 195 Crookes Valley Road, Sheffield, S10 1BA - by appointment only)
 *   **Key Contact Person:**
-    *   Full Name: Tony Choker / Charanjit Singh Choker (Listed as Director on website and Companies House) / Bradley Wright (Mentioned frequently in testimonials as helpful contact) / Satnam Singh Choker (Listed as Director/Secretary on Companies House/Endole)
-    *   Position: Director / Office Based Team / Director & Secretary
+    *   Full Name: Tony Choker (Director) or Satnam Singh Choker (Director/Secretary/PSC) or Charanjit Singh Choker (Director/PSC)
+    *   Position: Director / Secretary / PSC
 *   **Contact Information:**
-    *   Phone: 0114 266 9700
-    *   Address: City Centre Office: Croft Buildings, 70 Campo Lane, Sheffield, S1 2EG (Main Office); Registered Office: 195 Crookes Valley Road, Sheffield, S10 1BA
-    *   Email: Not explicitly listed, but a contact form is available on the website.
+    *   Phone: 0114 266 9700 (also listed as 0114 268 2404 on Endole for the registered company)
+    *   Address: City Centre Office: Croft Buildings, 70 Campo Lane, Sheffield, S1 2EG / Registered Office: 195 Crookes Valley Road, Crookesmoor, Sheffield, S10 1BA
+    *   Email: Not explicitly listed on the website contact page (uses a contact form), but a "Click to e-mail" link exists on the website. Endole lists email as "Available in Endole App".
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (Endole mentions a LinkedIn profile but doesn't provide a URL, search results did not yield a company profile)
+    *   Company Profile URL: Not Found (Searches find Thornsett Group PLC or individuals, but not a specific company profile for Thornsett Properties Ltd of Sheffield)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 03867500 (THORNSETT PROPERTIES LIMITED). They state they are property owners, not letting agents, and have an in-house maintenance team. Family-owned business established in 1985.
-*   **Notes/Comments:** Thornsett Properties focuses heavily on student accommodation in Sheffield, close to both universities. They emphasize being direct landlords rather than agents. Multiple individuals are listed as Directors or key contacts across different sources (website, Companies House, Endole, testimonials). Finding listings on major portals like Zoopla and OTM was difficult as searches returned properties *in* the area of Thornsett rather than *by* Thornsett Properties agency. Rightmove listings were confirmed.
+*   **Other Linkedin/Extra Details:** Company Number: 03867500 (Thornsett Properties Limited). Registered in England and Wales. Family-owned business since 1985. They state they own their properties and are not letting agents. Directors include Satnam Singh Choker, Charanjit Singh Choker, Sarabjit Kaur Choker, Amrick Choker, Jaswinder Kaur Choker, Priya Kaur Choker. Tony Choker is mentioned as a Director in testimonials.
+*   **Notes/Comments:** Thornsett Properties emphasizes they are property owners, not just letting agents, focusing on student and professional accommodation in Sheffield, particularly near university sites. They have an in-house maintenance team. Bills included options are available but vary and may involve third-party providers or fair usage limits. Difficulty finding specific listing counts on major portals via search; Home.co.uk only detected 2 on Rightmove. No dedicated company LinkedIn profile found for the Sheffield entity. Multiple individuals named Choker are listed as directors.

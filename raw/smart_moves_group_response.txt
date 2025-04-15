@@ -1,18 +1,18 @@
 *   **Letting Agent:** Smart Moves Group
-*   **Bills Included on Listings?:** Not Found (Searches on their website and general property sites did not yield specific information about whether bills are typically included in their listings. Some general rental sites mention 'bills included' as a filter, but this isn't specific to Smart Moves Group's listings.)
-*   **Website Url:** https://smartmovesgroup.com
-*   **Student Listings Live:** Yes (Zoopla mentions they manage "typical student houses" in addition to city centre apartments in Bradford.)
-*   **Key channels live on:** Zoopla (Listings found, count not specified), OnTheMarket (Listings found, count not specified), Rightmove (Mentioned as a portal they use, but specific listings not confirmed in search results).
-*   **Branches:** 1 (Based on address found on Zoopla and GetAgent, primarily operating in Bradford).
+*   **Bills Included on Listings?:** Some (Listings found on Rightmove and OnTheMarket mention "Bills Included" for specific shared/student properties)
+*   **Website Url:** https://smartmovesgroup.com (Note: This URL leads to an Event and Entertainment Company, not the Bradford letting agency. The letting agency does not appear to have a dedicated website, but uses portals.)
+*   **Student Listings Live:** Yes (Listings mention managing student houses and specific student developments like Royal Riverside)
+*   **Key channels live on:** Zoopla (6 listings), OnTheMarket (6 listings), Rightmove (Listings found, count not specified), PrimeLocation (Listings found, count not specified)
+*   **Branches:** 1 (Based in Bradford)
 *   **Key Contact Person:**
     *   Full Name: Abid Hussain
     *   Position: Director / Secretary / PSC (Person with Significant Control)
 *   **Contact Information:**
-    *   Phone: 01274 649119 (from Zoopla/PrimeLocation), 01274 304111 (from Endole)
-    *   Address: Lindsey House, 11 Southbrook Terrace, Bradford, BD7 1AD (from Zoopla/GetAgent/OnTheMarket). *Note: Endole lists a different registered office: Trust House C/O Isaacs St James Business Park, 5 New Augustus Street Bradford West Yorkshire BD1 5LL.*
-    *   Email: Not Found (Endole mentions email available in their app, but not publicly listed in search results).
+    *   Phone: 01274 067832 / 01274 304111
+    *   Address: Lindsay House, 11 Southbrook Terrace, Bradford, West Yorkshire, BD7 1AD (Office address from OnTheMarket/GetAgent) / Trust House C/O Isaacs St James Business Park, 5 New Augustus Street Bradford West Yorkshire BD1 5LL (Registered office address from Endole/Companies House)
+    *   Email: Not Found (info@smartmoves.co.uk found, but linked to a different Smart Moves in Inverness)
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
+    *   Company Profile URL: Not Found (Profiles found for other companies named Smart Moves Group, but not the Bradford letting agency)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 06220272 (Private limited company, Incorporated 19 April 2007). Status listed as "Liquidation" on Endole and a "Petition to wind up" notice found on The Gazette, suggesting potential financial distress or restructuring. Operates as Smart Property Management Ltd for rentals. Specialises in Bradford city centre apartments.
-*   **Notes/Comments:** The agency seems focused on the Bradford area, particularly city centre apartments and some student housing. There are conflicting addresses (operational vs. registered office). The company status listed as "Liquidation" on Endole and the winding-up petition require careful consideration, as this indicates significant financial issues. Multiple businesses named "Smart Moves" exist in property (Inverness, Peterborough, Tarleton, Waterford) and other sectors, requiring careful differentiation. The target company is specifically the one based in Bradford with website smartmovesgroup.com.
+*   **Other Linkedin/Extra Details:** Company Number: 06220272 (SMART MOVES GROUP LTD). Note: This company is listed as being in Liquidation on Endole and has a Petition to Wind Up notice on The Gazette. Smart Property Management Ltd is mentioned as the rentals division.
+*   **Notes/Comments:** The provided website URL (smartmovesgroup.com) belongs to an events company, not the Bradford-based letting agency. The letting agency primarily operates through property portals like Zoopla, OnTheMarket, and Rightmove. It focuses on apartments in Bradford city centre and also manages student houses. There are conflicting addresses (office vs registered). Company information indicates the registered company (SMART MOVES GROUP LTD, 06220272) is in liquidation. The director listed is Abid Hussain.

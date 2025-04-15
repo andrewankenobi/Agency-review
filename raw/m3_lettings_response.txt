@@ -1,18 +1,18 @@
-*   **Letting Agent:** M3 Lettings
-*   **Bills Included on Listings?:** Yes (Many listings explicitly state "Bills included")
-*   **Website Url:** https://www.m3lettings.com/
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** OnTheMarket (1 listing found), Rightmove (Listings found, specific count not available from search), Zoopla (Not Found)
-*   **Branches:** 1 (Based on single address found)
-*   **Key Contact Person:**
+*   Letting Agent: M3 Lettings
+*   Bills Included on Listings?: Yes
+*   Website Url: https://www.m3lettings.com/
+*   Student Listings Live: Yes
+*   Key channels live on: Rightmove (Listings found, count not specified), OnTheMarket (Listings found, count not specified), Zoopla (Not Found)
+*   Branches: 1
+*   Key Contact Person:
     *   Full Name: Michael Monaghan
     *   Position: Managing Director
-*   **Contact Information:**
-    *   Phone: 0114 263 1011 / 07763 007 007
+*   Contact Information:
+    *   Phone: 0114 263 1011 (Office), 07763 007 007 (Mobile)
     *   Address: 74 Barber Road, Crookesmoor, Sheffield, S10 1EE
     *   Email: mm@m3lettings.com
-*   **LinkedIn:**
+*   LinkedIn:
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 05691024 (M3 Lettings Ltd) / 09318997 (M3 LETTINGS PROPERTY SERVICES LIMITED)
-*   **Notes/Comments:** M3 Lettings appears to be a small, independent, family-run business established in 2007, specializing in the Sheffield student property market, particularly in the Crookesmoor area. Many listings highlight bills being included. The Managing Director, Michael Monaghan, is mentioned frequently. Found conflicting company numbers, potentially indicating related entities or a change over time. Limited presence found on major property portals besides their own website and OnTheMarket.
+*   Other Linkedin/Extra Details: M3 LETTINGS PROPERTY SERVICES LIMITED Company Number: 09318997
+*   Notes/Comments: Agency focuses on student and professional lettings in Sheffield, particularly Crookesmoor. Many listings include bills. Emphasizes personal service. Opened in 2007.

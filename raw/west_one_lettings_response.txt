@@ -1,18 +1,18 @@
 *   **Letting Agent:** West One Lettings
-*   **Bills Included on Listings?:** Some (Listings specify if bills are included or excluded. Some properties offer all-inclusive rent, while others exclude utilities or offer partial inclusion for an extra fee.)
+*   **Bills Included on Listings?:** Some (Listings mention "All inclusive rent", "Bills Included", "Inclusive Rent Available", or "excluding bills" depending on the property)
 *   **Website Url:** https://westone-student-accommodation-sheffield.co.uk/
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** West One Website (Own listings), Rightmove (1 listing found), Zoopla (1 listing found), OnTheMarket (1 listing found), UniHomes (1 listing found). (Note: Counts are based on limited search results and may not reflect the total number of listings across all platforms.)
-*   **Branches:** 1 (The office is located at West One Plaza)
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found - listings appear via other agents like Redbrik), OnTheMarket (Not Found - listings appear via other agents like Belvoir)
+*   **Branches:** 1 (Based on contact address)
 *   **Key Contact Person:**
-    *   Full Name: Karen Fox
-    *   Position: Office Manager, Letting Negotiator (Based on a 2020 document, may be outdated)
+    *   Full Name: Alistair Macdonald
+    *   Position: Office Manager, Maintenance & property manager (Mentioned in a document for Gatecrasher Apartments)
 *   **Contact Information:**
-    *   Phone: 0114 272 2400 (General/City Office), 0114 213 3371 (Gatecrasher Apartments)
-    *   Address: West One Lettings Office, West One Plaza, Fitzwilliam Street, Sheffield, S1 4JB
-    *   Email: city@westonespace.com (General/City Office), gatecrasher@westonespace.com (Gatecrasher Apartments)
+    *   Phone: 0114 272 2400 (General Lettings), 0114 213 3371 (Gatecrasher Apartments)
+    *   Address: West One Lettings Office, West One Plaza, Fitzwilliam Street, Sheffield S1 4JB
+    *   Email: residential@cityestates.com, city@westonespace.com, gatecrasher@westonespace.com, ecclesallroad@westonespace.com (Different emails listed on various contact pages)
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (A profile for Homely Serviced Apartments, which lists West One Apartments, was found, but not for West One Lettings itself)
+    *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** West One Lettings is part of the West One Property Solutions Group / City Estates, a family-run business. They state they are property owners/landlords, not just letting agents. The parent company is Elmsdale Estates Ltd, Registered company address: 11 Broomgrove Rd, Sheffield, S10 2LW. (Note: A dissolved company "WEST ONE ACCOMMODATION LIMITED" Company number 04336491 exists, but seems unrelated to the current operation).
-*   **Notes/Comments:** The agency focuses heavily on student accommodation in Sheffield City Centre and surrounding student areas (Ecclesall Road, Broomhall etc.). They manage several specific apartment buildings like West One, Gatecrasher, Hutton's Buildings, Porterbrook, etc. Information on specific key contacts like Karen Fox is from older documents and might have changed. They emphasize direct dealing as property owners. Some listings mention bills included, others exclude them or offer partial packages.
+*   **Other Linkedin/Extra Details:** Part of West One Property Solutions Group / City Estates. Registered company address for Elmsdale Estates Ltd (appears in website footer): 11 Broomgrove Rd, Sheffield, S10 2LW. A company named WEST ONE ACCOMMODATION LIMITED (04336491) was dissolved in 2017.
+*   **Notes/Comments:** West One Lettings primarily manages properties developed/owned by City Estates/Elmsdale Estates Ltd, focusing heavily on student accommodation within specific developments (West One, Gatecrasher, Hutton's Buildings, Porterbrook etc.). Listings on major portals like Zoopla/OnTheMarket seem to be handled by other agencies (e.g., Blundells, Redbrik, Belvoir) for properties within the West One development, rather than directly by West One Lettings. Some properties offer all-inclusive rent, while others explicitly state bills are excluded. Multiple contact emails are provided across different pages/developments. Found reference to an Office Manager in a specific building's information pack.

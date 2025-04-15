@@ -1,18 +1,18 @@
 *   **Letting Agent:** SDP Student Homes
-*   **Bills Included on Listings?:** Some (Listings mention "Rent incl. bills", "Rent + bills package", "Inclusive Bills", and "Inclusive Bills Available")
+*   **Bills Included on Listings?:** Some (Website property search has filters for "Inclusive Bills (27)" and "Inclusive Bills Available (21)")
 *   **Website Url:** https://sdpstudenthomes.co.uk
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Mentioned as a portal they list on), Zoopla (Not Found), OnTheMarket (Not Found - one search result mentions OnTheMarket but in relation to a different agent)
+*   **Student Listings Live:** Yes (Website focuses exclusively on student homes in Sheffield)
+*   **Key channels live on:** SDP Website (52 listings), Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
 *   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Symon Donovan
+    *   Full Name: Symon Donovan (Founder)
     *   Position: Founder
 *   **Contact Information:**
     *   Phone: 0114 258 0060
-    *   Address: 117 St. Mary's Road, Sheffield, S2 4BE
+    *   Address: 117 St. Mary's Road, Sheffield, South Yorkshire, S2 4BE
     *   Email: office@sdpstudenthomes.co.uk
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Name appears to be Symon Donovan Properties Limited. They are a two-time winner of the SNUG Landlord of the Year award from Sheffield City Council.
-*   **Notes/Comments:** Information primarily sourced from the agency's website and a Sheffield City Council directory. Specific listing counts on portals were not found, but Rightmove is mentioned as a channel they use. No LinkedIn profiles were found in the search results. The agency focuses on student accommodation in Sheffield.
+*   **Other Linkedin/Extra Details:** The website footer mentions "Copyright @ 2023 Symon Donovan Properties Limited". A search for "SDP LETTINGS AND MANAGEMENT LIMITED" on Companies House exists, but it's unclear if this is the same entity without further verification.
+*   **Notes/Comments:** Information primarily sourced from the agency's website and directory listings. The founder's name (Symon Donovan) is mentioned on the "About Us" page. No listings found on major UK property portals (Rightmove, Zoopla, OnTheMarket) via search, suggesting they may primarily list on their own site or other student-specific platforms. The website indicates they manage over 60 properties, but the live search shows 52. Some properties offer bills included, while others have a bills package available.

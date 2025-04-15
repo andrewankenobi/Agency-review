@@ -1,18 +1,18 @@
 *   **Letting Agent:** The Lettings Boutique
-*   **Bills Included on Listings?:** Some (An "all inclusive option available" is mentioned on at least one Rightmove listing)
+*   **Bills Included on Listings?:** Some (One listing explicitly mentions an option for bills included, others don't specify or imply bills are excluded. The term "bills included" is a popular search term for renters.)
 *   **Website Url:** https://thelettingsboutique.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove, OnTheMarket (Listings detected, counts not specified), Zoopla (Not Found)
-*   **Branches:** 1 (Based in Broomhill, Sheffield)
+*   **Key channels live on:** Rightmove (Listings found, count not specified), OnTheMarket (Listings found, count not specified), Zoopla (Not Found)
+*   **Branches:** 1 (Based in Sheffield)
 *   **Key Contact Person:**
     *   Full Name: Ellie Barker
     *   Position: Founder
 *   **Contact Information:**
-    *   Phone: 0114 266 7201 (Additional phone number found on Home.co.uk: 0114 697 6429, and OnTheMarket: 0114 446 6071)
+    *   Phone: 0114 266 7201
     *   Address: 14 Crookes Road, Sheffield, S10 5BB
     *   Email: admin@thelettingsboutique.co.uk
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
-    *   Key Contact Profile URL: Not Found (Ellie Barker profile not found in searches)
-*   **Other Linkedin/Extra Details:** Not Found
-*   **Notes/Comments:** The agency focuses on student and professional lettings in the Broomhill area of Sheffield. Founded by Ellie Barker. Listings confirmed on Rightmove and OnTheMarket. No company LinkedIn profile or specific profile for Ellie Barker found via search. Some listings offer a bills-inclusive option. Multiple phone numbers were found across different sources.
+    *   Company Profile URL: Not Found (A search result mentions a LinkedIn page but doesn't provide a URL, another search result explicitly states "Linkedin" with no URL)
+    *   Key Contact Profile URL: Not Found
+*   **Other Linkedin/Extra Details:** Not Found (No company number found in search results)
+*   **Notes/Comments:** The agency focuses on student and residential lettings in Sheffield, particularly in areas like Broomhill, Crookesmoor, Crookes, and Broomhall. The founder, Ellie Barker, has over 12 years of experience in the property industry. Listings were found on Rightmove and OnTheMarket, but not Zoopla. Some listings offer a bills-inclusive option. No company LinkedIn profile or company number was readily found.

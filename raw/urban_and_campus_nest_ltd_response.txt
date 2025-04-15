@@ -1,18 +1,18 @@
-*   **Letting Agent:** Urban and Campus Nest Ltd.
-*   **Bills Included on Listings?:** Yes (Some listings explicitly state "ALL BILLS INCLUDED!" or list included bills like Internet, Water, Electricity, Gas).
+*   **Letting Agent:** Urban and Campus Nest Ltd. (trading as UCNEST)
+*   **Bills Included on Listings?:** Some (Listings on external sites like SpareRoom and Dublin Nest mention bills included, but it's not explicitly stated as a universal policy on the main UCNEST site. Some listings on the UCNEST site may specify).
 *   **Website Url:** https://ucnest.com
-*   **Student Listings Live:** Yes (The website explicitly targets students and young professionals).
-*   **Key channels live on:** Not Found (No listings found on Rightmove, Zoopla, or OnTheMarket via search. Listings appear primarily on their own website ucnest.com).
-*   **Branches:** 2 (Offices in London and Sheffield mentioned on their website).
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Found, but no listing count available), SpareRoom (Found, but no listing count available). Listings are primarily on their own website (ucnest.com).
+*   **Branches:** 2 (London and Sheffield)
 *   **Key Contact Person:**
-    *   Full Name: Aaron Paul Sarin (Listed as a Director on Companies House, but role within day-to-day operations unclear).
-    *   Position: Director (According to Companies House).
+    *   Full Name: Aaron Paul Sarin
+    *   Position: Director
 *   **Contact Information:**
-    *   Phone: +44 20 7043 1185 (UK/London), +86 10 5622 6408 (China/Beijing)
-    *   Address: Not Found (Specific office addresses not found in search results).
-    *   Email: Not Found (General contact email not found, though support@urbancampus.com and community@urbancampus.com were found for a similarly named but likely different entity "Urban Campus").
+    *   Phone: +44 20 7043 1185 (London), +86 10 5622 6408 (Beijing - listed on website)
+    *   Address: 38 Andover Street, Sheffield, S3 9EG (Registered Office Address as per Companies House, updated Aug 2024)
+    *   Email: Not Found (General contact form available on website)
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 09716120 (Registered as URBAN AND CAMPUS NEST LTD at Companies House). The website refers to the company as "UCNestLDN Ltd. (UCNEST)".
-*   **Notes/Comments:** The agency focuses on student and young professional rentals in London and Sheffield. Listings seem primarily hosted on their own platform. Some search results referred to "urbanest" and "Urban Campus", which appear to be separate entities. Found contact details on the website. Found company registration details and a director's name via Companies House. Difficulty finding listings on major UK portals and specific contact emails/addresses.
+*   **Other Linkedin/Extra Details:** Company Number: 09716120 (URBAN AND CAMPUS NEST LTD)
+*   **Notes/Comments:** The company operates under the name UCNEST and is registered as UCNestLDN Ltd. on their website, but the official company name is Urban and Campus Nest Ltd. They specialize in student and young professional lettings in London and Sheffield. They received Seed funding in 2017. Search results often confused this agency with "Urbanest" (a large student accommodation provider) and "Urban Nest" or "Urban Campus" (other unrelated entities). No direct listings found on major UK portals like Rightmove or Zoopla during this search, suggesting they may rely more on their own platform and potentially other channels like SpareRoom or specific student accommodation sites.

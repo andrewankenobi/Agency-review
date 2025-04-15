@@ -1,18 +1,18 @@
 *   **Letting Agent:** StudentTenant.com (operated by Student Tenant Lettings Limited)
-*   **Bills Included on Listings?:** Some (Offers bills inclusive packages and some listings explicitly state bills included)
+*   **Bills Included on Listings?:** Some (Listings can be filtered to show prices with bills included, and they offer a bills-inclusive package option)
 *   **Website Url:** https://studenttenant.com
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** StudentTenant.com, Rightmove, Zoopla (380 listings), OnTheMarket, Facebook Marketplace
+*   **Student Listings Live:** Yes (The platform is specifically for student accommodation)
+*   **Key channels live on:** Zoopla (380 listings), OnTheMarket (Mentioned as a listing platform for student halls), Rightmove (Mentioned as a listing platform for landlords, but a 2018 article notes a landlord listing appeared via StudentTenant.com), Facebook Marketplace (Mentioned as a listing platform for student halls)
 *   **Branches:** 2 (Head Office: Liverpool, UK; Indian Office: Noida, India)
 *   **Key Contact Person:**
     *   Full Name: Adam Ormesher
-    *   Position: Managing Director / CEO
+    *   Position: Managing Director (Also listed as CEO in one source)
 *   **Contact Information:**
     *   Phone: 0333 772 0618
-    *   Address: Head Office: 467A Smithdown Road, Liverpool, Merseyside, England, L15 5AE (Registered Office)
+    *   Address: Head Office: 467A Smithdown Road, Liverpool, L15 5AE (Registered Office address is the same)
     *   Email: info@studenttenant.com
 *   **LinkedIn:**
     *   Company Profile URL: http://www.linkedin.com/company/studenttenant-com
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 14025267 (Student Tenant Lettings Limited). VAT Number: GB 416 5427 03. Part of the Rooms4U family since April 2022. University Living acquired a majority stake (51%) in August 2024. Members of The Property Ombudsman.
-*   **Notes/Comments:** Primarily an online platform connecting students with landlords, private halls, and letting agents. They offer services across the UK and have an international presence. They list properties on their own site and major UK portals. Some search results mention a previous company number (09456136) and a Canterbury address, but the most current information points to the Liverpool address and company number 14025267.
+*   **Other Linkedin/Extra Details:** Company Number: 09456136 (Student Tenant Ltd.) / 14025267 (Student Tenant Lettings Limited). VAT Number: 14025267. University Living acquired a majority stake (51%) in StudentTenant in August 2024. Member of The Property Ombudsman.
+*   **Notes/Comments:** StudentTenant.com is an online platform connecting landlords, letting agents, and private student halls with students. They offer services for both landlords/providers and student tenants. They emphasize technology, including API integration for listings and tools for students like housemate matching. While they list properties on their own site, they also feed listings to other major portals like Zoopla and OnTheMarket for certain partners (e.g., student halls). A 2018 article mentioned a landlord listing appeared on Rightmove via StudentTenant.com, but their business terms state they do not post third-party agent listings onto Rightmove/Zoopla. Their primary UK office is in Liverpool. Adam Ormesher is listed as MD/CEO.

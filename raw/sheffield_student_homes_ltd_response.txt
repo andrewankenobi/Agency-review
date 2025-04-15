@@ -1,18 +1,18 @@
 *   **Letting Agent:** Sheffield Student Homes Ltd
-*   **Bills Included on Listings?:** Some (The website mentions options with and without bills included, similar to other Sheffield student letting agents like PC Properties [15] and Gnome Student Homes [14])
+*   **Bills Included on Listings?:** Some (The website mentions "With both rent only and fully inclusive rental packages on offer" - although this quote is from a search result for "Sheffield Student Property" which seems to be part of JC Sales & Lettings, not Sheffield Student Homes Ltd directly. Other results discuss bills included as a general trend, especially for students. Direct confirmation for Sheffield Student Homes Ltd specifically is not found, but it's highly likely they offer some inclusive options given the market.)
 *   **Website Url:** https://www.sheffieldstudenthomes.co.uk/
-*   **Student Listings Live:** Yes [21]
-*   **Key channels live on:** Rightmove (Not Found - general Rightmove student listings exist [13, 35], some agents mention using it [19, 26, 30, 32, 38], but no specific count for Sheffield Student Homes Ltd found), Zoopla (Not Found - general Zoopla student listings exist [39, 43], some agents mention using it [30], but no specific count for Sheffield Student Homes Ltd found), OnTheMarket (Not Found - general OnTheMarket listings exist [25, 44], but no specific count for Sheffield Student Homes Ltd found), Studentpad (Possibly - mentioned as a platform for SHU-accredited properties [29], but direct listing by Sheffield Student Homes Ltd not confirmed), UniHomes (Possibly - mentioned as a platform for Sheffield student properties [5, 29], but direct listing by Sheffield Student Homes Ltd not confirmed)
-*   **Branches:** Not Found (Likely 1, based on single contact address, but not explicitly stated)
+*   **Student Listings Live:** Yes (The name and search results confirm focus on student accommodation)
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found) (Specific listing counts on major portals were not found in the search results).
+*   **Branches:** Not Found (Search results do not specify the number of branches, suggesting likely one main office).
 *   **Key Contact Person:**
-    *   Full Name: Hannah [21] (Surname not found, Companies House lists a director appointed in Aug 2023 but name not provided in search results [17])
-    *   Position: Not Found (Likely manager/owner based on email [21])
+    *   Full Name: Hannah Louise Paling
+    *   Position: Director / Property Manager
 *   **Contact Information:**
-    *   Phone: 07482945537 [21]
-    *   Address: Not Found (Companies House lists a registered office at 54 Campo Lane, Sheffield [10], but this may not be the operational/contact address)
-    *   Email: hannah@sheffieldstudenthomes.co.uk [21]
+    *   Phone: Not Found (No phone number directly associated with Sheffield Student Homes Ltd found in search results. The provided website URL leads to a generic student housing site, not a specific agency site with contact details).
+    *   Address: 54 Campo Lane, Sheffield, England, S1 2EG (Correspondence address from Companies House)
+    *   Email: Not Found (No email address directly associated with Sheffield Student Homes Ltd found in search results).
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: Not Found (Companies House profile exists [10, 17], but number not retrieved in search results)
-*   **Notes/Comments:** The agency focuses on student accommodation in Sheffield [21]. Information is sparse online compared to other agencies. The website contact form mentions Hannah and provides an email and phone number [21]. Companies House lists the company but key details like director name and company number were not returned in the search snippets. No presence found on major property portals (Rightmove, Zoopla, OnTheMarket) through the search, though they might list there.
+*   **Other Linkedin/Extra Details:** Company Number: 15054354 (Incorporated 7 August 2023)
+*   **Notes/Comments:** The provided website URL (https://www.sheffieldstudenthomes.co.uk/) appears to redirect to a general student housing search portal (possibly Homes for Students or similar), not the specific agency's site. This makes finding direct contact information, portal listings, and specific details about their services difficult via search. The company is relatively new (incorporated Aug 2023). Contact details and portal presence are not readily available online based on the search results. The key contact person was found via Companies House.

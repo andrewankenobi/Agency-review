@@ -8,6 +8,8 @@ from dotenv import load_dotenv
 import threading
 import time
 import logging
+import sys
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -19,6 +21,16 @@ client = genai.Client(api_key=api_key)
 # Default system prompt path
 SYSTEM_PROMPT_PATH = 'system_prompt.txt'
 DEFAULT_PROMPT_PATH = 'default_system_prompt.txt'
+
+# Global variables to track refresh status
+refresh_status = {
+    'status': 'idle',
+    'message': '',
+    'last_update': None
+}
+
+# Lock for thread safety
+refresh_lock = threading.Lock()
 
 # Progress tracking
 refresh_progress = {
@@ -116,103 +128,53 @@ def load_progress():
 refresh_progress = load_progress()
 logger.info(f"Initial progress state: {refresh_progress['status']}")
 
-def run_main_script():
-    """Run the main.py script to refresh the data."""
+def run_refresh():
+    """Run the refresh process in a separate thread"""
+    global refresh_status
+    
     try:
-        # Get the absolute path to main.py
-        main_script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'main.py')
+        with refresh_lock:
+            refresh_status['status'] = 'running'
+            refresh_status['message'] = 'Starting data refresh...'
+            refresh_status['last_update'] = datetime.now()
         
-        # Check if main.py exists
-        if not os.path.exists(main_script_path):
-            logger.error(f"main.py not found at {main_script_path}")
-            refresh_progress['status'] = 'error'
-            refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: main.py not found'
-            save_progress()
-            return
-            
-        # Set initial status
-        refresh_progress['status'] = 'running'
-        refresh_progress['start_time'] = time.time()
-        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Starting data refresh...'
-        save_progress()
-        
-        # Run main.py with unbuffered output and proper stream handling
+        # Run the main.py script
         process = subprocess.Popen(
-            ['python3', '-u', main_script_path],
+            ['python3', 'main.py'],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            text=True,
-            bufsize=1,
-            universal_newlines=True
+            text=True
         )
         
-        # Read both stdout and stderr in real-time
+        # Stream output in real-time
         while True:
-            # Read stdout
             output = process.stdout.readline()
-            if output:
-                message = output.strip()
-                if message:
-                    # Check if this is a log message
-                    if message.startswith("20"):  # Log messages start with timestamp
-                        # Extract the actual message part
-                        actual_message = " ".join(message.split(" - ")[2:])
-                        timestamped_message = f'[{time.strftime("%I:%M:%S %p")}] {actual_message}'
-                    else:
-                        timestamped_message = f'[{time.strftime("%I:%M:%S %p")}] {message}'
-                    
-                    refresh_progress['message'] = timestamped_message
-                    logger.info(f"Progress update: {message}")
-                    save_progress()
-            
-            # Read stderr
-            error = process.stderr.readline()
-            if error:
-                error_message = error.strip()
-                if error_message:
-                    # Only treat as error if it's not a log message
-                    if not error_message.startswith("20"):
-                        logger.error(f"Script error: {error_message}")
-                        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {error_message}'
-                        save_progress()
-            
-            # Check if process has finished
-            if process.poll() is not None:
+            if output == '' and process.poll() is not None:
                 break
+            if output:
+                with refresh_lock:
+                    refresh_status['message'] = output.strip()
+                    refresh_status['last_update'] = datetime.now()
         
-        # Get any remaining output
-        stdout, stderr = process.communicate()
-        
-        # Log any remaining output
-        if stdout:
-            for line in stdout.splitlines():
-                if line.strip():
-                    logger.info(f"Remaining stdout: {line}")
-        if stderr:
-            for line in stderr.splitlines():
-                if line.strip() and not line.startswith("20"):  # Skip log messages
-                    logger.error(f"Remaining stderr: {line}")
-        
-        # Check process return code
-        if process.returncode != 0:
-            refresh_progress['status'] = 'error'
-            error_msg = stderr if stderr else "Unknown error occurred"
-            refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {error_msg}'
-            logger.error(f"Process failed with error: {error_msg}")
+        # Check for errors
+        return_code = process.poll()
+        if return_code == 0:
+            with refresh_lock:
+                refresh_status['status'] = 'complete'
+                refresh_status['message'] = 'Data refresh completed successfully'
+                refresh_status['last_update'] = datetime.now()
         else:
-            refresh_progress['status'] = 'complete'
-            refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Data refresh completed successfully'
-            logger.info("Process completed successfully")
-        
-        refresh_progress['end_time'] = time.time()
-        save_progress()
-        
+            error_output = process.stderr.read()
+            with refresh_lock:
+                refresh_status['status'] = 'error'
+                refresh_status['message'] = f'Error: {error_output}'
+                refresh_status['last_update'] = datetime.now()
+    
     except Exception as e:
-        refresh_progress['status'] = 'error'
-        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {str(e)}'
-        refresh_progress['end_time'] = time.time()
-        save_progress()
-        logger.error(f"Error in run_main_script: {str(e)}", exc_info=True)
+        with refresh_lock:
+            refresh_status['status'] = 'error'
+            refresh_status['message'] = f'Error: {str(e)}'
+            refresh_status['last_update'] = datetime.now()
 
 @app.route('/')
 def index():
@@ -247,167 +209,51 @@ def reset_refresh():
         logger.error(f"Error resetting refresh state: {str(e)}")
         return jsonify({'status': 'error', 'message': str(e)}), 500
 
-@app.route('/api/refresh', methods=['POST'])
-def refresh_data():
-    logger.info("Received refresh request")
-    logger.info(f"Current status: {refresh_progress['status']}")
-    
-    if refresh_progress['status'] == 'running':
-        logger.warning("Refresh already in progress - attempting to reset state")
-        try:
-            cleanup_progress()
-        except Exception as e:
-            logger.error(f"Failed to reset progress state: {str(e)}")
-            return jsonify({'status': 'error', 'message': 'Failed to reset refresh state'}), 500
-    
+@app.route('/api/refresh/start', methods=['POST'])
+def start_refresh():
+    """Start the data refresh process"""
     try:
-        # Reset progress
-        refresh_progress['status'] = 'idle'
-        refresh_progress['message'] = ''
-        refresh_progress['start_time'] = None
-        refresh_progress['end_time'] = None
-        save_progress()
-        
-        logger.info("Starting refresh process")
-        
-        # Start refresh in a separate thread
-        thread = threading.Thread(target=run_main_script)
-        thread.daemon = True  # Make thread daemon so it doesn't prevent app shutdown
-        thread.start()
-        
-        # Set initial running state
-        refresh_progress['status'] = 'running'
-        refresh_progress['start_time'] = time.time()
-        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Starting data refresh...'
-        save_progress()
-        
-        logger.info("Refresh process started successfully")
-        return jsonify({'status': 'success', 'message': 'Refresh started'})
+        with refresh_lock:
+            if refresh_status['status'] == 'running':
+                return jsonify({
+                    'status': 'error',
+                    'message': 'A refresh is already in progress'
+                }), 400
+            
+            # Start the refresh process in a separate thread
+            thread = threading.Thread(target=run_refresh)
+            thread.daemon = True
+            thread.start()
+            
+            return jsonify({
+                'status': 'started',
+                'message': 'Refresh process started'
+            })
+    
     except Exception as e:
-        logger.error(f"Error starting refresh: {str(e)}", exc_info=True)
-        refresh_progress['status'] = 'error'
-        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {str(e)}'
-        refresh_progress['end_time'] = time.time()
-        save_progress()
-        return jsonify({'status': 'error', 'message': str(e)}), 500
+        logger.error(f"Error starting refresh: {str(e)}")
+        return jsonify({
+            'status': 'error',
+            'message': f'Error starting refresh: {str(e)}'
+        }), 500
 
 @app.route('/api/refresh/progress')
-def get_refresh_progress():
-    logger.debug(f"Progress check: {refresh_progress['status']} - {refresh_progress['message']}")
-    return jsonify({
-        'status': refresh_progress['status'],
-        'message': refresh_progress['message'],
-        'start_time': refresh_progress['start_time'],
-        'end_time': refresh_progress['end_time']
-    })
-
-@app.route('/api/chat', methods=['POST'])
-def chat():
-    data = request.json
-    question = data.get('question', '')
-    
-    # Load the current agencies data
+def get_progress():
+    """Get the current status of the refresh process"""
     try:
-        output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'output.json')
-        with open(output_path, 'r', encoding='utf-8') as f:
-            agencies_data = json.load(f)
+        with refresh_lock:
+            return jsonify({
+                'status': refresh_status['status'],
+                'message': refresh_status['message'],
+                'last_update': refresh_status['last_update'].isoformat() if refresh_status['last_update'] else None
+            })
+    
     except Exception as e:
-        logger.error(f"Error loading agencies data: {str(e)}")
-        return jsonify({'error': 'Failed to load agencies data'}), 500
-    
-    # Format the agencies data for display
-    formatted_agencies = []
-    for agency in agencies_data:
-        formatted_agency = {
-            'name': agency.get('Letting Agent', 'N/A'),
-            'url': agency.get('Website Url', 'N/A'),
-            'address': agency.get('contact_info', {}).get('address', 'N/A'),
-            'phone': agency.get('contact_info', {}).get('phone', 'N/A'),
-            'contact_person': agency.get('key_contact', {}).get('full_name', 'N/A'),
-            'position': agency.get('key_contact', {}).get('position', 'N/A'),
-            'email': agency.get('contact_info', {}).get('email', 'N/A'),
-            'branches': agency.get('Branches', 'N/A'),
-            'bills_included': agency.get('bills_included', 'N/A'),
-            'student_listings': agency.get('student_listings', 'N/A'),
-            'channels': ', '.join(agency.get('channels', ['N/A'])),
-            'linkedin': agency.get('linkedin', 'N/A'),
-            'notes': agency.get('notes', 'N/A'),
-            'search_queries': agency.get('Search Queries', [])
-        }
-        formatted_agencies.append(formatted_agency)
-    
-    # Construct the prompt with formatted context
-    context = f"Here is the current agencies data: {json.dumps(formatted_agencies, indent=2)}"
-    prompt = f"""I have data about letting agencies in Sheffield, including their services, contact details, and features.
-
-Your input: {question}
-
-If this is a question about the agencies, provide the relevant information directly from our database. Only ask for clarification if the question is truly unclear or if the requested information is not in our database."""
-    
-    # Prepare the Gemini call
-    contents = [
-        types.Content(
-            role="user",
-            parts=[types.Part.from_text(text=prompt)]
-        )
-    ]
-    
-    tools = [types.Tool(google_search=types.GoogleSearch())]
-    
-    generate_content_config = types.GenerateContentConfig(
-        temperature=0.7,
-        tools=tools,
-        system_instruction=[types.Part.from_text(text="""You are a helpful assistant for exploring letting agency data. Your role is to:
-
-1. If the user asks a specific question, provide the relevant information directly from the agency data
-2. Only ask for clarification if:
-   - The question is truly unclear
-   - The requested information is not in our database
-   - The question is about locations outside Sheffield
-3. Use HTML formatting for clarity:
-   - <p> for paragraphs
-   - <ul> and <li> for lists
-   - <strong> for emphasis
-   - <h3> for section headers
-4. Base responses only on the provided agency data
-5. Be direct and professional
-
-Example response for a question:
-<div class="response">
-    <p>Here is the information about PJ Properties & Consultancy Limited:</p>
-    <ul>
-        <li>Address: [address from data]</li>
-        <li>Phone: [phone from data]</li>
-        <li>Email: [email from data]</li>
-    </ul>
-</div>
-
-Example response for unclear input:
-<div class="response">
-    <p>I need more specific information to help you. Are you looking for:</p>
-    <ul>
-        <li>Contact details for a specific agency?</li>
-        <li>Information about student accommodation?</li>
-        <li>Details about bills-included properties?</li>
-    </ul>
-</div>
-
-Example response for unavailable information:
-<div class="response">
-    <p>I don't have information about agencies in London. Our data is specific to Sheffield letting agencies.</p>
-</div>""")]
-    )
-    
-    try:
-        response = client.models.generate_content(
-            model="gemini-2.0-flash",
-            contents=contents,
-            config=generate_content_config
-        )
-        return jsonify({'answer': response.text})
-    except Exception as e:
-        logger.error(f"Error generating response: {str(e)}")
-        return jsonify({'error': str(e)}), 500
+        logger.error(f"Error getting progress: {str(e)}")
+        return jsonify({
+            'status': 'error',
+            'message': f'Error getting progress: {str(e)}'
+        }), 500
 
 @app.route('/api/system-prompt', methods=['GET'])
 def get_system_prompt():
@@ -451,4 +297,4 @@ def get_raw_data(filename):
         return jsonify({'error': 'Failed to read raw data file'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001) 
+    app.run(debug=True, host='0.0.0.0', port=5001) 

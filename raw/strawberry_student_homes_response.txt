@@ -1,9 +1,9 @@
 *   **Letting Agent:** Strawberry Student Homes
-*   **Bills Included on Listings?:** Some (Listings show price excluding bills and price including bills)
+*   **Bills Included on Listings?:** Some (Listings show price per person per week excluding bills, and some also show a price including bills)
 *   **Website Url:** https://strawberrystudenthomes.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (0 listings found), Zoopla (0 listings found), OnTheMarket (0 listings found), StrawberryStudentHomes.co.uk (58 listings)
-*   **Branches:** 1
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). Listings appear to be primarily on their own website.
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
     *   Full Name: Chris Ashton
     *   Position: Operations Director and Business Manager
@@ -12,7 +12,7 @@
     *   Address: 343 Ecclesall Rd, Sharrow, Sheffield S11 8PF
     *   Email: info@strawberrystudenthomes.co.uk
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (A profile exists but seems inactive/minimal: https://www.linkedin.com/company/strawberry-student-homes/)
+    *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 10012377 (STRAWBERRY STUDENT HOMES LIMITED)
-*   **Notes/Comments:** Family-run business established over 30 years ago, specializing in student accommodation in Sheffield, particularly around Ecclesall Road. They own and manage their properties. Listings are primarily on their own website; major portals currently show no listings, possibly due to the academic cycle or listing strategy. They offer properties with and without bills included. Chris Ashton is listed as Operations Director on the website and mentioned as Director in a news article. Companies House lists Christopher Geoffrey Ashton as an active director.
+*   **Other Linkedin/Extra Details:** Company Number: 10012377. Other key staff listed on website: Amy (Admin Manager and Head of Marketing), Jemma Ashton (Office Manager and Company Secretary). Directors listed on Companies House: David Paul Allen, Robert Harold Allen, Christopher Geoffrey Ashton. Secretary: Jemma Marie Ashton.
+*   **Notes/Comments:** The agency specializes in student accommodation in Sheffield, particularly around Ecclesall Road. They state they own and manage their entire property portfolio. Search results often confused this agency with "Vita Student Strawberry Place" in Newcastle or other unrelated "Strawberry" named entities. No evidence found of listings on major portals like Rightmove, Zoopla, or OnTheMarket.

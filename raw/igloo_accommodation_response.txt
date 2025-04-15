@@ -1,18 +1,18 @@
 *   **Letting Agent:** Igloo Accommodation
-*   **Bills Included on Listings?:** Some (Website FAQ states bills are not normally included unless specified, but inclusive packages can be arranged. Some listings mention "Bills inclusive option available".)
+*   **Bills Included on Listings?:** No (unless otherwise specified). They note that companies offer inclusive bills packages and can help set this up.
 *   **Website Url:** https://www.iglooaccommodation.co.uk/
-*   **Student Listings Live:** Yes (Website focuses heavily on student accommodation in Sheffield)
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
-*   **Branches:** 1 (Sheffield)
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Rightmove (Listings found, count not specified), Zoopla (Not Found), OnTheMarket (Not Found). Their website mentions they specialize in student accommodation in Sheffield.
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Mark Foster
-    *   Position: Director
+    *   Full Name: Not Found
+    *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 0114 266 0990 (Website also lists 0114 2660660)
-    *   Address: Broom Hall, 8-10 Broomhall Road, Sheffield, South Yorkshire, S10 2DR (Registered office address from Companies House, updated Sept 2022. Website footer also lists this address. Website contact page map points here. Another source mentions 253 Ecclesall Road, Sheffield, S11 8NX, which might be a previous or alternative office.)
+    *   Phone: 0114 266 0990
+    *   Address: 8-10 Broomhall Road, Sheffield, S10 2DR
     *   Email: info@iglooaccommodation.co.uk
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (Search results did not yield a specific company profile URL)
-    *   Key Contact Profile URL: Not Found (Search results did not yield a specific profile URL for Mark Foster)
-*   **Other Linkedin/Extra Details:** Company Number: 06776206 (IGLOO ACCOMMODATION LIMITED)
-*   **Notes/Comments:** Primarily a student letting agent operating in Sheffield for over 25 years. They manage over 150 student properties. While specific listing counts on portals weren't found in the search, they are an established agent likely listing on major portals. The registered office address changed in September 2022.
+    *   Company Profile URL: Not Found
+    *   Key Contact Profile URL: Not Found
+*   **Other Linkedin/Extra Details:** Revenue: $5 Million, Employees: <25 (Source: Apollo.io via search result [28], requires verification). Specializes in student accommodation in Sheffield, operating for over 25 years.
+*   **Notes/Comments:** The search results frequently returned information for other companies named "Iglu" or "Igloo" involved in accommodation (hostels, holiday homes, Australian student accommodation). Care was taken to filter for the specific Sheffield-based letting agency. No specific key contact person was identified through the search. Listing counts on portals were not readily available.

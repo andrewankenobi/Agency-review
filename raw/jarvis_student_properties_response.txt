@@ -1,18 +1,18 @@
-*   **Letting Agent:** Jarvis Student Properties Lettings Ltd
-*   **Bills Included on Listings?:** No (unless otherwise specified)
+*   **Letting Agent:** Jarvis Student Properties (Trading name of JARVIS STUDENT PROPERTIES LIMITED)
+*   **Bills Included on Listings?:** Some (Inferred from search results mentioning "bills included" in relation to Jarvis student housing, although specific listings on their site need checking)
 *   **Website Url:** https://jarvispropertieslettingsltd.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). The agency's website lists properties directly.
+*   **Key channels live on:** Own Website (Listings present), Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
 *   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Mr Joshua Jarvis
-    *   Position: Director
+    *   Full Name: Not Found (Companies House lists directors, but no single key contact person identified from search results)
+    *   Position: Not Found
 *   **Contact Information:**
     *   Phone: 0114 272 6041 / 07946 546404
-    *   Address: 112 Weston Street, Netherthorpe, Sheffield, S3 7NQ (Office) / 86 Northwood Drive, Sheffield, S6 1RY (Registered Office)
+    *   Address: 112 Weston Street, Netherthorpe, Sheffield, S3 7NQ
     *   Email: info@jarvisstudentproperties.com
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 04846041. Family business established in 1979. Registered with the University of Sheffield and the Sheffield Responsible Landlord Scheme.
-*   **Notes/Comments:** The agency appears to be both a landlord and letting agent, specializing in student accommodation in Sheffield. They primarily list properties on their own website. Information on key property portals (Rightmove, Zoopla, OTM) was not found in the search results. Found conflicting addresses; one likely office/contact address and one registered company address. Identified Joshua Jarvis as Director via Companies House/Endole data.
+*   **Other Linkedin/Extra Details:** Company Number: 04846041 (JARVIS STUDENT PROPERTIES LIMITED)
+*   **Notes/Comments:** The agency focuses on student accommodation in Sheffield and appears to be both landlord and agent. No presence found on major UK property portals (Rightmove, Zoopla, OnTheMarket) based on the search. Several search results related to "Jarvis" properties in Toronto, Canada, and other unrelated "Jarvis" agents/properties, requiring careful filtering.

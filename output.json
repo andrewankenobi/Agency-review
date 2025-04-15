@@ -1,93 +1,65 @@
 [
   {
-    "Letting Agent": "Hallam Hills",
-    "Website Url": "https://www.hallamhills.co.uk/",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Specific rental count not found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)",
-      "Hallam Hills Website (81 listings)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Wasim Khan",
-      "position": "Director"
-    },
-    "contact_info": {
-      "phone": "0114 327 8853",
-      "registered_address": "Hallamhills, 1 St Marys House, 9-11 London Rd, London Road, Sheffield, England, S2 4LA",
-      "operational_address": "1 St Mary's House, Unit 9-11 London Road, Sheffield, S2 4LA",
-      "email": "ask@hallamhills.co.uk"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Primarily operates in Sheffield, with a focus on student and residential lettings. Some listings specify partial or full bills included. Contact details vary slightly across different sources. No company or key contact LinkedIn profiles were found. Company Number: 08622245.",
-    "RawDataSourceFile": "hallam_hills_response.txt"
-  },
-  {
-    "Letting Agent": "Home Made",
-    "Website Url": "https://home-made.com",
+    "Letting Agent": "Fit Property Lettings Agent",
+    "Website Url": "https://www.fitproperty.com/",
     "bills_included": "Not Found",
-    "student_listings": "Not Found",
-    "channels": [
-      "Zoopla (326 listings)",
-      "OnTheMarket",
-      "Rightmove"
-    ],
-    "Branches": "0",
-    "key_contact": {
-      "full_name": "Asaf Navot",
-      "position": "Co-Founder & CEO"
-    },
-    "contact_info": {
-      "phone": "0207 846 0122",
-      "registered_address": "Not Found",
-      "operational_address": "2-6 Boundary Row, London, SE1 8HP",
-      "email": "Not Found"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "https://linkedin.com/in/asafnavot",
-    "notes": "Home Made positions itself as a proptech lettings company focused on London, Manchester, and Liverpool, aiming to offer lower fees than traditional agents by not having physical branches. They emphasize their technology and data analytics. Finding a direct company LinkedIn profile was unsuccessful. CEO information was found on third-party sites. Co-Founder: Nick Binnington. Company Number: Not Found. Registered with Property Redress Scheme and Client Money Protect scheme.",
-    "RawDataSourceFile": "home_made_response.txt"
-  },
-  {
-    "Letting Agent": "Tapton Estates",
-    "Website Url": "https://taptonestates.co.uk",
-    "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
-      "Rightmove",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)",
-      "Home.co.uk (9 listings)"
+      "Rightmove (10 listings)",
+      "Zoopla (10 listings)",
+      "OnTheMarket (Not Found)"
     ],
     "Branches": "1",
     "key_contact": {
-      "full_name": "Sarah Elizabeth Siggs",
-      "position": "Director / Secretary"
+      "full_name": "Not Found",
+      "position": "Not Found"
     },
     "contact_info": {
-      "phone": "0114 268 3325",
+      "phone": "0121 312 1970",
       "registered_address": "Not Found",
-      "operational_address": "8-10 Broomhall Road, Broomhall, Sheffield, S10 2DR",
-      "email": "info@taptonestates.co.uk"
+      "operational_address": "1070 Pershore Road, Selly Park, Birmingham, B29 7PX",
+      "email": "info@fitproperty.com"
     },
-    "linkedin": "Not Found",
+    "linkedin": "https://www.linkedin.com/company/fit-property/",
     "other_linkedin": "Not Found",
-    "notes": "Primarily focused on student and professional lettings in Sheffield, particularly near the universities. Multiple listings indicate options for bills included. Found listings on Rightmove and Home.co.uk, but not Zoopla or OnTheMarket. Contact details and company information were consistent. Key contact identified via Companies House. No specific LinkedIn profiles were found. An older address (206 Whitham Road, Sheffield, S10 2SS) was also mentioned. Company Number: 05735481 (TAPTON ESTATES PROPERTIES LIMITED). Family-run business with over 20 years of experience.",
-    "RawDataSourceFile": "tapton_estates_response.txt"
+    "notes": "Primarily focused on the Birmingham area, particularly Selly Oak, Edgbaston, Harborne, and the City Centre. Specializes in student accommodation. Listing counts on portals seem low compared to some agencies, but consistent across Rightmove and Zoopla. No specific key contact person is prominently featured. Company Number: 07302331 (Fit Property Limited)",
+    "RawDataSourceFile": "fit_property_lettings_agent_response.txt"
   },
   {
-    "Letting Agent": "Urban Evolution",
-    "Website Url": "https://urbanevolutionlettings.co.uk",
+    "Letting Agent": "Igloo Accommodation",
+    "Website Url": "https://www.iglooaccommodation.co.uk/",
     "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
+      "Rightmove (Listings found, count not specified)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": 1,
+    "key_contact": {
+      "full_name": "Not Found",
+      "position": "Not Found"
+    },
+    "contact_info": {
+      "phone": "0114 266 0990",
+      "registered_address": "Not Found",
+      "operational_address": "8-10 Broomhall Road, Sheffield, S10 2DR",
+      "email": "info@iglooaccommodation.co.uk"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Specializes in student accommodation in Sheffield with over 150 properties. Bills are not typically included but assistance is offered for inclusive packages. Company name is IGLOO ACCOMMODATION LIMITED. Search results often confused this agency with others named 'Igloo' or 'Iglu'. Listings confirmed on Rightmove, but not found on Zoopla or OnTheMarket for this specific agency.",
+    "RawDataSourceFile": "igloo_accommodation_response.txt"
+  },
+  {
+    "Letting Agent": "StudentTenant.com",
+    "Website Url": "https://studenttenant.com",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Zoopla (380 listings)",
       "Rightmove",
-      "OnTheMarket (6 listings)",
-      "Zoopla (Not Found)"
+      "OnTheMarket"
     ],
     "Branches": "2",
     "key_contact": {
@@ -95,15 +67,42 @@
       "position": "Not Found"
     },
     "contact_info": {
-      "phone": "0151 312 8213 (Liverpool), 01582 377381 / 01582 800309 (Luton)",
+      "phone": "0333 772 0618",
       "registered_address": "Not Found",
-      "operational_address": "Edmund Street, Liverpool, L3 9NG; 4 Dumfries Street, Luton, LU1 5FT",
-      "email": "lettings@theurbanevolution.co.uk"
+      "operational_address": "Head Office: 467A Smithdown Road, Liverpool, Merseyside, England, L15 5AE",
+      "email": "info@studenttenant.com"
     },
-    "linkedin": "https://www.linkedin.com/company/urban-evolution-lettings/",
+    "linkedin": "https://www.linkedin.com/company/studenttenant-com/",
     "other_linkedin": "Not Found",
-    "notes": "Primarily focused on student and residential apartments in city centres (Liverpool, Luton, Nottingham, Newcastle, Sheffield). Multiple addresses found for Liverpool branch. Zoopla search results ambiguous. Specific listing counts on portals not consistently available. No single key contact identified. Company Number for URBAN EVOLUTION PROPERTY MANAGEMENT LTD: 11247750. Member of The Property Ombudsman (T00886).",
-    "RawDataSourceFile": "urban_evolution_response.txt"
+    "notes": "StudentTenant.com is an online platform specializing in student accommodation, connecting landlords, private halls, and letting agents with students. They operate primarily online but have physical office locations in the UK and India. They list properties on their own site as well as major portals like Zoopla, Rightmove, and OnTheMarket. Some listings include bills, and they offer a bills-inclusive package service. The company has undergone acquisition/partnership changes recently. Finding a specific key contact person proved difficult from the available search results. Company Number: 14025267 (Student Tenant Lettings Limited). Also associated with Company Number 09456136 (Student Tenant Ltd., potentially a previous or related entity). VAT Number: GB 416 5427 03. Member of The Property Ombudsman. Acquired by University Living in August 2024. Part of the Rooms4U family since April 2022.",
+    "RawDataSourceFile": "studenttenant_com_response.txt"
+  },
+  {
+    "Letting Agent": "Oak Estates",
+    "Website Url": "https://www.oakestates.net/",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Zoopla (50 listings)",
+      "PrimeLocation",
+      "Rightmove (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Not Found",
+      "position": "Not Found"
+    },
+    "contact_info": {
+      "phone": "01142 585981",
+      "registered_address": "Not Found",
+      "operational_address": "Studio 5 (1st Floor Above Kettle Black), 301 Ecclesall Road, Sheffield, S11 8NX",
+      "email": "info@oakestates.net"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "The website provided (oakestates.net) specifically relates to the Sheffield branch, which focuses on student and professional lettings. Several other agencies operate under the name \"Oak Estates\" or similar variations in different locations, making it crucial to differentiate. The Sheffield branch lists properties on Zoopla and PrimeLocation. One listing explicitly mentions bills included. No specific key contact person or LinkedIn profiles were found for this specific branch.",
+    "RawDataSourceFile": "oak_estates_response.txt"
   },
   {
     "Letting Agent": "Student Digs",
@@ -115,21 +114,152 @@
       "Zoopla (Not Found)",
       "OnTheMarket (Not Found)"
     ],
-    "Branches": "1",
+    "Branches": "Not Found",
     "key_contact": {
       "full_name": "Not Found",
       "position": "Not Found"
     },
     "contact_info": {
       "phone": "0116 350 1595",
-      "registered_address": "Welwyn Garden City, Hertfordshire",
+      "registered_address": "Not Found",
       "operational_address": "63 Regent Road, Leicester, LE1 6YF",
       "email": "info@studentdigs.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Focuses on student accommodation in Leicester, Chester, Nottingham, and Sheffield. The operating company (My Student Digs Limited) is listed as 'Dissolved' on Endole, but the website and services appear active. Registered office from Endole differs from the operational address. Difficulty finding specific listings on major portals despite claims of wide marketing.",
+    "notes": "The agency focuses on student accommodation in Leicester, Chester, Nottingham, and Sheffield. Company Name: My Student Digs Limited. Only one office address (Leicester) is listed. Listings primarily on their own website, not found on major portals. Key personnel and LinkedIn information not found. Distinct from other entities with similar names.",
     "RawDataSourceFile": "student_digs_response.txt"
+  },
+  {
+    "Letting Agent": "Shefflets Ltd",
+    "Website Url": "https://shefflets.com",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove (Not Found)",
+      "Zoopla (31 listings)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Lynsey Gaskell",
+      "position": "Director & Sales and Lettings Valuer"
+    },
+    "contact_info": {
+      "phone": "0114 321 77 77",
+      "registered_address": "Not Found",
+      "operational_address": "953 Ecclesall Road, Banner Cross, Sheffield, S11 8TN",
+      "email": "info@shefflets.com"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Shefflets is described as a family-run business established in 2007, focusing on lettings and sales in Sheffield. They emphasize local expertise and customer service. They list properties on major portals like Rightmove and Zoopla. Information on specific listing counts per portal was limited. No dedicated LinkedIn profiles were found. Company Number: 06215529. Kevin Gaskell is also listed as a Director. The business was started in 2007 by Lynsey Gaskell, her husband, sister, and brother-in-law. Kevin and Lynsey Gaskell were previously involved with the referencing company Vouch but moved on to focus solely on Shefflets in 2020.",
+    "RawDataSourceFile": "shefflets_ltd_response.txt"
+  },
+  {
+    "Letting Agent": "Hallam Hills",
+    "Website Url": "https://www.hallamhills.co.uk/",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Wasim Khan",
+      "position": "Director"
+    },
+    "contact_info": {
+      "phone": "0114 327 8853",
+      "registered_address": "Not Found",
+      "operational_address": "1 St Mary's House, Unit 9-11 London Road, Sheffield, S2 4LA",
+      "email": "ask@hallamhills.co.uk"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Primarily operates in Sheffield, listing both student and residential lettings, as well as sales. Some listings explicitly state bills are included or partially included. Company director identified via Companies House records. No company or key contact LinkedIn profiles were found. Listing counts vary between sources; Home.co.uk shows 32 rental listings. GetAgent mentions 5 properties currently on the market and 2 listed in the last 6 months. Rightmove search confirms active listings but doesn't give a total count easily. No listings found on Zoopla or OnTheMarket. Company Number: 08622245 (HALLAMHILLS LTD).",
+    "RawDataSourceFile": "hallam_hills_response.txt"
+  },
+  {
+    "Letting Agent": "MBA Lettings",
+    "Website Url": "https://www.mbalettings.com/",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove",
+      "Zoopla (Not Found)",
+      "OnTheMarket"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Sally Williams",
+      "position": "Director / Property Manager"
+    },
+    "contact_info": {
+      "phone": "0114 267 6267",
+      "registered_address": "501 Glossop Road, Sheffield, South Yorkshire, S10 2QE",
+      "operational_address": "221 Fulwood Road, Broomhill, Sheffield, South Yorkshire, S10 3BA",
+      "email": "admin@mbalettings.com"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Two addresses associated with the company: 221 Fulwood Road (lettings website contact page) and 501 Glossop Road (RICS, Companies House, surveyor website). Sally Williams mentioned as Director on RICS. Company Number: 05406680. Regulated by RICS and ARLA. Also operate MBA Sheffield Surveyors from the 501 Glossop Road address. Some search results mention Mick and Gary as key staff praised by tenants. Focuses on student and professional lettings in Sheffield.",
+    "RawDataSourceFile": "mba_lettings_response.txt"
+  },
+  {
+    "Letting Agent": "MAF Properties",
+    "Website Url": "https://mafstudents.co.uk",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Zoopla (87 listings)",
+      "Rightmove (Listings found, count not specified)",
+      "OnTheMarket (Listings found, count not specified)",
+      "Studentpad (Listings found, count not specified)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Mahboob Ahmed Fazal",
+      "position": "Director"
+    },
+    "contact_info": {
+      "phone": "0114 272 6006 / 0114 488 0980",
+      "registered_address": "Not Found",
+      "operational_address": "114 Ecclesall Road, Sheffield, S11 8JB",
+      "email": "info@mafstudents.co.uk / info@mafproperties.com"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "MAF Properties focuses on the Sheffield student market. Contact details vary slightly across different platforms. Difficulty distinguishing from the similarly named 'Majid Al Futtaim Properties' (MAF Properties) based in Dubai/Middle East in search results, especially on LinkedIn. Found UK Companies House details for 'MAF PROPERTIES (UK) LIMITED' (Company Number: 11295400, Incorporated 6 April 2018, listed as dormant on Endole) with Mahboob Ahmed Fazal as a director, which seems related to the Sheffield agency. MAF Properties states they own all the properties they let. They specialize in student accommodation in Sheffield but also offer rentals to graduates, professionals, and families. The trend is towards 'bills included' being a popular search term for renters, especially students.",
+    "RawDataSourceFile": "maf_properties_response.txt"
+  },
+  {
+    "Letting Agent": "Thornsett Properties",
+    "Website Url": "https://www.thornsett.com/",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "2",
+    "key_contact": {
+      "full_name": "Satnam Singh Choker",
+      "position": "Director/Secretary/PSC"
+    },
+    "contact_info": {
+      "phone": "0114 266 9700",
+      "registered_address": "195 Crookes Valley Road, Crookesmoor, Sheffield, S10 1BA",
+      "operational_address": "Croft Buildings, 70 Campo Lane, Sheffield, S1 2EG",
+      "email": "Not Found"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Bills offered on the majority of properties, sometimes via Unihomes, sometimes directly. Active on Rightmove and UniHomes (counts not specified). Family-owned business established in 1985. They state they are property owners, not letting agents, and manage their own properties with an in-house maintenance team. Company Number: 03867500. Focuses on student and professional accommodation in Sheffield. Difficulty finding a specific primary contact person. Crookesmoor office is By Appointment Only. Contact form available on website instead of direct email.",
+    "RawDataSourceFile": "thornsett_properties_response.txt"
   },
   {
     "Letting Agent": "Capland Properties",
@@ -137,54 +267,131 @@
     "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
-      "Rightmove",
+      "Studentpad (Listings found)",
+      "Own Website (Listings found)",
+      "Rightmove (Not Found)",
       "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)",
-      "Studentpad",
-      "UniHomes",
-      "StuRents"
+      "OnTheMarket (Not Found)"
     ],
     "Branches": "1",
     "key_contact": {
       "full_name": "Rex Caplan",
-      "position": "Head of Business / Landlord"
+      "position": "Landlord/Head of Business"
     },
     "contact_info": {
       "phone": "0114 2687222",
-      "registered_address": "Not Found",
+      "registered_address": "353 Ecclesall Road, Sheffield, S11 8PF",
       "operational_address": "353 Ecclesall Road, Sheffield, S11 8PF",
       "email": "info@capland.co.uk / helen@capland.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Capland Properties is a family-run business specializing in student accommodation in Sheffield for over 50 years. They own the properties they rent out. They list properties in areas like Ecclesall, Crookes, Broomhill, Crookesmoor, Broomhall & City Centre. They partner with UniHomes for bills packages but state they are independent companies. They are listed on several student-specific portals. No specific listing counts were found on the major portals during this search. Company Number: 03854195 (CAPLAND PROPERTIES LIMITED).",
+    "notes": "Specializes in student accommodation in Sheffield with over 50 years of history. Family-run business that owns the properties it rents. Listings found on their own website and Studentpad, but not on Rightmove, Zoopla, or OnTheMarket. Company Number is 03854195 (CAPLAND PROPERTIES LIMITED). A TikTok profile was found (@caplandproperties). A director named Kay Simons (Property Manager) was appointed in August 2024. Unrelated companies named Caplan Properties Limited (London) and CapitaLand exist.",
     "RawDataSourceFile": "capland_properties_response.txt"
   },
   {
-    "Letting Agent": "West One Lettings",
-    "Website Url": "https://westone-student-accommodation-sheffield.co.uk/",
+    "Letting Agent": "Tapton Estates",
+    "Website Url": "https://taptonestates.co.uk",
     "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
-      "Rightmove (1 listings)",
-      "Zoopla (1 listings)",
-      "OnTheMarket (1 listings)"
+      "Rightmove (10 listings)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
     ],
     "Branches": "1",
     "key_contact": {
-      "full_name": "Karen Fox",
-      "position": "Office Manager, Letting Negotiator"
+      "full_name": "Not Found",
+      "position": "Not Found"
     },
     "contact_info": {
-      "phone": "0114 272 2400",
-      "registered_address": "11 Broomgrove Rd, Sheffield, S10 2LW",
-      "operational_address": "West One Lettings Office, West One Plaza, Fitzwilliam Street, Sheffield, S1 4JB",
-      "email": "city@westonespace.com"
+      "phone": "0114 268 3325",
+      "registered_address": "8-10 Broomhall Road, Broomhall, Sheffield, S10 2DR",
+      "operational_address": "8-10 Broomhall Road, Broomhall, Sheffield, S10 2DR",
+      "email": "info@taptonestates.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Focuses on student accommodation in Sheffield. Manages specific apartment buildings. Key contact info may be outdated (from 2020). Part of West One Property Solutions Group / City Estates (parent Elmsdale Estates Ltd). State they are property owners/landlords. Some listings include bills, others exclude or offer partial packages.",
-    "RawDataSourceFile": "west_one_lettings_response.txt"
+    "notes": "Tapton Estates appears to be a family-run business specializing in student and professional lettings in Sheffield, particularly near the universities. They have been operating for over 20 years. There are discrepancies in the phone number (0114 268 3325 on website, 0114 697 1885 on Rightmove/Home.co.uk) and address listed across different sources (primary: 8-10 Broomhall Road, S10 2DR; potentially old: 206 Whitham Road, S10 2SS). The primary contact details seem to be those listed on their official website. Listings were found on Rightmove, but not Zoopla or OnTheMarket. Some listings offer a bills-inclusive option. No specific key contact person was identified. Company Number: 05735481.",
+    "RawDataSourceFile": "tapton_estates_response.txt"
+  },
+  {
+    "Letting Agent": "Smart Moves Group",
+    "Website Url": "https://smartmovesgroup.com",
+    "bills_included": "Not Found",
+    "student_listings": "Yes",
+    "channels": [
+      "Zoopla",
+      "OnTheMarket (6 listings)",
+      "Rightmove (Not Found)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Abid Hussain",
+      "position": "Director"
+    },
+    "contact_info": {
+      "phone": "01274 649119",
+      "registered_address": "Trust House C/O Isaacs St James Business Park, 5 New Augustus Street Bradford West Yorkshire BD1 5LL",
+      "operational_address": "Lindsay House, 11 Southbrook Terrace, Bradford, BD7 1AD",
+      "email": "Not Found"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Focuses on apartments in Bradford city centre and manages student houses. Multiple phone numbers listed (01274 649119, 01274 067832, 01274 304111). Conflicting information on operational status: Endole/GOV.UK indicate liquidation/winding up petition, but property portals show recent listings. Registered office address differs from the operational address listed on portals. Smart Property Management Ltd mentioned as rentals division. Company Number: 06220272.",
+    "RawDataSourceFile": "smart_moves_group_response.txt"
+  },
+  {
+    "Letting Agent": "Dove Properties",
+    "Website Url": "https://www.sheffieldstudenthousing.co.uk/",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "OnTheMarket",
+      "Rightmove",
+      "Zoopla (Not explicitly found for lettings)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Robert Vernon Dove / Graham Peter Dove",
+      "position": "Director"
+    },
+    "contact_info": {
+      "phone": "0114 266 0660",
+      "registered_address": "Not Found",
+      "operational_address": "430 Ecclesall Road, Sheffield, S11 8PX",
+      "email": "info@doveproperties.co.uk"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "The agency specializes in student accommodation in Sheffield. They have been operating for over 25 years. Contact details are consistent across their website and external listings. Companies House lists Robert Vernon Dove and Graham Peter Dove as active directors. The website mentions Emma Carver and Emma Anderson as Lettings Managers. No dedicated LinkedIn profile for the company or key contacts was found in the search results. Listings were detected on Rightmove and OnTheMarket. Company Name: Dove Properties and Estates Limited, Company Number: 05402824 (Registered in the UK).",
+    "RawDataSourceFile": "dove_properties_response.txt"
+  },
+  {
+    "Letting Agent": "M3 Lettings",
+    "Website Url": "https://www.m3lettings.com/",
+    "bills_included": "Yes",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove",
+      "OnTheMarket",
+      "Zoopla (Not Found)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Michael Monaghan",
+      "position": "Managing Director"
+    },
+    "contact_info": {
+      "phone": "0114 263 1011",
+      "registered_address": "Not Found",
+      "operational_address": "74 Barber Road, Crookesmoor, Sheffield, S10 1EE",
+      "email": "mm@m3lettings.com"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Agency focuses on student and professional lettings in Sheffield, particularly Crookesmoor. Many listings include bills. Emphasizes personal service. Opened in 2007. Mobile: 07763 007 007. M3 LETTINGS PROPERTY SERVICES LIMITED Company Number: 09318997.",
+    "RawDataSourceFile": "m3_lettings_response.txt"
   },
   {
     "Letting Agent": "Brink Riley Properties",
@@ -202,331 +409,146 @@
       "position": "Director of Lettings and Management"
     },
     "contact_info": {
-      "phone": "Leicester: 0116 208 1100 / 0116 448 8942; Essex: 01376 510 669; Portsmouth: 0239 435 0275; Mobile: +44 730 638 8558",
+      "phone": "Leicester: 0116 208 1100 / 0116 448 8942; Essex/London: 01376 510 669; Portsmouth: 0239 435 0275; Student Living: +44 730 638 8558",
       "registered_address": "Not Found",
-      "operational_address": "30 Belvoir Street, Leicester, LE1 6HQ",
+      "operational_address": "Leicester: 30 Belvoir Street, Leicester, LE1 6HQ; Essex/London: Suite 1 (GF), 8 Freebournes Court, Witham, Essex, CM8 2BL; Portsmouth: 16 Guildhall Walk, Portsmouth, PO1 2DD",
       "email": "info@brinkriley.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Established in 2012. Specializes in student lettings and manages properties across several UK cities including Leicester, London, Essex, Manchester, Liverpool, Bristol, Cardiff, Nottingham, Portsmouth, and Sheffield. Offers various management packages. Natalie Mansfield oversees UK Lettings, Management & Finance. Pieter Brink (Director of Sales) is based in South Africa. Audrey Jamneck is listed as Client Accountant and also as Branch Manager/Client Liaisons Officer for complaints. Company Number: 08389378 (Brink Riley Properties Ltd).",
+    "notes": "The agency focuses heavily on student lettings across multiple cities including Leicester, Liverpool, Nottingham, Portsmouth, Sheffield, and Stoke-on-Trent. They also offer standard lettings, management, sales, and commercial/block management. Listing counts vary across sources (e.g., Home.co.uk mentions 27 listings for the Leicester branch). Zoopla shows 214 residential rentals. Some listings specify bills included (often student lets), while others explicitly exclude them. Key contact identified from the 'About Us' page on their website. Three distinct office addresses and phone numbers are listed. No company or key contact LinkedIn profiles were readily found via search. Company Number: 08389378. Established in 2012. Pieter Brink is Director of Sales (based in South Africa).",
     "RawDataSourceFile": "brink_riley_properties_response.txt"
   },
   {
-    "Letting Agent": "StudentTenant.com",
-    "Website Url": "https://studenttenant.com",
+    "Letting Agent": "Urban Evolution",
+    "Website Url": "https://urbanevolutionlettings.co.uk",
     "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
       "Rightmove",
-      "Zoopla (380 listings)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (6 listings)"
+    ],
+    "Branches": "2",
+    "key_contact": {
+      "full_name": "Not Found",
+      "position": "Not Found"
+    },
+    "contact_info": {
+      "phone": "Liverpool: 0151 312 8213 / 0151 453 0685 / 0151 382 6065; Luton: 01582 377381 / 01582 800309",
+      "registered_address": "Not Found",
+      "operational_address": "Liverpool: Edmund Street, Liverpool, L3 9NG; Luton: 4 Dumfries Street, Luton, LU1 5FT",
+      "email": "lettings@theurbanevolution.co.uk"
+    },
+    "linkedin": "https://www.linkedin.com/company/urban-evolution-lettings/",
+    "other_linkedin": "Not Found",
+    "notes": "Specializes in modern residential and student accommodation, particularly in new-build apartment blocks in city centers like Liverpool and Luton. Address details for the Liverpool branch vary across different sources. Bills included status depends heavily on the specific property/building. Company Number for URBAN EVOLUTION PROPERTY MANAGEMENT LTD: 11247750. Registered with The Property Ombudsman (T00886). Offers Client Money Protection. ICO Registration Certificate available on website.",
+    "RawDataSourceFile": "urban_evolution_response.txt"
+  },
+  {
+    "Letting Agent": "West One Lettings",
+    "Website Url": "https://westone-student-accommodation-sheffield.co.uk/",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "UniHomes",
+      "Rightmove",
+      "Zoopla",
       "OnTheMarket"
     ],
-    "Branches": "2",
-    "key_contact": {
-      "full_name": "Adam Ormesher",
-      "position": "Managing Director / CEO"
-    },
-    "contact_info": {
-      "phone": "0333 772 0618",
-      "registered_address": "Head Office: 467A Smithdown Road, Liverpool, Merseyside, England, L15 5AE (Registered Office)",
-      "operational_address": "Head Office: 467A Smithdown Road, Liverpool, Merseyside, England, L15 5AE",
-      "email": "info@studenttenant.com"
-    },
-    "linkedin": "http://www.linkedin.com/company/studenttenant-com",
-    "other_linkedin": "Not Found",
-    "notes": "Operated by Student Tenant Lettings Limited (Company Number: 14025267). VAT Number: GB 416 5427 03. Primarily an online platform connecting students with landlords, private halls, and letting agents across the UK with an international presence (Indian Office: Noida). Lists properties on own site, major UK portals (Rightmove, Zoopla, OnTheMarket), and Facebook Marketplace. Part of the Rooms4U family since April 2022. University Living acquired a majority stake (51%) in August 2024. Members of The Property Ombudsman. Some search results mention a previous company number (09456136) and a Canterbury address, but current info points to Liverpool address and company number 14025267.",
-    "RawDataSourceFile": "studenttenant_com_response.txt"
-  },
-  {
-    "Letting Agent": "Fit Property Lettings Agent",
-    "Website Url": "https://www.fitproperty.com/",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (151 student listings)",
-      "Own Website",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
     "Branches": "1",
     "key_contact": {
-      "full_name": "Adam O'Brien",
-      "position": "Director"
+      "full_name": "Karen Fox",
+      "position": "Office Manager, Letting Negotiator"
     },
     "contact_info": {
-      "phone": "0114 272 5773, 0114 212 5773, 0114 697 2820",
+      "phone": "0114 272 2400",
       "registered_address": "Not Found",
-      "operational_address": "100, Matilda Street, Sheffield, S1 4QF",
-      "email": "Not Found"
+      "operational_address": "West One Lettings Office, West One Plaza, Fitzwilliam Street, Sheffield S1 4JB",
+      "email": "city@westonespace.com"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Primarily focused on Sheffield student and residential lettings. Multiple phone numbers listed across different sources. No dedicated email address found, only web forms. No company or key contact LinkedIn profile found. Key contact identified from an external article. Listing counts on portals vary. Joel Walker, former Head of Property Management, moved to Spicerhaart Lettings. Fit Property is Client Money Protect insured.",
-    "RawDataSourceFile": "fit_property_lettings_agent_response.txt"
+    "notes": "Website states they are property owners, not agents, but they operate a 'West One Lettings Office' and employ a 'Letting Negotiator'. Key contact information varies depending on the specific building document referenced. Portal listing counts were difficult to verify directly for West One Lettings. Parent company appears to be Elmsdale Estates Ltd or City Estates.",
+    "RawDataSourceFile": "west_one_lettings_response.txt"
   },
   {
-    "Letting Agent": "Oak Estates",
-    "Website Url": "https://www.oakestates.net/",
-    "bills_included": "Not Found",
-    "student_listings": "Yes",
-    "channels": [
-      "Zoopla (3 listings)",
-      "OnTheMarket (Not Found)",
-      "Rightmove (Not Found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Diana",
-      "position": "Not Found"
-    },
-    "contact_info": {
-      "phone": "01142 585981",
-      "registered_address": "Not Found",
-      "operational_address": "Studio 5 (1st Floor Above Kettle Black), 301 Ecclesall Road, Sheffield, S11 8NX",
-      "email": "info@oakestates.net"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Specialises in properties for professionals, families, and students in Sheffield. Mentions having an in-house maintenance team. Listing counts on portals are low. Zoopla lists a slightly different address (Studio 3 & 4, First Floor, Menzels Court, 301 Ecclesall Road, Sheffield, S11 8NX). No company number or LinkedIn profiles were found for the Sheffield branch. Other agencies with similar names exist but are unrelated.",
-    "RawDataSourceFile": "oak_estates_response.txt"
-  },
-  {
-    "Letting Agent": "Thornsett Properties",
-    "Website Url": "https://www.thornsett.com/",
+    "Letting Agent": "Home Made",
+    "Website Url": "https://home-made.com",
     "bills_included": "Some",
-    "student_listings": "Yes",
+    "student_listings": "No",
     "channels": [
       "Rightmove",
-      "UniHomes",
-      "StuRents",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
+      "Zoopla (326 listings)",
+      "OnTheMarket"
     ],
-    "Branches": "2",
+    "Branches": "1",
     "key_contact": {
-      "full_name": "Charanjit Singh Choker",
-      "position": "Director"
+      "full_name": "Asaf Navot",
+      "position": "CEO"
     },
     "contact_info": {
-      "phone": "0114 266 9700",
-      "registered_address": "195 Crookes Valley Road, Sheffield, S10 1BA",
-      "operational_address": "Croft Buildings, 70 Campo Lane, Sheffield, S1 2EG",
+      "phone": "+44 207 846 0122",
+      "registered_address": "Not Found",
+      "operational_address": "2-6 Boundary Row, London, SE1 8HP",
       "email": "Not Found"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Company Number: 03867500. States they are property owners, not letting agents, with an in-house maintenance team. Family-owned business established in 1985, specializing in student accommodation in Sheffield. Multiple individuals listed as Directors or key contacts (Tony Choker, Bradley Wright, Satnam Singh Choker). Difficulty finding listings on Zoopla/OTM due to name similarity with the area 'Thornsett'.",
-    "RawDataSourceFile": "thornsett_properties_response.txt"
-  },
-  {
-    "Letting Agent": "M3 Lettings",
-    "Website Url": "https://www.m3lettings.com/",
-    "bills_included": "Yes",
-    "student_listings": "Yes",
-    "channels": [
-      "OnTheMarket (1 listing found)",
-      "Rightmove (Listings found, specific count not available from search)",
-      "Zoopla (Not Found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Michael Monaghan",
-      "position": "Managing Director"
-    },
-    "contact_info": {
-      "phone": "0114 263 1011 / 07763 007 007",
-      "registered_address": "Not Found",
-      "operational_address": "74 Barber Road, Crookesmoor, Sheffield, S10 1EE",
-      "email": "mm@m3lettings.com"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "M3 Lettings appears to be a small, independent, family-run business established in 2007, specializing in the Sheffield student property market, particularly in the Crookesmoor area. Many listings highlight bills being included. The Managing Director, Michael Monaghan, is mentioned frequently. Found conflicting company numbers, potentially indicating related entities or a change over time. Limited presence found on major property portals besides their own website and OnTheMarket. Company Number: 05691024 (M3 Lettings Ltd) / 09318997 (M3 LETTINGS PROPERTY SERVICES LIMITED)",
-    "RawDataSourceFile": "m3_lettings_response.txt"
-  },
-  {
-    "Letting Agent": "MAF Properties",
-    "Website Url": "https://mafstudents.co.uk",
-    "bills_included": "No",
-    "student_listings": "Yes",
-    "channels": [
-      "OnTheMarket (Count Not Found)",
-      "Accommodation for Students (Count Not Found)",
-      "Rightmove (Not Found)",
-      "Zoopla (Not Found)"
-    ],
-    "Branches": "Not Found",
-    "key_contact": {
-      "full_name": "Mahboob Ahmed Fazal",
-      "position": "Not Found"
-    },
-    "contact_info": {
-      "phone": "0114 272 6000",
-      "registered_address": "157-159 London Road, Sheffield, South Yorkshire, S2 4LH",
-      "operational_address": "157-159 London Road, Sheffield, S2 4LH",
-      "email": "info@mafstudents.co.uk"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "MAF Properties specializes in student accommodation in Sheffield. Bills are not included in rent as standard but can be arranged separately via UniHomes. Lists properties on OnTheMarket and AccommodationforStudents.co.uk. Listings on Rightmove/Zoopla were not found. Appears to be one main office. Mahboob Ahmed Fazal is listed as an officer for MAF PROPERTIES ( UK ) LIMITED (Company No: 11294046), likely associated with the agency. No specific 'About Us' page or key contact details found on the website. References to MAF Finance Group appear to be a separate entity.",
-    "RawDataSourceFile": "maf_properties_response.txt"
-  },
-  {
-    "Letting Agent": "MBA Lettings",
-    "Website Url": "https://www.mbalettings.com/",
-    "bills_included": "Not Found",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Listings found, count not specified)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Mark Bennett",
-      "position": "Managing Director"
-    },
-    "contact_info": {
-      "phone": "0114 267 6267",
-      "registered_address": "Not Found",
-      "operational_address": "221 Fulwood Road, Broomhill, Sheffield, South Yorkshire, S10 3BA",
-      "email": "admin@mbalettings.com"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Specializes in student and professional lettings in Sheffield and North Derbyshire. Established over 12-15 years. Independent Chartered Surveyors regulated by RICS. Contact address varied across sources (previously 501 Glossop Road, S10 2QE), Fulwood Road appears current. Companies House number exists but not specified. No company or key contact LinkedIn profiles found.",
-    "RawDataSourceFile": "mba_lettings_response.txt"
-  },
-  {
-    "Letting Agent": "Dove Properties",
-    "Website Url": "https://www.sheffieldstudenthousing.co.uk/",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Listings found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Listings found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Graham Peter Dove / Robert Vernon Dove",
-      "position": "Director"
-    },
-    "contact_info": {
-      "phone": "0114 266 0660",
-      "registered_address": "Not Found",
-      "operational_address": "430 Ecclesall Road, Sheffield, South Yorkshire, S11 8PX",
-      "email": "info@doveproperties.co.uk"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Primarily focused on student accommodation in Sheffield. Sister site for residential lettings (doveresidential.co.uk). Graham Peter Dove and Robert Vernon Dove listed as active directors (Company Number: 05402824). Emma Carver mentioned as Lettings Manager. No company LinkedIn profile found. Zoopla search showed sales, not specific Dove Properties lettings.",
-    "RawDataSourceFile": "dove_properties_response.txt"
-  },
-  {
-    "Letting Agent": "Smart Moves Group",
-    "Website Url": "https://smartmovesgroup.com",
-    "bills_included": "Not Found",
-    "student_listings": "Yes",
-    "channels": [
-      "Zoopla",
-      "OnTheMarket",
-      "Rightmove"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Abid Hussain",
-      "position": "Director / Secretary / PSC"
-    },
-    "contact_info": {
-      "phone": "01274 649119, 01274 304111",
-      "registered_address": "Trust House C/O Isaacs St James Business Park, 5 New Augustus Street Bradford West Yorkshire BD1 5LL",
-      "operational_address": "Lindsey House, 11 Southbrook Terrace, Bradford, BD7 1AD",
-      "email": "Not Found"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Focuses on Bradford city centre apartments and some student housing. Conflicting operational vs. registered office addresses found. Company status listed as 'Liquidation' on Endole with a 'Petition to wind up' notice found, indicating potential financial distress. Operates as Smart Property Management Ltd for rentals. Multiple businesses named 'Smart Moves' exist, requiring differentiation; careful differentiation (target is Bradford-based smartmovesgroup.com).",
-    "RawDataSourceFile": "smart_moves_group_response.txt"
-  },
-  {
-    "Letting Agent": "Igloo Accommodation",
-    "Website Url": "https://www.iglooaccommodation.co.uk/",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Not Found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Mark Foster",
-      "position": "Director"
-    },
-    "contact_info": {
-      "phone": "0114 266 0990",
-      "registered_address": "Broom Hall, 8-10 Broomhall Road, Sheffield, South Yorkshire, S10 2DR",
-      "operational_address": "Broom Hall, 8-10 Broomhall Road, Sheffield, South Yorkshire, S10 2DR",
-      "email": "info@iglooaccommodation.co.uk"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Company Number: 06776206 (IGLOO ACCOMMODATION LIMITED)",
-    "notes": "Primarily a student letting agent operating in Sheffield for over 25 years. They manage over 150 student properties. While specific listing counts on portals weren't found in the search, they are an established agent likely listing on major portals. The registered office address changed in September 2022. Website also lists phone 0114 2660660. Another source mentions 253 Ecclesall Road, Sheffield, S11 8NX, which might be a previous or alternative office.",
-    "RawDataSourceFile": "igloo_accommodation_response.txt"
-  },
-  {
-    "Letting Agent": "Shefflets Ltd",
-    "Website Url": "https://shefflets.com",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove",
-      "Zoopla (39 listings)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Kevin Gaskell or Lynsey Elaine Gaskell",
-      "position": "Director / Portfolio Manager"
-    },
-    "contact_info": {
-      "phone": "0114 321 77 77",
-      "registered_address": "Not Found",
-      "operational_address": "953 Ecclesall Road, Banner Cross, Sheffield, S11 8TN",
-      "email": "info@shefflets.com"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Information readily available on their website and Companies House. Active on major property portals Rightmove and Zoopla. Explicitly mentions catering to landlords and tenants/buyers. Some listings indicate bills included, but it doesn't appear to be standard across all properties. Company Number: 06215529. Family-run business. Kevin and Lynsey Gaskell were co-founders of Vouch, moved on in 2020 to focus solely on Shefflets. Awarded Gold Winner Estate Agent in Sheffield (S7-11) in 2022 & 2024 by British Property Awards.",
-    "RawDataSourceFile": "shefflets_ltd_response.txt"
+    "notes": "Home Made positions itself as a proptech lettings company focused on using technology to streamline the rental process, operating primarily in London, Manchester, and Liverpool. They emphasize lower fees compared to traditional high street agents. Zoopla listing count found, others detected but without specific counts. Email address not directly listed, uses a contact form. LinkedIn profiles likely exist but specific URLs were not returned in the top search results. Company Number: 10103015 (HOME-MADE UK PROPERTIES LIMITED)",
+    "RawDataSourceFile": "home_made_response.txt"
   },
   {
     "Letting Agent": "JC Sales and Lettings",
     "Website Url": "https://www.jc-lettings.com/",
-    "bills_included": "Not Found",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove (Not Found listings)",
+      "Zoopla (Not Found listings)",
+      "OnTheMarket (Not Found listings)"
+    ],
+    "Branches": "2",
+    "key_contact": {
+      "full_name": "Christian Kleeli & Joseph Worrall-Kenny",
+      "position": "Directors"
+    },
+    "contact_info": {
+      "phone": "0114 483 0038 / 0114 2666 300",
+      "registered_address": "33 Townhead Road, Dore, Sheffield, S17 3GD",
+      "operational_address": "33 Townhead Road, Dore, Sheffield, S17 3GD / 504 Ecclesall Road, Sheffield, S11 8PY",
+      "email": "hello@jc-lettings.com / students@jc-lettings.com"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Trading name of JC Lettings and Property Management Limited. Company number: 14135919. VAT Number: 415 8145 04. Registered Address: 33 Townhead Road, Dore, Sheffield, S17 3GD. Sheffield Student Property is part of JC Sales and Lettings. Operates primarily in Sheffield and surrounding areas, with a strong focus on student lettings alongside general sales and lettings. They emphasize director-level involvement. Initial searches brought up results for a similarly named agency in Leicester and Scunthorpe, but the provided URL and subsequent searches confirm the Sheffield-based agency is the correct one. Listing counts on portals were not found via search. Bills included options are explicitly mentioned for student properties.",
+    "RawDataSourceFile": "jc_sales_and_lettings_response.txt"
+  },
+  {
+    "Letting Agent": "Rent2you",
+    "Website Url": "https://rent2you.org",
+    "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
       "Rightmove",
       "Zoopla",
-      "OnTheMarket (Not Found)"
+      "OnTheMarket"
     ],
-    "Branches": "2",
+    "Branches": "Not Found",
     "key_contact": {
-      "full_name": "Christian Kleeli / Joseph Worrall-Kenny",
+      "full_name": "Gina May Turnbull",
       "position": "Director"
     },
     "contact_info": {
-      "phone": "0114 483 0038 (Dore), 0114 266 6300 (Ecclesall Rd)",
+      "phone": "0114 212 9777",
       "registered_address": "Not Found",
-      "operational_address": "33 Townhead Road, Dore, Sheffield, S17 3GD / 504 Ecclesall Road, Sheffield, S11 8PY",
-      "email": "hello@jc-lettings.com, sales@jc-salesandlettings.com, students@jc-lettings.com"
+      "operational_address": "88 Carr Road, Sheffield, South Yorkshire, S6 2WZ",
+      "email": "hello@rent2you.org"
     },
-    "linkedin": "https://www.linkedin.com/company/jc-sales-and-lettings/",
+    "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Trading name of JC Lettings and Property Management Limited (Company number: 14135919, VAT Number: 415 8145 04). Operates primarily in Sheffield and South Yorkshire, focusing on sales and lettings, including student properties. Emphasizes director-level involvement. Contact details differ slightly between branches/sections. Distinct from similarly named agencies in Scunthorpe and Leicester. Listing counts on portals were difficult to ascertain accurately via search.",
-    "RawDataSourceFile": "jc_sales_and_lettings_response.txt"
+    "notes": "The agency focuses on property letting and management in the Sheffield area, including student accommodation. They emphasize an all-inclusive management service. Appears to be a single location agency. Some search results point to unrelated companies named \"Rent2you\". Key contact identified via UK company information service. Company Number: 13491973 (RENT2YOU LTD). Also listed phone: 0114 446 5539. Other channels mentioned: Unihomes, PrimeLocation.",
+    "RawDataSourceFile": "rent2you_response.txt"
   },
   {
     "Letting Agent": "Broomhill Property Shop",
@@ -536,9 +558,7 @@
     "channels": [
       "Rightmove",
       "Zoopla",
-      "OnTheMarket",
-      "Yell",
-      "PrimeLocation"
+      "OnTheMarket"
     ],
     "Branches": "2",
     "key_contact": {
@@ -547,14 +567,41 @@
     },
     "contact_info": {
       "phone": "0114 266 6693 / 0114 272 7787",
-      "registered_address": "Welwyn Garden City, Hertfordshire",
-      "operational_address": "138 Whitham Road, Sheffield, S10 2SR / 319 Glossop Road, Sheffield, S10 2HP",
+      "registered_address": "Not Found",
+      "operational_address": "138 Whitham Road, Sheffield, S10 2SR; 319 Glossop Road, Sheffield, S10 2HP",
       "email": "admin@broomhillpropertyshop.co.uk / enquiries@broomhillpropertyshop.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Operated by BPS Estates Lettings Limited (incorporated 3 March 2020). Registered office in Welwyn Garden City, Hertfordshire. Operating since 1983, specializing in student and professional lettings in Sheffield. Two branches. Some online reviews mention negative experiences (bills, deposits). Listings offer bills included options, sometimes via Unihomes. Key contact identified via Endole as director of operating company.",
+    "notes": "Operated by BPS Estates Lettings Limited (Company Number: 12496007). Agency operating since 1983, specializing in student and professional lettings in Sheffield, particularly the Broomhill area. Has an in-house maintenance team. Specific listing counts on portals were not found. Found conflicting information regarding the operating company name/number vs. 'THE BROOMHILL PROPERTY COMPANY LIMITED'.",
     "RawDataSourceFile": "broomhill_property_shop_response.txt"
+  },
+  {
+    "Letting Agent": "SheffieldRooms",
+    "Website Url": "https://sheffieldrooms.co.uk",
+    "bills_included": "Yes",
+    "student_listings": "Yes",
+    "channels": [
+      "Spareroom.co.uk",
+      "Rightmove (Not Found)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "Not Found",
+    "key_contact": {
+      "full_name": "Julie Hopkins",
+      "position": "Owner / Landlord"
+    },
+    "contact_info": {
+      "phone": "07946 253595 / 07817 841965",
+      "registered_address": "Not Found",
+      "operational_address": "20 Ashgate Road, Sheffield, S10 3BZ",
+      "email": "info@sheffieldrooms.co.uk"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Focuses on student and professional accommodation in Sheffield, emphasizing all-inclusive bills. Appears to advertise professional rooms primarily through Spareroom.co.uk. Family-run business (Paul and Julie Hopkins). Awarded by Sheffield Council. All student properties are SNUG accredited and HMO registered. Operates as Paul and Julie Hopkins, no company registration number found for 'SheffieldRooms'.",
+    "RawDataSourceFile": "sheffieldrooms_response.txt"
   },
   {
     "Letting Agent": "Pa Properties",
@@ -572,46 +619,20 @@
       "position": "Managing Director"
     },
     "contact_info": {
-      "phone": "0114 266 4349 / 0114 267 0155",
+      "phone": "0114 267 0155 / 0114 266 4349",
       "registered_address": "Not Found",
       "operational_address": "The Old Bank, 23 Commonside, Sheffield, S10 1GD",
       "email": "info@paproperties.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Pa Properties appears to be a landlord owning their properties, specializing in student and professional lettings in Sheffield. They emphasize direct dealing. Website lists key team members: Susan (Managing Director), Christina (Property Manager), Georgina (Assistant Property Manager), Leanne (Accounts), Nathan (Maintenance). Company Number: 03876380 (P.A. PROPERTIES LTD.). Partnered with UniHomes. Many search results referred to unrelated entities.",
+    "notes": "The agency is a family-run business specializing in student and professional lettings in Sheffield, operating for almost 40 years. Difficulty isolating specific UK Sheffield agency information (e.g., Company Number, LinkedIn) due to name clashes with unrelated international companies. No listings found on Rightmove, Zoopla, or OTM via search.",
     "RawDataSourceFile": "pa_properties_response.txt"
-  },
-  {
-    "Letting Agent": "Rent2you",
-    "Website Url": "https://rent2you.org",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove",
-      "Zoopla",
-      "OnTheMarket"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Gina",
-      "position": "Owner"
-    },
-    "contact_info": {
-      "phone": "0114 212 9777",
-      "registered_address": "Not Found",
-      "operational_address": "88 Carr Road, Sheffield, South Yorkshire S6 2WZ",
-      "email": "hello@rent2you.org"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "The agency focuses on lettings in Sheffield. While the website mentions advertising on major portals, specific listing counts weren't readily available from the search. Contact details vary slightly between the website and the OnTheMarket profile. A key contact person \"Gina\" is mentioned in reviews, identified as the owner in one. No dedicated UK LinkedIn profile for the letting agency was found. Be aware of similarly named companies in other countries/sectors (e.g., car rental in Saudi Arabia, interior design in Malaysia, mobile app project).",
-    "RawDataSourceFile": "rent2you_response.txt"
   },
   {
     "Letting Agent": "PC Properties",
     "Website Url": "https://pcproperties.co.uk",
-    "bills_included": "Some",
+    "bills_included": "Not Found",
     "student_listings": "Yes",
     "channels": [
       "Rightmove (Not Found)",
@@ -620,8 +641,8 @@
     ],
     "Branches": "1",
     "key_contact": {
-      "full_name": "Peter and Collete",
-      "position": "Landlords/Agency Staff"
+      "full_name": "Not Found",
+      "position": "Not Found"
     },
     "contact_info": {
       "phone": "0114 267 6177",
@@ -631,34 +652,8 @@
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Focuses on student and professional lettings in Sheffield (Ecclesall, Broomhall, Crookes, Broomhill). Emphasizes 20+ years experience and responsive maintenance. Listings primarily on own website; presence on major portals not confirmed. Testimonials mention Peter and Collete. Company Number: 12290063 (PC PROPERTY LIMITED) noted as potentially relevant, though other similar company names exist.",
+    "notes": "The provided website URL (pcproperties.co.uk) leads to an agency based in Sheffield, specializing in student properties. Search results also frequently returned \"Hull Property Centre\" (hullpc.com / hullpc.co.uk) which seems to be a different agency based in Hull, sometimes abbreviated as HPC, not PC Properties. There was also mention of a \"PC Properties\" on eBay selling collectibles, and other unrelated entities. No listings were found on major UK property portals (Rightmove, Zoopla, OnTheMarket) for \"PC Properties\" in Sheffield or Hull under the provided name/website. The Sheffield agency focuses on student lettings.",
     "RawDataSourceFile": "pc_properties_response.txt"
-  },
-  {
-    "Letting Agent": "SheffieldRooms",
-    "Website Url": "https://sheffieldrooms.co.uk",
-    "bills_included": "Yes",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Not Found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "Not Found",
-    "key_contact": {
-      "full_name": "Julie Hopkins",
-      "position": "Owner / Landlord"
-    },
-    "contact_info": {
-      "phone": "07946 253595 / 07817 841965",
-      "registered_address": "20 Ashgate Road, Sheffield, S10 3BZ",
-      "operational_address": "Not Found",
-      "email": "info@sheffieldrooms.co.uk"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Information primarily sourced from the agency's website (sheffieldrooms.co.uk). Difficulty finding listings on major property portals (Rightmove, Zoopla, OnTheMarket) or LinkedIn profiles. The address provided is from the Privacy Notice and may be an administrative address rather than a public office. Family-run company since 1997. Award-winning landlords (Sheffield Council mentioned). Properties are HMO registered. Deposits registered with a government-backed scheme.",
-    "RawDataSourceFile": "sheffieldrooms_response.txt"
   },
   {
     "Letting Agent": "The Lettings Boutique",
@@ -667,8 +662,8 @@
     "student_listings": "Yes",
     "channels": [
       "Rightmove",
-      "OnTheMarket",
-      "Zoopla (Not Found)"
+      "Zoopla (Not Found)",
+      "OnTheMarket"
     ],
     "Branches": "1",
     "key_contact": {
@@ -683,7 +678,7 @@
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "The agency focuses on student and professional lettings in the Broomhill area of Sheffield. Founded by Ellie Barker. Listings confirmed on Rightmove and OnTheMarket. No company LinkedIn profile or specific profile for Ellie Barker found via search. Some listings offer a bills-inclusive option. Multiple phone numbers were found across different sources.",
+    "notes": "Specialises in student and residential lettings in Sheffield, particularly Broomhill. The provided URL leads to the Sheffield-based agency. Search results also mention other agencies with similar names (e.g., in Brighton, Malton/Bridlington) but they appear unrelated. The Sheffield agency was founded by Ellie Barker and focuses on student and residential properties. They offer both 'bills excluded' and 'bills included' options on some properties. They advertise on Rightmove and OnTheMarket. Also advertises on Rentright.co.uk.",
     "RawDataSourceFile": "the_lettings_boutique_response.txt"
   },
   {
@@ -692,24 +687,24 @@
     "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
-      "Rightmove (Listings found for student accommodation in Sheffield, but not specifically linked to this agent)",
-      "Zoopla (Listings found for student accommodation in Sheffield, but not specifically linked to this agent)",
-      "OnTheMarket (Listings found for student accommodation in Sheffield, but not specifically linked to this agent)"
+      "Rightmove (Not Found)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
     ],
     "Branches": "Not Found",
     "key_contact": {
-      "full_name": "Not Found",
+      "full_name": "Andy Heywood",
       "position": "Not Found"
     },
     "contact_info": {
-      "phone": "Not Found",
+      "phone": "0114 2295575 / 07798 867847",
       "registered_address": "Not Found",
       "operational_address": "Not Found",
-      "email": "Not Found"
+      "email": "andy@sheffieldaccommodation.co.uk / andy@hotpad.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "The website appears to be a directory or portal listing properties from various providers (e.g., Unite Students, University of Sheffield Accommodation services, private landlords) rather than a single letting agency managing its own portfolio. Finding specific agency details like a key contact, branch number, or direct company LinkedIn profile is not applicable or possible through the provided URL. Information on bills included varies depending on the actual provider linked from the site. Portal listings are general for Sheffield student accommodation, not specific to this website/entity.",
+    "notes": "Uses both 'Sheffield Student Accommodation' and 'Student Hot Pad' names. Emphasizes being a family-run business owning the properties, not an agency. Registered with Sheffield City Council 'SNUG' scheme and member of RLA. Listings on major portals specifically for this provider were not found. Contact details point to Andy Heywood. Website indicates they are fully let until July 2026.",
     "RawDataSourceFile": "sheffield_student_accommodation_response.txt"
   },
   {
@@ -730,65 +725,13 @@
     "contact_info": {
       "phone": "0114 272 6041 / 07946 546404",
       "registered_address": "86 Northwood Drive, Sheffield, S6 1RY",
-      "operational_address": "112 Weston Street, Netherthorpe, Sheffield, S3 7NQ",
+      "operational_address": "112 Weston Street, Netherthorpe, Sheffield S3 7NQ",
       "email": "info@jarvisstudentproperties.com"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Company Number: 04846041. Family business established in 1979. Registered with the University of Sheffield and the Sheffield Responsible Landlord Scheme. Appears to be both a landlord and letting agent, specializing in student accommodation in Sheffield. Primarily lists properties on their own website. Information on key property portals (Rightmove, Zoopla, OTM) was not found. Found conflicting addresses; one office/contact address and one registered company address. Joshua Jarvis identified as Director.",
+    "notes": "Family business established in 1979, specializing in student accommodation in Sheffield. They state they are landlords and owners, not just a letting agency. Website FAQ explicitly states bills are not normally included unless specified. Registered office address differs from the contact address. No listings found on major portals (Rightmove, Zoopla, OTM); listings appear to be only on their own website. Key contact identified via company information records. Company Number: 04846041 (Jarvis Student Properties Limited).",
     "RawDataSourceFile": "jarvis_student_properties_response.txt"
-  },
-  {
-    "Letting Agent": "S10 Estates",
-    "Website Url": "https://s10estates.com",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Not Found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Amein Nasser",
-      "position": "CEO / Director"
-    },
-    "contact_info": {
-      "phone": "07930551001",
-      "registered_address": "35 Pickmere Road, Sheffield, S10 1GY",
-      "operational_address": "Not Found",
-      "email": "info@s10estates.com"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "S10 Estates appears to be a family-run business specializing in student accommodation in the S10 area of Sheffield. They list properties directly on their website. No evidence found of listings on major UK property portals (Rightmove, Zoopla, OnTheMarket). The website mentions Amein, Sami, and Nabeel Nasser as key personnel. Companies House lists Amein Nasser and Nabeel Nasser as active directors. A different address (20 Highnam Crescent Road, Sheffield S10 1BZ) is mentioned on a Wix.com version of their site, but the Pickmere Road address is the registered office. Company Number: 10285179 (S10 ESTATES LTD).",
-    "RawDataSourceFile": "s10_estates_response.txt"
-  },
-  {
-    "Letting Agent": "Crucible Homes",
-    "Website Url": "https://cruciblehomes.co.uk",
-    "bills_included": "Not Found",
-    "student_listings": "Not Found",
-    "channels": [
-      "Rightmove",
-      "Zoopla (13 listings)",
-      "OnTheMarket"
-    ],
-    "Branches": "2",
-    "key_contact": {
-      "full_name": "Chantelle Hardie",
-      "position": "General Manager"
-    },
-    "contact_info": {
-      "phone": "0114 245 9696",
-      "registered_address": "Not Found",
-      "operational_address": "11 Lound Side, Chapeltown, Sheffield S35 2UQ",
-      "email": "sales@cruciblehomes.co.uk"
-    },
-    "linkedin": "https://www.linkedin.com/company/crucible-homes/",
-    "other_linkedin": "Not Found",
-    "notes": "Operates as sales and lettings agency in South Yorkshire. Emphasis on community support/ethical practice. Part of South Yorkshire Housing Association (SYHA Enterprises); 100% profits go to housing/support. Portal listing counts varied across sources. No dedicated student section found. Bills included status unknown. Chantelle Hardie listed as General Manager on website team page. Company Reg No: 6350868. VAT No: GB 471 3525 56. Multiple phone numbers (0114 245 9696, 01709 500 333, 0114 349 2056) and emails (sales@cruciblehomes.co.uk, newhomes@cruciblehomes.co.uk) listed. Multiple office addresses provided (Chapeltown, Wickersley, Dun Works).",
-    "RawDataSourceFile": "crucible_homes_response.txt"
   },
   {
     "Letting Agent": "WH Properties",
@@ -803,18 +746,177 @@
     "Branches": "1",
     "key_contact": {
       "full_name": "Lindsay Wiseman",
-      "position": "Proprietor/Manager"
+      "position": "Founder and Owner"
     },
     "contact_info": {
-      "phone": "0114 266 8070, 07903 071618, 07891 656783",
+      "phone": "0114 266 8070 (Enquiries), 07903 071618 (Lindsay), 07891 656783 (Lisa)",
       "registered_address": "Not Found",
-      "operational_address": "11 Commonside, Sheffield, S10 1GA",
-      "email": "hello@whproperties.co.uk / info@whproperties.co.uk"
+      "operational_address": "Not Found",
+      "email": "Not Found"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Data Controller: Lisa Wiseman. Established in 1985. WH Properties focuses specifically on student accommodation for Sheffield University students in the Crookesmoor, Crookes, and Walkley areas. They offer properties with bills included and excluded options. Key contact appears to be Lindsay Wiseman, with Lisa Wiseman also mentioned (potentially involved in management/data control). No presence found on major UK property portals (Rightmove, Zoopla, OnTheMarket) during this search. Several other companies named 'WH Properties' exist in different locations (Nashville, Costa del Sol, Milwaukee) and sectors (auctioneering), unrelated to the specified UK letting agent. There is also a 'WHB Student Lets' in Canterbury, which is different.",
+    "notes": "Established in 1985. Specialises in student accommodation for the University of Sheffield, covering Crookesmoor, Crookes, Walkley areas. Member of the Responsible Landlords Scheme (RLA). Many properties are SNUG certified. No evidence found of listings on major UK portals; website focuses on own listings. Contact primarily via phone numbers on website or contact form.",
     "RawDataSourceFile": "wh_properties_response.txt"
+  },
+  {
+    "Letting Agent": "S10 Estates",
+    "Website Url": "https://s10estates.com",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "S10Estates.com",
+      "Rightmove (Not Found)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Amein Nasser",
+      "position": "CEO"
+    },
+    "contact_info": {
+      "phone": "07930551001",
+      "registered_address": "Not Found",
+      "operational_address": "35 Pickmere Road, Sheffield, S10",
+      "email": "info@s10estates.com"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Information primarily sourced from the agency's own website. No presence found on major UK property portals (Rightmove, Zoopla, OnTheMarket) or LinkedIn through the search. Focuses on the S10 postcode area of Sheffield. Offers optional bills-inclusive packages. Family-owned business. Other team members listed: Sami Nasser (Estate Manager), Nabeel Nasser (Estate Manager).",
+    "RawDataSourceFile": "s10_estates_response.txt"
+  },
+  {
+    "Letting Agent": "Strawberry Student Homes",
+    "Website Url": "https://strawberrystudenthomes.co.uk",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove (Not Found)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Chris",
+      "position": "Operations Director and Business Manager"
+    },
+    "contact_info": {
+      "phone": "0114 266 8315",
+      "registered_address": "Not Found",
+      "operational_address": "343 Ecclesall Rd, Sharrow, Sheffield S11 8PF",
+      "email": "info@strawberrystudenthomes.co.uk"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Agency states they are property owners, not just letting agents. Focus on Ecclesall Road area of Sheffield, serving students from Sheffield Hallam University and the University of Sheffield. Listings specify prices both excluding and including bills. No evidence found of listings on major portals. Key contact information limited to first names on their website. Company Number: 10012377 (STRAWBERRY STUDENT HOMES LIMITED).",
+    "RawDataSourceFile": "strawberry_student_homes_response.txt"
+  },
+  {
+    "Letting Agent": "Gnome Student Homes",
+    "Website Url": "https://gnomestudenthomes.co.uk",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "GnomeStudentHomes.co.uk (78 listings)",
+      "Rightmove (Not Found)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "1",
+    "key_contact": {
+      "full_name": "Guy",
+      "position": "Landlord"
+    },
+    "contact_info": {
+      "phone": "0114 268 4860",
+      "registered_address": "2 Rutland Park, Sheffield, South Yorkshire, S10 2PD",
+      "operational_address": "282 Ecclesall Road, Sheffield, S11 8PE",
+      "email": "hello@gnomestudenthomes.co.uk"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Focuses on student properties in Sheffield (Ecclesall Road, City Centre, Crookesmoor). States they have over 70 properties. Listings primarily on own website, not found on major portals. Some listings offer choice of bills included/excluded. Key contact 'Guy' mentioned in a review as the landlord. Privacy policy mentions owner GPA LUDLAM PROPERTIES LIMITED (Company Number 3306477).",
+    "RawDataSourceFile": "gnome_student_homes_response.txt"
+  },
+  {
+    "Letting Agent": "Steel City Living",
+    "Website Url": "https://steelcityliving.co.uk",
+    "bills_included": "Yes",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove (Not Found)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "Not Found",
+    "key_contact": {
+      "full_name": "Caroline Wright",
+      "position": "Director"
+    },
+    "contact_info": {
+      "phone": "07384 252558",
+      "registered_address": "16 South Close, Unstone, Dronfield, S18 4DT",
+      "operational_address": "Not Found",
+      "email": "hello@steelcityliving.co.uk"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Appears to be a small, independent letting agent specializing in student properties in Sheffield. Website emphasizes popular student areas and mentions a dedicated maintenance team. Information on portal listings (Rightmove, Zoopla, etc.) was not found. The contact address is the registered office from Companies House. Key contact identified via Companies House. Company Number: 10950711 (STEEL CITY LIVING LIMITED).",
+    "RawDataSourceFile": "steel_city_living_response.txt"
+  },
+  {
+    "Letting Agent": "Crucible Homes",
+    "Website Url": "https://cruciblehomes.co.uk",
+    "bills_included": "Not Found",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove (Count Not Specified)",
+      "Zoopla (Count Not Specified)",
+      "OnTheMarket (Count Not Specified)"
+    ],
+    "Branches": "2",
+    "key_contact": {
+      "full_name": "Not Found",
+      "position": "Not Found"
+    },
+    "contact_info": {
+      "phone": "0114 245 9696, 01709 500 333, 0114 349 2056, 01709 794 203",
+      "registered_address": "Not Found",
+      "operational_address": "11 Lound Side, Chapeltown, Sheffield, S35 2UQ; 234 Bawtry Road, Wickersley, Rotherham, S66 1AA",
+      "email": "sales@cruciblehomes.co.uk, newhomes@cruciblehomes.co.uk"
+    },
+    "linkedin": "https://www.linkedin.com/company/crucible-homes/",
+    "other_linkedin": "Not Found",
+    "notes": "Crucible Homes is an independent estate and letting agent covering South Yorkshire (Sheffield and Rotherham). Operated by Syha Enterprises Limited (Company Number: 06350868), 100% of profits go into housing and support for vulnerable people. Lists properties on Rightmove, Zoopla, and OnTheMarket. Student lettings are available. Specific details on whether bills are typically included in standard rental listings were not found. No single key contact person was identified. A third address (Dun Works, Sheffield S3 8FB) appears to be a central/admin location.",
+    "RawDataSourceFile": "crucible_homes_response.txt"
+  },
+  {
+    "Letting Agent": "Sheffield Student Homes Ltd",
+    "Website Url": "https://www.sheffieldstudenthomes.co.uk/",
+    "bills_included": "Some",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)",
+      "Studentpad"
+    ],
+    "Branches": "Not Found",
+    "key_contact": {
+      "full_name": "Not Found",
+      "position": "Not Found"
+    },
+    "contact_info": {
+      "phone": "Not Found",
+      "registered_address": "Not Found",
+      "operational_address": "Not Found",
+      "email": "Not Found"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "The agency's website is minimal, lacking direct contact details (phone, email, address) and uses a contact form. Key personnel, company registration, and specific portal listing counts were not found. Some listings mention bills included on portals like Studentpad, but the agency site doesn't confirm this universally. Search results sometimes confuse this agency with similarly named ones.",
+    "RawDataSourceFile": "sheffield_student_homes_ltd_response.txt"
   },
   {
     "Letting Agent": "Swots Student Accommodation",
@@ -839,61 +941,35 @@
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Swots states they own all their properties and are not letting agents in the traditional sense, focusing on Sheffield student accommodation since 1982. They emphasize quality and value. Finding specific portal listing counts or key personnel details was difficult. An allAgents profile mentions Rightmove, Zoopla, and OnTheMarket, but only Rightmove presence was confirmed via direct search results. Company Name appears to be SWOTS LIMITED (based on Companies House search, though not explicitly linked on the website).",
+    "notes": "Swots Student Accommodation focuses on providing student housing in Sheffield, particularly in the Broomhill, Crookesmoor, and Crookes areas. They emphasize being a family-run business established in 1982 and owning the properties they offer. Finding specific portal listing counts or key personnel details was difficult. The primary channel for viewing their properties appears to be Rightmove. The exact status regarding bills included in rent is unclear from online sources. The website states they own all their properties and are not letting agents in the traditional sense, but rather a family-run business providing accommodation they own. Company Number: Not Found.",
     "RawDataSourceFile": "swots_student_accommodation_response.txt"
   },
   {
-    "Letting Agent": "Steel City Living",
-    "Website Url": "https://steelcityliving.co.uk",
-    "bills_included": "Yes",
-    "student_listings": "Yes",
-    "channels": [
-      "StuRents",
-      "Rightmove (Not Found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "Not Found",
-    "key_contact": {
-      "full_name": "Caroline",
-      "position": "Not Found"
-    },
-    "contact_info": {
-      "phone": "07384 252558",
-      "registered_address": "Not Found",
-      "operational_address": "12 Rudyard Road, Hillsborough, Sheffield, S6 2LD",
-      "email": "hello@steelcityliving.co.uk"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Focuses on student accommodation in Sheffield areas (Ecclesall Road, Crookesmoor, Crookes, SHU City Campus). Small, independent agent with high-standard properties and maintenance team. Distinct from 'Steel City' accommodation block. Contact details found via website footer/privacy policy. No specific key contact beyond first name 'Caroline' in a testimonial. No presence found on major portals (Rightmove, Zoopla, OTM) or LinkedIn. Company name is Steel City Living Ltd (from Privacy Policy). ICO Registration Number mentioned but not specified.",
-    "RawDataSourceFile": "steel_city_living_response.txt"
-  },
-  {
-    "Letting Agent": "Sheffield Student Homes Ltd",
-    "Website Url": "https://www.sheffieldstudenthomes.co.uk/",
+    "Letting Agent": "PJ Properties & Consultancy Limited",
+    "Website Url": "https://pjproperties.co.uk",
     "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
-      "Rightmove (Not Found)",
+      "Rightmove",
       "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
+      "OnTheMarket (Not Found)",
+      "Website"
     ],
-    "Branches": "Not Found",
+    "Branches": "1",
     "key_contact": {
-      "full_name": "Hannah",
+      "full_name": "Not Found",
       "position": "Not Found"
     },
     "contact_info": {
-      "phone": "07482945537",
-      "registered_address": "54 Campo Lane, Sheffield",
-      "operational_address": "Not Found",
-      "email": "hannah@sheffieldstudenthomes.co.uk"
+      "phone": "0114 266 7666",
+      "registered_address": "Not Found",
+      "operational_address": "Office in the centre of Broomhill, Sheffield",
+      "email": "Not Found"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "The agency focuses on student accommodation in Sheffield. Information is sparse online compared to other agencies. The website contact form mentions Hannah. Companies House lists the company but key details like director name and company number were not returned in the search snippets. No presence found on major property portals (Rightmove, Zoopla, OnTheMarket) through the search. Potential listings on Studentpad or UniHomes are mentioned but not confirmed.",
-    "RawDataSourceFile": "sheffield_student_homes_ltd_response.txt"
+    "notes": "Ambiguity noted between 'PJ Properties' (Sheffield student lettings, associated with the provided website) and 'PJ Properties & Consultancy Limited' (London registered company). Information primarily relates to the Sheffield agency. Portal listing counts were not found. Key contact details are uncertain due to company name ambiguity. Contact form available on website instead of direct email. Phone number also listed as 0114 266 766 on some pages.",
+    "RawDataSourceFile": "pj_properties_consultancy_limited_response.txt"
   },
   {
     "Letting Agent": "Home Accommodation",
@@ -901,88 +977,11 @@
     "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
-      "StuRents",
       "Rightmove (Not Found)",
       "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Not Found",
-      "position": "Not Found"
-    },
-    "contact_info": {
-      "phone": "0114 2685454",
-      "registered_address": "Not Found",
-      "operational_address": "305 Western Bank, Sheffield, S10 2TJ",
-      "email": "info@homeaccommodation.co.uk"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Family-owned business with over 20 years experience. Members of NRLA and SSLA. Specializes in Sheffield student accommodation near universities. No presence found on Rightmove, Zoopla, OTM, or LinkedIn. Explicitly states they are not @Home Accommodation Ltd (London). WhatsApp available during office hours: 07871778367.",
-    "RawDataSourceFile": "home_accommodation_response.txt"
-  },
-  {
-    "Letting Agent": "Gnome Student Homes",
-    "Website Url": "https://gnomestudenthomes.co.uk",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Not Found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Not Found",
-      "position": "Not Found"
-    },
-    "contact_info": {
-      "phone": "0114 2684860",
-      "registered_address": "Not Found",
-      "operational_address": "282 Ecclesall Road, Sheffield, S11 8PE",
-      "email": "hello@gnomestudenthomes.co.uk"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "The agency focuses on student accommodation in Sheffield, particularly around Ecclesall Road, City Centre, and Crookesmoor. They state they have been in the Sheffield student housing market for over 30 years. Listings appear primarily on their own website (78 listings mentioned in text), with options for bills included or excluded. No presence found on major portals (Rightmove, Zoopla, OnTheMarket) or LinkedIn. A review mentions a 'Landlord Guy' but no specific name or position is given.",
-    "RawDataSourceFile": "gnome_student_homes_response.txt"
-  },
-  {
-    "Letting Agent": "Studentpad Limited",
-    "Website Url": "https://smartmovesheffield.com",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Not Found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "1",
-    "key_contact": {
-      "full_name": "Daniel Capewell",
-      "position": "Accommodation Office Manager"
-    },
-    "contact_info": {
-      "phone": "0114 2226058",
-      "registered_address": "Unit 30, Brough Business Centre, Baffin Way, Brough, HU15 1YU",
-      "operational_address": "Level 3, Sheffield Students' Union, Western Bank, Sheffield, S10 2TG",
-      "email": "smartmove@sheffield.ac.uk"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "https://www.linkedin.com/company/studentpad-ltd/",
-    "notes": "Smart Move Sheffield is the University of Sheffield's service for private sector student housing, listing properties accredited under the council's Snug scheme. It operates more like a university service/listing platform than a traditional agent. It is a trading name of Studentpad Limited (Company Number: 03992911). Daniel Capewell is responsible for Smart Move Sheffield within the University's Accommodation Office structure. Primarily lists properties on its own website.",
-    "RawDataSourceFile": "studentpad_limited_response.txt"
-  },
-  {
-    "Letting Agent": "Sheffield Property To Let",
-    "Website Url": "https://sheffieldpropertytolet.co.uk",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Not Found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
+      "OnTheMarket (Not Found)",
+      "SpareRoom",
+      "UniHomes"
     ],
     "Branches": "Not Found",
     "key_contact": {
@@ -990,15 +989,15 @@
       "position": "Not Found"
     },
     "contact_info": {
-      "phone": "07951515970",
+      "phone": "01482 473347",
       "registered_address": "Not Found",
-      "operational_address": "104 Banner Cross Road, Sheffield, South Yorkshire, S11 9HR",
-      "email": "info@sheffieldpropertytolet.co.uk"
+      "operational_address": "373 Beverley Road, Hull, HU5 1LA",
+      "email": "ross@castle-homes.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "The agency describes itself as 'independent landlords and not agents', specializing in student accommodation for over 30 years. They focus on properties near Sheffield universities. No listings found on major portals (Rightmove, Zoopla, OnTheMarket) during this search. Company Number: 11688971 (SHEFFIELD PROPERTY TO LET LTD)",
-    "RawDataSourceFile": "sheffield_property_to_let_response.txt"
+    "notes": "The website frequently links to or mentions 'Castle Homes', which appears to be the same or a closely related entity. Castle Homes contact details are provided for Home Accommodation inquiries and focus on student accommodation in Hull. Information was primarily found via the associated 'Castle Homes' entity. Direct listings on major portals (Rightmove, Zoopla, OTM) under the 'Home Accommodation' name were not found, though listings appear on student-focused sites like UniHomes and general room sites like SpareRoom, often referencing Castle Homes. Bills included options are explicitly mentioned. The agency clearly targets the student market in Hull.",
+    "RawDataSourceFile": "home_accommodation_response.txt"
   },
   {
     "Letting Agent": "Claypenny Student Accommodation",
@@ -1018,40 +1017,40 @@
     "contact_info": {
       "phone": "0114 266 9900",
       "registered_address": "Not Found",
-      "operational_address": "Claypenny Properties, 51 Collegiate Crescent, Sheffield, South Yorkshire, S10 2BR, United Kingdom",
+      "operational_address": "51 Collegiate Crescent, Sheffield, South Yorkshire, S10 2BR, United Kingdom",
       "email": "info@claypenny.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Family-owned business established in 1994. Awarded by Sheffield City Council for Outstanding Customer Service and Private Landlord of the Year (2018). Specializes in student accommodation in Sheffield (Ecclesall Road, Broomhall, etc.). Listings primarily on own website, not found on major portals. Some listings explicitly state 'exc bills' and 'inc bills' pricing options.",
+    "notes": "Family-run business established in 1994. Manages over 55 properties for more than 300 students. Awarded \"Private Landlord of the Year\" and \"Outstanding Customer Service\" by Sheffield City Council (2018). Focused on the Sheffield market (Ecclesall Road, Broomhall, etc.). Lists properties directly on own website with options for bills included/excluded. No presence found on major portals (Rightmove/Zoopla/OTM) or LinkedIn. Mentioned as a provider on university/college accommodation pages and other smaller listing sites.",
     "RawDataSourceFile": "claypenny_student_accommodation_response.txt"
   },
   {
-    "Letting Agent": "Strawberry Student Homes",
-    "Website Url": "https://strawberrystudenthomes.co.uk",
+    "Letting Agent": "Studentpad Limited",
+    "Website Url": "https://smartmovesheffield.com",
     "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
-      "Rightmove (0 listings)",
-      "Zoopla (0 listings)",
-      "OnTheMarket (0 listings)",
-      "StrawberryStudentHomes.co.uk (58 listings)"
+      "Smart Move Sheffield website (100+ listings for 2025/26)",
+      "Rightmove (0 listings found)",
+      "Zoopla (0 listings found)",
+      "OnTheMarket (0 listings found)"
     ],
     "Branches": "1",
     "key_contact": {
-      "full_name": "Chris Ashton",
-      "position": "Operations Director and Business Manager"
+      "full_name": "Daniel Capewell",
+      "position": "Accommodation Office Manager"
     },
     "contact_info": {
-      "phone": "0114 266 8315",
+      "phone": "0114 222 6058",
       "registered_address": "Not Found",
-      "operational_address": "343 Ecclesall Rd, Sharrow, Sheffield S11 8PF",
-      "email": "info@strawberrystudenthomes.co.uk"
+      "operational_address": "Level 3, Students' Union Building, Western Bank, Sheffield, S10 2TG",
+      "email": "smartmove@sheffield.ac.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Family-run business established over 30 years ago, specializing in student accommodation in Sheffield, particularly around Ecclesall Road. They own and manage their properties. Listings are primarily on their own website; major portals currently show no listings. They offer properties with and without bills included. Chris Ashton is listed as Operations Director on the website and mentioned as Director in a news article. Companies House lists Christopher Geoffrey Ashton as an active director. Company Number: 10012377.",
-    "RawDataSourceFile": "strawberry_student_homes_response.txt"
+    "notes": "Run by the University of Sheffield and Sheffield Students' Union. Properties listed are inspected by Sheffield City Council under the 'Snug' scheme. Company Number for SMART MOVE SHEFFIELD LIMITED is 05990481, though the service operates under the University. Focuses exclusively on student accommodation in Sheffield. Listings seem primarily hosted on their own platform. The website software provider appears to be 'Studentpad Limited', not the agency itself.",
+    "RawDataSourceFile": "studentpad_limited_response.txt"
   },
   {
     "Letting Agent": "SDP Student Homes",
@@ -1066,45 +1065,70 @@
     "Branches": "1",
     "key_contact": {
       "full_name": "Symon Donovan",
-      "position": "Founder"
+      "position": "Managing Director / Founder"
     },
     "contact_info": {
       "phone": "0114 258 0060",
       "registered_address": "Not Found",
-      "operational_address": "117 St. Mary's Road, Sheffield, S2 4BE",
+      "operational_address": "117 St. Mary's Road, Sheffield, South Yorkshire, S2 4BE",
       "email": "office@sdpstudenthomes.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Information primarily sourced from the agency's website and a Sheffield City Council directory. Specific listing counts on portals were not found, but Rightmove is mentioned as a channel they use. No LinkedIn profiles were found in the search results. The agency focuses on student accommodation in Sheffield. Company Name appears to be Symon Donovan Properties Limited. They are a two-time winner of the SNUG Landlord of the Year award from Sheffield City Council.",
+    "notes": "SDP Student Homes specializes in student accommodation in Sheffield and has been operating for over 30 years. They emphasize that most properties are let with inclusive rents. They list properties on their own website and mention using major portals like Rightmove. A specific company number for 'SDP Student Homes' was not found, but details for 'SDP LETTINGS AND MANAGEMENT LIMITED' were located. Oliver Robinson is listed as Business Manager at SDP Student Homes.",
     "RawDataSourceFile": "sdp_student_homes_response.txt"
   },
   {
-    "Letting Agent": "PJ Properties & Consultancy Limited",
-    "Website Url": "https://pjproperties.co.uk",
-    "bills_included": "Some",
+    "Letting Agent": "Urban and Campus Nest Ltd.",
+    "Website Url": "https://ucnest.com",
+    "bills_included": "Not Found",
     "student_listings": "Yes",
     "channels": [
-      "pjproperties.co.uk (approx. 180-200 properties)",
-      "Rightmove (0 listings)",
-      "Zoopla (0 listings)",
-      "OnTheMarket (0 listings)"
+      "Rightmove (Not Found)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
     ],
-    "Branches": "1",
+    "Branches": "2",
+    "key_contact": {
+      "full_name": "Mr Aaron Paul Sarin",
+      "position": "Director"
+    },
+    "contact_info": {
+      "phone": "+44 20 7043 1185",
+      "registered_address": "Not Found",
+      "operational_address": "Not Found",
+      "email": "Not Found"
+    },
+    "linkedin": "Not Found",
+    "other_linkedin": "Not Found",
+    "notes": "Company Number: 09716120. Registered as UCNestLDN Ltd. on the website, but URBAN AND CAMPUS NEST LTD on Companies House. Specializes in student and young professional accommodation in London and Sheffield. Listings not found on major UK portals. Contact details limited on website (contact form available). Distinct from 'urbanest'.",
+    "RawDataSourceFile": "urban_and_campus_nest_ltd_response.txt"
+  },
+  {
+    "Letting Agent": "Sheffield Property To Let",
+    "Website Url": "https://sheffieldpropertytolet.co.uk",
+    "bills_included": "Not Found",
+    "student_listings": "Yes",
+    "channels": [
+      "Rightmove (Not Found)",
+      "Zoopla (Not Found)",
+      "OnTheMarket (Not Found)"
+    ],
+    "Branches": "Not Found",
     "key_contact": {
       "full_name": "Not Found",
       "position": "Not Found"
     },
     "contact_info": {
-      "phone": "0114 266 766 / 0114 2667666",
+      "phone": "07951515970",
       "registered_address": "Not Found",
-      "operational_address": "Office in the centre of Broomhill, Sheffield",
-      "email": "Not Found"
+      "operational_address": "104 Banner Cross Road, Sheffield, South Yorkshire, S11 9HR",
+      "email": "info@sheffieldpropertytolet.co.uk"
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "Specialises in Sheffield student accommodation since 1983. Recommended by Sheffield University and Sheffield Council. May be linked to PJ Residential Investments Limited. Research focused on the Sheffield agency ('PJ Properties') associated with the provided website URL, which differs from the London-registered 'PJ Properties & Consultancy Limited'. Currently no active listings found on major UK property portals for the Sheffield agency.",
-    "RawDataSourceFile": "pj_properties_consultancy_limited_response.txt"
+    "notes": "Focuses specifically on student accommodation in Sheffield. Lists properties directly on their website. FAQs reference 'Igloo Accommodation' as the Letting Agent for certain queries. No presence found on major UK property portals (Rightmove, Zoopla, OnTheMarket) under their own name. Company Number: 11688971 (SHEFFIELD PROPERTY TO LET LTD, incorporated 21 Nov 2018).",
+    "RawDataSourceFile": "sheffield_property_to_let_response.txt"
   },
   {
     "Letting Agent": "iLet4You Limited",
@@ -1112,13 +1136,14 @@
     "bills_included": "Some",
     "student_listings": "Yes",
     "channels": [
-      "Zoopla (24 listings)",
-      "Rightmove (Not Found)",
-      "OnTheMarket (Not Found)"
+      "Zoopla (2 listings)",
+      "PrimeLocation (1 listing)",
+      "OnTheMarket (Not Found)",
+      "Rightmove (Not Found)"
     ],
     "Branches": "1",
     "key_contact": {
-      "full_name": "Shamilah Wahab",
+      "full_name": "Shamilah W",
       "position": "Managing Director"
     },
     "contact_info": {
@@ -1129,33 +1154,7 @@
     },
     "linkedin": "Not Found",
     "other_linkedin": "Not Found",
-    "notes": "The agency is based in Sheffield and appears active on its own website and Zoopla. Information on Rightmove and OnTheMarket presence was not found in the search results. Companies House confirms Shamilah Wahab as an active director. Mohammed Rawais is listed as Director of Operations on the company website. Some listings on Zoopla are marked as student-friendly. One commercial listing mentions heating included, but it's unclear if residential listings typically include bills. Company Number: 10419578 (Registered in England and Wales).",
+    "notes": "The agency is based in Sheffield. The website lists multiple team members including a Managing Director (Shamilah W) and Director of Operations (Mohammed R). Companies House confirms Mohammed Rawais as an active director since October 2016. Some listings explicitly mention bills being included or available for an extra fee. Student-friendly properties are advertised. Limited presence found on major property portals during this search. Company Number: 10419578. ICO Registration: ZA223501. PRS Membership Number: PRS007868. SIC Codes: 68209, 68320.",
     "RawDataSourceFile": "ilet4you_limited_response.txt"
-  },
-  {
-    "Letting Agent": "Urban and Campus Nest Ltd.",
-    "Website Url": "https://ucnest.com",
-    "bills_included": "Some",
-    "student_listings": "Yes",
-    "channels": [
-      "Rightmove (Not Found)",
-      "Zoopla (Not Found)",
-      "OnTheMarket (Not Found)"
-    ],
-    "Branches": "2",
-    "key_contact": {
-      "full_name": "Aaron Paul Sarin",
-      "position": "Director"
-    },
-    "contact_info": {
-      "phone": "+44 20 7043 1185, +86 10 5622 6408",
-      "registered_address": "Not Found",
-      "operational_address": "Not Found",
-      "email": "Not Found"
-    },
-    "linkedin": "Not Found",
-    "other_linkedin": "Not Found",
-    "notes": "Focuses on student/young professional rentals in London and Sheffield. Listings primarily on own website, not major portals. Offices in London and Sheffield mentioned, but specific addresses not found. General contact email not found. Company Number: 09716120. Director identified via Companies House. Website refers to the company as 'UCNestLDN Ltd. (UCNEST)'. Separate entities 'urbanest' and 'Urban Campus' mentioned in search results.",
-    "RawDataSourceFile": "urban_and_campus_nest_ltd_response.txt"
   }
 ]

@@ -291,318 +291,6 @@
             opacity: 0.7;
         }
 
-        /* Chat Interface Styles */
-        .chat-interface {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 1200px;
-            height: 1200px;
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transition: all 0.3s ease;
-            transform: translateY(120%);
-            opacity: 0;
-            visibility: hidden;
-            z-index: 1000;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .chat-interface.active {
-            transform: translateY(0);
-            opacity: 1;
-            visibility: visible;
-        }
-
-        .chat-header {
-            padding: 20px;
-            background: var(--google-blue);
-            color: white;
-            border-radius: 16px 16px 0 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: column;
-            gap: 5px;
-        }
-
-        .chat-header h2 {
-            margin: 0;
-            font-size: 18px;
-            font-weight: 500;
-        }
-
-        .model-info {
-            font-size: 12px;
-            opacity: 0.8;
-            font-weight: normal;
-        }
-
-        .close-chat {
-            background: none;
-            border: none;
-            color: white;
-            cursor: pointer;
-            font-size: 24px;
-            padding: 0;
-            line-height: 1;
-            opacity: 0.8;
-            transition: opacity 0.3s;
-        }
-
-        .close-chat:hover {
-            opacity: 1;
-        }
-
-        .chat-messages {
-            flex: 1;
-            overflow-y: auto;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            max-height: none;
-        }
-
-        .message {
-            max-width: 90%;
-            padding: 15px 20px;
-            border-radius: 12px;
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        .user-message {
-            background: var(--google-blue);
-            color: white;
-            align-self: flex-end;
-            border-bottom-right-radius: 4px;
-        }
-
-        .bot-message {
-            background: var(--google-light-gray);
-            color: var(--google-gray);
-            align-self: flex-start;
-            border-bottom-left-radius: 4px;
-        }
-
-        .chat-input {
-            padding: 20px;
-            border-top: 1px solid #e0e0e0;
-            display: flex;
-            gap: 10px;
-            background: white;
-        }
-
-        .chat-input input {
-            flex: 1;
-            padding: 15px;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            font-size: 16px;
-            transition: border-color 0.3s, box-shadow 0.3s;
-        }
-
-        .chat-input input:focus {
-            outline: none;
-            border-color: var(--google-blue);
-            box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.1);
-        }
-
-        .chat-input button {
-            background: var(--google-blue);
-            color: white;
-            border: none;
-            padding: 15px 25px;
-            border-radius: 8px;
-            font-weight: 500;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .chat-input button:hover {
-            background-color: #3367d6;
-        }
-
-        .chat-button {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 60px;
-            height: 60px;
-            background: var(--google-blue);
-            border-radius: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transition: transform 0.3s, box-shadow 0.3s;
-            z-index: 1001;
-        }
-
-        .chat-button:hover {
-            transform: scale(1.05);
-            box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-        }
-
-        .chat-button i {
-            color: white;
-            font-size: 28px;
-        }
-
-        .loading {
-            display: none;
-            text-align: center;
-            padding: 20px;
-        }
-
-        .loading.active {
-            display: block;
-        }
-
-        /* Add these styles in the <style> section */
-        .typing-indicator {
-            background-color: var(--google-light-gray);
-            padding: 12px 16px;
-            border-radius: 12px;
-            border-bottom-left-radius: 4px;
-            display: none;
-            align-self: flex-start;
-            margin-bottom: 10px;
-        }
-
-        .typing-indicator.visible {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        .typing-indicator span {
-            width: 8px;
-            height: 8px;
-            background: var(--google-blue);
-            border-radius: 50%;
-            display: inline-block;
-            opacity: 0.4;
-        }
-
-        .typing-indicator span:nth-child(1) {
-            animation: typing 1s infinite;
-        }
-
-        .typing-indicator span:nth-child(2) {
-            animation: typing 1s infinite 0.2s;
-        }
-
-        .typing-indicator span:nth-child(3) {
-            animation: typing 1s infinite 0.4s;
-        }
-
-        @keyframes typing {
-            0%, 100% {
-                transform: translateY(0);
-                opacity: 0.4;
-            }
-            50% {
-                transform: translateY(-4px);
-                opacity: 1;
-            }
-        }
-
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            z-index: 1000;
-        }
-
-        .modal-content {
-            position: relative;
-            background-color: white;
-            margin: 5% auto;
-            padding: 20px;
-            width: 80%;
-            max-width: 800px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .modal-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .modal-title {
-            font-size: 24px;
-            font-weight: 500;
-            color: var(--google-gray);
-        }
-
-        .close-modal {
-            background: none;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            color: var(--google-gray);
-        }
-
-        .prompt-editor {
-            width: 100%;
-            height: 400px;
-            padding: 10px;
-            border: 1px solid #e0e0e0;
-            border-radius: 4px;
-            font-family: monospace;
-            font-size: 14px;
-            line-height: 1.5;
-            resize: vertical;
-        }
-
-        .modal-footer {
-            display: flex;
-            justify-content: flex-end;
-            gap: 10px;
-            margin-top: 20px;
-        }
-
-        .modal-btn {
-            padding: 8px 16px;
-            border-radius: 4px;
-            border: none;
-            cursor: pointer;
-            font-weight: 500;
-            transition: background-color 0.3s;
-        }
-
-        .save-btn {
-            background-color: var(--google-blue);
-            color: white;
-        }
-
-        .revert-btn {
-            background-color: var(--google-gray);
-            color: white;
-        }
-
-        .cancel-btn {
-            background-color: var(--google-light-gray);
-            color: var(--google-gray);
-        }
-
-        .modal-btn:hover {
-            opacity: 0.9;
-        }
-
         /* Progress Window Styles */
         .progress-window {
             position: fixed;
@@ -613,13 +301,18 @@
             border: 1px solid #e0e0e0;
             border-radius: 8px 8px 0 0;
             box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-            transform: translateY(calc(100% - 40px));
-            transition: transform 0.3s ease;
             z-index: 999;
+            display: block; /* Always show the window */
+            max-height: 300px; /* Set a maximum height */
+            transition: transform 0.3s ease;
+            opacity: 1;
+            visibility: visible;
         }
 
         .progress-window.collapsed {
             transform: translateY(calc(100% - 40px));
+            opacity: 1;
+            visibility: visible;
         }
 
         .progress-header {
@@ -631,6 +324,7 @@
             cursor: pointer;
             height: 40px;
             font-size: 14px;
+            border-bottom: 1px solid #e0e0e0;
         }
 
         .progress-title {
@@ -644,11 +338,17 @@
             font-size: 16px;
             cursor: pointer;
             color: var(--google-gray);
+            padding: 0;
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .progress-content {
             padding: 15px;
-            max-height: 300px;
+            max-height: 260px; /* Adjusted to account for header */
             overflow-y: auto;
             transition: max-height 0.3s ease-out;
             font-size: 13px;
@@ -687,6 +387,81 @@
             background: #e6f4ea;
             color: var(--google-green);
         }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .close-modal {
+            color: var(--google-gray);
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close-modal:hover {
+            color: var(--google-red);
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: flex-end;
+        }
+
+        .modal-buttons button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        #savePromptBtn {
+            background-color: var(--google-blue);
+            color: white;
+        }
+
+        #revertPromptBtn {
+            background-color: var(--google-gray);
+            color: white;
+        }
+
+        #cancelPromptBtn {
+            background-color: var(--google-light-gray);
+            color: var(--google-gray);
+        }
+
+        #promptEditor {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -711,41 +486,16 @@
         </div>
     </div>
 
-    <!-- Chat Button and Interface -->
-    <div class="chat-button" onclick="toggleChat()">
-        <i>💬</i>
-    </div>
-
-    <div class="chat-interface" id="chat-interface">
-        <div class="chat-header">
-            <h2>Ask about Agencies</h2>
-            
-            <button class="close-chat" onclick="toggleChat()">×</button>
-        </div>
-        <div class="chat-messages" id="chat-messages">
-            <div class="typing-indicator" id="typing-indicator">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        <div class="chat-input">
-            <input type="text" id="chat-input" placeholder="Type your question here..." onkeypress="handleChatKeyPress(event)">
-            <button onclick="sendMessage()">Send</button>
-        </div>
-    </div>
-
+    <!-- System Prompt Editor Modal -->
     <div id="promptModal" class="modal">
         <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title">Edit System Prompt</h2>
-                <button class="close-modal">&times;</button>
-            </div>
-            <textarea id="promptEditor" class="prompt-editor"></textarea>
-            <div class="modal-footer">
-                <button class="modal-btn revert-btn" id="revertPromptBtn">Revert to Default</button>
-                <button class="modal-btn cancel-btn" id="cancelPromptBtn">Cancel</button>
-                <button class="modal-btn save-btn" id="savePromptBtn">Save Changes</button>
+            <span class="close-modal">&times;</span>
+            <h2>Edit System Prompt</h2>
+            <textarea id="promptEditor" rows="10"></textarea>
+            <div class="modal-buttons">
+                <button id="savePromptBtn">Save Changes</button>
+                <button id="revertPromptBtn">Revert to Default</button>
+                <button id="cancelPromptBtn">Cancel</button>
             </div>
         </div>
     </div>
@@ -763,7 +513,6 @@
 
     <script>
         let allAgencies = []; // Store all agencies for filtering
-        let lastProgressMessage = '';
 
         // Load agencies data
         async function loadAgencies() {
@@ -932,7 +681,7 @@
         function addProgressLog(message, type = 'info') {
             const logEntry = document.createElement('p');
             logEntry.className = type;
-            logEntry.textContent = message;  // Remove the timestamp since it's already in the message
+            logEntry.textContent = message;
             progressLog.appendChild(logEntry);
             progressLog.scrollTop = progressLog.scrollHeight;
             
@@ -940,152 +689,97 @@
             if (!isProgressWindowExpanded) {
                 toggleProgressWindow();
             }
+            
+            // Log to console for debugging
+            console.log(`[${type}] ${message}`);
         }
 
-        // Enhanced refresh data function
+        // Simplified refresh data function
+        let isRefreshing = false;  // Track if a refresh is in progress
+
         async function refreshData() {
-            const button = document.getElementById('refreshBtn');
-            button.disabled = true;
-            button.textContent = 'Refreshing...';
+            // Prevent multiple simultaneous refreshes
+            if (isRefreshing) {
+                addProgressLog('A refresh is already in progress', 'info');
+                return;
+            }
+
+            const refreshBtn = document.getElementById('refreshBtn');
+            refreshBtn.disabled = true;
+            refreshBtn.textContent = 'Refreshing...';
+            isRefreshing = true;
             
-            // Show and activate progress window
-            progressWindow.classList.remove('collapsed');
+            // Clear previous progress messages
             progressLog.innerHTML = '';
             addProgressLog('Starting data refresh...', 'info');
-            
-            try {
-                // First try to reset any stuck state
-                const resetResponse = await fetch('/api/refresh/reset', { method: 'POST' });
-                if (!resetResponse.ok) {
-                    throw new Error('Failed to reset refresh state');
-                }
-                
-                // Then start the refresh
-                const response = await fetch('/api/refresh', { method: 'POST' });
-                if (response.ok) {
-                    addProgressLog('Refresh request sent successfully', 'success');
-                    // Start polling for progress
-                    pollProgress();
-                } else {
-                    const errorData = await response.json();
-                    throw new Error(errorData.message || 'Failed to start refresh');
-                }
-            } catch (error) {
-                console.error('Error refreshing data:', error);
-                addProgressLog(`Error: ${error.message}`, 'error');
-                button.disabled = false;
-                button.textContent = 'Refresh Data';
-            }
-        }
-
-        async function pollProgress() {
-            try {
-                const response = await fetch('/api/refresh/progress');
-                const data = await response.json();
-                
-                if (data.status === 'running') {
-                    if (data.message !== lastProgressMessage) {
-                        lastProgressMessage = data.message;
-                        addProgressLog(data.message, 'info');
-                    }
-                    // Continue polling
-                    setTimeout(pollProgress, 1000);
-                } else if (data.status === 'complete') {
-                    addProgressLog('Data refresh completed successfully', 'success');
-                    document.getElementById('refreshBtn').disabled = false;
-                    document.getElementById('refreshBtn').textContent = 'Refresh Data';
-                    loadAgencies(); // Refresh the agencies list
-                } else if (data.status === 'error') {
-                    addProgressLog(`Error: ${data.message}`, 'error');
-                    document.getElementById('refreshBtn').disabled = false;
-                    document.getElementById('refreshBtn').textContent = 'Refresh Data';
-                } else if (data.status === 'idle') {
-                    // If we're still polling but the status is idle, something went wrong
-                    addProgressLog('Refresh process not running', 'error');
-                    document.getElementById('refreshBtn').disabled = false;
-                    document.getElementById('refreshBtn').textContent = 'Refresh Data';
-                }
-            } catch (error) {
-                console.error('Error checking progress:', error);
-                addProgressLog('Error checking progress status', 'error');
-                document.getElementById('refreshBtn').disabled = false;
-                document.getElementById('refreshBtn').textContent = 'Refresh Data';
-            }
-        }
-
-        // Enhanced chat functionality
-        async function sendMessage() {
-            const input = document.getElementById('chat-input');
-            const message = input.value.trim();
-            if (!message) return;
-
-            // Add user message to chat
-            addMessage(message, 'user');
-            input.value = '';
-
-            // Show typing indicator
-            const typingIndicator = document.getElementById('typing-indicator');
-            typingIndicator.classList.add('visible');
 
             try {
-                const response = await fetch('/api/chat', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ question: message }),
+                const response = await fetch('/api/refresh/start', {
+                    method: 'POST'
                 });
 
-                // Hide typing indicator
-                typingIndicator.classList.remove('visible');
-
                 if (!response.ok) {
-                    throw new Error('Network response was not ok');
+                    throw new Error('Failed to start refresh');
                 }
 
                 const data = await response.json();
-                if (data.answer) {
-                    addMessage(data.answer, 'bot');
+                if (data.status === 'started') {
+                    addProgressLog('Data refresh started successfully', 'success');
+                    
+                    // Start polling for progress updates
+                    const pollInterval = setInterval(async () => {
+                        try {
+                            const progressResponse = await fetch('/api/refresh/progress');
+                            if (!progressResponse.ok) {
+                                throw new Error('Failed to get progress status');
+                            }
+                            
+                            const progressData = await progressResponse.json();
+                            
+                            if (progressData.status === 'complete') {
+                                clearInterval(pollInterval);
+                                addProgressLog('Data refresh completed successfully', 'success');
+                                refreshBtn.disabled = false;
+                                refreshBtn.textContent = 'Refresh Data';
+                                isRefreshing = false;
+                                loadAgencies();
+                            } else if (progressData.status === 'error') {
+                                clearInterval(pollInterval);
+                                addProgressLog(`Error: ${progressData.message}`, 'error');
+                                refreshBtn.disabled = false;
+                                refreshBtn.textContent = 'Refresh Data';
+                                isRefreshing = false;
+                            } else if (progressData.message) {
+                                // Only add the message if it's different from the last one
+                                const lastMessage = progressLog.lastElementChild?.textContent;
+                                const newMessage = progressData.message;
+                                if (lastMessage !== newMessage) {
+                                    addProgressLog(newMessage, 'info');
+                                }
+                            }
+                        } catch (error) {
+                            console.error('Error checking progress:', error);
+                            // Don't clear the interval on temporary connection errors
+                            if (error.message.includes('Failed to fetch')) {
+                                addProgressLog('Waiting for server response...', 'info');
+                            } else {
+                                clearInterval(pollInterval);
+                                addProgressLog(`Error: ${error.message}`, 'error');
+                                refreshBtn.disabled = false;
+                                refreshBtn.textContent = 'Refresh Data';
+                                isRefreshing = false;
+                            }
+                        }
+                    }, 1000); // Poll every second
                 } else {
-                    throw new Error(data.error || 'Failed to get response');
+                    throw new Error(data.message || 'Unknown error');
                 }
             } catch (error) {
-                console.error('Error sending message:', error);
-                // Hide typing indicator in case of error
-                typingIndicator.classList.remove('visible');
-                addMessage('Sorry, I encountered an error processing your question. Please try again.', 'bot');
+                addProgressLog(`Error: ${error.message}`, 'error');
+                refreshBtn.disabled = false;
+                refreshBtn.textContent = 'Refresh Data';
+                isRefreshing = false;
             }
-        }
-
-        function handleChatKeyPress(event) {
-            if (event.key === 'Enter' && !event.shiftKey) {
-                event.preventDefault();
-                sendMessage();
-            }
-        }
-
-        function toggleChat() {
-            const chatInterface = document.getElementById('chat-interface');
-            chatInterface.classList.toggle('active');
-            if (chatInterface.classList.contains('active')) {
-                document.getElementById('chat-input').focus();
-            }
-        }
-
-        function addMessage(text, sender) {
-            const messagesContainer = document.getElementById('chat-messages');
-            const messageDiv = document.createElement('div');
-            messageDiv.className = `message ${sender}-message`;
-            
-            // Clean up markdown code blocks and language specifications
-            let cleanText = text.replace(/```[a-z]*\n/g, '').replace(/```/g, '');
-            
-            // Remove any trailing/leading whitespace
-            cleanText = cleanText.trim();
-            
-            messageDiv.innerHTML = cleanText;
-            messagesContainer.appendChild(messageDiv);
-            messagesContainer.scrollTop = messagesContainer.scrollHeight;
         }
 
         // Initialize
@@ -1097,13 +791,6 @@
             
             // Add refresh button functionality
             document.getElementById('refreshBtn').addEventListener('click', refreshData);
-            
-            // Add enter key support for chat
-            document.getElementById('chat-input').addEventListener('keypress', (e) => {
-                if (e.key === 'Enter') {
-                    sendMessage();
-                }
-            });
         });
 
         // System Prompt Editor functionality

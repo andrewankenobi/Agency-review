@@ -1,18 +1,18 @@
 *   **Letting Agent:** WH Properties
-*   **Bills Included on Listings?:** Some (Offers properties excluding bills and including bills)
+*   **Bills Included on Listings?:** Some (The website mentions "Sheffield University Student Accommodation Bills Included" on a page title [20], and general search results indicate 'bills included' is a common feature, especially for student lets [18, 19], but it's not explicitly confirmed for all listings on their site.)
 *   **Website Url:** https://whproperties.co.uk
-*   **Student Listings Live:** Yes (Specialises in student housing in Sheffield)
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). Listings appear primarily on their own website.
-*   **Branches:** 1 (Based on single address found)
+*   **Student Listings Live:** Yes (The website has sections and page titles specifically mentioning student accommodation [20, 23].)
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found) (Search results often show William H Brown or other similarly named agencies on these portals [14, 21, 26, 31, 40, 41, 44, 45], but not specifically WH Properties at whproperties.co.uk. A TikTok result mentions Rightmove in relation to a WH Properties Sheffield listing [38], but direct portal listings weren't confirmed.)
+*   **Branches:** Not Found (Appears to be a single location based on contact details.)
 *   **Key Contact Person:**
-    *   Full Name: Lindsay Wiseman
-    *   Position: Proprietor/Manager
+    *   Full Name: Lisa Wiseman [23] or Lindsay Wiseman [23] (Listed as Data Controller/Landlord) / Annabelle Lamb [20] (Operations Manager) / Tori Russell [20] (Sales and Marketing Administrator)
+    *   Position: Data Controller/Landlord [23] / Operations Manager [20] / Sales and Marketing Administrator [20]
 *   **Contact Information:**
-    *   Phone: 0114 266 8070 (Enquiries), 07903 071618 (Lindsay), 07891 656783 (Lisa)
-    *   Address: 11 Commonside, Sheffield, S10 1GA
-    *   Email: hello@whproperties.co.uk / info@whproperties.co.uk
+    *   Phone: 01142668070 [23]
+    *   Address: 11 Commonside Sheffield S10 1GA [23]
+    *   Email: info@whproperties.co.uk [23]
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
+    *   Company Profile URL: Not Found (Search results show profiles for other companies like W H Malcolm Ltd [28] or WH Matthews & Co [24], but not this specific agency.)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Data Controller: Lisa Wiseman. Established in 1985.
-*   **Notes/Comments:** WH Properties focuses specifically on student accommodation for Sheffield University students in the Crookesmoor, Crookes, and Walkley areas. They offer properties with bills included and excluded options. Key contact appears to be Lindsay Wiseman, with Lisa Wiseman also mentioned (potentially involved in management/data control). No presence found on major UK property portals (Rightmove, Zoopla, OnTheMarket) during this search. Several other companies named "WH Properties" exist in different locations (Nashville, Costa del Sol, Milwaukee) and sectors (auctioneering), unrelated to the specified UK letting agent. There is also a "WHB Student Lets" in Canterbury, which is different.
+*   **Other Linkedin/Extra Details:** Company Name potentially "Lindsay & Lisa Wiseman" trading as WH Properties [23]. There is a registered company "WH PROPERTIES LTD" [46], but it's unclear if it's the same entity without further details like company number or address matching. Another company "WH Properties Holding Ltd" also exists [32].
+*   **Notes/Comments:** The agency appears to specialize in student accommodation in Sheffield, particularly for Sheffield University students [20, 23]. The contact details point to Lisa and Lindsay Wiseman as key individuals. Difficulty arose in distinguishing this specific "WH Properties" from others with similar names (e.g., William H Brown [17], Whitlock and Heaps [9], WH Property Management [34], WH Properties in Nashville [3, 29, 30]) and confirming their presence on major UK property portals.

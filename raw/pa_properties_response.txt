@@ -1,12 +1,12 @@
 *   **Letting Agent:** Pa Properties
-*   **Bills Included on Listings?:** Some (Listings show options for both bills inclusive and exclusive)
+*   **Bills Included on Listings?:** Some (Listings show options for both bills included and not included, or just bills included)
 *   **Website Url:** https://paproperties.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). Website lists properties directly. Partnered with UniHomes.
-*   **Branches:** 1 (The Old Bank, 23 Commonside, Sheffield, S10 1GD)
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). Website mentions partnership with UniHomes.
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Susan
-    *   Position: Managing Director
+    *   Full Name: Christina (Surname not specified in search results, mentioned in testimonials)
+    *   Position: Not Found (Handles issues quickly according to testimonials)
 *   **Contact Information:**
     *   Phone: 0114 266 4349 / 0114 267 0155
     *   Address: The Old Bank, 23 Commonside, Sheffield, S10 1GD
@@ -14,5 +14,5 @@
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 03876380 (P.A. PROPERTIES LTD.)
-*   **Notes/Comments:** Pa Properties appears to be a landlord owning their properties rather than just an agency, specializing in student and professional lettings in Sheffield. They emphasize direct dealing, not through agents. Their website lists key team members: Susan (Managing Director), Christina (Property Manager), Georgina (Assistant Property Manager), Leanne (Accounts), Nathan (Maintenance). Many search results referred to unrelated entities like "Pennsylvania Properties", "PA Housing", or "PA Alvarez Properties".
+*   **Other Linkedin/Extra Details:** Company Number: 03876380 (P.A. PROPERTIES LTD. - Note: This needs verification if it's the same entity as the letting agency, as the search results mix different companies with similar names). The agency states they own all the properties they let.
+*   **Notes/Comments:** The agency focuses on student and professional lettings in Sheffield. They emphasize direct landlord service rather than acting as agents for others. Search results were heavily mixed with companies named "PA Properties" or similar in Pennsylvania (USA) and other locations, requiring careful filtering. No specific listings found on major UK portals (Rightmove, Zoopla, OTM) via search, but they partner with UniHomes. Key contact person identified only by first name from testimonials.

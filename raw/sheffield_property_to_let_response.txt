@@ -1,12 +1,12 @@
 *   **Letting Agent:** Sheffield Property To Let
-*   **Bills Included on Listings?:** Yes (Some properties explicitly mention "all-inclusive bills")
+*   **Bills Included on Listings?:** Some (The FAQ page mentions an "All Inclusive option" may be available if discussed with the landlord/agent, but doesn't state it's standard. Other Sheffield agents mention bills packages are common, often via third parties like UniHomes.)
 *   **Website Url:** https://sheffieldpropertytolet.co.uk
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). Listings appear to be primarily on their own website.
-*   **Branches:** Not Found (Appears to be a single entity/independent landlord)
+*   **Student Listings Live:** Yes (The website heavily focuses on student accommodation)
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found) (Search results show listings from other Sheffield agents like Shefflets, Hunters, Dove Properties, PJ Properties, Martin & Co, Whitehornes on these portals, but no direct listings found for Sheffield Property To Let itself. Their website states they are independent landlords, not agents, which might explain the lack of portal presence.)
+*   **Branches:** 1 (Based on the single address listed)
 *   **Key Contact Person:**
-    *   Full Name: Not Found (Website refers to "independent landlords" who are former graduates)
-    *   Position: Not Found
+    *   Full Name: Patrick Scott Yeardley or Matthew Scott Francis Yeardley (Companies House lists both as active directors)
+    *   Position: Director
 *   **Contact Information:**
     *   Phone: 07951515970
     *   Address: 104 Banner Cross Road, Sheffield, South Yorkshire, S11 9HR
@@ -15,4 +15,4 @@
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
 *   **Other Linkedin/Extra Details:** Company Number: 11688971 (SHEFFIELD PROPERTY TO LET LTD)
-*   **Notes/Comments:** The agency describes itself as "independent landlords and not agents", specializing in student accommodation for over 30 years. They focus on properties near Sheffield universities. No listings found on major portals (Rightmove, Zoopla, OnTheMarket) during this search.
+*   **Notes/Comments:** The company website emphasizes they are independent landlords, not agents, providing student accommodation for over 30 years. Their FAQ page mentions dealing with "Letting Agent (Igloo Accommodation) / Landlord", suggesting they might use Igloo Accommodation for some aspects, or this is outdated information. No listings were found on major portals under their name. Contact details and director information were found on their website and Companies House.
