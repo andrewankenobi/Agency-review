@@ -1,0 +1,18 @@
+*   **Letting Agent:** Smart Move Sheffield
+*   **Bills Included on Listings?:** Not explicitly stated on listings, but general information about 'bills included' options exists on the site, suggesting it might be 'Some'. [3, 6, 10, 12, 13]
+*   **Website Url:** https://smartmovesheffield.com
+*   **Student Listings Live:** Yes [4, 23, 28]
+*   **Key channels live on:** Not Found (Listings appear primarily on their own site, which is powered by Studentpad software. No evidence found of listings on Rightmove, Zoopla, OnTheMarket, or UniHomes).
+*   **Branches:** 1 (Located within the University of Sheffield Students' Union Building) [2, 28, 29]
+*   **Key Contact Person:**
+    *   Full Name: Not Found (No specific person named in search results)
+    *   Position: Not Found
+*   **Contact Information:**
+    *   Phone: 0114 2226058 [2, 15, 28, 29]
+    *   Address: Level 3, Students' Union Building, Western Bank, Sheffield, S10 2TG [2, 28, 29]
+    *   Email: smartmove@sheffield.ac.uk [2, 15, 22, 28, 29]
+*   **LinkedIn:**
+    *   Company Profile URL: Not Found (Searches mainly return University of Sheffield or Studentpad Limited profiles)
+    *   Key Contact Profile URL: Not Found
+*   **Other Linkedin/Extra Details:** Smart Move Sheffield is run by the University of Sheffield and Sheffield Students' Union. [4, 15, 23] The website platform is powered by Studentpad Ltd. [8, 9, 21, 28, 29] Studentpad Limited's registered address is Unit 30, Brough Business Centre, Baffin Way, Brough, HU15 1YU. [7, 9] Properties listed are inspected via Sheffield City Council's 'Snug' scheme. [4, 20, 23, 28]
+*   **Notes/Comments:** Smart Move Sheffield appears to be the University of Sheffield's official private sector accommodation service, rather than a standard commercial letting agency. It utilizes the Studentpad platform. The original prompt mentioned "Studentpad Limited", which is the software provider for the website, not the agency itself, although there's a clear partnership. Contact details are readily available, but specific staff names are not prominent. No evidence of listing on major commercial portals was found.

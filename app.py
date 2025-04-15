@@ -82,12 +82,19 @@ def get_agencies():
 def run_main_script():
     """Run the main.py script to refresh the data."""
     try:
+        # Set initial status
+        refresh_progress['status'] = 'running'
+        refresh_progress['start_time'] = time.time()
+        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Starting data refresh...'
+        
         # Get the absolute path to main.py
         main_script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'main.py')
         
         # Check if main.py exists
         if not os.path.exists(main_script_path):
             logger.error(f"main.py not found at {main_script_path}")
+            refresh_progress['status'] = 'error'
+            refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: main.py not found'
             return
             
         # Run main.py with unbuffered output
@@ -204,7 +211,17 @@ def chat():
     
     # Construct the prompt with formatted context
     context = f"Here is the current agencies data: {json.dumps(formatted_agencies, indent=2)}"
-    prompt = f"{context}\n\nQuestion: {question}\n\nPlease provide a detailed answer based on the data and use Google Search if needed for additional context. Format your response in HTML with proper paragraphs, lists, and styling. Use <p> for paragraphs, <ul> and <li> for lists, and <strong> for emphasis."
+    prompt = f"""Hello! I'd love to help you explore the letting agency data. 
+
+Your question: {question}
+
+I have access to detailed information about various letting agencies, including their services, locations, and features. I can help you:
+- Compare different agencies
+- Find specific information about services or locations
+- Analyze trends and patterns
+- Answer any questions about the letting agency landscape
+
+Let me know what interests you, and I'll do my best to provide helpful insights!"""
     
     # Prepare the Gemini call
     contents = [
@@ -217,9 +234,34 @@ def chat():
     tools = [types.Tool(google_search=types.GoogleSearch())]
     
     generate_content_config = types.GenerateContentConfig(
-        temperature=0,
+        temperature=0.7,
         tools=tools,
-        system_instruction=[types.Part.from_text(text="You are a helpful assistant analyzing letting agency data. Always format your responses in clean, well-structured HTML.")]
+        system_instruction=[types.Part.from_text(text="""You are a friendly and enthusiastic assistant helping users explore letting agency data. Your role is to:
+
+1. Be warm, welcoming, and helpful in your tone
+2. Use a conversational but professional style
+3. Format all responses in valid HTML with proper styling
+4. When users ask vague questions, gently guide them with friendly suggestions
+5. Structure information clearly with HTML tags:
+   - Use <p> for paragraphs
+   - Use <ul> and <li> for lists
+   - Use <strong> for emphasis
+   - Use <h3> for section headers
+   - Use <div class="info-box"> for important notes
+6. Always maintain a positive and helpful attitude
+7. If a question is unclear, offer friendly suggestions for what information you can provide
+
+Example response format:
+<div class="response">
+    <h3>Welcome!</h3>
+    <p>I'd be happy to help you explore the letting agency data. Here are some interesting things we could look at:</p>
+    <ul>
+        <li>Comparing different agencies' services</li>
+        <li>Finding agencies in specific locations</li>
+        <li>Analyzing trends in the market</li>
+    </ul>
+    <p>What would you like to know more about?</p>
+</div>""")]
     )
     
     try:
@@ -253,6 +295,26 @@ def revert_system_prompt():
     if default_prompt is None:
         return jsonify({'error': 'Default prompt not found'}), 404
     return jsonify({'prompt': default_prompt})
+
+@app.route('/api/raw-data/<filename>')
+def get_raw_data(filename):
+    try:
+        # Get the absolute path to the raw data file
+        raw_data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'raw', filename)
+        
+        # Check if file exists
+        if not os.path.exists(raw_data_path):
+            logger.error(f"Raw data file not found at {raw_data_path}")
+            return jsonify({'error': 'Raw data file not found'}), 404
+            
+        # Read and return the file content
+        with open(raw_data_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+            return content, 200, {'Content-Type': 'text/plain'}
+            
+    except Exception as e:
+        logger.error(f"Error reading raw data file {filename}: {str(e)}")
+        return jsonify({'error': 'Failed to read raw data file'}), 500
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001) 

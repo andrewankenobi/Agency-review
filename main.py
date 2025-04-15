@@ -81,22 +81,16 @@ Follow the instructions in the system prompt to find and format the required inf
     return prompt
 
 
-def save_raw_response(agency_name: str, response: str) -> str:
-    """Save the raw response text to a file named after the agency."""
-    # Create raw directory if it doesn't exist
-    os.makedirs("raw", exist_ok=True)
-
-    # Create a safe filename from the agency name
-    safe_name = re.sub(r'[^\\w\\s-]', '', agency_name).strip().replace(' ', '_')
-    file_path = f"raw/{safe_name}_response.txt"
+def save_raw_response(agency_name: str, response_text: str, raw_dir: str) -> str:
+    """Save the raw response text to a file with a consistent filename format."""
+    # Clean the agency name to create a consistent filename
+    filename = agency_name.lower().replace(" ", "_").replace("&", "and").replace(".", "")
+    filename = f"{filename}_response.txt"
+    file_path = os.path.join(raw_dir, filename)
     
-    logger.debug(f"Creating file: {file_path} for agency: {agency_name}")
-
-    # Save the response text directly
     with open(file_path, "w", encoding='utf-8') as f:
-        f.write(response)
-
-    logger.info(f"Saved raw response for {agency_name} to {file_path}")
+        f.write(response_text)
+    
     return file_path
 
 
@@ -113,6 +107,21 @@ def process_raw_response(client: genai.Client, file_path: str) -> Dict[str, Any]
     if "METADATA:" in raw_response_text:
         raw_response_text = raw_response_text.split("METADATA:")[0].strip()
 
+    # Initialize structured_data with default values
+    structured_data = {
+        "Letting Agent": "Not Found in Text",
+        "Website Url": "Not Found in Text",
+        "bills_included": "Not Found",
+        "student_listings": "Not Found",
+        "channels": [],
+        "Branches": "Not Found",
+        "key_contact": {"full_name": "Not Found", "position": "Not Found"},
+        "contact_info": {"phone": "Not Found", "address": "Not Found", "email": "Not Found"},
+        "linkedin": "Not Found",
+        "other_linkedin": "Not Found",
+        "notes": ""
+    }
+
     # Construct prompt for structuring the data
     structure_prompt = """Please analyze the following research text and convert it into a structured JSON format.
 The data should follow this exact structure:
@@ -123,6 +132,7 @@ The data should follow this exact structure:
     "bills_included": "Yes/No/Some/Not Found",
     "student_listings": "Yes/No/Not Found",
     "channels": ["Rightmove", "Zoopla", "OnTheMarket", "UniHomes"],
+    "Branches": "Number or Not Found",
     "key_contact": {
         "full_name": "Name or Not Found",
         "position": "Position or Not Found"
@@ -143,7 +153,8 @@ Important:
 3. For bills_included, use "Yes", "No", "Some", or "Not Found".
 4. For student_listings, use "Yes", "No", or "Not Found".
 5. For channels, only include portals explicitly mentioned *in the text*.
-6. Extract the agency name and URL from the text if possible, otherwise use placeholders.
+6. For Branches, use the number found or "Not Found".
+7. Extract the agency name and URL from the text if possible, otherwise use placeholders.
 
 Research text to analyze:
 """
@@ -164,50 +175,30 @@ Research text to analyze:
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.0-flash", # Using flash for speed/cost in structuring
+            model="gemini-2.5-pro-preview-03-25", # Using flash for speed/cost in structuring
             contents=contents,
             config=generate_content_config
         )
 
         # Parse the JSON response
-        structured_data = json.loads(response.text)
-
-        # Ensure all required fields are present, defaulting based on requirements
-        required_fields = {
-            "Letting Agent": "Not Found in Text", # Default values indicate extraction source
-            "Website Url": "Not Found in Text",
-            "bills_included": "Not Found",
-            "student_listings": "Not Found",
-            "channels": [],
-            "key_contact": {"full_name": "Not Found", "position": "Not Found"},
-            "contact_info": {"phone": "Not Found", "address": "Not Found", "email": "Not Found"},
-            "linkedin": "Not Found",
-            "other_linkedin": "Not Found",
-            "notes": ""
-        }
-
-        for field, default in required_fields.items():
-            if isinstance(default, dict):
-                 if field not in structured_data or not isinstance(structured_data[field], dict):
-                     structured_data[field] = default.copy()
-                 else:
-                    for sub_field, sub_default in default.items():
-                         if sub_field not in structured_data[field]:
-                             structured_data[field][sub_field] = sub_default
-            elif field not in structured_data:
-                structured_data[field] = default
+        try:
+            parsed_data = json.loads(response.text)
+            # Update structured_data with parsed values, maintaining defaults for missing fields
+            for key, value in parsed_data.items():
+                if key in structured_data:
+                    if isinstance(value, dict) and isinstance(structured_data[key], dict):
+                        structured_data[key].update(value)
+                    else:
+                        structured_data[key] = value
+        except json.JSONDecodeError:
+            logger.error(f"Failed to parse JSON response for {file_path}")
+            # Keep the default structured_data
 
         # Add reference to the raw file for traceability
         structured_data["RawDataSourceFile"] = os.path.basename(file_path)
 
         return structured_data
 
-    except json.JSONDecodeError as e:
-        logger.error(f"JSON parsing failed for {file_path}: {str(e)}\nRaw Gemini Response: {response.text}")
-        return {
-            "Error": f"JSON parsing error: {str(e)}",
-            "Raw File": os.path.basename(file_path)
-        }
     except Exception as e:
         logger.error(f"Error processing raw response {file_path}: {str(e)}", exc_info=True)
         return {
@@ -275,7 +266,7 @@ def process_agency(
                 response_text = response_text.split("RESPONSE:")[1].strip()
 
             # Save the cleaned response
-            raw_file_path = save_raw_response(agency["name"], response_text)
+            raw_file_path = save_raw_response(agency["name"], response_text, "raw")
             logger.debug(f"Saved response to: {raw_file_path}")
 
             # Process the raw response into structured JSON
@@ -363,9 +354,8 @@ def process_agency_batch(
             try:
                 result = future.result()
                 results.append(result)
-                # Only print progress every 5% or when completed
-                if completed == total_agencies or completed % max(1, total_agencies // 20) == 0:
-                    print(f"Progress: {completed}/{total_agencies} agencies completed ({(completed/total_agencies)*100:.1f}%)", flush=True)
+                # Print progress for every agency
+                print(f"Completed {agency['name']} ({completed}/{total_agencies}, {(completed/total_agencies)*100:.1f}%)", flush=True)
             except Exception as e:
                 logger.error(f"Error processing {agency['name']}: {str(e)}")
                 print(f"Error processing {agency['name']}: {str(e)}", flush=True)
