@@ -2,6 +2,8 @@ import os
 import json
 import time
 import logging
+import argparse
+import re
 from typing import List, Dict, Any
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -78,10 +80,33 @@ def construct_user_prompt(agency_name: str, agency_url: str) -> str:
     return prompt
 
 
+def clean_response_text(text: str) -> str:
+    """Clean up the response text by removing reference numbers and other artifacts."""
+    # Remove reference numbers like [12], [21], etc.
+    text = re.sub(r'\[\d+\]', '', text)
+    # Remove any remaining square brackets
+    text = re.sub(r'\[|\]', '', text)
+    return text
+
+
+def clean_markdown_text(text: str) -> str:
+    """Clean up markdown formatting while preserving all content."""
+    # Remove markdown bold markers
+    text = text.replace('**', '')
+    # Remove markdown list markers
+    text = text.replace('*   ', '')
+    # Replace *or* with a comma for better readability
+    text = text.replace('*or*', ',')
+    # Remove extra whitespace
+    text = ' '.join(text.split())
+    return text.strip()
+
+
 def process_agency(
     agency: Dict[str, str],
     system_prompt: str,
-    client: genai.Client
+    client: genai.Client,
+    max_retries: int = 3
 ) -> Dict[str, Any]:
     """Process a single agency using the Gemini API."""
     logger.info(f"Starting processing for agency: {agency['name']}")
@@ -106,84 +131,121 @@ def process_agency(
         system_instruction=[types.Part.from_text(text=system_prompt)]
     )
     
-    try:
-        logger.debug(f"Sending API request for {agency['name']}")
-        response = client.models.generate_content_stream(
-            model="gemini-2.5-pro-preview-03-25",
-            contents=contents,
-            config=generate_content_config
-        )
-        
-        # Collect the response text
-        full_response = ""
-        for chunk in response:
-            if chunk.text:
-                full_response += chunk.text
-                logger.debug(f"Received chunk for {agency['name']}: {chunk.text[:100]}...")
-        
-        logger.debug(f"Full response for {agency['name']}: {full_response[:200]}...")
-        
-        # Convert markdown response to JSON
+    for attempt in range(max_retries):
         try:
-            # Initialize result dictionary with basic info
-            result = {
-                "Letting Agent": agency["name"],
-                "Website Url": agency["url"]
-            }
+            logger.debug(f"Sending API request for {agency['name']} (attempt {attempt + 1}/{max_retries})")
+            response = client.models.generate_content_stream(
+                model="gemini-2.5-pro-preview-03-25",
+                contents=contents,
+                config=generate_content_config
+            )
             
-            # Split response into lines and process each line
-            lines = full_response.split('\n')
-            for line in lines:
-                line = line.strip()
-                if line.startswith('*   **'):
-                    # Extract key and value from markdown format
-                    key_value = line[6:-2].split(':**')  # Remove '*   **' and '**'
-                    if len(key_value) == 2:
-                        key = key_value[0].strip()
-                        value = key_value[1].strip()
-                        
-                        # Clean up the key to match expected format
-                        key = key.replace(' ', '_').lower()
-                        
-                        # Handle special cases
-                        if key == 'bills_included_on_listings?':
-                            key = 'bills_included'
-                            value = value.lower() in ['yes', 'some']
-                        elif key == 'student_listings_live':
-                            key = 'student_listings'
-                            value = value.lower() == 'yes'
-                        elif key == 'key_channels_live_on':
-                            key = 'channels'
-                            value = [channel.strip() for channel in value.split(',')]
-                        
-                        result[key] = value
+            # Collect the response text
+            full_response = ""
+            for chunk in response:
+                if chunk.text:
+                    full_response += chunk.text
+                    logger.debug(f"Received chunk for {agency['name']}: {chunk.text[:100]}...")
             
-            # Validate required fields
-            required_fields = ['bills_included', 'student_listings', 'channels']
-            for field in required_fields:
-                if field not in result:
-                    logger.warning(f"Missing required field '{field}' for {agency['name']}")
-                    result[field] = None
+            # Log the full response for debugging
+            logger.info(f"Full response for {agency['name']}:\n{full_response}")
             
-            logger.info(f"Successfully processed {agency['name']}")
-            return result
+            # Check if response is empty or malformed
+            if not full_response or not full_response.strip():
+                logger.warning(f"Empty response received for {agency['name']} on attempt {attempt + 1}")
+                if attempt < max_retries - 1:
+                    continue
+                else:
+                    raise ValueError("Empty response after all retries")
+            
+            # Convert markdown response to JSON
+            try:
+                # Initialize result dictionary with basic info
+                result = {
+                    "Letting Agent": agency["name"],
+                    "Website Url": agency["url"]
+                }
+                
+                # Split response into lines and process each line
+                lines = full_response.split('\n')
+                for line in lines:
+                    line = line.strip()
+                    if line.startswith('*   **'):
+                        # Extract key and value from markdown format
+                        key_value = line[6:-2].split(':**')  # Remove '*   **' and '**'
+                        if len(key_value) == 2:
+                            key = key_value[0].strip()
+                            value = key_value[1].strip()
+                            
+                            # Clean up the key to match expected format
+                            key = key.replace(' ', '_').lower()
+                            
+                            # Handle special cases
+                            if key == 'bills_included_on_listings?':
+                                key = 'bills_included'
+                                value = value.lower() in ['yes', 'some']
+                            elif key == 'student_listings_live':
+                                key = 'student_listings'
+                                value = value.lower() == 'yes'
+                            elif key == 'key_channels_live_on':
+                                key = 'channels'
+                                # Split by comma and preserve reference numbers
+                                value = [channel.strip() for channel in value.split(',')]
+                                # Remove any empty strings
+                                value = [v for v in value if v]
+                            else:
+                                # Clean up markdown formatting while preserving content
+                                value = clean_markdown_text(value)
+                            
+                            result[key] = value
+                
+                # Validate required fields
+                required_fields = ['bills_included', 'student_listings', 'channels']
+                missing_fields = [field for field in required_fields if field not in result]
+                
+                if missing_fields:
+                    logger.warning(f"Missing required fields for {agency['name']}: {', '.join(missing_fields)}")
+                    if attempt < max_retries - 1:
+                        logger.info(f"Retrying due to missing required fields...")
+                        continue
+                    else:
+                        # Set default values for missing fields
+                        for field in missing_fields:
+                            result[field] = None
+                
+                logger.info(f"Successfully processed {agency['name']}")
+                return result
+                
+            except Exception as e:
+                logger.error(f"Error converting response to JSON for {agency['name']}: {str(e)}")
+                logger.error(f"Raw response that caused error: {full_response}")
+                if attempt < max_retries - 1:
+                    continue
+                else:
+                    return {
+                        "Letting Agent": agency["name"],
+                        "Website Url": agency["url"],
+                        "Error": f"Error converting response to JSON: {str(e)}",
+                        "Raw Response": full_response[:500]
+                    }
             
         except Exception as e:
-            logger.error(f"Error converting response to JSON for {agency['name']}: {str(e)}")
-            return {
-                "Letting Agent": agency["name"],
-                "Website Url": agency["url"],
-                "Error": f"Error converting response to JSON: {str(e)}",
-                "Raw Response": full_response[:500]
-            }
-        
-    except Exception as e:
-        logger.error(f"Error processing agency {agency['name']}: {str(e)}", exc_info=True)
-        return {
-            "Letting Agent": agency["name"],
-            "Website Url": agency["url"],
-            "Error": str(e)
-        }
+            logger.error(f"Error processing agency {agency['name']}: {str(e)}", exc_info=True)
+            if attempt < max_retries - 1:
+                continue
+            else:
+                return {
+                    "Letting Agent": agency["name"],
+                    "Website Url": agency["url"],
+                    "Error": str(e)
+                }
+    
+    # If we get here, all retries failed
+    return {
+        "Letting Agent": agency["name"],
+        "Website Url": agency["url"],
+        "Error": "All retry attempts failed"
+    }
 
 
 def save_results(results: List[Dict[str, Any]], file_path: str = "output.json") -> None:
@@ -276,5 +338,10 @@ def main(test_mode: bool = False) -> None:
 
 
 if __name__ == "__main__":
-    # Set test_mode=True to only process first 5 agencies
-    main(test_mode=True) 
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='Process letting agencies data.')
+    parser.add_argument('--test-mode', action='store_true', help='Run in test mode (process only first 5 agencies)')
+    args = parser.parse_args()
+    
+    # Run main with test mode flag
+    main(test_mode=args.test_mode) 

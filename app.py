@@ -66,7 +66,7 @@ def chat():
     
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-pro-preview-03-25",
+            model="gemini-2.0-flash",
             contents=contents,
             config=generate_content_config
         )
