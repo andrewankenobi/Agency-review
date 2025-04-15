@@ -8,8 +8,12 @@ This Python application automates the research of UK letting agencies using the 
 - Integration with Google's Gemini API
 - Google Search grounding for accurate information
 - Structured JSON output
-- Web interface for viewing results
-- Progress tracking and logging
+- Modern web interface for viewing results
+- Real-time progress tracking and logging
+- System prompt management
+- Robust error handling and recovery
+- Concurrent request prevention
+- Thread-safe operations
 
 ## Prerequisites
 
@@ -25,10 +29,12 @@ This Python application automates the research of UK letting agencies using the 
 ├── app.py              # Web interface application
 ├── agencies.json       # Input file containing agency data
 ├── system_prompt.txt   # Gemini system prompt
+├── default_system_prompt.txt  # Default system prompt
 ├── output.json         # Generated research results
 ├── requirements.txt    # Python dependencies
 ├── .env               # Environment variables (API key)
 └── templates/         # Web interface templates
+    └── index.html    # Main web interface template
 ```
 
 ## Setup Instructions
@@ -71,32 +77,47 @@ This Python application automates the research of UK letting agencies using the 
 
 ## Running the Application
 
-1. Start the research process:
-   ```bash
-   python main.py
-   ```
-
-2. View results through the web interface:
+1. Start the web interface:
    ```bash
    python app.py
    ```
-   Then open your browser to `http://localhost:5000`
+   Then open your browser to `http://localhost:5001`
 
-## Important Notes
+2. The web interface provides:
+   - Agency data viewing
+   - Search functionality
+   - Data refresh capability
+   - System prompt management
+   - Real-time progress tracking
 
-- The `.env` file is ignored by git for security reasons. You must create it manually.
-- The application will create `agency_research.log` for tracking progress and debugging.
-- Make sure you have sufficient API credits for the Gemini API before running large batches.
+## Web Interface Features
+
+- **Agency Search**: Filter agencies by name, address, contact details
+- **Data Refresh**: Trigger and monitor data refresh operations
+- **Progress Tracking**: Real-time progress updates with detailed logging
+- **System Prompt Management**: Edit and revert system prompts
+- **Raw Data Viewing**: Access to source data for each agency
+- **Responsive Design**: Works on desktop and mobile devices
 
 ## Error Handling
 
 The application includes robust error handling for:
 - Missing or invalid API keys
-- Network issues
+- Network issues and connection errors
 - Invalid JSON responses
 - File I/O errors
+- Concurrent request prevention
+- Thread safety and resource management
 
-All errors are logged to `agency_research.log` for debugging purposes.
+All errors are logged and displayed in the web interface for easy debugging.
+
+## Security Features
+
+- API keys stored in environment variables
+- Thread-safe operations
+- Input validation
+- Error message sanitization
+- Concurrent request prevention
 
 ## Contributing
 
