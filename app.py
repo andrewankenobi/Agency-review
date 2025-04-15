@@ -7,6 +7,7 @@ from google.genai import types
 from dotenv import load_dotenv
 import threading
 import time
+import logging
 
 app = Flask(__name__)
 
@@ -26,6 +27,8 @@ refresh_progress = {
     'start_time': None,
     'end_time': None
 }
+
+logger = logging.getLogger(__name__)
 
 def load_system_prompt(file_path=SYSTEM_PROMPT_PATH):
     try:
@@ -47,56 +50,96 @@ def revert_to_default():
     except FileNotFoundError:
         return None
 
-def run_main_script():
+def get_agencies():
+    """Get the list of agencies from output.json."""
     try:
-        refresh_progress['status'] = 'running'
-        refresh_progress['start_time'] = time.time()
-        refresh_progress['message'] = 'Starting data refresh...'
+        # Get the absolute path to output.json
+        output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'output.json')
         
-        # Run main.py and capture output
+        # Check if file exists
+        if not os.path.exists(output_path):
+            logger.error(f"output.json not found at {output_path}")
+            return jsonify([])
+        
+        # Read and parse the file
+        with open(output_path, 'r', encoding='utf-8') as f:
+            agencies = json.load(f)
+            
+        # Validate the data structure
+        if not isinstance(agencies, list):
+            logger.error("output.json does not contain a list")
+            return jsonify([])
+            
+        return jsonify(agencies)
+        
+    except json.JSONDecodeError as e:
+        logger.error(f"Error parsing output.json: {str(e)}")
+        return jsonify([])
+    except Exception as e:
+        logger.error(f"Error reading output.json: {str(e)}")
+        return jsonify([])
+
+def run_main_script():
+    """Run the main.py script to refresh the data."""
+    try:
+        # Get the absolute path to main.py
+        main_script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'main.py')
+        
+        # Check if main.py exists
+        if not os.path.exists(main_script_path):
+            logger.error(f"main.py not found at {main_script_path}")
+            return
+            
+        # Run main.py with unbuffered output
         process = subprocess.Popen(
-            ['python', 'main.py'],
+            ['python3', '-u', main_script_path],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
-            text=True
+            text=True,
+            bufsize=1,
+            universal_newlines=True
         )
         
         # Read output in real-time
+        last_message = ''
         while True:
             output = process.stdout.readline()
             if output == '' and process.poll() is not None:
                 break
             if output:
-                refresh_progress['message'] = output.strip()
+                message = output.strip()
+                if message and message != last_message:
+                    timestamped_message = f'[{time.strftime("%I:%M:%S %p")}] {message}'
+                    refresh_progress['message'] = timestamped_message
+                    logger.info(f"Progress update: {message}")
+                    last_message = message
         
         # Check for errors
         _, stderr = process.communicate()
         if process.returncode != 0:
             refresh_progress['status'] = 'error'
-            refresh_progress['message'] = f'Error: {stderr}'
+            refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {stderr}'
+            logger.error(f"Process failed with error: {stderr}")
         else:
             refresh_progress['status'] = 'complete'
-            refresh_progress['message'] = 'Data refresh completed successfully'
+            refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Data refresh completed successfully'
+            logger.info("Process completed successfully")
         
         refresh_progress['end_time'] = time.time()
         
     except Exception as e:
         refresh_progress['status'] = 'error'
-        refresh_progress['message'] = f'Error: {str(e)}'
+        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {str(e)}'
         refresh_progress['end_time'] = time.time()
+        logger.error(f"Exception in run_main_script: {str(e)}", exc_info=True)
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
 @app.route('/api/agencies')
-def get_agencies():
-    try:
-        with open('output.json', 'r') as f:
-            agencies = json.load(f)
-        return jsonify(agencies)
-    except FileNotFoundError:
-        return jsonify([])
+def get_agencies_route():
+    return get_agencies()
 
 @app.route('/api/refresh', methods=['POST'])
 def refresh_data():
@@ -130,11 +173,37 @@ def chat():
     question = data.get('question', '')
     
     # Load the current agencies data
-    with open('output.json', 'r') as f:
-        agencies_data = json.load(f)
+    try:
+        output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'output.json')
+        with open(output_path, 'r', encoding='utf-8') as f:
+            agencies_data = json.load(f)
+    except Exception as e:
+        logger.error(f"Error loading agencies data: {str(e)}")
+        return jsonify({'error': 'Failed to load agencies data'}), 500
     
-    # Construct the prompt with context
-    context = f"Here is the current agencies data: {json.dumps(agencies_data)}"
+    # Format the agencies data for display
+    formatted_agencies = []
+    for agency in agencies_data:
+        formatted_agency = {
+            'name': agency.get('Letting Agent', 'N/A'),
+            'url': agency.get('Website Url', 'N/A'),
+            'address': agency.get('contact_info', {}).get('address', 'N/A'),
+            'phone': agency.get('contact_info', {}).get('phone', 'N/A'),
+            'contact_person': agency.get('key_contact', {}).get('full_name', 'N/A'),
+            'position': agency.get('key_contact', {}).get('position', 'N/A'),
+            'email': agency.get('contact_info', {}).get('email', 'N/A'),
+            'branches': agency.get('Branches', 'N/A'),
+            'bills_included': agency.get('bills_included', 'N/A'),
+            'student_listings': agency.get('student_listings', 'N/A'),
+            'channels': ', '.join(agency.get('channels', ['N/A'])),
+            'linkedin': agency.get('linkedin', 'N/A'),
+            'notes': agency.get('notes', 'N/A'),
+            'search_queries': agency.get('Search Queries', [])
+        }
+        formatted_agencies.append(formatted_agency)
+    
+    # Construct the prompt with formatted context
+    context = f"Here is the current agencies data: {json.dumps(formatted_agencies, indent=2)}"
     prompt = f"{context}\n\nQuestion: {question}\n\nPlease provide a detailed answer based on the data and use Google Search if needed for additional context. Format your response in HTML with proper paragraphs, lists, and styling. Use <p> for paragraphs, <ul> and <li> for lists, and <strong> for emphasis."
     
     # Prepare the Gemini call
@@ -161,6 +230,7 @@ def chat():
         )
         return jsonify({'answer': response.text})
     except Exception as e:
+        logger.error(f"Error generating response: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
 @app.route('/api/system-prompt', methods=['GET'])
@@ -185,4 +255,4 @@ def revert_system_prompt():
     return jsonify({'prompt': default_prompt})
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    app.run(debug=True, port=5001) 

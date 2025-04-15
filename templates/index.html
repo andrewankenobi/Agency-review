@@ -657,13 +657,13 @@
             background: white;
             border-top: 1px solid #e0e0e0;
             box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-            transform: translateY(100%);
+            transform: translateY(0);
             transition: transform 0.3s ease;
             z-index: 999;
         }
 
-        .progress-window.active {
-            transform: translateY(0);
+        .progress-window.collapsed {
+            transform: translateY(calc(100% - 50px)); /* Show only the header when collapsed */
         }
 
         .progress-header {
@@ -673,6 +673,7 @@
             justify-content: space-between;
             align-items: center;
             cursor: pointer;
+            height: 50px; /* Fixed height for the header */
         }
 
         .progress-title {
@@ -692,6 +693,13 @@
             padding: 20px;
             max-height: 200px;
             overflow-y: auto;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .progress-window.collapsed .progress-content {
+            max-height: 0;
+            padding: 0;
+            overflow: hidden;
         }
 
         .progress-log {
@@ -797,6 +805,7 @@
 
     <script>
         let allAgencies = []; // Store all agencies for filtering
+        let lastProgressMessage = '';
 
         // Load agencies data
         async function loadAgencies() {
@@ -857,26 +866,26 @@
                             <div class="detail-item">
                                 <div class="detail-section">
                                     <div class="detail-section-label">Address</div>
-                                    <div class="detail-value">${agency['address'] || 'N/A'}</div>
+                                    <div class="detail-value">${agency['contact_info']?.address || 'N/A'}</div>
                                 </div>
                                 <div class="detail-section">
                                     <div class="detail-section-label">Phone</div>
-                                    <div class="detail-value">${agency['phone'] || 'N/A'}</div>
+                                    <div class="detail-value">${agency['contact_info']?.phone || 'N/A'}</div>
                                 </div>
                             </div>
 
                             <div class="detail-item">
                                 <div class="detail-section">
                                     <div class="detail-section-label">Contact Person</div>
-                                    <div class="detail-value">${agency['full_name'] || 'N/A'}</div>
+                                    <div class="detail-value">${agency['key_contact']?.full_name || 'N/A'}</div>
                                 </div>
                                 <div class="detail-section">
                                     <div class="detail-section-label">Position</div>
-                                    <div class="detail-value">${agency['position'] || 'N/A'}</div>
+                                    <div class="detail-value">${agency['key_contact']?.position || 'N/A'}</div>
                                 </div>
                                 <div class="detail-section">
                                     <div class="detail-section-label">Email</div>
-                                    <div class="detail-value">${agency['email'] || 'N/A'}</div>
+                                    <div class="detail-value">${agency['contact_info']?.email || 'N/A'}</div>
                                 </div>
                             </div>
 
@@ -884,9 +893,9 @@
                                 <div class="detail-section">
                                     <div class="detail-section-label">Agency Details</div>
                                     <div class="detail-value">
-                                        <strong>Branches:</strong> ${agency['branches'] || 'N/A'}<br>
-                                        <strong>Bills Included:</strong> ${agency['bills_included'] ? 'Yes' : 'No'}<br>
-                                        <strong>Student Listings:</strong> ${agency['student_listings'] ? 'Yes' : 'No'}<br>
+                                        <strong>Branches:</strong> ${agency['Branches'] || 'N/A'}<br>
+                                        <strong>Bills Included:</strong> ${agency['bills_included'] || 'N/A'}<br>
+                                        <strong>Student Listings:</strong> ${agency['student_listings'] || 'N/A'}<br>
                                         <strong>Channels:</strong> ${Array.isArray(agency['channels']) ? agency['channels'].join(', ') : (agency['channels'] || 'N/A')}
                                     </div>
                                 </div>
@@ -894,27 +903,15 @@
 
                             <div class="detail-item full-width">
                                 <div class="detail-section">
-                                    <div class="detail-section-label">Additional Information</div>
+                                    <div class="detail-section-label">Notes</div>
                                     <div class="detail-value">
-                                        ${agency['notes/comments'] ? `<strong>Notes:</strong> ${agency['notes/comments']}<br><br>` : ''}
-                                        ${agency['other_linkedin/extra_details'] ? `<strong>Additional Details:</strong> ${agency['other_linkedin/extra_details']}<br><br>` : ''}
-                                        ${agency['linkedin'] ? `<strong>LinkedIn:</strong> ${agency['linkedin']}` : ''}
+                                        ${agency['notes'] || 'No notes available'}
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="data-sections">
-                            <div class="sources-section">
-                                <button class="sources-toggle" onclick="toggleSources(this)">
-                                    Sources
-                                </button>
-                                <div class="sources-content">
-                                    <pre>
-${Array.isArray(agency['channels']) ? agency['channels'].map(channel => `- ${channel}`).join('\n') : (agency['channels'] || 'N/A')}
-                                    </pre>
-                                </div>
-                            </div>
-                            <div class="raw-data-section">
+                            <div class="raw-data-section full-width">
                                 <button class="raw-data-toggle" onclick="toggleRawData(this)">
                                     Raw Data
                                 </button>
@@ -952,6 +949,7 @@ ${Array.isArray(agency['channels']) ? agency['channels'].map(channel => `- ${cha
 
         function toggleProgressWindow() {
             isProgressWindowExpanded = !isProgressWindowExpanded;
+            progressWindow.classList.toggle('collapsed');
             const toggle = document.querySelector('.progress-toggle');
             toggle.textContent = isProgressWindowExpanded ? '▼' : '▲';
         }
@@ -962,6 +960,11 @@ ${Array.isArray(agency['channels']) ? agency['channels'].map(channel => `- ${cha
             logEntry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
             progressLog.appendChild(logEntry);
             progressLog.scrollTop = progressLog.scrollHeight;
+            
+            // Auto-expand the progress window when there's a new message
+            if (!isProgressWindowExpanded) {
+                toggleProgressWindow();
+            }
         }
 
         // Enhanced refresh data function
@@ -981,32 +984,7 @@ ${Array.isArray(agency['channels']) ? agency['channels'].map(channel => `- ${cha
                     addProgressLog('Refresh request sent successfully', 'success');
                     
                     // Start polling for progress
-                    const progressInterval = setInterval(async () => {
-                        try {
-                            const progressResponse = await fetch('/api/refresh/progress');
-                            const progressData = await progressResponse.json();
-                            
-                            if (progressData.status === 'complete') {
-                                clearInterval(progressInterval);
-                                addProgressLog('Data refresh completed successfully', 'success');
-                                await loadAgencies();
-                                button.disabled = false;
-                                button.textContent = 'Refresh Data';
-                            } else if (progressData.status === 'error') {
-                                clearInterval(progressInterval);
-                                addProgressLog(`Error: ${progressData.message}`, 'error');
-                                button.disabled = false;
-                                button.textContent = 'Refresh Data';
-                            } else {
-                                addProgressLog(progressData.message, 'info');
-                            }
-                        } catch (error) {
-                            clearInterval(progressInterval);
-                            addProgressLog(`Error checking progress: ${error.message}`, 'error');
-                            button.disabled = false;
-                            button.textContent = 'Refresh Data';
-                        }
-                    }, 1000);
+                    const progressInterval = setInterval(checkProgress, 2000);
                 } else {
                     throw new Error('Failed to start refresh');
                 }
@@ -1016,6 +994,35 @@ ${Array.isArray(agency['channels']) ? agency['channels'].map(channel => `- ${cha
                 button.disabled = false;
                 button.textContent = 'Refresh Data';
             }
+        }
+
+        function checkProgress() {
+            fetch('/api/refresh/progress')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'running') {
+                        // Only update if the message has changed
+                        if (data.message !== lastProgressMessage) {
+                            lastProgressMessage = data.message;
+                            const progressDiv = document.getElementById('progress');
+                            progressDiv.innerHTML = data.message;
+                        }
+                        // Poll less frequently (every 2 seconds instead of every second)
+                        setTimeout(checkProgress, 2000);
+                    } else if (data.status === 'complete') {
+                        document.getElementById('progress').innerHTML = data.message;
+                        document.getElementById('refreshButton').disabled = false;
+                        loadAgencies(); // Refresh the agencies list
+                    } else if (data.status === 'error') {
+                        document.getElementById('progress').innerHTML = data.message;
+                        document.getElementById('refreshButton').disabled = false;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error checking progress:', error);
+                    document.getElementById('progress').innerHTML = 'Error checking progress';
+                    document.getElementById('refreshButton').disabled = false;
+                });
         }
 
         // Enhanced chat functionality
@@ -1099,6 +1106,9 @@ ${Array.isArray(agency['channels']) ? agency['channels'].map(channel => `- ${cha
             
             // Add search functionality
             document.getElementById('searchInput').addEventListener('input', filterAgencies);
+            
+            // Add refresh button functionality
+            document.getElementById('refreshBtn').addEventListener('click', refreshData);
             
             // Add enter key support for chat
             document.getElementById('chat-input').addEventListener('keypress', (e) => {

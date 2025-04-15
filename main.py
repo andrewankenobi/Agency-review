@@ -70,44 +70,150 @@ def initialize_gemini_client(api_key: str) -> genai.Client:
 
 
 def construct_user_prompt(agency_name: str, agency_url: str) -> str:
-    """Construct the user prompt for a specific agency."""
-    prompt = f"""Execute the letting agency research as defined in the system prompt for the following entity:
+    """Construct a simple user prompt for a specific agency."""
+    prompt = f"""Please research the following letting agency:
 
-* **Agency Name:** {agency_name}
-* **Agency URL:** {agency_url}
-"""
-    logger.debug(f"Constructed prompt for {agency_name}")
+* Name: {agency_name}
+* Website: {agency_url}
+
+Follow the instructions in the system prompt to find and format the required information."""
+    logger.debug(f"Constructed simplified prompt for {agency_name}")
     return prompt
 
 
-def clean_response_text(text: str) -> str:
-    """Clean up the response text by removing reference numbers and other artifacts."""
-    # Remove reference numbers like [12], [21], etc.
-    text = re.sub(r'\[\d+\]', '', text)
-    # Remove any remaining square brackets
-    text = re.sub(r'\[|\]', '', text)
-    return text
+def save_raw_response(agency_name: str, response: str) -> str:
+    """Save the raw response text to a file named after the agency."""
+    # Create raw directory if it doesn't exist
+    os.makedirs("raw", exist_ok=True)
+
+    # Create a safe filename from the agency name
+    safe_name = re.sub(r'[^\\w\\s-]', '', agency_name).strip().replace(' ', '_')
+    file_path = f"raw/{safe_name}_response.txt"
+    
+    logger.debug(f"Creating file: {file_path} for agency: {agency_name}")
+
+    # Save the response text directly
+    with open(file_path, "w", encoding='utf-8') as f:
+        f.write(response)
+
+    logger.info(f"Saved raw response for {agency_name} to {file_path}")
+    return file_path
 
 
-def clean_markdown_text(text: str) -> str:
-    """Clean up markdown formatting while preserving all content."""
-    # Remove markdown bold markers
-    text = text.replace('**', '')
-    # Remove markdown list markers but preserve the content
-    text = text.replace('*   ', '')
-    # Replace *or* with a comma for better readability
-    text = text.replace('*or*', ',')
-    # Remove extra whitespace but preserve newlines
-    text = '\n'.join(line.strip() for line in text.split('\n'))
-    return text.strip()
+def process_raw_response(client: genai.Client, file_path: str) -> Dict[str, Any]:
+    """Process a raw response file into structured JSON using Gemini.
+       Extracts only the main response part, ignoring metadata."""
+    with open(file_path, "r", encoding='utf-8') as f:
+        full_content = f.read()
 
+    # Extract only the main response part before any metadata separators
+    raw_response_text = full_content.split("---")[0].strip()
+    if "RESPONSE:" in raw_response_text:
+        raw_response_text = raw_response_text.split("RESPONSE:")[1].strip()
+    if "METADATA:" in raw_response_text:
+        raw_response_text = raw_response_text.split("METADATA:")[0].strip()
 
-def ensure_text_completeness(text: str) -> str:
-    """Ensure text fields are complete and not truncated."""
-    # Check for common truncation patterns
-    if text.endswith('...') or text.endswith('...]') or text.endswith('...)'):
-        logger.warning(f"Detected potentially truncated text: {text}")
-    return text
+    # Construct prompt for structuring the data
+    structure_prompt = """Please analyze the following research text and convert it into a structured JSON format.
+The data should follow this exact structure:
+
+{
+    "Letting Agent": "Agency Name",
+    "Website Url": "URL",
+    "bills_included": "Yes/No/Some/Not Found",
+    "student_listings": "Yes/No/Not Found",
+    "channels": ["Rightmove", "Zoopla", "OnTheMarket", "UniHomes"],
+    "key_contact": {
+        "full_name": "Name or Not Found",
+        "position": "Position or Not Found"
+    },
+    "contact_info": {
+        "phone": "Phone or Not Found",
+        "address": "Address or Not Found",
+        "email": "Email or Not Found"
+    },
+    "linkedin": "URL or Not Found",
+    "other_linkedin": "URL or Not Found",
+    "notes": "Any additional notes or observations based *only* on the provided text"
+}
+
+Important:
+1. Base the JSON *strictly* on the provided research text. Do not infer or add outside information.
+2. Use "Not Found" for any information that cannot be reliably determined *from the text*.
+3. For bills_included, use "Yes", "No", "Some", or "Not Found".
+4. For student_listings, use "Yes", "No", or "Not Found".
+5. For channels, only include portals explicitly mentioned *in the text*.
+6. Extract the agency name and URL from the text if possible, otherwise use placeholders.
+
+Research text to analyze:
+"""
+
+    contents = [
+        types.Content(
+            role="user",
+            parts=[
+                types.Part.from_text(text=structure_prompt + raw_response_text)
+            ]
+        )
+    ]
+
+    generate_content_config = types.GenerateContentConfig(
+        temperature=0,
+        response_mime_type="application/json"
+    )
+
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.0-flash", # Using flash for speed/cost in structuring
+            contents=contents,
+            config=generate_content_config
+        )
+
+        # Parse the JSON response
+        structured_data = json.loads(response.text)
+
+        # Ensure all required fields are present, defaulting based on requirements
+        required_fields = {
+            "Letting Agent": "Not Found in Text", # Default values indicate extraction source
+            "Website Url": "Not Found in Text",
+            "bills_included": "Not Found",
+            "student_listings": "Not Found",
+            "channels": [],
+            "key_contact": {"full_name": "Not Found", "position": "Not Found"},
+            "contact_info": {"phone": "Not Found", "address": "Not Found", "email": "Not Found"},
+            "linkedin": "Not Found",
+            "other_linkedin": "Not Found",
+            "notes": ""
+        }
+
+        for field, default in required_fields.items():
+            if isinstance(default, dict):
+                 if field not in structured_data or not isinstance(structured_data[field], dict):
+                     structured_data[field] = default.copy()
+                 else:
+                    for sub_field, sub_default in default.items():
+                         if sub_field not in structured_data[field]:
+                             structured_data[field][sub_field] = sub_default
+            elif field not in structured_data:
+                structured_data[field] = default
+
+        # Add reference to the raw file for traceability
+        structured_data["RawDataSourceFile"] = os.path.basename(file_path)
+
+        return structured_data
+
+    except json.JSONDecodeError as e:
+        logger.error(f"JSON parsing failed for {file_path}: {str(e)}\nRaw Gemini Response: {response.text}")
+        return {
+            "Error": f"JSON parsing error: {str(e)}",
+            "Raw File": os.path.basename(file_path)
+        }
+    except Exception as e:
+        logger.error(f"Error processing raw response {file_path}: {str(e)}", exc_info=True)
+        return {
+            "Error": f"Error processing raw response: {str(e)}",
+            "Raw File": os.path.basename(file_path)
+        }
 
 
 def process_agency(
@@ -116,11 +222,11 @@ def process_agency(
     client: genai.Client,
     max_retries: int = 3
 ) -> Dict[str, Any]:
-    """Process a single agency using the Gemini API."""
+    """Process a single agency using the Gemini API with grounding."""
     logger.info(f"Starting processing for agency: {agency['name']}")
     user_prompt = construct_user_prompt(agency["name"], agency["url"])
-    
-    # Prepare the Gemini call
+
+    # Prepare the Gemini call with proper search tool configuration
     contents = [
         types.Content(
             role="user",
@@ -129,132 +235,75 @@ def process_agency(
             ]
         )
     ]
-    
-    tools = [types.Tool(google_search=types.GoogleSearch())]
-    
+
+    # Configure the Google Search tool
+    google_search_tool = types.Tool(
+        google_search=types.GoogleSearch()
+    )
+
+    # Configure tool use mode
     generate_content_config = types.GenerateContentConfig(
         temperature=0,
-        tools=tools,
+        tools=[google_search_tool],
         response_mime_type="text/plain",
         system_instruction=[types.Part.from_text(text=system_prompt)]
     )
-    
+
     for attempt in range(max_retries):
         try:
+            if attempt > 0:
+                logger.warning(f"Retry attempt {attempt + 1} for {agency['name']}")
+                print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+                time.sleep(5 * attempt) # Exponential backoff for retries
+
             logger.debug(f"Sending API request for {agency['name']} (attempt {attempt + 1}/{max_retries})")
-            response = client.models.generate_content_stream(
+            response = client.models.generate_content(
                 model="gemini-2.5-pro-preview-03-25",
                 contents=contents,
                 config=generate_content_config
             )
+
+            # Extract the response text and clean it
+            response_text = response.text.strip()
             
-            # Collect the response text
-            full_response = ""
-            for chunk in response:
-                if chunk.text:
-                    full_response += chunk.text
-                    logger.debug(f"Received chunk for {agency['name']}: {chunk.text[:100]}...")
+            # Remove any metadata sections if they exist
+            if "---" in response_text:
+                response_text = response_text.split("---")[0].strip()
+            if "METADATA:" in response_text:
+                response_text = response_text.split("METADATA:")[0].strip()
+            if "RESPONSE:" in response_text:
+                response_text = response_text.split("RESPONSE:")[1].strip()
+
+            # Save the cleaned response
+            raw_file_path = save_raw_response(agency["name"], response_text)
+            logger.debug(f"Saved response to: {raw_file_path}")
+
+            # Process the raw response into structured JSON
+            structured_data = process_raw_response(client, raw_file_path)
             
-            # Log the full response for debugging
-            logger.info(f"Full response for {agency['name']}:\n{full_response}")
-            
-            # Check if response is empty or malformed
-            if not full_response or not full_response.strip():
-                logger.warning(f"Empty response received for {agency['name']} on attempt {attempt + 1}")
-                if attempt < max_retries - 1:
-                    continue
-                else:
-                    raise ValueError("Empty response after all retries")
-            
-            # Convert markdown response to JSON
-            try:
-                # Initialize result dictionary with basic info
-                result = {
-                    "Letting Agent": agency["name"],
-                    "Website Url": agency["url"]
-                }
-                
-                # Split response into lines and process each line
-                lines = full_response.split('\n')
-                for line in lines:
-                    line = line.strip()
-                    if line.startswith('*   **'):
-                        # Extract key and value from markdown format
-                        key_value = line[6:-2].split(':**')  # Remove '*   **' and '**'
-                        if len(key_value) == 2:
-                            key = key_value[0].strip()
-                            value = key_value[1].strip()
-                            
-                            # Clean up the key to match expected format
-                            key = key.replace(' ', '_').lower()
-                            
-                            # Handle special cases
-                            if key == 'bills_included_on_listings?':
-                                key = 'bills_included'
-                                value = value.lower() in ['yes', 'some']
-                            elif key == 'student_listings_live':
-                                key = 'student_listings'
-                                value = value.lower() == 'yes'
-                            elif key == 'key_channels_live_on':
-                                key = 'channels'
-                                # Split by comma and preserve reference numbers
-                                value = [channel.strip() for channel in value.split(',')]
-                                # Remove any empty strings
-                                value = [v for v in value if v]
-                            else:
-                                # Clean up markdown formatting while preserving content
-                                value = clean_markdown_text(value)
-                                # Ensure text completeness
-                                value = ensure_text_completeness(value)
-                            
-                            result[key] = value
-                
-                # Validate required fields
-                required_fields = ['bills_included', 'student_listings', 'channels']
-                missing_fields = [field for field in required_fields if field not in result]
-                
-                if missing_fields:
-                    logger.warning(f"Missing required fields for {agency['name']}: {', '.join(missing_fields)}")
-                    if attempt < max_retries - 1:
-                        logger.info(f"Retrying due to missing required fields...")
-                        continue
-                    else:
-                        # Set default values for missing fields
-                        for field in missing_fields:
-                            result[field] = None
-                
-                logger.info(f"Successfully processed {agency['name']}")
-                return result
-                
-            except Exception as e:
-                logger.error(f"Error converting response to JSON for {agency['name']}: {str(e)}")
-                logger.error(f"Raw response that caused error: {full_response}")
-                if attempt < max_retries - 1:
-                    continue
-                else:
-                    return {
-                        "Letting Agent": agency["name"],
-                        "Website Url": agency["url"],
-                        "Error": f"Error converting response to JSON: {str(e)}",
-                        "Raw Response": full_response[:500]
-                    }
-            
+            # Ensure the agency name is correctly set in the structured data
+            structured_data["Letting Agent"] = agency["name"]
+            structured_data["Website Url"] = agency["url"]
+            structured_data["RawDataSourceFile"] = os.path.basename(raw_file_path)
+
+            logger.info(f"Successfully processed {agency['name']}")
+            return structured_data
+
         except Exception as e:
-            logger.error(f"Error processing agency {agency['name']}: {str(e)}", exc_info=True)
+            logger.error(f"Error processing agency {agency['name']} on attempt {attempt + 1}: {str(e)}", exc_info=True)
             if attempt < max_retries - 1:
                 continue
             else:
                 return {
                     "Letting Agent": agency["name"],
                     "Website Url": agency["url"],
-                    "Error": str(e)
+                    "Error": f"Failed after {max_retries} attempts. Last error: {str(e)}"
                 }
-    
-    # If we get here, all retries failed
+
     return {
         "Letting Agent": agency["name"],
         "Website Url": agency["url"],
-        "Error": "All retry attempts failed"
+        "Error": "All retry attempts failed unexpectedly."
     }
 
 
@@ -293,41 +342,48 @@ def process_agency_batch(
     system_prompt: str,
     client: genai.Client
 ) -> List[Dict[str, Any]]:
-    """Process a batch of agencies in parallel."""
-    logger.info(f"Starting batch processing for {len(agencies)} agencies")
-    batch_results = []
+    """Process a batch of agencies using ThreadPoolExecutor."""
+    results = []
+    total_agencies = len(agencies)
     
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        # Submit all tasks
+    print(f"Starting research for {total_agencies} agencies...", flush=True)
+    
+    with ThreadPoolExecutor() as executor:
+        # Submit all tasks and store futures
         future_to_agency = {
             executor.submit(process_agency, agency, system_prompt, client): agency
             for agency in agencies
         }
         
-        # Process results as they complete
+        # Process completed futures as they complete
+        completed = 0
         for future in as_completed(future_to_agency):
+            completed += 1
             agency = future_to_agency[future]
             try:
                 result = future.result()
-                batch_results.append(result)
-                logger.info(f"Completed processing: {agency['name']}")
+                results.append(result)
+                # Only print progress every 5% or when completed
+                if completed == total_agencies or completed % max(1, total_agencies // 20) == 0:
+                    print(f"Progress: {completed}/{total_agencies} agencies completed ({(completed/total_agencies)*100:.1f}%)", flush=True)
             except Exception as e:
-                logger.error(f"Error processing agency {agency['name']}: {str(e)}", exc_info=True)
-                batch_results.append({
+                logger.error(f"Error processing {agency['name']}: {str(e)}")
+                print(f"Error processing {agency['name']}: {str(e)}", flush=True)
+                results.append({
                     "Letting Agent": agency["name"],
                     "Website Url": agency["url"],
                     "Error": str(e)
                 })
     
-    logger.info(f"Completed batch processing with {len(batch_results)} results")
-    return batch_results
+    print(f"Research completed for all {total_agencies} agencies", flush=True)
+    return results
 
 
 def main(test_mode: bool = False) -> None:
     try:
         logger.info("Starting agency research application")
         if test_mode:
-            logger.info("Running in TEST MODE - will only process first 5 agencies")
+            logger.info("Running in TEST MODE - will only process first 2 agencies")
         
         # Load configuration
         api_key = load_environment_variables()
@@ -341,9 +397,9 @@ def main(test_mode: bool = False) -> None:
         batch_size = 5
         all_results = []
         
-        # In test mode, only process first 5 agencies
+        # In test mode, only process first 2 agencies
         if test_mode:
-            all_agencies = all_agencies[:5]
+            all_agencies = all_agencies[:2]
             logger.info(f"Test mode: Processing only {len(all_agencies)} agencies")
         
         for i in range(0, len(all_agencies), batch_size):
@@ -373,7 +429,7 @@ def main(test_mode: bool = False) -> None:
 if __name__ == "__main__":
     # Parse command line arguments
     parser = argparse.ArgumentParser(description='Process letting agencies data.')
-    parser.add_argument('--test-mode', action='store_true', help='Run in test mode (process only first 5 agencies)')
+    parser.add_argument('--test-mode', action='store_true', help='Run in test mode (process only first 2 agencies)')
     args = parser.parse_args()
     
     # Run main with test mode flag

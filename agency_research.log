@@ -1,153 +1,478 @@
-2025-04-15 15:35:16,266 - INFO - Starting agency research application
-2025-04-15 15:35:16,266 - INFO - Log file cleared for new run
-2025-04-15 15:35:16,267 - INFO - Starting agency research application
-2025-04-15 15:35:16,267 - INFO - Running in TEST MODE - will only process first 5 agencies
-2025-04-15 15:35:16,267 - INFO - Successfully loaded environment variables
-2025-04-15 15:35:16,268 - INFO - Successfully loaded 44 agencies from agencies.json
-2025-04-15 15:35:16,268 - INFO - Successfully loaded system prompt from system_prompt.txt
-2025-04-15 15:35:16,325 - INFO - Successfully initialized Gemini client
-2025-04-15 15:35:16,325 - INFO - Test mode: Processing only 5 agencies
-2025-04-15 15:35:16,325 - INFO - 
-Processing batch 1 of 1
-2025-04-15 15:35:16,325 - INFO - Agencies in this batch: Fit Property Lettings Agent, Thornsett Properties, JC Sales and Lettings, MBA Lettings, M3 Lettings
-2025-04-15 15:35:16,325 - INFO - Starting batch processing for 5 agencies
-2025-04-15 15:35:16,325 - INFO - Starting processing for agency: Fit Property Lettings Agent
-2025-04-15 15:35:16,325 - INFO - Starting processing for agency: Thornsett Properties
-2025-04-15 15:35:16,325 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 15:35:16,326 - INFO - Starting processing for agency: JC Sales and Lettings
-2025-04-15 15:35:16,326 - INFO - Starting processing for agency: MBA Lettings
-2025-04-15 15:35:16,326 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 15:35:16,326 - INFO - Starting processing for agency: M3 Lettings
-2025-04-15 15:35:16,326 - INFO - AFC remote call 1 is done.
-2025-04-15 15:35:16,326 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 15:35:16,326 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 15:35:16,326 - INFO - AFC remote call 1 is done.
-2025-04-15 15:35:16,326 - INFO - AFC remote call 1 is done.
-2025-04-15 15:35:16,326 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 15:35:16,326 - INFO - AFC remote call 1 is done.
-2025-04-15 15:35:16,328 - INFO - AFC remote call 1 is done.
-2025-04-15 15:35:27,769 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
-2025-04-15 15:35:29,614 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
-2025-04-15 15:35:30,335 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
-2025-04-15 15:35:30,464 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
-2025-04-15 15:35:34,022 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
-2025-04-15 15:35:36,581 - INFO - Full response for MBA Lettings:
-Okay, here is the research summary for MBA Lettings based on the available online information.
-
-*   **Letting Agent:** MBA Lettings & Property Management Ltd
-*   **Bills Included on Listings?:** Some (Listings mention 'All Inclusive Rent' or 'Bills Included' options, particularly for student/studio properties)
-*   **Website Url:** https://www.mbalettings.com/
-*   **Student Listings Live:** Yes (Website has a dedicated student section with multiple listings; manages over 150 student houses)
-*   **Key channels live on:** Rightmove, Zoopla, OnTheMarket
-*   **Branches:** 1 (Located in Sheffield)
-*   **Key Contact Person (e.g., Director/Manager):**
-    *   **Full Name:** Sally Williams
-    *   **Position:** Director (Also listed as MRICS, MARLA, Chartered Surveyor)
-*   **Contact Information:**
-    *   **Phone:** 0114 267 6267
-    *   **Address:** 221 Fulwood Road, Broomhill, Sheffield, South Yorkshire, S10 3BA (Note: Some sources list 501 Glossop Road, S10 2QE, which might be a related surveying office or previous address)
-    *   **Email:** admin@mbalettings.com (General), sw@mbalettings.com (Sally Williams)
-*   **LinkedIn:** Not Found (No public LinkedIn profile readily found for Sally Williams associated with MBA Lettings via search)
-*   **Other Linkedin/Extra Details:**
-    *   Company LinkedIn: Not Found via search.
-    *   The agency was established by Mark Bennett (also a Chartered Surveyor) over 12 years ago.
-    *   Other key staff mentioned on the website include Gary Clarke (Lettings Manager) and Michael Siggs (Finance Manager).
-*   **Notes/Comments:** The agency is based in Sheffield, not Nottingham as some generic search results might imply when searching for 'student lettings'. They specialize in both student and professional lettings in Sheffield and North Derbyshire. There was conflicting address information (221 Fulwood Road vs 501 Glossop Road), but the main contact page on their website lists 221 Fulwood Road. Sally Williams is listed as a Director on the website's 'About Us' page and RICS directory.
-2025-04-15 15:35:36,582 - INFO - Successfully processed MBA Lettings
-2025-04-15 15:35:36,583 - INFO - Completed processing: MBA Lettings
-2025-04-15 15:35:37,334 - INFO - Full response for Fit Property Lettings Agent:
-Here is the research summary for Fit Property Lettings Agent:
-
-*   **Letting Agent:** Fit Property Lettings Agent
-*   **Bills Included on Listings?:** Some (The website mentions a 'Bills Managed' service for landlords, indicating some properties may offer bills included, and Rightmove listings mention a 'bills inclusive package available' on some properties.)
-*   **Website Url:** https://www.fitproperty.com/
-*   **Student Listings Live:** Yes (The website has dedicated sections for student accommodation by room size and mentions student lettings specifically. Reviews also confirm they cater to students.)
-*   **Key channels live on:** Rightmove, Zoopla, UniHomes (Mentioned on their website footer), OnTheMarket (Mentioned on allAgents profile)
-*   **Branches:** 1 (Based on website contact information and search results)
-*   **Key Contact Person (e.g., Director/Manager):**
-    *   **Full Name:** Adam Divers (Identified as a director of Fit Property in an article about StudentTenant) / Joel Walker (Mentioned as former Head of Property Management in a news article)
-    *   **Position:** Director / Former Head of Property Management
-*   **Contact Information:**
-    *   **Phone:** 01142 725773 (from website) / 0114 697 2820 (from Rightmove/Home.co.uk) / 0114 446 0138 (from allAgents)
-    *   **Address:** 144 Charles Street, Sheffield S1 2NE (from website & allAgents) / 100, Matilda Street, Sheffield, S1 4QF (from Home.co.uk - likely an old address)
-    *   **Email:** hello@fitproperty.com
-*   **LinkedIn:** Not Found (No specific profile found for Adam Divers or Joel Walker linked directly to Fit Property via search. No company page readily found.)
-*   **Other Linkedin/Extra Details:** A news article mentions Joel Walker was previously Head of Property Management at Fit Property before moving to Spicerhaart Lettings. An article about StudentTenant mentions Adam Divers as a director of Fit Property.
-*   **Notes/Comments:** Multiple phone numbers and addresses were found across different sources; the details from the official website (Charles Street address and 01142 725773 phone) are likely the most current. Identifying current key management directly from search or the website was difficult; external articles provided names of individuals associated with director/management roles. The website explicitly mentions offering a 'Bills Managed' service, suggesting bills-inclusive options are available for some properties.
-2025-04-15 15:35:37,335 - INFO - Successfully processed Fit Property Lettings Agent
-2025-04-15 15:35:37,335 - INFO - Completed processing: Fit Property Lettings Agent
-2025-04-15 15:35:37,507 - INFO - Full response for JC Sales and Lettings:
-Okay, here is the research summary for JC Sales and Lettings based on the search results:
-
-*   **Letting Agent:** JC Sales and Lettings
-*   **Bills Included on Listings?:** Some (Search results show listings with 'Bills Included Option Available' and some with specific bills like Council Tax, Gas, and Water included. Their student lettings page also mentions 'All Inclusive and Rent Only contracts are available'.)
-*   **Website Url:** https://www.jc-lettings.com/
-*   **Student Listings Live:** Yes (The website has a dedicated 'Properties for Students' section, and search results confirm student listings, including options for bills included.)
-*   **Key channels live on:** Rightmove, Zoopla, PrimeLocation (OnTheMarket and UniHomes presence not explicitly confirmed for *JC Sales and Lettings* in Sheffield, though their student arm mentions a UniHomes partnership badge and OnTheMarket results appeared for a similarly named agency in Scunthorpe).
-*   **Branches:** 1 (The primary address found is in Sheffield. While they mention acquiring 'Sheffield Student Properties', this appears integrated into the main operation rather than a separate branch. Search results also show a 'JC Property Management Sales & Lettings' in Scunthorpe, but this seems to be a separate, unaffiliated family-run business established earlier.)
-*   **Key Contact Person (e.g., Director/Manager):**
-    *   **Full Name:** Christian Kleeli / Joseph Worrall-Kenny
-    *   **Position:** Director(s) (Established by Christian Kleeli & Joseph Worrall-Kenny, referred to as company Directors.)
-*   **Contact Information:**
-    *   **Phone:** 0114 446 2172 (Zoopla/PrimeLocation), 0114 697 9773 (Lettings - Rightmove), 0114 2666300 (Student Lettings), 07518 712 380 (Student Enquiries Mobile), 07799 281 491 (Sales Mobile)
-    *   **Address:** 33 Townhead Road, Dore, Sheffield, S17 3GD (Registered Address/GetAgent/PrimeLocation). Also listed: 504 Ecclesall Road, Sheffield S11 8PY (Student Lettings Address).
-    *   **Email:** students@jc-lettings.com (Student Lettings). General email not found in search results, requires website check.
-*   **LinkedIn:** Not Found (No specific LinkedIn profiles for Christian Kleeli or Joseph Worrall-Kenny associated with JC Sales and Lettings found in search results. A LinkedIn result appeared for 'JC Property Management, Sales & Lettings' in Scunthorpe, but this seems to be the separate agency.)
-*   **Other Linkedin/Extra Details:** JC Sales and Lettings is a trading name of JC Lettings and Property Management Limited (Company number: 14135919). They acquired/merged with 'Sheffield Student Properties'.
-*   **Notes/Comments:** There is another agency named "JC Property Management Sales & Lettings" based in Scunthorpe, established in 2007, which appears distinct from the target agency "JC Sales and Lettings" in Sheffield (established by Christian Kleeli & Joseph Worrall-Kenny). Care was taken to differentiate between the two. The Sheffield agency focuses on combining corporate practices with personal director involvement. Multiple phone numbers and two addresses (Registered/Main and Student Lettings) were found. A general contact email wasn't readily available via search.
-2025-04-15 15:35:37,508 - INFO - Successfully processed JC Sales and Lettings
-2025-04-15 15:35:37,508 - INFO - Completed processing: JC Sales and Lettings
-2025-04-15 15:35:40,749 - INFO - Full response for M3 Lettings:
-Okay, here is the research summary for M3 Lettings based on the provided URL and Google Search results.
-
-*   **Letting Agent:** M3 Lettings
-*   **Bills Included on Listings?:** Yes (Multiple student listings explicitly state 'Bills included')
-*   **Website Url:** https://www.m3lettings.com/
-*   **Student Listings Live:** Yes (Specific count not immediately available from search/website structure, but numerous student properties are listed)
-*   **Key channels live on:** OnTheMarket, Rightmove (Listings found via search results and agent directories) Zoopla (Not explicitly confirmed via `site:` search, but agent directories like allAgents list them as being on Zoopla), UniHomes (Not Found)
-*   **Branches:** 1 (Located in Sheffield, despite the URL potentially suggesting Manchester)
-*   **Key Contact Person (e.g., Director/Manager):**
-    *   **Full Name:** Michael Monaghan
-    *   **Position:** Managing Director
-*   **Contact Information:**
-    *   **Phone:** 0114 263 1011 (from allAgents/OnTheMarket listings) / 0114 488 8105 (from OnTheMarket listing) - *Note: Two different numbers found.*
-    *   **Address:** 74 Barber Road, Sheffield, South Yorkshire S10 1EE (from OnTheMarket/allAgents listings)
-    *   **Email:** Not Found (Website has a contact form, but no direct email address is listed)
-*   **LinkedIn:** Not Found (No public LinkedIn profile readily found for Michael Monaghan associated with M3 Lettings via search)
-*   **Other Linkedin/Extra Details:** M3 Lettings Limited is registered on Companies House (Company number 05691024). The agency was established in Sheffield in 2007.
-*   **Notes/Comments:** The agency is based in Sheffield, not Manchester as the 'M3' in the name and URL might initially suggest (M3 is a Manchester postcode). Search results confirm the Sheffield location and Managing Director. Multiple phone numbers were found on different directory sites. Found listings explicitly stating 'Bills Included' for student properties. No company or key person LinkedIn profile was easily discoverable via search.
-2025-04-15 15:35:40,750 - INFO - Successfully processed M3 Lettings
-2025-04-15 15:35:40,750 - INFO - Completed processing: M3 Lettings
-2025-04-15 15:35:41,658 - INFO - Full response for Thornsett Properties:
-Here is the research summary for Thornsett Properties:
-
-*   **Letting Agent:** Thornsett Properties
-*   **Bills Included on Listings?:** Some (Their website mentions bills-inclusive options are offered on the majority of properties, either directly or via UniHomes, often with a fair usage policy. Some Rightmove listings explicitly state bills included, while others don't.)
-*   **Website Url:** https://www.thornsett.com/
-*   **Student Listings Live:** Yes (The agency website heavily features student accommodation in Sheffield. A specific count isn't readily available from search results.)
-*   **Key channels live on:** Rightmove (Listings found via search and mentioned on their site). Zoopla (No specific listings found via `site:` search, but Zoopla search results for *property* in Thornsett village appear, which is unrelated). OnTheMarket (No listings found via `site:` search). UniHomes (Mentioned on their website as a partner for bills-inclusive packages).
-*   **Branches:** 1 (Main office listed as City Centre Office, Croft Buildings, 70 Campo Lane, Sheffield. A Crookesmoor office address is listed as 'by appointment only' and is also the registered company address.)
-*   **Key Contact Person (e.g., Director/Manager):**
-    *   **Full Name:** Tony Choker (Listed as Director on Endole and mentioned in testimonials) / Chris Green (Listed as Director on website 'Meet the Team' page - *Note: Multiple directors likely exist, including Satnam Singh Choker, Charanjit Singh Choker, Sarabjit Kaur Choker based on Companies House/Endole data*)
-    *   **Position:** Director
-*   **Contact Information:**
-    *   **Phone:** 0114 266 9700 (Found on website and search results)
-    *   **Address:** City Centre Office: Croft Buildings, 70 Campo Lane, Sheffield, S1 2EG (Main contact address from website) / Registered Address: 195 Crookes Valley Road, Sheffield, South Yorkshire, S10 1BA (From Companies House/Endole and website 'by appointment only' office)
-    *   **Email:** info@thornsett.com (Inferred from website 'Click to e-mail' link) or via website contact form.
-*   **LinkedIn:**
-    *   **Key Contact:** Not Found (No public profile readily found for Tony Choker or Chris Green associated with Thornsett Properties via search).
-    *   **Company Page:** https://www.linkedin.com/company/thornsett-properties/ (Found via search and linked on some directory sites)
-*   **Other Linkedin/Extra Details:**
-    *   The company is formally registered as THORNSETT PROPERTIES LIMITED (Company number 03867500).
-    *   Endole lists multiple directors associated with the company name.
-    *   They state they are property owners, not just letting agents.
-    *   They have an in-house maintenance team.
-    *   Active on Facebook, Instagram, TikTok, YouTube.
-*   **Notes/Comments:** Information primarily sourced from the agency website and company information directories (Endole, Companies House). Identifying a single 'key' contact is difficult due to multiple directors listed; Tony Choker and Chris Green appear in different contexts (testimonials/website team page). Portal presence seems focused on Rightmove and potentially direct bookings/UniHomes partnerships rather than broad Zoopla/OTM coverage based on search results. Bills policy is 'Some' rather than a definite Yes/No across all properties. Thornsett also appears involved in property development projects beyond lettings (e.g., Purley, London projects mentioned in search results).
-2025-04-15 15:35:41,659 - INFO - Successfully processed Thornsett Properties
-2025-04-15 15:35:41,659 - INFO - Completed processing: Thornsett Properties
-2025-04-15 15:35:41,659 - INFO - Completed batch processing with 5 results
-2025-04-15 15:35:41,662 - INFO - Saved 5 results to output.json
-2025-04-15 15:35:41,662 - INFO - Saved results after batch 1
-2025-04-15 15:35:41,662 - INFO - 
+2025-04-15 17:39:46,964 - INFO - Starting agency research application
+2025-04-15 17:39:46,964 - INFO - Log file cleared for new run
+2025-04-15 17:39:46,964 - INFO - Starting agency research application
+2025-04-15 17:39:46,965 - INFO - Successfully loaded environment variables
+2025-04-15 17:39:46,965 - INFO - Successfully loaded 44 agencies from agencies.json
+2025-04-15 17:39:46,965 - INFO - Successfully loaded system prompt from system_prompt.txt
+2025-04-15 17:39:47,018 - INFO - Successfully initialized Gemini client
+2025-04-15 17:39:47,018 - INFO - 
+Processing batch 1 of 9
+2025-04-15 17:39:47,018 - INFO - Agencies in this batch: Fit Property Lettings Agent, Thornsett Properties, JC Sales and Lettings, MBA Lettings, M3 Lettings
+2025-04-15 17:39:47,019 - INFO - Starting processing for agency: Fit Property Lettings Agent
+2025-04-15 17:39:47,019 - INFO - Starting processing for agency: Thornsett Properties
+2025-04-15 17:39:47,019 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:39:47,019 - INFO - Starting processing for agency: JC Sales and Lettings
+2025-04-15 17:39:47,019 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:39:47,019 - INFO - Starting processing for agency: MBA Lettings
+2025-04-15 17:39:47,020 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:39:47,020 - INFO - Starting processing for agency: M3 Lettings
+2025-04-15 17:39:47,021 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:39:47,021 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:00,182 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:00,186 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:00,187 - INFO - Saved raw response for MBA Lettings to raw/s_response.txt
+2025-04-15 17:40:00,188 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:00,789 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:00,793 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:00,794 - INFO - Saved raw response for Fit Property Lettings Agent to raw/s_response.txt
+2025-04-15 17:40:00,795 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:00,845 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:00,848 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:00,848 - INFO - Saved raw response for M3 Lettings to raw/s_response.txt
+2025-04-15 17:40:00,849 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:01,316 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:01,317 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:01,318 - INFO - Saved raw response for Thornsett Properties to raw/ss_response.txt
+2025-04-15 17:40:01,318 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:01,979 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:01,981 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:01,982 - INFO - Successfully processed MBA Lettings
+2025-04-15 17:40:02,327 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:02,330 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:02,330 - INFO - Successfully processed Fit Property Lettings Agent
+2025-04-15 17:40:02,457 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:02,459 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:02,459 - INFO - Successfully processed M3 Lettings
+2025-04-15 17:40:02,866 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:02,870 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:02,870 - INFO - Successfully processed Thornsett Properties
+2025-04-15 17:40:06,110 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:06,115 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:06,116 - INFO - Saved raw response for JC Sales and Lettings to raw/ss_response.txt
+2025-04-15 17:40:06,117 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:08,254 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:08,258 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:08,258 - INFO - Successfully processed JC Sales and Lettings
+2025-04-15 17:40:08,261 - INFO - Saved 5 results to output.json
+2025-04-15 17:40:08,261 - INFO - Saved results after batch 1
+2025-04-15 17:40:08,261 - INFO - Waiting 10 seconds before next batch...
+2025-04-15 17:40:18,266 - INFO - 
+Processing batch 2 of 9
+2025-04-15 17:40:18,267 - INFO - Agencies in this batch: Dove Properties, West One Lettings, Hallam Hills, Igloo Accommodation, Oak Estates
+2025-04-15 17:40:18,268 - INFO - Starting processing for agency: Dove Properties
+2025-04-15 17:40:18,269 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:18,269 - INFO - Starting processing for agency: West One Lettings
+2025-04-15 17:40:18,270 - INFO - Starting processing for agency: Hallam Hills
+2025-04-15 17:40:18,272 - INFO - Starting processing for agency: Igloo Accommodation
+2025-04-15 17:40:18,272 - INFO - Starting processing for agency: Oak Estates
+2025-04-15 17:40:18,273 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:18,273 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:18,274 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:18,274 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:26,692 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:26,694 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:26,695 - INFO - Saved raw response for Dove Properties to raw/s_response.txt
+2025-04-15 17:40:26,696 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:28,111 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:28,112 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:28,113 - INFO - Saved raw response for Oak Estates to raw/ss_response.txt
+2025-04-15 17:40:28,114 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:28,262 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:28,264 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:28,264 - INFO - Successfully processed Dove Properties
+2025-04-15 17:40:28,274 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:28,275 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:28,276 - INFO - Saved raw response for West One Lettings to raw/ss_response.txt
+2025-04-15 17:40:28,276 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:28,389 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:28,390 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:28,390 - INFO - Saved raw response for Hallam Hills to raw/s_response.txt
+2025-04-15 17:40:28,390 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:29,583 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:29,585 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:29,585 - INFO - Successfully processed Oak Estates
+2025-04-15 17:40:29,770 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:29,772 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:29,772 - INFO - Successfully processed West One Lettings
+2025-04-15 17:40:29,910 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:29,913 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:29,913 - INFO - Successfully processed Hallam Hills
+2025-04-15 17:40:37,581 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:37,585 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:37,586 - INFO - Saved raw response for Igloo Accommodation to raw/_response.txt
+2025-04-15 17:40:37,586 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:39,355 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:40:39,355 - INFO - AFC remote call 1 is done.
+2025-04-15 17:40:39,356 - INFO - Successfully processed Igloo Accommodation
+2025-04-15 17:40:39,357 - INFO - Saved 10 results to output.json
+2025-04-15 17:40:39,357 - INFO - Saved results after batch 2
+2025-04-15 17:40:39,357 - INFO - Waiting 10 seconds before next batch...
+2025-04-15 17:40:49,362 - INFO - 
+Processing batch 3 of 9
+2025-04-15 17:40:49,364 - INFO - Agencies in this batch: Home Made, StudentTenant.com, Brink Riley Properties, Shefflets Ltd, Capland Properties
+2025-04-15 17:40:49,364 - INFO - Starting processing for agency: Home Made
+2025-04-15 17:40:49,364 - INFO - Starting processing for agency: StudentTenant.com
+2025-04-15 17:40:49,366 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:49,365 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:49,368 - INFO - Starting processing for agency: Shefflets Ltd
+2025-04-15 17:40:49,365 - INFO - Starting processing for agency: Brink Riley Properties
+2025-04-15 17:40:49,371 - INFO - Starting processing for agency: Capland Properties
+2025-04-15 17:40:49,371 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:49,372 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:40:49,372 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:00,868 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:00,871 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:00,871 - ERROR - Error processing agency Shefflets Ltd on attempt 1: 'NoneType' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 267, in process_agency
+    response_text = response.text.strip()
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2025-04-15 17:41:00,873 - WARNING - Retry attempt 2 for Shefflets Ltd
+2025-04-15 17:41:01,650 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:01,653 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:01,654 - INFO - Saved raw response for Home Made to raw/_response.txt
+2025-04-15 17:41:01,655 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:01,662 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:01,664 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:01,664 - INFO - Saved raw response for StudentTenant.com to raw/_response.txt
+2025-04-15 17:41:01,665 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:02,097 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:02,098 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:02,098 - INFO - Saved raw response for Capland Properties to raw/s_response.txt
+2025-04-15 17:41:02,098 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:02,182 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:02,185 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:02,185 - INFO - Saved raw response for Brink Riley Properties to raw/s_response.txt
+2025-04-15 17:41:02,186 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:03,170 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:03,179 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:03,180 - INFO - Successfully processed Home Made
+2025-04-15 17:41:03,524 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:03,525 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:03,525 - INFO - Successfully processed StudentTenant.com
+2025-04-15 17:41:03,710 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:03,712 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:03,712 - INFO - Successfully processed Capland Properties
+2025-04-15 17:41:04,177 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:04,178 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:04,178 - INFO - Successfully processed Brink Riley Properties
+2025-04-15 17:41:05,875 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:24,432 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:24,438 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:24,439 - INFO - Saved raw response for Shefflets Ltd to raw/s_response.txt
+2025-04-15 17:41:24,439 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:26,163 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:26,165 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:26,166 - INFO - Successfully processed Shefflets Ltd
+2025-04-15 17:41:26,169 - INFO - Saved 15 results to output.json
+2025-04-15 17:41:26,169 - INFO - Saved results after batch 3
+2025-04-15 17:41:26,169 - INFO - Waiting 10 seconds before next batch...
+2025-04-15 17:41:36,172 - INFO - 
+Processing batch 4 of 9
+2025-04-15 17:41:36,172 - INFO - Agencies in this batch: Smart Moves Group, Urban Evolution, MAF Properties, Student Digs, Tapton Estates
+2025-04-15 17:41:36,173 - INFO - Starting processing for agency: Smart Moves Group
+2025-04-15 17:41:36,173 - INFO - Starting processing for agency: Urban Evolution
+2025-04-15 17:41:36,173 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:36,174 - INFO - Starting processing for agency: MAF Properties
+2025-04-15 17:41:36,174 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:36,174 - INFO - Starting processing for agency: Student Digs
+2025-04-15 17:41:36,176 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:36,176 - INFO - Starting processing for agency: Tapton Estates
+2025-04-15 17:41:36,177 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:36,177 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:46,708 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:46,712 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:46,713 - INFO - Saved raw response for Tapton Estates to raw/ss_response.txt
+2025-04-15 17:41:46,714 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:48,225 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:48,226 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:48,226 - INFO - Successfully processed Tapton Estates
+2025-04-15 17:41:50,040 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:50,042 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:50,043 - INFO - Saved raw response for Urban Evolution to raw/_response.txt
+2025-04-15 17:41:50,043 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:50,223 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:50,224 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:50,225 - INFO - Saved raw response for MAF Properties to raw/s_response.txt
+2025-04-15 17:41:50,225 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:51,685 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:51,687 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:51,687 - INFO - Successfully processed Urban Evolution
+2025-04-15 17:41:51,933 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:51,934 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:51,934 - INFO - Successfully processed MAF Properties
+2025-04-15 17:41:52,950 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:52,952 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:52,953 - INFO - Saved raw response for Student Digs to raw/s_response.txt
+2025-04-15 17:41:52,954 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:41:54,485 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:54,487 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:54,487 - INFO - Successfully processed Student Digs
+2025-04-15 17:41:59,318 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:41:59,322 - INFO - AFC remote call 1 is done.
+2025-04-15 17:41:59,323 - INFO - Saved raw response for Smart Moves Group to raw/s_response.txt
+2025-04-15 17:41:59,324 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:01,097 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:01,099 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:01,099 - INFO - Successfully processed Smart Moves Group
+2025-04-15 17:42:01,101 - INFO - Saved 20 results to output.json
+2025-04-15 17:42:01,101 - INFO - Saved results after batch 4
+2025-04-15 17:42:01,101 - INFO - Waiting 10 seconds before next batch...
+2025-04-15 17:42:11,102 - INFO - 
+Processing batch 5 of 9
+2025-04-15 17:42:11,103 - INFO - Agencies in this batch: Broomhill Property Shop, Rent2you, Crucible Homes, Pa Properties, SheffieldRooms
+2025-04-15 17:42:11,105 - INFO - Starting processing for agency: Broomhill Property Shop
+2025-04-15 17:42:11,105 - INFO - Starting processing for agency: Rent2you
+2025-04-15 17:42:11,105 - INFO - Starting processing for agency: Crucible Homes
+2025-04-15 17:42:11,106 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:11,106 - INFO - Starting processing for agency: Pa Properties
+2025-04-15 17:42:11,106 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:11,106 - INFO - Starting processing for agency: SheffieldRooms
+2025-04-15 17:42:11,106 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:11,108 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:11,110 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:24,335 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:24,341 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:24,341 - INFO - Saved raw response for SheffieldRooms to raw/s_response.txt
+2025-04-15 17:42:24,342 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:25,983 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:25,986 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:25,986 - INFO - Successfully processed SheffieldRooms
+2025-04-15 17:42:27,586 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:27,589 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:27,590 - INFO - Saved raw response for Broomhill Property Shop to raw/_response.txt
+2025-04-15 17:42:27,591 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:28,078 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:28,083 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:28,084 - INFO - Saved raw response for Crucible Homes to raw/s_response.txt
+2025-04-15 17:42:28,084 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:29,348 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:29,351 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:29,351 - INFO - Successfully processed Broomhill Property Shop
+2025-04-15 17:42:29,749 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:29,754 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:29,755 - INFO - Saved raw response for Pa Properties to raw/s_response.txt
+2025-04-15 17:42:29,755 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:29,770 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:29,771 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:29,771 - INFO - Successfully processed Crucible Homes
+2025-04-15 17:42:31,494 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:31,497 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:31,498 - INFO - Successfully processed Pa Properties
+2025-04-15 17:42:32,624 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:32,627 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:32,627 - INFO - Saved raw response for Rent2you to raw/_response.txt
+2025-04-15 17:42:32,628 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:34,235 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:34,237 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:34,237 - INFO - Successfully processed Rent2you
+2025-04-15 17:42:34,241 - INFO - Saved 25 results to output.json
+2025-04-15 17:42:34,241 - INFO - Saved results after batch 5
+2025-04-15 17:42:34,241 - INFO - Waiting 10 seconds before next batch...
+2025-04-15 17:42:44,247 - INFO - 
+Processing batch 6 of 9
+2025-04-15 17:42:44,247 - INFO - Agencies in this batch: The Lettings Boutique, Sheffield Student Accommodation, PC Properties, S10 Estates, Steel City Living
+2025-04-15 17:42:44,249 - INFO - Starting processing for agency: The Lettings Boutique
+2025-04-15 17:42:44,249 - INFO - Starting processing for agency: Sheffield Student Accommodation
+2025-04-15 17:42:44,250 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:44,250 - INFO - Starting processing for agency: PC Properties
+2025-04-15 17:42:44,250 - INFO - Starting processing for agency: S10 Estates
+2025-04-15 17:42:44,251 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:44,251 - INFO - Starting processing for agency: Steel City Living
+2025-04-15 17:42:44,253 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:44,254 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:44,256 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:56,795 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:56,799 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:56,800 - INFO - Saved raw response for Steel City Living to raw/_response.txt
+2025-04-15 17:42:56,801 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:57,488 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:57,491 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:57,492 - INFO - Saved raw response for Sheffield Student Accommodation to raw/_response.txt
+2025-04-15 17:42:57,493 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:58,237 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:58,238 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:58,238 - INFO - Successfully processed Steel City Living
+2025-04-15 17:42:58,296 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:58,296 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:58,297 - INFO - Saved raw response for The Lettings Boutique to raw/s_response.txt
+2025-04-15 17:42:58,297 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:59,205 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:59,207 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:59,207 - INFO - Successfully processed Sheffield Student Accommodation
+2025-04-15 17:42:59,713 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:59,717 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:59,717 - INFO - Saved raw response for PC Properties to raw/s_response.txt
+2025-04-15 17:42:59,721 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:42:59,915 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:42:59,918 - INFO - AFC remote call 1 is done.
+2025-04-15 17:42:59,918 - INFO - Successfully processed The Lettings Boutique
+2025-04-15 17:43:01,439 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:01,441 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:01,441 - INFO - Successfully processed PC Properties
+2025-04-15 17:43:02,726 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:02,728 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:02,729 - INFO - Saved raw response for S10 Estates to raw/ss_response.txt
+2025-04-15 17:43:02,729 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:04,366 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:04,368 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:04,368 - INFO - Successfully processed S10 Estates
+2025-04-15 17:43:04,371 - INFO - Saved 30 results to output.json
+2025-04-15 17:43:04,371 - INFO - Saved results after batch 6
+2025-04-15 17:43:04,371 - INFO - Waiting 10 seconds before next batch...
+2025-04-15 17:43:14,377 - INFO - 
+Processing batch 7 of 9
+2025-04-15 17:43:14,377 - INFO - Agencies in this batch: Swots Student Accommodation, Jarvis Student Properties, Sheffield Student Homes Ltd, PJ Properties & Consultancy Limited, Studentpad Limited
+2025-04-15 17:43:14,379 - INFO - Starting processing for agency: Swots Student Accommodation
+2025-04-15 17:43:14,380 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:14,380 - INFO - Starting processing for agency: Jarvis Student Properties
+2025-04-15 17:43:14,383 - INFO - Starting processing for agency: Sheffield Student Homes Ltd
+2025-04-15 17:43:14,384 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:14,384 - INFO - Starting processing for agency: PJ Properties & Consultancy Limited
+2025-04-15 17:43:14,384 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:14,385 - INFO - Starting processing for agency: Studentpad Limited
+2025-04-15 17:43:14,387 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:14,389 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:27,520 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:27,524 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:27,525 - INFO - Saved raw response for PJ Properties & Consultancy Limited to raw/ss_response.txt
+2025-04-15 17:43:27,526 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:29,246 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:29,252 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:29,254 - INFO - Saved raw response for Sheffield Student Homes Ltd to raw/s_response.txt
+2025-04-15 17:43:29,255 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:29,416 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:29,419 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:29,419 - INFO - Saved raw response for Swots Student Accommodation to raw/ws_response.txt
+2025-04-15 17:43:29,420 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:29,424 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:29,425 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:29,425 - INFO - Successfully processed PJ Properties & Consultancy Limited
+2025-04-15 17:43:30,641 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:30,644 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:30,644 - INFO - Successfully processed Sheffield Student Homes Ltd
+2025-04-15 17:43:31,044 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:31,047 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:31,047 - INFO - Successfully processed Swots Student Accommodation
+2025-04-15 17:43:31,617 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:31,622 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:31,623 - INFO - Saved raw response for Jarvis Student Properties to raw/ss_response.txt
+2025-04-15 17:43:31,624 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:33,193 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:33,198 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:33,198 - INFO - Successfully processed Jarvis Student Properties
+2025-04-15 17:43:40,364 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:40,368 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:40,369 - INFO - Saved raw response for Studentpad Limited to raw/_response.txt
+2025-04-15 17:43:40,370 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:41,858 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:43:41,861 - INFO - AFC remote call 1 is done.
+2025-04-15 17:43:41,861 - INFO - Successfully processed Studentpad Limited
+2025-04-15 17:43:41,865 - INFO - Saved 35 results to output.json
+2025-04-15 17:43:41,865 - INFO - Saved results after batch 7
+2025-04-15 17:43:41,865 - INFO - Waiting 10 seconds before next batch...
+2025-04-15 17:43:51,871 - INFO - 
+Processing batch 8 of 9
+2025-04-15 17:43:51,871 - INFO - Agencies in this batch: WH Properties, Strawberry Student Homes, Home Accommodation, Gnome Student Homes, Claypenny Student Accommodation
+2025-04-15 17:43:51,871 - INFO - Starting processing for agency: WH Properties
+2025-04-15 17:43:51,872 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:51,872 - INFO - Starting processing for agency: Strawberry Student Homes
+2025-04-15 17:43:51,873 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:51,874 - INFO - Starting processing for agency: Home Accommodation
+2025-04-15 17:43:51,875 - INFO - Starting processing for agency: Gnome Student Homes
+2025-04-15 17:43:51,875 - INFO - Starting processing for agency: Claypenny Student Accommodation
+2025-04-15 17:43:51,875 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:51,876 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:43:51,876 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:02,962 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:02,967 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:02,967 - ERROR - Error processing agency WH Properties on attempt 1: 'NoneType' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 267, in process_agency
+    response_text = response.text.strip()
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2025-04-15 17:44:02,967 - WARNING - Retry attempt 2 for WH Properties
+2025-04-15 17:44:05,418 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:05,422 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:05,422 - INFO - Saved raw response for Strawberry Student Homes to raw/ws_response.txt
+2025-04-15 17:44:05,423 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:06,195 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:06,199 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:06,200 - INFO - Saved raw response for Gnome Student Homes to raw/s_response.txt
+2025-04-15 17:44:06,200 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:06,754 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:06,757 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:06,758 - INFO - Saved raw response for Claypenny Student Accommodation to raw/_response.txt
+2025-04-15 17:44:06,759 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:06,940 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:06,943 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:06,944 - INFO - Successfully processed Strawberry Student Homes
+2025-04-15 17:44:07,038 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:07,042 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:07,043 - INFO - Saved raw response for Home Accommodation to raw/_response.txt
+2025-04-15 17:44:07,044 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:07,735 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:07,739 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:07,739 - INFO - Successfully processed Gnome Student Homes
+2025-04-15 17:44:07,968 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:08,234 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:08,235 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:08,235 - INFO - Successfully processed Claypenny Student Accommodation
+2025-04-15 17:44:08,658 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:08,660 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:08,660 - INFO - Successfully processed Home Accommodation
+2025-04-15 17:44:21,169 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:21,175 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:21,177 - INFO - Saved raw response for WH Properties to raw/s_response.txt
+2025-04-15 17:44:21,178 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:22,603 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:22,606 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:22,606 - INFO - Successfully processed WH Properties
+2025-04-15 17:44:22,610 - INFO - Saved 40 results to output.json
+2025-04-15 17:44:22,611 - INFO - Saved results after batch 8
+2025-04-15 17:44:22,611 - INFO - Waiting 10 seconds before next batch...
+2025-04-15 17:44:32,616 - INFO - 
+Processing batch 9 of 9
+2025-04-15 17:44:32,617 - INFO - Agencies in this batch: Sheffield Property To Let, Urban and Campus Nest Ltd., SDP Student Homes, iLet4You Limited
+2025-04-15 17:44:32,617 - INFO - Starting processing for agency: Sheffield Property To Let
+2025-04-15 17:44:32,618 - INFO - Starting processing for agency: Urban and Campus Nest Ltd.
+2025-04-15 17:44:32,618 - INFO - Starting processing for agency: SDP Student Homes
+2025-04-15 17:44:32,619 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:32,619 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:32,620 - INFO - Starting processing for agency: iLet4You Limited
+2025-04-15 17:44:32,620 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:32,623 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:44,839 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:44,843 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:44,844 - INFO - Saved raw response for iLet4You Limited to raw/_response.txt
+2025-04-15 17:44:44,845 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:46,006 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:46,007 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:46,008 - INFO - Saved raw response for SDP Student Homes to raw/s_response.txt
+2025-04-15 17:44:46,008 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:46,106 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:46,107 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:46,108 - INFO - Saved raw response for Urban and Campus Nest Ltd. to raw/ss_response.txt
+2025-04-15 17:44:46,108 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:46,404 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:46,406 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:46,406 - INFO - Successfully processed iLet4You Limited
+2025-04-15 17:44:47,285 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:47,288 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:47,288 - INFO - Saved raw response for Sheffield Property To Let to raw/_response.txt
+2025-04-15 17:44:47,288 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 17:44:47,608 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:47,611 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:47,611 - INFO - Successfully processed SDP Student Homes
+2025-04-15 17:44:47,618 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:47,621 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:47,621 - INFO - Successfully processed Urban and Campus Nest Ltd.
+2025-04-15 17:44:48,868 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-04-15 17:44:48,871 - INFO - AFC remote call 1 is done.
+2025-04-15 17:44:48,871 - INFO - Successfully processed Sheffield Property To Let
+2025-04-15 17:44:48,875 - INFO - Saved 44 results to output.json
+2025-04-15 17:44:48,875 - INFO - Saved results after batch 9
+2025-04-15 17:44:48,875 - INFO - 
 Processing complete. All results saved to output.json
