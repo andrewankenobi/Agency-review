@@ -77,6 +77,8 @@ This Python application automates the research of UK letting agencies using the 
 
 ## Running the Application
 
+### Web Interface
+
 1. Start the web interface:
    ```bash
    python app.py
@@ -89,6 +91,50 @@ This Python application automates the research of UK letting agencies using the 
    - Data refresh capability
    - System prompt management
    - Real-time progress tracking
+
+### Command Line Research
+
+You can also run research directly from the command line using `main.py`:
+
+1. Basic research run:
+   ```bash
+   python main.py
+   ```
+   This will:
+   - Load agencies from `agencies.json`
+   - Use the system prompt from `system_prompt.txt`
+   - Process all agencies
+   - Save results to `output.json`
+
+2. Test mode:
+   ```bash
+   python main.py --test
+   ```
+   This mode:
+   - Processes only the first 3 agencies from `agencies.json`
+   - Uses the same system prompt and process as the full run
+   - Saves results to `output.json`
+   - Useful for:
+     - Testing the system prompt
+     - Verifying API connectivity
+     - Checking output format
+     - Quick validation of the research process
+
+3. Monitor progress:
+   - Progress is logged to the console in real-time
+   - Each agency's status is displayed as it's processed
+   - Completion percentage is shown
+   - Any errors are clearly indicated
+
+4. Output:
+   - Results are saved to `output.json`
+   - Raw responses are saved in the `raw` directory
+   - Logs are written to the console
+
+5. Error handling:
+   - Failed agencies are logged with error details
+   - The process continues with remaining agencies
+   - Final results include both successful and failed agencies
 
 ## Web Interface Features
 

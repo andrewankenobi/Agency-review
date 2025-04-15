@@ -1,18 +1,18 @@
-*   Letting Agent: M3 Lettings
-*   Bills Included on Listings?: Yes
-*   Website Url: https://www.m3lettings.com/
-*   Student Listings Live: Yes
-*   Key channels live on: Rightmove (Listings found, count not specified), OnTheMarket (Listings found, count not specified), Zoopla (Not Found)
-*   Branches: 1
-*   Key Contact Person:
+*   **Letting Agent:** M3 Lettings
+*   **Bills Included on Listings?:** Some (Several listings on their website explicitly state "Bills included")
+*   **Website Url:** https://www.m3lettings.com/
+*   **Student Listings Live:** Yes (Website focuses on student accommodation, many listings mention "student house")
+*   **Key channels live on:** Rightmove (Found listings, count not specified), Zoopla (Not Found), OnTheMarket (Found profile, count not specified)
+*   **Branches:** 1 (Based on single address found)
+*   **Key Contact Person:**
     *   Full Name: Michael Monaghan
     *   Position: Managing Director
-*   Contact Information:
-    *   Phone: 0114 263 1011 (Office), 07763 007 007 (Mobile)
+*   **Contact Information:**
+    *   Phone: 0114 263 1011 / 07763 007 007
     *   Address: 74 Barber Road, Crookesmoor, Sheffield, S10 1EE
     *   Email: mm@m3lettings.com
-*   LinkedIn:
+*   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   Other Linkedin/Extra Details: M3 LETTINGS PROPERTY SERVICES LIMITED Company Number: 09318997
-*   Notes/Comments: Agency focuses on student and professional lettings in Sheffield, particularly Crookesmoor. Many listings include bills. Emphasizes personal service. Opened in 2007.
+*   **Other Linkedin/Extra Details:** Described as an independent, family-based firm established in 2007. Specializes in Sheffield student property market.
+*   **Notes/Comments:** Information primarily sourced from the agency's website and portal listings (Rightmove, OnTheMarket). No company LinkedIn profile found. Zoopla search results focused on agents in the M3 postcode (Manchester) rather than M3 Lettings itself.

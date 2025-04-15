@@ -1,18 +1,18 @@
 *   **Letting Agent:** Home Made
-*   **Bills Included on Listings?:** Some (They advertise properties with bills included, particularly in Build-to-Rent developments, but it's not standard across all listings)
+*   **Bills Included on Listings?:** Not Found (General information suggests tenants are usually responsible for bills unless specified in the tenancy agreement, but no specific policy found for Home Made listings).
 *   **Website Url:** https://home-made.com
-*   **Student Listings Live:** Yes (They market properties suitable for students, sometimes listed under general lettings or specific student sections on portals)
-*   **Key channels live on:** Rightmove, Zoopla, OnTheMarket (+45 other channels mentioned on their website)
-*   **Branches:** 0 (They state they don't have high street branches and operate centrally)
+*   **Student Listings Live:** Not Found (Website focuses on general lettings for landlords and renters, no specific student section found).
+*   **Key channels live on:** Rightmove (Mentioned as a major portal they likely use), Zoopla (Mentioned as a major portal they likely use), OnTheMarket (Mentioned as a major portal they likely use). Specific listing counts were not found in the search results. Home Made states they market across "all major listings portals".
+*   **Branches:** 0 (They state they do not have high street branches and operate from one office).
 *   **Key Contact Person:**
     *   Full Name: Asaf Navot
-    *   Position: Co-Founder & CEO
+    *   Position: CEO & Founder
 *   **Contact Information:**
-    *   Phone: 0207 846 0122
-    *   Address: 2-6 Boundary Row, London, SE1 8HP (Also listed as Pennine South, 19 Hatfields, Southwark, London SE1 8DJ on OnTheMarket)
+    *   Phone: +44 207 846 0122 (or 0207 846 0122)
+    *   Address: 2-6 Boundary Row, London, SE1 8HP
     *   Email: Not Found (Contact form available on website)
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found in search results (but likely exists)
-    *   Key Contact Profile URL: https://www.linkedin.com/in/asaf-navot/ (Inferred from name and position, though not directly provided in search results)
-*   **Other Linkedin/Extra Details:** Co-Founder: Nick Binnington. Company Number: Not Found in search results. They are members of the Property Redress Scheme and Client Money Protect scheme.
-*   **Notes/Comments:** Home Made positions itself as a "proptech" lettings and management company, emphasizing technology and a centralized model over traditional high street branches. They operate in London, Manchester, and Liverpool. They actively market on major portals and mention working with relocation agents. Some listings mention bills included, often in newer developments. Finding a direct company LinkedIn URL or Company Number via search was unsuccessful.
+    *   Company Profile URL: Not Found (Generic LinkedIn information returned, no specific company profile URL found).
+    *   Key Contact Profile URL: Not Found
+*   **Other Linkedin/Extra Details:** Company Number: 10103015 (HOME-MADE UK PROPERTIES LIMITED)
+*   **Notes/Comments:** Home Made positions itself as a tech-focused hybrid letting agency aiming to reduce costs compared to traditional high street agents. They operate across London, Manchester, and Liverpool. They emphasize transparency and efficiency. No specific information found regarding whether bills are included in listings or if they have dedicated student lettings. Listing counts on portals were not available.

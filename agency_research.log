@@ -501,3 +501,944 @@ google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429,
 2025-04-15 22:50:45,139 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
 2025-04-15 22:50:46,386 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
 2025-04-15 22:50:53,503 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 22:57:03,135 - WARNING - Retry attempt 2 for S10 Estates
+2025-04-15 22:57:03,147 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,147 - ERROR - Error processing agency S10 Estates on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,148 - WARNING - Retry attempt 3 for S10 Estates
+2025-04-15 22:57:03,148 - ERROR - Error processing agency S10 Estates on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,148 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,149 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,149 - INFO - Starting processing for agency: Steel City Living
+2025-04-15 22:57:03,149 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,150 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,150 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,150 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,150 - INFO - Successfully processed Igloo Accommodation
+2025-04-15 22:57:03,151 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,151 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,152 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,152 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,152 - INFO - Successfully processed Tapton Estates
+2025-04-15 22:57:03,153 - INFO - Starting processing for agency: Swots Student Accommodation
+2025-04-15 22:57:03,153 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,154 - INFO - AFC remote call 1 is done.
+2025-04-15 22:57:03,154 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,154 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,154 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,154 - INFO - Starting processing for agency: Jarvis Student Properties
+2025-04-15 22:57:03,155 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,156 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,156 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,156 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,156 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,156 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,157 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,444 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,444 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,444 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,445 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,445 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,445 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,446 - ERROR - Error processing agency Rent2you on attempt 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,447 - ERROR - Error processing agency Swots Student Accommodation on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,448 - WARNING - Retry attempt 3 for Rent2you
+2025-04-15 22:57:03,448 - WARNING - Retry attempt 2 for Swots Student Accommodation
+2025-04-15 22:57:03,448 - ERROR - Error processing agency Rent2you on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,448 - ERROR - Error processing agency Swots Student Accommodation on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,449 - INFO - Starting processing for agency: Sheffield Student Homes Ltd
+2025-04-15 22:57:03,449 - ERROR - Error processing raw response raw/mba_lettings_response.txt: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 211, in process_raw_response
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,449 - WARNING - Retry attempt 3 for Swots Student Accommodation
+2025-04-15 22:57:03,449 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,450 - INFO - Successfully processed MBA Lettings
+2025-04-15 22:57:03,450 - ERROR - Error processing agency Swots Student Accommodation on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,450 - ERROR - Error processing agency PC Properties on attempt 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,451 - INFO - Starting processing for agency: PJ Properties & Consultancy Limited
+2025-04-15 22:57:03,451 - INFO - Starting processing for agency: Studentpad Limited
+2025-04-15 22:57:03,451 - WARNING - Retry attempt 3 for PC Properties
+2025-04-15 22:57:03,451 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,452 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,452 - ERROR - Error processing raw response raw/maf_properties_response.txt: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 211, in process_raw_response
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,452 - ERROR - Error processing agency PC Properties on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,453 - INFO - Successfully processed MAF Properties
+2025-04-15 22:57:03,453 - INFO - Starting processing for agency: WH Properties
+2025-04-15 22:57:03,453 - INFO - Starting processing for agency: Strawberry Student Homes
+2025-04-15 22:57:03,454 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,454 - ERROR - Error processing agency Broomhill Property Shop on attempt 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,454 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,455 - WARNING - Retry attempt 3 for Broomhill Property Shop
+2025-04-15 22:57:03,455 - ERROR - Error processing agency Broomhill Property Shop on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,456 - INFO - Starting processing for agency: Home Accommodation
+2025-04-15 22:57:03,456 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,512 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,512 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,512 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,512 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,513 - ERROR - Error processing agency WH Properties on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,513 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,514 - ERROR - Error processing agency Sheffield Student Homes Ltd on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,514 - ERROR - Error processing agency PJ Properties & Consultancy Limited on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,514 - WARNING - Retry attempt 2 for WH Properties
+2025-04-15 22:57:03,515 - WARNING - Retry attempt 2 for Sheffield Student Homes Ltd
+2025-04-15 22:57:03,515 - WARNING - Retry attempt 2 for PJ Properties & Consultancy Limited
+2025-04-15 22:57:03,516 - ERROR - Error processing agency Studentpad Limited on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,516 - ERROR - Error processing agency WH Properties on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,516 - ERROR - Error processing agency Sheffield Student Homes Ltd on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,516 - ERROR - Error processing agency PJ Properties & Consultancy Limited on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,516 - WARNING - Retry attempt 2 for Studentpad Limited
+2025-04-15 22:57:03,516 - WARNING - Retry attempt 3 for WH Properties
+2025-04-15 22:57:03,517 - WARNING - Retry attempt 3 for Sheffield Student Homes Ltd
+2025-04-15 22:57:03,517 - ERROR - Error processing agency Home Accommodation on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,517 - WARNING - Retry attempt 3 for PJ Properties & Consultancy Limited
+2025-04-15 22:57:03,517 - ERROR - Error processing agency Studentpad Limited on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,517 - ERROR - Error processing agency WH Properties on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,517 - ERROR - Error processing agency Sheffield Student Homes Ltd on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,517 - WARNING - Retry attempt 2 for Home Accommodation
+2025-04-15 22:57:03,517 - ERROR - Error processing agency PJ Properties & Consultancy Limited on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,518 - WARNING - Retry attempt 3 for Studentpad Limited
+2025-04-15 22:57:03,518 - INFO - Starting processing for agency: Gnome Student Homes
+2025-04-15 22:57:03,518 - INFO - Starting processing for agency: Claypenny Student Accommodation
+2025-04-15 22:57:03,518 - ERROR - Error processing agency Home Accommodation on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,518 - INFO - Starting processing for agency: Sheffield Property To Let
+2025-04-15 22:57:03,518 - ERROR - Error processing agency Studentpad Limited on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,518 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,519 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,519 - WARNING - Retry attempt 3 for Home Accommodation
+2025-04-15 22:57:03,519 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,519 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,519 - INFO - Starting processing for agency: Urban and Campus Nest Ltd.
+2025-04-15 22:57:03,520 - ERROR - Error processing agency Home Accommodation on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,521 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,521 - INFO - Starting processing for agency: SDP Student Homes
+2025-04-15 22:57:03,522 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,523 - ERROR - Error processing agency Strawberry Student Homes on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,524 - WARNING - Retry attempt 2 for Strawberry Student Homes
+2025-04-15 22:57:03,524 - ERROR - Error processing agency Strawberry Student Homes on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,524 - WARNING - Retry attempt 3 for Strawberry Student Homes
+2025-04-15 22:57:03,524 - ERROR - Error processing agency Strawberry Student Homes on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,524 - INFO - Starting processing for agency: iLet4You Limited
+2025-04-15 22:57:03,524 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 22:57:03,550 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,550 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,551 - ERROR - Error processing raw response raw/home_made_response.txt: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 211, in process_raw_response
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,551 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,551 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,552 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,552 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,552 - INFO - Successfully processed Home Made
+2025-04-15 22:57:03,552 - ERROR - Error processing agency The Lettings Boutique on attempt 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,553 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,553 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,553 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,553 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,554 - ERROR - Error processing raw response raw/m3_lettings_response.txt: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 211, in process_raw_response
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,555 - WARNING - Retry attempt 3 for The Lettings Boutique
+2025-04-15 22:57:03,555 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,555 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,556 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,556 - ERROR - Error processing raw response raw/fit_property_lettings_agent_response.txt: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 211, in process_raw_response
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,556 - INFO - Successfully processed M3 Lettings
+2025-04-15 22:57:03,557 - ERROR - Error processing agency The Lettings Boutique on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,558 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,558 - INFO - Successfully processed Fit Property Lettings Agent
+2025-04-15 22:57:03,558 - ERROR - Error processing agency Jarvis Student Properties on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,559 - WARNING - Retry attempt 2 for Jarvis Student Properties
+2025-04-15 22:57:03,559 - ERROR - Error processing agency Jarvis Student Properties on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,559 - WARNING - Retry attempt 3 for Jarvis Student Properties
+2025-04-15 22:57:03,559 - ERROR - Error processing agency Jarvis Student Properties on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,560 - ERROR - Error processing raw response raw/jc_sales_and_lettings_response.txt: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 211, in process_raw_response
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,560 - INFO - Successfully processed JC Sales and Lettings
+2025-04-15 22:57:03,560 - ERROR - Error processing agency Pa Properties on attempt 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,561 - WARNING - Retry attempt 3 for Pa Properties
+2025-04-15 22:57:03,561 - ERROR - Error processing agency Pa Properties on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,561 - ERROR - Error processing raw response raw/dove_properties_response.txt: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 211, in process_raw_response
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,561 - INFO - Successfully processed Dove Properties
+2025-04-15 22:57:03,562 - ERROR - Error processing agency SheffieldRooms on attempt 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,562 - WARNING - Retry attempt 3 for SheffieldRooms
+2025-04-15 22:57:03,562 - ERROR - Error processing agency SheffieldRooms on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,563 - ERROR - Error processing agency Steel City Living on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,563 - WARNING - Retry attempt 2 for Steel City Living
+2025-04-15 22:57:03,563 - ERROR - Error processing agency Steel City Living on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,563 - WARNING - Retry attempt 3 for Steel City Living
+2025-04-15 22:57:03,563 - ERROR - Error processing agency Steel City Living on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,564 - ERROR - Error processing agency Crucible Homes on attempt 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,564 - WARNING - Retry attempt 3 for Crucible Homes
+2025-04-15 22:57:03,564 - ERROR - Error processing agency Crucible Homes on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,564 - ERROR - Error processing raw response raw/capland_properties_response.txt: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 211, in process_raw_response
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,565 - INFO - Successfully processed Capland Properties
+2025-04-15 22:57:03,565 - ERROR - Error processing agency Sheffield Student Accommodation on attempt 2: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,565 - WARNING - Retry attempt 3 for Sheffield Student Accommodation
+2025-04-15 22:57:03,565 - ERROR - Error processing agency Sheffield Student Accommodation on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,566 - ERROR - Error processing raw response raw/smart_moves_group_response.txt: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 211, in process_raw_response
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,566 - INFO - Successfully processed Smart Moves Group
+2025-04-15 22:57:03,566 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,567 - ERROR - Error processing agency Claypenny Student Accommodation on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,567 - WARNING - Retry attempt 2 for Claypenny Student Accommodation
+2025-04-15 22:57:03,567 - ERROR - Error processing agency Claypenny Student Accommodation on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,567 - WARNING - Retry attempt 3 for Claypenny Student Accommodation
+2025-04-15 22:57:03,567 - ERROR - Error processing agency Claypenny Student Accommodation on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,573 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,574 - ERROR - Error processing agency Sheffield Property To Let on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,574 - WARNING - Retry attempt 2 for Sheffield Property To Let
+2025-04-15 22:57:03,574 - ERROR - Error processing agency Sheffield Property To Let on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,574 - WARNING - Retry attempt 3 for Sheffield Property To Let
+2025-04-15 22:57:03,574 - ERROR - Error processing agency Sheffield Property To Let on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,576 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,576 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,577 - ERROR - Error processing agency Urban and Campus Nest Ltd. on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,577 - WARNING - Retry attempt 2 for Urban and Campus Nest Ltd.
+2025-04-15 22:57:03,577 - ERROR - Error processing agency Urban and Campus Nest Ltd. on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,577 - WARNING - Retry attempt 3 for Urban and Campus Nest Ltd.
+2025-04-15 22:57:03,577 - ERROR - Error processing agency Urban and Campus Nest Ltd. on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,578 - ERROR - Error processing agency SDP Student Homes on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,578 - WARNING - Retry attempt 2 for SDP Student Homes
+2025-04-15 22:57:03,578 - ERROR - Error processing agency SDP Student Homes on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,578 - WARNING - Retry attempt 3 for SDP Student Homes
+2025-04-15 22:57:03,578 - ERROR - Error processing agency SDP Student Homes on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,582 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,582 - ERROR - Error processing agency Gnome Student Homes on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,583 - WARNING - Retry attempt 2 for Gnome Student Homes
+2025-04-15 22:57:03,583 - ERROR - Error processing agency Gnome Student Homes on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,583 - WARNING - Retry attempt 3 for Gnome Student Homes
+2025-04-15 22:57:03,583 - ERROR - Error processing agency Gnome Student Homes on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,588 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-04-15 22:57:03,590 - ERROR - Error processing agency iLet4You Limited on attempt 1: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 289, in process_agency
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 4959, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/models.py", line 3935, in _generate_content
+    response_dict = self._api_client.request(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 674, in request
+    response = self._request(http_request, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/_api_client.py", line 603, in _request
+    errors.APIError.raise_for_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/google/genai/errors.py", line 101, in raise_for_response
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota. Go to https://aistudio.google.com/apikey to upgrade your quota tier, or submit a quota increase request in https://ai.google.dev/gemini-api/docs/rate-limits#request-rate-limit-increase', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_requests_per_model_per_day', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}]}}
+2025-04-15 22:57:03,590 - WARNING - Retry attempt 2 for iLet4You Limited
+2025-04-15 22:57:03,590 - ERROR - Error processing agency iLet4You Limited on attempt 2: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-04-15 22:57:03,590 - WARNING - Retry attempt 3 for iLet4You Limited
+2025-04-15 22:57:03,590 - ERROR - Error processing agency iLet4You Limited on attempt 3: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 285, in process_agency
+    print(f"Retry attempt {attempt + 1} for {agency['name']}", flush=True)
+BrokenPipeError: [Errno 32] Broken pipe
