@@ -1,18 +1,18 @@
 *   **Letting Agent:** Home Made
-*   **Bills Included on Listings?:** Not Found (General search results indicate 'bills included' is a popular search term for renters, but no specific information found on Home Made's website or listings about whether they offer this as standard or on some properties.)
+*   **Bills Included on Listings?:** Not Found (Listings mention rent amount, but not explicitly whether bills are included. General advice suggests tenants are usually responsible unless stated otherwise.)
 *   **Website Url:** https://home-made.com
-*   **Student Listings Live:** Not Found (No specific mention of student-focused lettings on their website or in search results.)
-*   **Key channels live on:** Rightmove, Zoopla, OnTheMarket (Source: Home Made website, Zoopla listing)
-*   **Branches:** Not Found (Website states they don't have expensive high street branches and cover areas like London, Manchester, and Liverpool from a central base.)
+*   **Student Listings Live:** Not Found (No specific student section or listings identified on the website or in search results.)
+*   **Key channels live on:** Rightmove, Zoopla, OnTheMarket (and +45 other channels mentioned on their site)
+*   **Branches:** 0 (They state they don't have expensive high street agency branches.)
 *   **Key Contact Person:**
-    *   Full Name: Not Found (No specific CEO, Director, or main contact person readily identified in search results. Sam Pinney is listed as Build To Rent Delivery Manager, but not necessarily the primary contact.)
+    *   Full Name: Not Found
     *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 0207 846 0122 (Source: Home Made website)
-    *   Address: 2-6 Boundary Row, London, SE1 8HP (Source: Home Made website, Companies House, Home.co.uk)
+    *   Phone: 0207 846 0122 (also listed as 020 3641 7514 on OnTheMarket and 01202 145329 on Home.co.uk)
+    *   Address: 2-6 Boundary Row, London, SE1 8HP (also listed as Pennine South 19 Hatfields Southwark, London SE1 8DJ on OnTheMarket)
     *   Email: Not Found (Contact form available on website)
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (No official company page linked or easily found via search.)
+    *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 10103015 (HOME-MADE UK PROPERTIES LIMITED, Source: Companies House)
-*   **Notes/Comments:** Home Made positions itself as a proptech lettings agency focused on lower fees by not having physical branches. They operate in London, Manchester, and Liverpool. Finding a specific key contact person or official LinkedIn profile was difficult through public search. They are members of the Property Redress Scheme and Client Money Protect scheme.
+*   **Other Linkedin/Extra Details:** Operates in London, Manchester, Liverpool. Describes itself as a "proptech lettings and management company". Member of the Property Redress Scheme and the Client Money Protect scheme.
+*   **Notes/Comments:** Home Made emphasizes its technology-driven approach and lack of physical branches to offer lower fees compared to traditional agents. They focus on lettings and property management. Contact details vary slightly across different portal listings. No specific key contact person was easily identifiable from public sources. Information about bills included in listings was not readily available.

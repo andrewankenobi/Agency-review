@@ -1,18 +1,18 @@
 *   **Letting Agent:** Smart Move Sheffield
-*   **Bills Included on Listings?:** Not explicitly stated on listings, but general information about 'bills included' options exists on the site, suggesting it might be 'Some'. [3, 6, 10, 12, 13]
+*   **Bills Included on Listings?:** Some (A limited number of landlords may include bills. If not included, tenants can sometimes opt for a bills package via UniHomes, though this is separate from the rent agreement with the landlord/agency)
 *   **Website Url:** https://smartmovesheffield.com
-*   **Student Listings Live:** Yes [4, 23, 28]
-*   **Key channels live on:** Not Found (Listings appear primarily on their own site, which is powered by Studentpad software. No evidence found of listings on Rightmove, Zoopla, OnTheMarket, or UniHomes).
-*   **Branches:** 1 (Located within the University of Sheffield Students' Union Building) [2, 28, 29]
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Smart Move Sheffield (own platform), potentially Rightmove/Zoopla (mentioned as general large property sites students might look at, but not confirmed if Smart Move lists there)
+*   **Branches:** 1 (Located within the University of Sheffield Students' Union Building)
 *   **Key Contact Person:**
-    *   Full Name: Not Found (No specific person named in search results)
+    *   Full Name: Not Found (General team contact available)
     *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 0114 2226058 [2, 15, 28, 29]
-    *   Address: Level 3, Students' Union Building, Western Bank, Sheffield, S10 2TG [2, 28, 29]
-    *   Email: smartmove@sheffield.ac.uk [2, 15, 22, 28, 29]
+    *   Phone: 0114 2226058
+    *   Address: Level 3, Students' Union Building, Western Bank, Sheffield, S10 2TG
+    *   Email: smartmove@sheffield.ac.uk
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (Searches mainly return University of Sheffield or Studentpad Limited profiles)
+    *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Smart Move Sheffield is run by the University of Sheffield and Sheffield Students' Union. [4, 15, 23] The website platform is powered by Studentpad Ltd. [8, 9, 21, 28, 29] Studentpad Limited's registered address is Unit 30, Brough Business Centre, Baffin Way, Brough, HU15 1YU. [7, 9] Properties listed are inspected via Sheffield City Council's 'Snug' scheme. [4, 20, 23, 28]
-*   **Notes/Comments:** Smart Move Sheffield appears to be the University of Sheffield's official private sector accommodation service, rather than a standard commercial letting agency. It utilizes the Studentpad platform. The original prompt mentioned "Studentpad Limited", which is the software provider for the website, not the agency itself, although there's a clear partnership. Contact details are readily available, but specific staff names are not prominent. No evidence of listing on major commercial portals was found.
+*   **Other Linkedin/Extra Details:** Smart Move Sheffield is run by the University of Sheffield and Sheffield Students' Union. Properties listed are inspected by Sheffield City Council under the Snug scheme. The website platform appears to be powered by Studentpad Ltd (Company No: 03992911).
+*   **Notes/Comments:** The user initially provided the name "Studentpad Limited". Studentpad Ltd is the company providing the software platform for the Smart Move Sheffield website, but the letting service itself is "Smart Move Sheffield", run by the University of Sheffield. Smart Move Sheffield specifically serves University of Sheffield students and staff. It primarily lists properties on its own platform, which requires properties to meet Snug accreditation standards. While some listings might include bills, it's not standard; tenants usually pay utilities separately or can opt for a third-party package like UniHomes. No specific key contact person was identified from the search. No dedicated LinkedIn profile for Smart Move Sheffield was found.

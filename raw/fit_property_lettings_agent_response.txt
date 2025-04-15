@@ -1,18 +1,18 @@
-*   Letting Agent: Fit Property Lettings Agent
-*   Bills Included on Listings?: Some
-*   Website Url: https://www.fitproperty.com/
-*   Student Listings Live: Yes
-*   Key channels live on: Rightmove, Zoopla, UniHomes
-*   Branches: 1
-*   Key Contact Person:
-    *   Full Name: Not Found
-    *   Position: Not Found
-*   Contact Information:
-    *   Phone: 01142 725773 (Alternative found: 0114 697 2820)
-    *   Address: 144 Charles Street, Sheffield S1 2NE (Alternative found: 100 Matilda Street, Sheffield, S1 4QF)
+*   **Letting Agent:** Fit Property Lettings Agent
+*   **Bills Included on Listings?:** Some (Offers "Bills Included Option" or "Bills Managed" service)
+*   **Website Url:** https://www.fitproperty.com/
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Rightmove, Zoopla, UniHomes
+*   **Branches:** 1 (Based on single address found)
+*   **Key Contact Person:**
+    *   Full Name: Adam (Lettings Manager), Jenn (Office Manager), Natasha (Business Development Manager), Claire (Property Manager)
+    *   Position: Lettings Manager, Office Manager, Business Development Manager, Property Manager (No single director/owner identified from search results)
+*   **Contact Information:**
+    *   Phone: 01142 725773 (Website), 0114 697 2820 (Rightmove/Home.co.uk)
+    *   Address: 144 Charles Street, Sheffield S1 2NE (Website), 100 Matilda Street, Sheffield, S1 4QF (Home.co.uk)
     *   Email: hello@fitproperty.com
-*   LinkedIn:
-    *   Company Profile URL: https://www.linkedin.com/company/fit-property/
-    *   Key Contact Profile URL: Not Found
-*   Other Linkedin/Extra Details: Company Number: 10744654
-*   Notes/Comments: Agency focuses on student and residential lettings in Sheffield. Contact details confirmed on the website footer, though alternative details exist on third-party portals. A specific key contact person was not identified through public searches.
+*   **LinkedIn:**
+    *   Company Profile URL: Not Found
+    *   Key Contact Profile URL: Not Found (Joel Walker, former Head of Property Management, found on LinkedIn via news article, but no current key contact profile located)
+*   **Other Linkedin/Extra Details:** Company No. 10744654
+*   **Notes/Comments:** The agency focuses on student and residential lettings in Sheffield. There are discrepancies in the listed address and phone number between the agency's website and third-party portals like Rightmove and Home.co.uk. The website lists key team members but not a specific director. UniHomes is mentioned as a partner on their website. OnTheMarket presence was not confirmed.

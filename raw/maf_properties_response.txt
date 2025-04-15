@@ -1,18 +1,18 @@
 *   **Letting Agent:** MAF Properties
-*   **Bills Included on Listings?:** No (but can be offered as a separate package via UniHomes)
+*   **Bills Included on Listings?:** Some (Listings on Rightmove mention "Free Internet" or "Free Wifi" for some properties, but it's unclear if other bills are included. General searches indicate 'bills included' is a popular search term, but MAF's website doesn't explicitly state this for all listings.)
 *   **Website Url:** https://mafstudents.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove, Zoopla, UniHomes
-*   **Branches:** 1 (based on single address found)
+*   **Key channels live on:** Rightmove, OnTheMarket, Studentpad (Zoopla lists MAF Properties but shows no live listings currently)
+*   **Branches:** 1 (Based on the single address found)
 *   **Key Contact Person:**
-    *   Full Name: Mahboob Ahmed Fazal
-    *   Position: Director
+    *   Full Name: Mahboob Ahmed Fazal (Listed as a director for MAF PROPERTIES ( UK ) LIMITED on Companies House and Endole)
+    *   Position: Director (Likely, based on company filings)
 *   **Contact Information:**
     *   Phone: 0114 272 6006
-    *   Address: 114 Ecclesall Road, Sheffield S11 8JB
-    *   Email: info@mafstudents.co.uk
+    *   Address: 114 Ecclesall Road, Sheffield, Yorkshire, S11 8JB (From OnTheMarket listing)
+    *   Email: info@mafproperties.com (From Devonshire Point website associated with MAF Properties)
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (Searches mainly return Majid Al Futtaim Group or MAF Finance Group)
+    *   Company Profile URL: Not Found (Searches mainly return results for Majid Al Futtaim (MAF) Group, a different entity)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Name: MAF PROPERTIES ( UK ) LIMITED, Company Number: 11297260 (Incorporated 6 April 2018, listed as dormant on Endole, but active on Companies House). Directors listed on Companies House: Mahboob Ahmed Fazal (Appointed 6 April 2018), Masaud Ahmed Fazal (Appointed 23 March 2007 - likely related to the business operating for 30+ years, potentially under a different structure before this specific company number).
-*   **Notes/Comments:** The agency specializes in student accommodation in Sheffield and has been operating for over 30 years. They state they manage their own properties. While utility bills are not included in the standard rent, they partner with UniHomes to offer all-inclusive packages. Finding specific LinkedIn profiles for this UK student letting agency was difficult due to the common name "MAF Properties" shared with larger international groups (Majid Al Futtaim) and other UK finance brokers (MAF Finance Group). Company information suggests MAF PROPERTIES ( UK ) LIMITED (11297260) is the current entity, though its incorporation date (2018) doesn't align with the claimed 30+ years of operation, suggesting prior business structures.
+*   **Other Linkedin/Extra Details:** MAF PROPERTIES ( UK ) LIMITED, Company Number: 11295087 (Incorporated 6 April 2018, listed as dormant on Endole, but active on Companies House)
+*   **Notes/Comments:** The agency specializes in student accommodation in Sheffield. They state they own all their properties. Finding specific key contact details beyond the likely director listed on Companies House was difficult. Many search results relate to Majid Al Futtaim (MAF) Group/Properties, which is a large international conglomerate and unrelated to this Sheffield-based student letting agency. The website mafstudents.co.uk is the primary source, along with portal listings.

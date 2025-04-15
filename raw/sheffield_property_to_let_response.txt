@@ -1,18 +1,18 @@
 *   **Letting Agent:** Sheffield Property To Let
-*   **Bills Included on Listings?:** Some (e.g., Clarkson House listings mention "all-inclusive bills")
+*   **Bills Included on Listings?:** Not Found (Listings on the website do not explicitly state if bills are included or not, though many other student letting agents in Sheffield offer bills-included options [4, 7, 8, 22, 23, 31])
 *   **Website Url:** https://sheffieldpropertytolet.co.uk
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Not Found (Their website mentions they are independent landlords, not agents, suggesting they may not use portals like Rightmove/Zoopla, but this is not explicitly confirmed. No listings found on major portals in the search results.)
-*   **Branches:** Not Found (Website indicates they are independent landlords, suggesting a single operation rather than multiple branches.)
+*   **Student Listings Live:** Yes [2]
+*   **Key channels live on:** Not Found (Agency not found listed on Rightmove [6, 25], Zoopla [19], OnTheMarket [24], or UniHomes [3, 23])
+*   **Branches:** Not Found (Only one address listed [2, 9])
 *   **Key Contact Person:**
     *   Full Name: Not Found
-    *   Position: Not Found (Website refers to "independent landlords" and "friendly team" but doesn't name individuals.)
+    *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: Not Found (Website encourages contact via email form or potentially through "Igloo Accommodation" for certain issues, but no direct phone number for Sheffield Property To Let is listed.)
-    *   Address: Not Found
-    *   Email: Not Found (Website has a contact form but no direct email address is listed.)
+    *   Phone: 07951515970 [2, 9]
+    *   Address: 104 Banner Cross Road, Sheffield, South Yorkshire, S11 9HR [2, 9]
+    *   Email: info@sheffieldpropertytolet.co.uk [2, 9]
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** The website mentions they work with or refer tenants to "Igloo Accommodation" for certain aspects like key issues or emergencies, depending on the contract. They state they have been renting properties for nearly 30 years.
-*   **Notes/Comments:** The agency positions itself as independent landlords rather than a traditional letting agency. Information is primarily sourced from their own website. They focus specifically on student accommodation in Sheffield. Difficulty finding specific contact details (phone, email, address) and key personnel names. No presence found on major letting portals or LinkedIn.
+*   **Other Linkedin/Extra Details:** Not Found (No company number or affiliations like ARLA found in search results)
+*   **Notes/Comments:** The agency focuses on student accommodation in Sheffield and has been operating for over 20 years [2]. Contact information is readily available on their website [2, 9]. However, details about key personnel, company registration, affiliations, and presence on major property portals were not found in the search results. Many other agents in Sheffield explicitly mention bills-included options, but this agent does not specify on their site [2].

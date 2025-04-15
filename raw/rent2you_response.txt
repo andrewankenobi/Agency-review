@@ -1,18 +1,18 @@
-*   **Letting Agent:** Rent2You (also referred to as Rent 2 You)
-*   **Bills Included on Listings?:** Some (The website mentions "all inclusive packages" for landlords, and some property portals allow filtering by "bills included", but it's not explicitly stated for all tenant listings on the Rent2You site itself. UniHomes, where they advertise, specializes in bills-included student homes.)
+*   **Letting Agent:** Rent2you
+*   **Bills Included on Listings?:** Not Found (Website listings do not consistently state this)
 *   **Website Url:** https://rent2you.org
-*   **Student Listings Live:** Yes (Mentioned on Yell.com and OnTheMarket profiles, and they advertise on UniHomes which is student-focused)
-*   **Key channels live on:** Rightmove, Zoopla, OnTheMarket, UniHomes, PrimeLocation
-*   **Branches:** Not Found (Appears to be primarily based in Sheffield, but no specific branch number found. An address on OnTheMarket suggests one location.)
+*   **Student Listings Live:** Yes (Website has a student lettings focus/section)
+*   **Key channels live on:** Rightmove, Zoopla, UniHomes, PrimeLocation (Mentioned on website footer/sections)
+*   **Branches:** Not Found (Search results mention Sheffield and Hull addresses associated with Rent2You Ltd entities, but the provided website focuses on Sheffield and doesn't list multiple branches. Another entity, RENT 2 YOU (HULL) LIMITED, exists but seems separate or potentially related. The website contact details are for Sheffield).
 *   **Key Contact Person:**
-    *   Full Name: Gina (Surname not found, mentioned in reviews as the owner)
-    *   Position: Owner (Inferred from reviews)
-*   **Contact Information:**
-    *   Phone: 0114 212 9777 (from website), 0114 446 5539 (from OnTheMarket)
-    *   Address: 88 Carr Road, Sheffield, South Yorkshire S6 2WZ (from OnTheMarket)
+    *   Full Name: Not Found (Website doesn't list key personnel. Companies House lists directors for related entities, but no single key contact is identifiable from the website or general search for the specific website operation).
+    *   Position: Not Found
+*   **Contact Information:** (From rent2you.org website)
+    *   Phone: 0114 212 9777
+    *   Address: Not Found (No physical address listed on the website's contact page, primarily Sheffield focused based on listings and phone number)
     *   Email: hello@rent2you.org
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (A LinkedIn icon exists on the website but doesn't link. Searches for Rent2You yield results for companies in other countries/sectors.)
+    *   Company Profile URL: Not Found (Search results show profiles for similar names but none definitively linked to https://rent2you.org)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Primarily serves the Sheffield area. Focuses on an "all-inclusive" service for landlords.
-*   **Notes/Comments:** The agency seems focused on the Sheffield rental market, including student accommodation. While they advertise on major portals, finding specific company details like branch numbers or key contact full names/LinkedIn profiles proved difficult. There are multiple businesses globally with similar names (Rent2You/Rent2U) in car rental, app development, and real estate in other countries (Saudi Arabia, Rotterdam, Malaysia), requiring careful filtering of search results. The OnTheMarket profile provides a specific address and an alternative phone number. Reviews mention "Gina" as the owner.
+*   **Other Linkedin/Extra Details:** Multiple limited companies exist with similar names (e.g., RENT2YOU LTD - Company number 13491973, RENT 2 YOU (HULL) LIMITED - Company number 07080108). The exact entity operating the website https://rent2you.org is unclear from the site itself. The website primarily features Sheffield properties.
+*   **Notes/Comments:** The website https://rent2you.org appears focused on the Sheffield student letting market. While searches reveal entities with similar names in Hull and Sheffield, the specific structure and personnel for the operation behind this website aren't clearly detailed online. Contact information is provided, but a physical branch address is missing from the site. They state they advertise on major portals.

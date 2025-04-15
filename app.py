@@ -28,7 +28,14 @@ refresh_progress = {
     'end_time': None
 }
 
+# File to store progress state
+PROGRESS_FILE = 'refresh_progress.json'
+
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+handler = logging.StreamHandler()
+handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+logger.addHandler(handler)
 
 def load_system_prompt(file_path=SYSTEM_PROMPT_PATH):
     try:
@@ -79,14 +86,39 @@ def get_agencies():
         logger.error(f"Error reading output.json: {str(e)}")
         return jsonify([])
 
+def save_progress():
+    """Save progress state to file."""
+    try:
+        with open(PROGRESS_FILE, 'w') as f:
+            json.dump(refresh_progress, f)
+        logger.info(f"Progress saved: {refresh_progress['status']} - {refresh_progress['message']}")
+    except Exception as e:
+        logger.error(f"Error saving progress: {str(e)}")
+
+def load_progress():
+    """Load progress state from file."""
+    try:
+        if os.path.exists(PROGRESS_FILE):
+            with open(PROGRESS_FILE, 'r') as f:
+                data = json.load(f)
+                logger.info(f"Loaded progress: {data['status']} - {data['message']}")
+                return data
+    except Exception as e:
+        logger.error(f"Error loading progress: {str(e)}")
+    return {
+        'status': 'idle',
+        'message': '',
+        'start_time': None,
+        'end_time': None
+    }
+
+# Load initial progress state
+refresh_progress = load_progress()
+logger.info(f"Initial progress state: {refresh_progress['status']}")
+
 def run_main_script():
     """Run the main.py script to refresh the data."""
     try:
-        # Set initial status
-        refresh_progress['status'] = 'running'
-        refresh_progress['start_time'] = time.time()
-        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Starting data refresh...'
-        
         # Get the absolute path to main.py
         main_script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'main.py')
         
@@ -95,9 +127,16 @@ def run_main_script():
             logger.error(f"main.py not found at {main_script_path}")
             refresh_progress['status'] = 'error'
             refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: main.py not found'
+            save_progress()
             return
             
-        # Run main.py with unbuffered output
+        # Set initial status
+        refresh_progress['status'] = 'running'
+        refresh_progress['start_time'] = time.time()
+        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Starting data refresh...'
+        save_progress()
+        
+        # Run main.py with unbuffered output and proper stream handling
         process = subprocess.Popen(
             ['python3', '-u', main_script_path],
             stdout=subprocess.PIPE,
@@ -107,38 +146,73 @@ def run_main_script():
             universal_newlines=True
         )
         
-        # Read output in real-time
-        last_message = ''
+        # Read both stdout and stderr in real-time
         while True:
+            # Read stdout
             output = process.stdout.readline()
-            if output == '' and process.poll() is not None:
-                break
             if output:
                 message = output.strip()
-                if message and message != last_message:
-                    timestamped_message = f'[{time.strftime("%I:%M:%S %p")}] {message}'
+                if message:
+                    # Check if this is a log message
+                    if message.startswith("20"):  # Log messages start with timestamp
+                        # Extract the actual message part
+                        actual_message = " ".join(message.split(" - ")[2:])
+                        timestamped_message = f'[{time.strftime("%I:%M:%S %p")}] {actual_message}'
+                    else:
+                        timestamped_message = f'[{time.strftime("%I:%M:%S %p")}] {message}'
+                    
                     refresh_progress['message'] = timestamped_message
                     logger.info(f"Progress update: {message}")
-                    last_message = message
+                    save_progress()
+            
+            # Read stderr
+            error = process.stderr.readline()
+            if error:
+                error_message = error.strip()
+                if error_message:
+                    # Only treat as error if it's not a log message
+                    if not error_message.startswith("20"):
+                        logger.error(f"Script error: {error_message}")
+                        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {error_message}'
+                        save_progress()
+            
+            # Check if process has finished
+            if process.poll() is not None:
+                break
         
-        # Check for errors
-        _, stderr = process.communicate()
+        # Get any remaining output
+        stdout, stderr = process.communicate()
+        
+        # Log any remaining output
+        if stdout:
+            for line in stdout.splitlines():
+                if line.strip():
+                    logger.info(f"Remaining stdout: {line}")
+        if stderr:
+            for line in stderr.splitlines():
+                if line.strip() and not line.startswith("20"):  # Skip log messages
+                    logger.error(f"Remaining stderr: {line}")
+        
+        # Check process return code
         if process.returncode != 0:
             refresh_progress['status'] = 'error'
-            refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {stderr}'
-            logger.error(f"Process failed with error: {stderr}")
+            error_msg = stderr if stderr else "Unknown error occurred"
+            refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {error_msg}'
+            logger.error(f"Process failed with error: {error_msg}")
         else:
             refresh_progress['status'] = 'complete'
             refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Data refresh completed successfully'
             logger.info("Process completed successfully")
         
         refresh_progress['end_time'] = time.time()
+        save_progress()
         
     except Exception as e:
         refresh_progress['status'] = 'error'
         refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {str(e)}'
         refresh_progress['end_time'] = time.time()
-        logger.error(f"Exception in run_main_script: {str(e)}", exc_info=True)
+        save_progress()
+        logger.error(f"Error in run_main_script: {str(e)}", exc_info=True)
 
 @app.route('/')
 def index():
@@ -148,25 +222,78 @@ def index():
 def get_agencies_route():
     return get_agencies()
 
+def cleanup_progress():
+    """Reset progress state to idle."""
+    global refresh_progress
+    refresh_progress = {
+        'status': 'idle',
+        'message': '',
+        'start_time': None,
+        'end_time': None
+    }
+    save_progress()
+    logger.info("Progress state reset to idle")
+
+# Initialize progress state on server startup
+cleanup_progress()
+
+@app.route('/api/refresh/reset', methods=['POST'])
+def reset_refresh():
+    """Force reset the refresh state."""
+    try:
+        cleanup_progress()
+        return jsonify({'status': 'success', 'message': 'Refresh state reset'})
+    except Exception as e:
+        logger.error(f"Error resetting refresh state: {str(e)}")
+        return jsonify({'status': 'error', 'message': str(e)}), 500
+
 @app.route('/api/refresh', methods=['POST'])
 def refresh_data():
+    logger.info("Received refresh request")
+    logger.info(f"Current status: {refresh_progress['status']}")
+    
     if refresh_progress['status'] == 'running':
-        return jsonify({'status': 'error', 'message': 'Refresh already in progress'}), 400
+        logger.warning("Refresh already in progress - attempting to reset state")
+        try:
+            cleanup_progress()
+        except Exception as e:
+            logger.error(f"Failed to reset progress state: {str(e)}")
+            return jsonify({'status': 'error', 'message': 'Failed to reset refresh state'}), 500
     
-    # Reset progress
-    refresh_progress['status'] = 'idle'
-    refresh_progress['message'] = ''
-    refresh_progress['start_time'] = None
-    refresh_progress['end_time'] = None
-    
-    # Start refresh in a separate thread
-    thread = threading.Thread(target=run_main_script)
-    thread.start()
-    
-    return jsonify({'status': 'success', 'message': 'Refresh started'})
+    try:
+        # Reset progress
+        refresh_progress['status'] = 'idle'
+        refresh_progress['message'] = ''
+        refresh_progress['start_time'] = None
+        refresh_progress['end_time'] = None
+        save_progress()
+        
+        logger.info("Starting refresh process")
+        
+        # Start refresh in a separate thread
+        thread = threading.Thread(target=run_main_script)
+        thread.daemon = True  # Make thread daemon so it doesn't prevent app shutdown
+        thread.start()
+        
+        # Set initial running state
+        refresh_progress['status'] = 'running'
+        refresh_progress['start_time'] = time.time()
+        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Starting data refresh...'
+        save_progress()
+        
+        logger.info("Refresh process started successfully")
+        return jsonify({'status': 'success', 'message': 'Refresh started'})
+    except Exception as e:
+        logger.error(f"Error starting refresh: {str(e)}", exc_info=True)
+        refresh_progress['status'] = 'error'
+        refresh_progress['message'] = f'[{time.strftime("%I:%M:%S %p")}] Error: {str(e)}'
+        refresh_progress['end_time'] = time.time()
+        save_progress()
+        return jsonify({'status': 'error', 'message': str(e)}), 500
 
 @app.route('/api/refresh/progress')
 def get_refresh_progress():
+    logger.debug(f"Progress check: {refresh_progress['status']} - {refresh_progress['message']}")
     return jsonify({
         'status': refresh_progress['status'],
         'message': refresh_progress['message'],

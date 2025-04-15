@@ -1,332 +1,441 @@
-2025-04-15 21:01:31,560 - INFO - Starting agency research application
-2025-04-15 21:01:31,560 - INFO - Log file cleared for new run
-2025-04-15 21:01:31,561 - INFO - Starting agency research application
-2025-04-15 21:01:31,561 - INFO - Successfully loaded environment variables
-2025-04-15 21:01:31,561 - INFO - Successfully loaded 44 agencies from agencies.json
-2025-04-15 21:01:31,562 - INFO - Successfully loaded system prompt from system_prompt.txt
-2025-04-15 21:01:31,608 - INFO - Successfully initialized Gemini client
-2025-04-15 21:01:31,608 - INFO - 
-Processing batch 1 of 9
-2025-04-15 21:01:31,608 - INFO - Agencies in this batch: Fit Property Lettings Agent, Thornsett Properties, JC Sales and Lettings, MBA Lettings, M3 Lettings
-2025-04-15 21:01:31,609 - INFO - Starting processing for agency: Fit Property Lettings Agent
-2025-04-15 21:01:31,609 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:01:31,609 - INFO - Starting processing for agency: Thornsett Properties
-2025-04-15 21:01:31,610 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:01:31,610 - INFO - Starting processing for agency: JC Sales and Lettings
-2025-04-15 21:01:31,610 - INFO - Starting processing for agency: MBA Lettings
-2025-04-15 21:01:31,610 - INFO - Starting processing for agency: M3 Lettings
-2025-04-15 21:01:31,610 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:01:31,610 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:01:31,611 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:01:43,860 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:01:43,861 - INFO - AFC remote call 1 is done.
-2025-04-15 21:01:43,862 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:01:44,443 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:01:44,447 - INFO - AFC remote call 1 is done.
-2025-04-15 21:01:44,448 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:01:44,693 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:01:44,698 - INFO - AFC remote call 1 is done.
-2025-04-15 21:01:44,699 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:01:46,919 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:01:46,922 - INFO - AFC remote call 1 is done.
-2025-04-15 21:01:46,923 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:01:51,024 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:01:51,027 - INFO - AFC remote call 1 is done.
-2025-04-15 21:01:51,027 - INFO - Successfully processed M3 Lettings
-2025-04-15 21:01:51,083 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:01:51,085 - INFO - AFC remote call 1 is done.
-2025-04-15 21:01:51,086 - ERROR - Error processing agency Fit Property Lettings Agent on attempt 1: 'NoneType' object has no attribute 'strip'
+2025-04-15 21:30:56,853 - INFO - Starting agency research application
+2025-04-15 21:30:56,853 - INFO - Log file cleared for new run
+2025-04-15 21:30:56,853 - INFO - Successfully loaded environment variables
+2025-04-15 21:30:56,907 - INFO - Successfully initialized Gemini client
+2025-04-15 21:30:56,908 - INFO - Successfully loaded system prompt from system_prompt.txt
+2025-04-15 21:30:56,908 - INFO - Successfully loaded 44 agencies from agencies.json
+2025-04-15 21:30:56,908 - INFO - Starting batch processing for 44 agencies...
+2025-04-15 21:30:56,908 - INFO - Starting processing for agency: Fit Property Lettings Agent
+2025-04-15 21:30:56,908 - INFO - Starting processing for agency: Thornsett Properties
+2025-04-15 21:30:56,908 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:30:56,909 - INFO - Starting processing for agency: JC Sales and Lettings
+2025-04-15 21:30:56,909 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:30:56,909 - INFO - Starting processing for agency: MBA Lettings
+2025-04-15 21:30:56,909 - INFO - Starting processing for agency: M3 Lettings
+2025-04-15 21:30:56,909 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:30:56,910 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:30:56,910 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:09,499 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:09,503 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:09,506 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:09,706 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:09,711 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:09,712 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:10,085 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:10,088 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:10,090 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:14,304 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:14,308 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:14,309 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:16,790 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:16,793 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:16,794 - INFO - Successfully processed MBA Lettings
+2025-04-15 21:31:16,794 - INFO - Starting processing for agency: Dove Properties
+2025-04-15 21:31:16,794 - INFO - Completed MBA Lettings (1/44, 2.3%)
+2025-04-15 21:31:16,795 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:17,816 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:17,820 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:17,821 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:20,508 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:20,510 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:20,510 - INFO - Successfully processed Fit Property Lettings Agent
+2025-04-15 21:31:20,510 - INFO - Starting processing for agency: West One Lettings
+2025-04-15 21:31:20,511 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:20,513 - INFO - Completed Fit Property Lettings Agent (2/44, 4.5%)
+2025-04-15 21:31:20,846 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:20,848 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:20,848 - INFO - Successfully processed Thornsett Properties
+2025-04-15 21:31:20,848 - INFO - Starting processing for agency: Hallam Hills
+2025-04-15 21:31:20,848 - INFO - Completed Thornsett Properties (3/44, 6.8%)
+2025-04-15 21:31:20,849 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:22,980 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:22,982 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:22,982 - INFO - Successfully processed JC Sales and Lettings
+2025-04-15 21:31:22,982 - INFO - Starting processing for agency: Igloo Accommodation
+2025-04-15 21:31:22,983 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:22,984 - INFO - Completed JC Sales and Lettings (4/44, 9.1%)
+2025-04-15 21:31:25,336 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:25,339 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:25,339 - INFO - Successfully processed M3 Lettings
+2025-04-15 21:31:25,339 - INFO - Starting processing for agency: Oak Estates
+2025-04-15 21:31:25,340 - INFO - Completed M3 Lettings (5/44, 11.4%)
+2025-04-15 21:31:25,340 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:28,373 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:28,379 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:28,381 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:35,350 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:35,352 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:35,352 - INFO - Successfully processed Dove Properties
+2025-04-15 21:31:35,352 - INFO - Starting processing for agency: Home Made
+2025-04-15 21:31:35,352 - INFO - Completed Dove Properties (6/44, 13.6%)
+2025-04-15 21:31:35,353 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:36,635 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:36,640 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:36,641 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:37,391 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:37,395 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:37,398 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:37,404 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:37,409 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:37,410 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:43,789 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:43,793 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:43,795 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:44,362 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:44,366 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:44,366 - INFO - Successfully processed Hallam Hills
+2025-04-15 21:31:44,367 - INFO - Starting processing for agency: StudentTenant.com
+2025-04-15 21:31:44,367 - INFO - Completed Hallam Hills (7/44, 15.9%)
+2025-04-15 21:31:44,367 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:45,531 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:45,534 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:45,534 - INFO - Successfully processed Igloo Accommodation
+2025-04-15 21:31:45,534 - INFO - Starting processing for agency: Brink Riley Properties
+2025-04-15 21:31:45,534 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:45,544 - INFO - Completed Igloo Accommodation (8/44, 18.2%)
+2025-04-15 21:31:47,812 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:47,814 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:47,815 - INFO - Successfully processed West One Lettings
+2025-04-15 21:31:47,815 - INFO - Starting processing for agency: Shefflets Ltd
+2025-04-15 21:31:47,815 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:47,816 - INFO - Completed West One Lettings (9/44, 20.5%)
+2025-04-15 21:31:51,137 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:51,140 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:51,142 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:53,892 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:53,895 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:53,895 - INFO - Successfully processed Oak Estates
+2025-04-15 21:31:53,895 - INFO - Starting processing for agency: Capland Properties
+2025-04-15 21:31:53,895 - INFO - Completed Oak Estates (10/44, 22.7%)
+2025-04-15 21:31:53,895 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:56,171 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:56,177 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:56,185 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:31:59,003 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:59,006 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:59,006 - ERROR - Error processing agency Shefflets Ltd on attempt 1: Response text is None
 Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 258, in process_agency
-    response_text = response.text.strip()
-                    ^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'strip'
-2025-04-15 21:01:51,088 - WARNING - Retry attempt 2 for Fit Property Lettings Agent
-2025-04-15 21:01:51,369 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:01:51,370 - INFO - AFC remote call 1 is done.
-2025-04-15 21:01:51,370 - INFO - Successfully processed Thornsett Properties
-2025-04-15 21:01:53,899 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:01:53,900 - INFO - AFC remote call 1 is done.
-2025-04-15 21:01:53,900 - INFO - Successfully processed MBA Lettings
-2025-04-15 21:01:56,092 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:00,239 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:02:00,243 - INFO - AFC remote call 1 is done.
-2025-04-15 21:02:00,244 - INFO - Successfully processed JC Sales and Lettings
-2025-04-15 21:02:19,732 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:02:19,737 - INFO - AFC remote call 1 is done.
-2025-04-15 21:02:19,738 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:28,740 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:02:28,741 - INFO - AFC remote call 1 is done.
-2025-04-15 21:02:28,741 - INFO - Successfully processed Fit Property Lettings Agent
-2025-04-15 21:02:28,744 - INFO - Saved 5 results to output.json
-2025-04-15 21:02:28,744 - INFO - Saved results after batch 1
-2025-04-15 21:02:28,744 - INFO - Waiting 10 seconds before next batch...
-2025-04-15 21:02:38,749 - INFO - 
-Processing batch 2 of 9
-2025-04-15 21:02:38,750 - INFO - Agencies in this batch: Dove Properties, West One Lettings, Hallam Hills, Igloo Accommodation, Oak Estates
-2025-04-15 21:02:38,751 - INFO - Starting processing for agency: Dove Properties
-2025-04-15 21:02:38,752 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:38,754 - INFO - Starting processing for agency: West One Lettings
-2025-04-15 21:02:38,754 - INFO - Starting processing for agency: Hallam Hills
-2025-04-15 21:02:38,755 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:38,755 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:38,755 - INFO - Starting processing for agency: Igloo Accommodation
-2025-04-15 21:02:38,755 - INFO - Starting processing for agency: Oak Estates
-2025-04-15 21:02:38,758 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:38,758 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:48,690 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:02:48,694 - INFO - AFC remote call 1 is done.
-2025-04-15 21:02:48,697 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:50,398 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:02:50,399 - INFO - AFC remote call 1 is done.
-2025-04-15 21:02:50,400 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:50,493 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:02:50,494 - INFO - AFC remote call 1 is done.
-2025-04-15 21:02:50,496 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:02:55,252 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:02:55,253 - INFO - AFC remote call 1 is done.
-2025-04-15 21:02:55,253 - INFO - Successfully processed Hallam Hills
-2025-04-15 21:02:58,060 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:02:58,062 - INFO - AFC remote call 1 is done.
-2025-04-15 21:02:58,062 - INFO - Successfully processed Dove Properties
-2025-04-15 21:02:58,208 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:02:58,211 - INFO - AFC remote call 1 is done.
-2025-04-15 21:02:58,211 - INFO - Successfully processed Igloo Accommodation
-2025-04-15 21:03:00,963 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:00,968 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:00,969 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:04,326 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:04,329 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:04,332 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:06,484 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:06,489 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:06,489 - INFO - Successfully processed Oak Estates
-2025-04-15 21:03:16,146 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:16,149 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:16,150 - INFO - Successfully processed West One Lettings
-2025-04-15 21:03:16,153 - INFO - Saved 10 results to output.json
-2025-04-15 21:03:16,153 - INFO - Saved results after batch 2
-2025-04-15 21:03:16,153 - INFO - Waiting 10 seconds before next batch...
-2025-04-15 21:03:26,158 - INFO - 
-Processing batch 3 of 9
-2025-04-15 21:03:26,160 - INFO - Agencies in this batch: Home Made, StudentTenant.com, Brink Riley Properties, Shefflets Ltd, Capland Properties
-2025-04-15 21:03:26,161 - INFO - Starting processing for agency: Home Made
-2025-04-15 21:03:26,162 - INFO - Starting processing for agency: StudentTenant.com
-2025-04-15 21:03:26,162 - INFO - Starting processing for agency: Brink Riley Properties
-2025-04-15 21:03:26,162 - INFO - Starting processing for agency: Shefflets Ltd
-2025-04-15 21:03:26,162 - INFO - Starting processing for agency: Capland Properties
-2025-04-15 21:03:26,165 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:26,168 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:26,169 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:26,169 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:26,169 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:37,094 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:37,095 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:37,095 - ERROR - Error processing agency Shefflets Ltd on attempt 1: 'NoneType' object has no attribute 'strip'
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 290, in process_agency
+    raise ValueError("Response text is None")
+ValueError: Response text is None
+2025-04-15 21:31:59,008 - WARNING - Retry attempt 2 for Shefflets Ltd
+2025-04-15 21:31:59,888 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:31:59,892 - INFO - AFC remote call 1 is done.
+2025-04-15 21:31:59,893 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:00,696 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:00,700 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:00,701 - INFO - Successfully processed Home Made
+2025-04-15 21:32:00,701 - INFO - Starting processing for agency: Smart Moves Group
+2025-04-15 21:32:00,701 - INFO - Completed Home Made (11/44, 25.0%)
+2025-04-15 21:32:00,701 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:03,209 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:03,211 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:03,211 - INFO - Successfully processed StudentTenant.com
+2025-04-15 21:32:03,212 - INFO - Starting processing for agency: Urban Evolution
+2025-04-15 21:32:03,212 - INFO - Completed StudentTenant.com (12/44, 27.3%)
+2025-04-15 21:32:03,212 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:04,014 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:07,459 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:07,461 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:07,461 - INFO - Successfully processed Brink Riley Properties
+2025-04-15 21:32:07,461 - INFO - Starting processing for agency: MAF Properties
+2025-04-15 21:32:07,462 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:07,463 - INFO - Completed Brink Riley Properties (13/44, 29.5%)
+2025-04-15 21:32:13,997 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:14,001 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:14,005 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:15,805 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:15,810 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:15,811 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:18,948 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:18,955 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:18,956 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:19,699 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:19,704 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:19,706 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:21,268 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:21,272 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:21,274 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:22,184 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:22,188 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:22,188 - INFO - Successfully processed Smart Moves Group
+2025-04-15 21:32:22,188 - INFO - Starting processing for agency: Student Digs
+2025-04-15 21:32:22,188 - INFO - Completed Smart Moves Group (14/44, 31.8%)
+2025-04-15 21:32:22,188 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:23,769 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:23,772 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:23,772 - INFO - Successfully processed Capland Properties
+2025-04-15 21:32:23,773 - INFO - Starting processing for agency: Tapton Estates
+2025-04-15 21:32:23,773 - INFO - Completed Capland Properties (15/44, 34.1%)
+2025-04-15 21:32:23,773 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:26,267 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:26,271 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:26,272 - INFO - Successfully processed Shefflets Ltd
+2025-04-15 21:32:26,272 - INFO - Starting processing for agency: Broomhill Property Shop
+2025-04-15 21:32:26,274 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:26,276 - INFO - Completed Shefflets Ltd (16/44, 36.4%)
+2025-04-15 21:32:27,295 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:27,299 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:27,300 - INFO - Successfully processed MAF Properties
+2025-04-15 21:32:27,300 - INFO - Starting processing for agency: Rent2you
+2025-04-15 21:32:27,300 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:27,301 - INFO - Completed MAF Properties (17/44, 38.6%)
+2025-04-15 21:32:34,905 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:34,909 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:34,910 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:35,760 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:35,764 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:35,764 - INFO - Successfully processed Urban Evolution
+2025-04-15 21:32:35,765 - INFO - Starting processing for agency: Crucible Homes
+2025-04-15 21:32:35,765 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:35,765 - INFO - Completed Urban Evolution (18/44, 40.9%)
+2025-04-15 21:32:36,574 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:36,576 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:36,576 - ERROR - Error processing agency Student Digs on attempt 1: Response text is None
 Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 258, in process_agency
-    response_text = response.text.strip()
-                    ^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'strip'
-2025-04-15 21:03:37,096 - WARNING - Retry attempt 2 for Shefflets Ltd
-2025-04-15 21:03:37,804 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:37,807 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:37,808 - ERROR - Error processing agency Home Made on attempt 1: 'NoneType' object has no attribute 'strip'
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 290, in process_agency
+    raise ValueError("Response text is None")
+ValueError: Response text is None
+2025-04-15 21:32:36,576 - WARNING - Retry attempt 2 for Student Digs
+2025-04-15 21:32:41,166 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:41,171 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:41,172 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:41,578 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:43,121 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:43,123 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:43,123 - INFO - Successfully processed Tapton Estates
+2025-04-15 21:32:43,123 - INFO - Starting processing for agency: Pa Properties
+2025-04-15 21:32:43,123 - INFO - Completed Tapton Estates (19/44, 43.2%)
+2025-04-15 21:32:43,124 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:48,858 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:48,861 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:48,861 - INFO - Successfully processed Broomhill Property Shop
+2025-04-15 21:32:48,861 - INFO - Starting processing for agency: SheffieldRooms
+2025-04-15 21:32:48,861 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:48,862 - INFO - Completed Broomhill Property Shop (20/44, 45.5%)
+2025-04-15 21:32:49,366 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:49,369 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:49,370 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:50,067 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:50,069 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:50,070 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:54,539 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:54,542 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:54,542 - ERROR - Error processing agency Student Digs on attempt 2: Response text is None
 Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 258, in process_agency
-    response_text = response.text.strip()
-                    ^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'strip'
-2025-04-15 21:03:37,808 - WARNING - Retry attempt 2 for Home Made
-2025-04-15 21:03:38,421 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:38,423 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:38,426 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:41,231 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:41,234 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:41,236 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:42,101 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:42,812 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:45,527 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:45,528 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:45,528 - INFO - Successfully processed Brink Riley Properties
-2025-04-15 21:03:45,729 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:45,731 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:45,732 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:03:50,107 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:50,108 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:50,108 - INFO - Successfully processed Capland Properties
-2025-04-15 21:03:53,315 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:53,316 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:53,316 - ERROR - Error processing agency Shefflets Ltd on attempt 2: 'NoneType' object has no attribute 'strip'
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 290, in process_agency
+    raise ValueError("Response text is None")
+ValueError: Response text is None
+2025-04-15 21:32:54,543 - WARNING - Retry attempt 3 for Student Digs
+2025-04-15 21:32:55,036 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:55,040 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:55,042 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:57,166 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:57,169 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:57,169 - INFO - Successfully processed Rent2you
+2025-04-15 21:32:57,169 - INFO - Starting processing for agency: The Lettings Boutique
+2025-04-15 21:32:57,170 - INFO - Completed Rent2you (21/44, 47.7%)
+2025-04-15 21:32:57,170 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:59,175 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:59,178 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:59,178 - INFO - Successfully processed Crucible Homes
+2025-04-15 21:32:59,179 - INFO - Starting processing for agency: Sheffield Student Accommodation
+2025-04-15 21:32:59,179 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:32:59,180 - INFO - Completed Crucible Homes (22/44, 50.0%)
+2025-04-15 21:32:59,897 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:32:59,900 - INFO - AFC remote call 1 is done.
+2025-04-15 21:32:59,901 - INFO - Successfully processed Pa Properties
+2025-04-15 21:32:59,901 - INFO - Starting processing for agency: PC Properties
+2025-04-15 21:32:59,901 - INFO - Completed Pa Properties (23/44, 52.3%)
+2025-04-15 21:32:59,901 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:04,546 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:10,051 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:10,055 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:10,057 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:11,441 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:11,443 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:11,447 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:12,713 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:12,717 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:12,719 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:16,736 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:16,739 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:16,740 - INFO - Successfully processed The Lettings Boutique
+2025-04-15 21:33:16,740 - INFO - Starting processing for agency: S10 Estates
+2025-04-15 21:33:16,740 - INFO - Completed The Lettings Boutique (24/44, 54.5%)
+2025-04-15 21:33:16,741 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:17,251 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:17,253 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:17,254 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:18,826 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:18,830 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:18,830 - INFO - Successfully processed PC Properties
+2025-04-15 21:33:18,830 - INFO - Starting processing for agency: Steel City Living
+2025-04-15 21:33:18,830 - INFO - Completed PC Properties (25/44, 56.8%)
+2025-04-15 21:33:18,831 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:22,453 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:22,456 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:22,456 - INFO - Successfully processed SheffieldRooms
+2025-04-15 21:33:22,456 - INFO - Starting processing for agency: Swots Student Accommodation
+2025-04-15 21:33:22,456 - INFO - Completed SheffieldRooms (26/44, 59.1%)
+2025-04-15 21:33:22,457 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:26,188 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:26,190 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:26,190 - INFO - Successfully processed Sheffield Student Accommodation
+2025-04-15 21:33:26,191 - INFO - Starting processing for agency: Jarvis Student Properties
+2025-04-15 21:33:26,191 - INFO - Completed Sheffield Student Accommodation (27/44, 61.4%)
+2025-04-15 21:33:26,191 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:30,928 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:30,932 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:30,934 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:33,110 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:33,115 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:33,116 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:35,054 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:35,060 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:35,061 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:36,684 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:36,687 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:36,688 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:36,771 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:36,773 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:36,773 - INFO - Successfully processed Steel City Living
+2025-04-15 21:33:36,773 - INFO - Starting processing for agency: Sheffield Student Homes Ltd
+2025-04-15 21:33:36,773 - INFO - Completed Steel City Living (28/44, 63.6%)
+2025-04-15 21:33:36,773 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:39,555 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:39,559 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:39,559 - INFO - Successfully processed S10 Estates
+2025-04-15 21:33:39,559 - INFO - Starting processing for agency: PJ Properties & Consultancy Limited
+2025-04-15 21:33:39,559 - INFO - Completed S10 Estates (29/44, 65.9%)
+2025-04-15 21:33:39,560 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:40,628 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:40,635 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:40,636 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:42,169 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:42,171 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:42,172 - INFO - Successfully processed Swots Student Accommodation
+2025-04-15 21:33:42,172 - INFO - Starting processing for agency: Studentpad Limited
+2025-04-15 21:33:42,172 - INFO - Completed Swots Student Accommodation (30/44, 68.2%)
+2025-04-15 21:33:42,172 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:47,367 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:47,371 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:47,371 - INFO - Successfully processed Student Digs
+2025-04-15 21:33:47,371 - INFO - Starting processing for agency: WH Properties
+2025-04-15 21:33:47,372 - INFO - Completed Student Digs (31/44, 70.5%)
+2025-04-15 21:33:47,372 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:51,361 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:51,364 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:51,364 - INFO - Successfully processed Jarvis Student Properties
+2025-04-15 21:33:51,364 - INFO - Starting processing for agency: Strawberry Student Homes
+2025-04-15 21:33:51,364 - INFO - Completed Jarvis Student Properties (32/44, 72.7%)
+2025-04-15 21:33:51,365 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:55,146 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:55,149 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:55,150 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:55,427 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:55,431 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:55,435 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:57,590 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:57,592 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:57,593 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:33:59,817 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:33:59,819 - INFO - AFC remote call 1 is done.
+2025-04-15 21:33:59,819 - ERROR - Error processing agency WH Properties on attempt 1: Response text is None
 Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 258, in process_agency
-    response_text = response.text.strip()
-                    ^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'strip'
-2025-04-15 21:03:53,316 - WARNING - Retry attempt 3 for Shefflets Ltd
-2025-04-15 21:03:55,362 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:03:55,364 - INFO - AFC remote call 1 is done.
-2025-04-15 21:03:55,364 - ERROR - Error processing agency Home Made on attempt 2: 'NoneType' object has no attribute 'strip'
-Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 258, in process_agency
-    response_text = response.text.strip()
-                    ^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'strip'
-2025-04-15 21:03:55,365 - WARNING - Retry attempt 3 for Home Made
-2025-04-15 21:04:00,620 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:00,622 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:00,622 - INFO - Successfully processed StudentTenant.com
-2025-04-15 21:04:03,322 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:05,370 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:16,024 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:16,028 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:16,030 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:19,029 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:19,033 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:19,035 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:24,349 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:24,352 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:24,352 - INFO - Successfully processed Shefflets Ltd
-2025-04-15 21:04:25,989 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:25,992 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:25,992 - INFO - Successfully processed Home Made
-2025-04-15 21:04:25,995 - INFO - Saved 15 results to output.json
-2025-04-15 21:04:25,996 - INFO - Saved results after batch 3
-2025-04-15 21:04:25,996 - INFO - Waiting 10 seconds before next batch...
-2025-04-15 21:04:36,001 - INFO - 
-Processing batch 4 of 9
-2025-04-15 21:04:36,001 - INFO - Agencies in this batch: Smart Moves Group, Urban Evolution, MAF Properties, Student Digs, Tapton Estates
-2025-04-15 21:04:36,001 - INFO - Starting processing for agency: Smart Moves Group
-2025-04-15 21:04:36,001 - INFO - Starting processing for agency: Urban Evolution
-2025-04-15 21:04:36,002 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:36,002 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:36,002 - INFO - Starting processing for agency: MAF Properties
-2025-04-15 21:04:36,004 - INFO - Starting processing for agency: Student Digs
-2025-04-15 21:04:36,005 - INFO - Starting processing for agency: Tapton Estates
-2025-04-15 21:04:36,005 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:36,006 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:36,006 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:49,203 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:49,207 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:49,210 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:50,375 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:50,376 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:50,377 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:50,662 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:50,663 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:50,664 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:52,413 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:52,415 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:52,416 - ERROR - Error processing agency Student Digs on attempt 1: 'NoneType' object has no attribute 'strip'
-Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 258, in process_agency
-    response_text = response.text.strip()
-                    ^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'strip'
-2025-04-15 21:04:52,416 - WARNING - Retry attempt 2 for Student Digs
-2025-04-15 21:04:57,421 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:57,728 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:57,729 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:57,729 - INFO - Successfully processed Tapton Estates
-2025-04-15 21:04:57,977 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:57,981 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:57,984 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:04:59,556 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:04:59,560 - INFO - AFC remote call 1 is done.
-2025-04-15 21:04:59,560 - INFO - Successfully processed MAF Properties
-2025-04-15 21:05:00,400 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:05:00,400 - INFO - AFC remote call 1 is done.
-2025-04-15 21:05:00,400 - INFO - Successfully processed Smart Moves Group
-2025-04-15 21:05:04,390 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:05:04,393 - INFO - AFC remote call 1 is done.
-2025-04-15 21:05:04,394 - INFO - Successfully processed Urban Evolution
-2025-04-15 21:05:12,116 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:05:12,119 - INFO - AFC remote call 1 is done.
-2025-04-15 21:05:12,119 - ERROR - Error processing agency Student Digs on attempt 2: 'NoneType' object has no attribute 'strip'
-Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 258, in process_agency
-    response_text = response.text.strip()
-                    ^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'strip'
-2025-04-15 21:05:12,120 - WARNING - Retry attempt 3 for Student Digs
-2025-04-15 21:05:22,125 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:05:34,998 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:05:34,998 - INFO - AFC remote call 1 is done.
-2025-04-15 21:05:34,998 - ERROR - Error processing agency Student Digs on attempt 3: 'NoneType' object has no attribute 'strip'
-Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 258, in process_agency
-    response_text = response.text.strip()
-                    ^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'strip'
-2025-04-15 21:05:35,000 - INFO - Saved 20 results to output.json
-2025-04-15 21:05:35,000 - INFO - Saved results after batch 4
-2025-04-15 21:05:35,000 - INFO - Waiting 10 seconds before next batch...
-2025-04-15 21:05:45,001 - INFO - 
-Processing batch 5 of 9
-2025-04-15 21:05:45,001 - INFO - Agencies in this batch: Broomhill Property Shop, Rent2you, Crucible Homes, Pa Properties, SheffieldRooms
-2025-04-15 21:05:45,002 - INFO - Starting processing for agency: Broomhill Property Shop
-2025-04-15 21:05:45,002 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:05:45,003 - INFO - Starting processing for agency: Rent2you
-2025-04-15 21:05:45,003 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:05:45,003 - INFO - Starting processing for agency: Crucible Homes
-2025-04-15 21:05:45,004 - INFO - Starting processing for agency: Pa Properties
-2025-04-15 21:05:45,004 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:05:45,004 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:05:45,004 - INFO - Starting processing for agency: SheffieldRooms
-2025-04-15 21:05:45,005 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:05:55,963 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:05:55,966 - INFO - AFC remote call 1 is done.
-2025-04-15 21:05:55,967 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:05:58,420 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:05:58,422 - INFO - AFC remote call 1 is done.
-2025-04-15 21:05:58,424 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:06:00,692 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:06:00,693 - INFO - AFC remote call 1 is done.
-2025-04-15 21:06:00,694 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:06:00,742 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:06:00,743 - INFO - AFC remote call 1 is done.
-2025-04-15 21:06:00,743 - ERROR - Error processing agency SheffieldRooms on attempt 1: 'NoneType' object has no attribute 'strip'
-Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 258, in process_agency
-    response_text = response.text.strip()
-                    ^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'strip'
-2025-04-15 21:06:00,743 - WARNING - Retry attempt 2 for SheffieldRooms
-2025-04-15 21:06:04,852 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:06:04,853 - INFO - AFC remote call 1 is done.
-2025-04-15 21:06:04,855 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:06:05,748 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:06:07,216 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:06:07,218 - INFO - AFC remote call 1 is done.
-2025-04-15 21:06:07,218 - INFO - Successfully processed Broomhill Property Shop
-2025-04-15 21:06:07,219 - ERROR - Error processing Broomhill Property Shop: [Errno 32] Broken pipe
-2025-04-15 21:06:08,188 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:06:08,191 - INFO - AFC remote call 1 is done.
-2025-04-15 21:06:08,192 - INFO - Successfully processed Rent2you
-2025-04-15 21:06:09,543 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:06:09,545 - INFO - AFC remote call 1 is done.
-2025-04-15 21:06:09,545 - INFO - Successfully processed Crucible Homes
-2025-04-15 21:06:11,566 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:06:11,568 - INFO - AFC remote call 1 is done.
-2025-04-15 21:06:11,568 - INFO - Successfully processed Pa Properties
-2025-04-15 21:06:30,202 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:06:30,204 - INFO - AFC remote call 1 is done.
-2025-04-15 21:06:30,205 - INFO - AFC is enabled with max remote calls: 10.
-2025-04-15 21:06:38,835 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
-2025-04-15 21:06:38,838 - INFO - AFC remote call 1 is done.
-2025-04-15 21:06:38,838 - INFO - Successfully processed SheffieldRooms
-2025-04-15 21:06:38,839 - ERROR - Error in main: [Errno 32] Broken pipe
-Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 358, in process_agency_batch
-    print(f"Completed {agency['name']} ({completed}/{total_agencies}, {(completed/total_agencies)*100:.1f}%)", flush=True)
-BrokenPipeError: [Errno 32] Broken pipe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 400, in main
-    batch_results = process_agency_batch(batch, system_prompt, client)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/andreavasco/Desktop/Agency review/main.py", line 361, in process_agency_batch
-    print(f"Error processing {agency['name']}: {str(e)}", flush=True)
-BrokenPipeError: [Errno 32] Broken pipe
+  File "/Users/andreavasco/Desktop/Agency review/main.py", line 290, in process_agency
+    raise ValueError("Response text is None")
+ValueError: Response text is None
+2025-04-15 21:33:59,820 - WARNING - Retry attempt 2 for WH Properties
+2025-04-15 21:34:02,696 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:02,698 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:02,699 - INFO - Successfully processed Sheffield Student Homes Ltd
+2025-04-15 21:34:02,699 - INFO - Starting processing for agency: Home Accommodation
+2025-04-15 21:34:02,699 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:02,699 - INFO - Completed Sheffield Student Homes Ltd (33/44, 75.0%)
+2025-04-15 21:34:03,544 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:03,547 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:03,549 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:04,821 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:05,172 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:05,175 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:05,175 - INFO - Successfully processed Studentpad Limited
+2025-04-15 21:34:05,175 - INFO - Starting processing for agency: Gnome Student Homes
+2025-04-15 21:34:05,175 - INFO - Completed Studentpad Limited (34/44, 77.3%)
+2025-04-15 21:34:05,176 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:05,839 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:05,843 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:05,843 - INFO - Successfully processed PJ Properties & Consultancy Limited
+2025-04-15 21:34:05,843 - INFO - Starting processing for agency: Claypenny Student Accommodation
+2025-04-15 21:34:05,843 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:05,844 - INFO - Completed PJ Properties & Consultancy Limited (35/44, 79.5%)
+2025-04-15 21:34:09,663 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:09,666 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:09,667 - INFO - Successfully processed Strawberry Student Homes
+2025-04-15 21:34:09,667 - INFO - Starting processing for agency: Sheffield Property To Let
+2025-04-15 21:34:09,667 - INFO - Completed Strawberry Student Homes (36/44, 81.8%)
+2025-04-15 21:34:09,667 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:16,639 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:16,641 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:16,642 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:17,557 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:17,561 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:17,564 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:17,946 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:17,950 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:17,952 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:18,641 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:18,645 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:18,646 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:25,103 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:25,108 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:25,110 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:25,492 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:25,495 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:25,495 - INFO - Successfully processed Gnome Student Homes
+2025-04-15 21:34:25,495 - INFO - Starting processing for agency: Urban and Campus Nest Ltd.
+2025-04-15 21:34:25,495 - INFO - Completed Gnome Student Homes (37/44, 84.1%)
+2025-04-15 21:34:25,496 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:26,524 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:26,529 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:26,529 - INFO - Successfully processed Home Accommodation
+2025-04-15 21:34:26,530 - INFO - Starting processing for agency: SDP Student Homes
+2025-04-15 21:34:26,530 - INFO - Completed Home Accommodation (38/44, 86.4%)
+2025-04-15 21:34:26,530 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:27,239 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:27,244 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:27,244 - INFO - Successfully processed WH Properties
+2025-04-15 21:34:27,244 - INFO - Starting processing for agency: iLet4You Limited
+2025-04-15 21:34:27,245 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:27,246 - INFO - Completed WH Properties (39/44, 88.6%)
+2025-04-15 21:34:28,916 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:28,918 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:28,919 - INFO - Successfully processed Claypenny Student Accommodation
+2025-04-15 21:34:28,919 - INFO - Completed Claypenny Student Accommodation (40/44, 90.9%)
+2025-04-15 21:34:31,462 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:31,466 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:31,467 - INFO - Successfully processed Sheffield Property To Let
+2025-04-15 21:34:31,467 - INFO - Completed Sheffield Property To Let (41/44, 93.2%)
+2025-04-15 21:34:38,936 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:38,940 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:38,941 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:39,347 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:39,350 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:39,353 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:40,188 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:40,192 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:40,193 - INFO - AFC is enabled with max remote calls: 10.
+2025-04-15 21:34:46,387 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:46,390 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:46,391 - INFO - Successfully processed SDP Student Homes
+2025-04-15 21:34:46,391 - INFO - Completed SDP Student Homes (42/44, 95.5%)
+2025-04-15 21:34:47,786 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:47,787 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:47,787 - INFO - Successfully processed Urban and Campus Nest Ltd.
+2025-04-15 21:34:47,787 - INFO - Completed Urban and Campus Nest Ltd. (43/44, 97.7%)
+2025-04-15 21:34:47,878 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent "HTTP/1.1 200 OK"
+2025-04-15 21:34:47,881 - INFO - AFC remote call 1 is done.
+2025-04-15 21:34:47,881 - INFO - Successfully processed iLet4You Limited
+2025-04-15 21:34:47,882 - INFO - Completed iLet4You Limited (44/44, 100.0%)
+2025-04-15 21:34:47,882 - INFO - Batch processing completed for all 44 agencies
+2025-04-15 21:34:47,885 - INFO - Saved 44 results to output.json

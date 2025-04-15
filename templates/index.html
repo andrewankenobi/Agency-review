@@ -918,7 +918,7 @@
         // Progress Window functionality
         const progressWindow = document.getElementById('progressWindow');
         const progressLog = document.getElementById('progressLog');
-        let isProgressWindowExpanded = true;
+        let isProgressWindowExpanded = false;  // Start collapsed
 
         function toggleProgressWindow() {
             isProgressWindowExpanded = !isProgressWindowExpanded;
@@ -930,7 +930,7 @@
         function addProgressLog(message, type = 'info') {
             const logEntry = document.createElement('p');
             logEntry.className = type;
-            logEntry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            logEntry.textContent = message;  // Remove the timestamp since it's already in the message
             progressLog.appendChild(logEntry);
             progressLog.scrollTop = progressLog.scrollHeight;
             
@@ -952,14 +952,21 @@
             addProgressLog('Starting data refresh...', 'info');
             
             try {
+                // First try to reset any stuck state
+                const resetResponse = await fetch('/api/refresh/reset', { method: 'POST' });
+                if (!resetResponse.ok) {
+                    throw new Error('Failed to reset refresh state');
+                }
+                
+                // Then start the refresh
                 const response = await fetch('/api/refresh', { method: 'POST' });
                 if (response.ok) {
                     addProgressLog('Refresh request sent successfully', 'success');
-                    
                     // Start polling for progress
                     pollProgress();
                 } else {
-                    throw new Error('Failed to start refresh');
+                    const errorData = await response.json();
+                    throw new Error(errorData.message || 'Failed to start refresh');
                 }
             } catch (error) {
                 console.error('Error refreshing data:', error);
@@ -980,7 +987,7 @@
                         addProgressLog(data.message, 'info');
                     }
                     // Continue polling
-                    setTimeout(pollProgress, 2000);
+                    setTimeout(pollProgress, 1000);
                 } else if (data.status === 'complete') {
                     addProgressLog('Data refresh completed successfully', 'success');
                     document.getElementById('refreshBtn').disabled = false;
@@ -988,6 +995,11 @@
                     loadAgencies(); // Refresh the agencies list
                 } else if (data.status === 'error') {
                     addProgressLog(`Error: ${data.message}`, 'error');
+                    document.getElementById('refreshBtn').disabled = false;
+                    document.getElementById('refreshBtn').textContent = 'Refresh Data';
+                } else if (data.status === 'idle') {
+                    // If we're still polling but the status is idle, something went wrong
+                    addProgressLog('Refresh process not running', 'error');
                     document.getElementById('refreshBtn').disabled = false;
                     document.getElementById('refreshBtn').textContent = 'Refresh Data';
                 }

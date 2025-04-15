@@ -12,20 +12,28 @@ from google import genai
 from google.genai import types
 from dotenv import load_dotenv
 
+# Custom filter to exclude AFC messages
+class ExcludeAFCFilter(logging.Filter):
+    def filter(self, record):
+        return not ('AFC' in record.getMessage() or 'remote call' in record.getMessage())
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler('agency_research.log', mode='w'),  # 'w' mode overwrites the file
-        logging.StreamHandler()
+        logging.StreamHandler()  # This will print to console
     ]
 )
 logger = logging.getLogger(__name__)
+# Add filter to exclude AFC messages
+logger.addFilter(ExcludeAFCFilter())
 
 # Add a startup message to indicate new run
 logger.info("Starting agency research application")
 logger.info("Log file cleared for new run")
+print("Starting agency research application...", flush=True)  # Force immediate console output
 
 
 def load_environment_variables() -> str:
@@ -84,8 +92,23 @@ Follow the instructions in the system prompt to find and format the required inf
 def save_raw_response(agency_name: str, response_text: str, raw_dir: str) -> str:
     """Save the raw response text to a file with a consistent filename format."""
     # Clean the agency name to create a consistent filename
-    filename = agency_name.lower().replace(" ", "_").replace("&", "and").replace(".", "")
+    filename = agency_name.lower()
+    
+    # Replace special characters and spaces with underscores
+    filename = re.sub(r'[^a-z0-9]', '_', filename)
+    
+    # Remove multiple consecutive underscores
+    filename = re.sub(r'_+', '_', filename)
+    
+    # Remove leading/trailing underscores
+    filename = filename.strip('_')
+    
+    # Add suffix
     filename = f"{filename}_response.txt"
+    
+    # Create directory if it doesn't exist
+    os.makedirs(raw_dir, exist_ok=True)
+    
     file_path = os.path.join(raw_dir, filename)
     
     with open(file_path, "w", encoding='utf-8') as f:
@@ -240,6 +263,10 @@ def process_agency(
         system_instruction=[types.Part.from_text(text=system_prompt)]
     )
 
+    # Initialize variables for the successful response
+    successful_response = None
+    successful_file_path = None
+
     for attempt in range(max_retries):
         try:
             if attempt > 0:
@@ -254,6 +281,16 @@ def process_agency(
                 config=generate_content_config
             )
 
+            # Check if response is None or has no text
+            if response is None:
+                raise ValueError("No response received from Gemini API")
+            if not hasattr(response, 'text'):
+                raise ValueError("Response object has no text attribute")
+            if response.text is None:
+                raise ValueError("Response text is None")
+            if not response.text.strip():
+                raise ValueError("Response text is empty")
+
             # Extract the response text and clean it
             response_text = response.text.strip()
             
@@ -265,36 +302,45 @@ def process_agency(
             if "RESPONSE:" in response_text:
                 response_text = response_text.split("RESPONSE:")[1].strip()
 
-            # Save the cleaned response
-            raw_file_path = save_raw_response(agency["name"], response_text, "raw")
-            logger.debug(f"Saved response to: {raw_file_path}")
-
-            # Process the raw response into structured JSON
-            structured_data = process_raw_response(client, raw_file_path)
-            
-            # Ensure the agency name is correctly set in the structured data
-            structured_data["Letting Agent"] = agency["name"]
-            structured_data["Website Url"] = agency["url"]
-            structured_data["RawDataSourceFile"] = os.path.basename(raw_file_path)
-
-            logger.info(f"Successfully processed {agency['name']}")
-            return structured_data
+            # Store the successful response
+            successful_response = response_text
+            break  # Exit the retry loop on success
 
         except Exception as e:
-            logger.error(f"Error processing agency {agency['name']} on attempt {attempt + 1}: {str(e)}", exc_info=True)
+            error_msg = f"Error processing agency {agency['name']} on attempt {attempt + 1}: {str(e)}"
+            logger.error(error_msg, exc_info=True)
             if attempt < max_retries - 1:
                 continue
             else:
                 return {
                     "Letting Agent": agency["name"],
                     "Website Url": agency["url"],
-                    "Error": f"Failed after {max_retries} attempts. Last error: {str(e)}"
+                    "Error": f"Failed after {max_retries} attempts. Last error: {str(e)}",
+                    "RawDataSourceFile": None
                 }
+
+    # If we have a successful response, save it and process it
+    if successful_response is not None:
+        # Save the cleaned response
+        successful_file_path = save_raw_response(agency["name"], successful_response, "raw")
+        logger.debug(f"Saved response to: {successful_file_path}")
+
+        # Process the raw response into structured JSON
+        structured_data = process_raw_response(client, successful_file_path)
+        
+        # Ensure the agency name is correctly set in the structured data
+        structured_data["Letting Agent"] = agency["name"]
+        structured_data["Website Url"] = agency["url"]
+        structured_data["RawDataSourceFile"] = os.path.basename(successful_file_path)
+
+        logger.info(f"Successfully processed {agency['name']}")
+        return structured_data
 
     return {
         "Letting Agent": agency["name"],
         "Website Url": agency["url"],
-        "Error": "All retry attempts failed unexpectedly."
+        "Error": "All retry attempts failed unexpectedly.",
+        "RawDataSourceFile": None
     }
 
 
@@ -333,13 +379,15 @@ def process_agency_batch(
     system_prompt: str,
     client: genai.Client
 ) -> List[Dict[str, Any]]:
-    """Process a batch of agencies using ThreadPoolExecutor."""
+    """Process a batch of agencies using ThreadPoolExecutor with rate limiting."""
     results = []
     total_agencies = len(agencies)
     
+    logger.info(f"Starting batch processing for {total_agencies} agencies...")
     print(f"Starting research for {total_agencies} agencies...", flush=True)
     
-    with ThreadPoolExecutor() as executor:
+    # Use max_workers=5 for parallel processing to avoid hitting rate limits
+    with ThreadPoolExecutor(max_workers=5) as executor:
         # Submit all tasks and store futures
         future_to_agency = {
             executor.submit(process_agency, agency, system_prompt, client): agency
@@ -354,73 +402,57 @@ def process_agency_batch(
             try:
                 result = future.result()
                 results.append(result)
-                # Print progress for every agency
-                print(f"Completed {agency['name']} ({completed}/{total_agencies}, {(completed/total_agencies)*100:.1f}%)", flush=True)
+                progress = (completed/total_agencies)*100
+                logger.info(f"Completed {agency['name']} ({completed}/{total_agencies}, {progress:.1f}%)")
+                print(f"Completed {agency['name']} ({completed}/{total_agencies}, {progress:.1f}%)", flush=True)
             except Exception as e:
-                logger.error(f"Error processing {agency['name']}: {str(e)}")
-                print(f"Error processing {agency['name']}: {str(e)}", flush=True)
-                results.append({
-                    "Letting Agent": agency["name"],
-                    "Website Url": agency["url"],
-                    "Error": str(e)
-                })
+                error_msg = str(e)
+                if "RESOURCE_EXHAUSTED" in error_msg or "429" in error_msg:
+                    logger.error(f"Quota exceeded for {agency['name']}. Please wait and try again later.")
+                    print(f"Quota exceeded for {agency['name']}. Please wait and try again later.", flush=True)
+                    # Add a failed result with quota error
+                    results.append({
+                        "Letting Agent": agency["name"],
+                        "Website Url": agency["url"],
+                        "Error": "Quota exceeded. Please try again later.",
+                        "RawDataSourceFile": None
+                    })
+                else:
+                    logger.error(f"Error processing {agency['name']}: {str(e)}")
+                    print(f"Error processing {agency['name']}: {str(e)}", flush=True)
+                    results.append({
+                        "Letting Agent": agency["name"],
+                        "Website Url": agency["url"],
+                        "Error": str(e),
+                        "RawDataSourceFile": None
+                    })
     
+    logger.info(f"Batch processing completed for all {total_agencies} agencies")
     print(f"Research completed for all {total_agencies} agencies", flush=True)
     return results
 
 
-def main(test_mode: bool = False) -> None:
+if __name__ == "__main__":
     try:
-        logger.info("Starting agency research application")
-        if test_mode:
-            logger.info("Running in TEST MODE - will only process first 2 agencies")
-        
-        # Load configuration
+        # Load environment variables
         api_key = load_environment_variables()
-        all_agencies = load_agencies()
-        system_prompt = load_system_prompt()
         
-        # Initialize Gemini
+        # Initialize Gemini client
         client = initialize_gemini_client(api_key)
         
-        # Process agencies in batches of 5
-        batch_size = 5
-        all_results = []
+        # Load system prompt
+        system_prompt = load_system_prompt()
         
-        # In test mode, only process first 2 agencies
-        if test_mode:
-            all_agencies = all_agencies[:2]
-            logger.info(f"Test mode: Processing only {len(all_agencies)} agencies")
+        # Load agencies
+        agencies = load_agencies()
         
-        for i in range(0, len(all_agencies), batch_size):
-            batch = all_agencies[i:i + batch_size]
-            logger.info(f"\nProcessing batch {i//batch_size + 1} of {(len(all_agencies) + batch_size - 1)//batch_size}")
-            logger.info(f"Agencies in this batch: {', '.join(agency['name'] for agency in batch)}")
-            
-            batch_results = process_agency_batch(batch, system_prompt, client)
-            all_results.extend(batch_results)
-            
-            # Save results after each batch
-            save_results(all_results)
-            logger.info(f"Saved results after batch {i//batch_size + 1}")
-            
-            # Add a small delay between batches to avoid rate limiting
-            if i + batch_size < len(all_agencies):
-                logger.info("Waiting 10 seconds before next batch...")
-                time.sleep(10)
+        # Process agencies
+        results = process_agency_batch(agencies, system_prompt, client)
         
-        logger.info("\nProcessing complete. All results saved to output.json")
+        # Save results
+        save_results(results)
         
+        print("All agencies processed successfully!", flush=True)
     except Exception as e:
-        logger.error(f"Error in main: {str(e)}", exc_info=True)
+        print(f"Error in main execution: {str(e)}", flush=True)
         raise
-
-
-if __name__ == "__main__":
-    # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Process letting agencies data.')
-    parser.add_argument('--test-mode', action='store_true', help='Run in test mode (process only first 2 agencies)')
-    args = parser.parse_args()
-    
-    # Run main with test mode flag
-    main(test_mode=args.test_mode) 

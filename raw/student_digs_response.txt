@@ -1,18 +1,18 @@
-*   **Letting Agent:** Student Digs
-*   **Bills Included on Listings?:** Some (Offers a "complete premium package" including all utilities)
+*   **Letting Agent:** Student Digs (Trading name of Kexgill Ltd)
+*   **Bills Included on Listings?:** Yes (Many listings on the website state "Bills Included", and Kexgill also mentions "All inclusive" options) [3, 31]
 *   **Website Url:** https://studentdigs.uk
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Not Found (No specific mentions of Rightmove, Zoopla, OnTheMarket, UniHomes found in relation to Student Digs listings)
-*   **Branches:** Not Found (Website mentions "4 UK Towns / Cities" but doesn't specify branch locations, primarily focuses on Leicester)
+*   **Student Listings Live:** Yes [6, 9, 19, 22]
+*   **Key channels live on:** Kexgill (the parent company) is listed on Rightmove, Zoopla, OnTheMarket, potentially UniHomes (Hull is listed as affordable on UniHomes study). Student Digs itself was not explicitly found on these portals during the search, but Kexgill properties are listed. [19, 20, 25, 30, 48]
+*   **Branches:** Not Found (Student Digs appears specific to Hull, but the parent company Kexgill Ltd has multiple branches across the UK and Europe including Hull, Nottingham, Newcastle, Preston, Liverpool, Salford, Bradford, Middlesbrough, Germany, and Denmark) [4, 10, 29, 36, 44]
 *   **Key Contact Person:**
-    *   Full Name: Sibtain Hussain
-    *   Position: Director (Based on Companies House filing for STUDENT DIGS MANAGEMENT LTD)
-*   **Contact Information:**
-    *   Phone: 0116 350 1595 (Also lists 0330 321 4461 on a contact form)
-    *   Address: Not Found (Companies House lists a correspondence address for the director in Bradford, but no operational address for Student Digs itself)
-    *   Email: info@studentdigs.uk
+    *   Full Name: Richard Stott [12, 15, 24, 39, 42]
+    *   Position: Group Managing Director (of Kexgill Ltd) [12, 24, 29, 42]
+*   **Contact Information:** (For Student Digs / Kexgill Hull)
+    *   Phone: +44 (0) 1482 343818 [10, 12, 16, 18, 24, 29]
+    *   Address: 103 Cottingham Road, Hull, HU5 2DG (Main Trading Address for Kexgill Ltd) / 11/13 Salmon Grove, Kingston upon Hull, East Yorkshire, HU6 7SX (Kexgill Group Address) / 56 Cottingham Road, Hull, HU6 7RA (Registered Office for Kexgill Ltd) [4, 5, 11, 12, 16, 18, 29]
+    *   Email: info@kexgill.com / hull@kexgill.com (Implied from other branch emails) [10, 18, 29]
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
-    *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number for STUDENT DIGS MANAGEMENT LTD: 10138883
-*   **Notes/Comments:** The agency primarily focuses on student accommodation in Leicester. While the website mentions operating in 4 UK towns/cities, specific locations beyond Leicester are not detailed. Found company details for "STUDENT DIGS MANAGEMENT LTD" which seems associated, listing Sibtain Hussain as Director. No direct LinkedIn profiles were found for the company or the director. Information on specific portal listings (Rightmove, Zoopla etc.) was not found.
+    *   Company Profile URL: https://www.linkedin.com/company/kexgill-group/ (Kexgill Group) [24, 37]
+    *   Key Contact Profile URL: Not Found (Richard Stott is listed as Director/MD on Endole/RICS but a specific profile URL wasn't returned in search results) [12, 15, 24]
+*   **Other Linkedin/Extra Details:** Kexgill Ltd Company Number: 01391421 [4, 5, 11] Kexgill Group operates the "University Quarter" brand. [42, 44] Kexgill has operations in Germany (Kexgill Immobilien GmbH) and Denmark. [29, 47]
+*   **Notes/Comments:** Student Digs is a trading name specifically used for Kexgill's Hull student accommodation website (studentdigs.uk redirects to student-accommodation-hull.co.uk, which is a Kexgill site). The primary entity is Kexgill Ltd / Kexgill Group, which operates nationally and internationally. Information primarily relates to Kexgill Ltd as the parent company. Found multiple addresses associated with Kexgill in Hull.

@@ -1,18 +1,18 @@
 *   **Letting Agent:** Igloo Accommodation
-*   **Bills Included on Listings?:** No (unless otherwise specified, but packages can be arranged)
+*   **Bills Included on Listings?:** No (unless otherwise specified, but bill packages can be arranged)
 *   **Website Url:** https://www.iglooaccommodation.co.uk/
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Not Found (Agency website focuses on their own listings, no mention of Rightmove, Zoopla, OnTheMarket, or UniHomes found in search results)
+*   **Key channels live on:** Not Found (Their website doesn't explicitly list portals like Rightmove/Zoopla, and searches for listings on these portals were inconclusive or pointed to different 'Igloo' entities)
 *   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Sarah Elizabeth Siggs
-    *   Position: Director
+    *   Full Name: Not Found (Companies House lists directors for IGLOO ACCOMMODATION LIMITED, but no specific 'key contact' for letting enquiries is named on the website or easily found via search)
+    *   Position: Not Found
 *   **Contact Information:**
     *   Phone: 0114 266 0990
     *   Address: 8-10 Broomhall Road, Sheffield, S10 2DR
     *   Email: info@iglooaccommodation.co.uk
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
+    *   Company Profile URL: Not Found (Searches mainly return profiles for 'Iglu Student Accommodation' (Australia), 'Igloo Regeneration', or other unrelated 'Igloo' companies)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: Not Found (IGLOO ACCOMMODATION LIMITED exists on Companies House with number 06779811, but the director listed is Sarah Elizabeth Siggs, appointed 2019. Previous directors resigned.)
-*   **Notes/Comments:** The agency specializes in student accommodation in Sheffield, particularly around Ecclesall Road, City Centre, Sharrow, Hunters Bar, and Broomhill. They have over 150 properties. Bills are not typically included but bill packages can be arranged. The primary contact found is the current director listed on Companies House. No company LinkedIn profile was found. Several other companies named "Igloo" exist (e.g., in Australia, Scotland, Nottingham, Warsaw), but are distinct from this Sheffield-based agency.
+*   **Other Linkedin/Extra Details:** Company Number: 06776206 (IGLOO ACCOMMODATION LIMITED)
+*   **Notes/Comments:** The agency focuses on student accommodation in Sheffield. Finding specific portal listings or LinkedIn profiles was difficult due to the common name "Igloo" being used by multiple unrelated accommodation businesses globally (e.g., Iglu in Australia, Igloo Regeneration, Igloo Hostels, Igloo Holiday Homes). The contact details and company number are confirmed via their website and Companies House. Bills are generally not included, but packages can be arranged.

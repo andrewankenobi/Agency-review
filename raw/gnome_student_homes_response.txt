@@ -1,12 +1,12 @@
 *   **Letting Agent:** Gnome Student Homes
-*   **Bills Included on Listings?:** Some (Offers properties with and without bills included options)
+*   **Bills Included on Listings?:** Some (Listings show prices both excluding and including bills)
 *   **Website Url:** https://gnomestudenthomes.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** UniHomes (Partnership badge displayed on website), Own Website. (Rightmove, Zoopla, OnTheMarket not explicitly confirmed in search results, but allAgents lists portal options generally, not specifically for Gnome).
-*   **Branches:** 1 (Based on single address found)
+*   **Key channels live on:** UniHomes (Partnership badge visible on website), potentially others but not explicitly confirmed in search results.
+*   **Branches:** 1 (Office based on Ecclesall Road, Sheffield)
 *   **Key Contact Person:**
-    *   Full Name: Guy Ludlam
-    *   Position: Director / Managing Director
+    *   Full Name: Not Found
+    *   Position: Not Found
 *   **Contact Information:**
     *   Phone: 0114 2684860
     *   Address: 282 Ecclesall Road, Sheffield, S11 8PE
@@ -14,5 +14,5 @@
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** The website's privacy policy mentions the owner as GPA LUDLAM PROPERTIES LIMITED, Company Number 3306477, Registered Office: 2 Rutland Park, Sheffield, South Yorkshire, S10 2PD. (Note: This is the registered company, Gnome Student Homes is the trading name).
-*   **Notes/Comments:** Primarily focused on student lettings in Sheffield (Ecclesall Road, City Centre, Crookesmoor). Offers properties ranging from 1-bed flats to 6-bed houses. Website features property walkthroughs on YouTube. Key contact identified from testimonials and business directory listings. No dedicated LinkedIn profile found for the company or key contact.
+*   **Other Linkedin/Extra Details:** Associated company "GNOME HOMES LIMITED" found on Companies House, but no direct link confirmed.
+*   **Notes/Comments:** The agency specializes in student housing in Sheffield, particularly around Ecclesall Road, City Centre, and Crookesmoor. They offer properties with and without bills included. Contact information is readily available on their website. No specific key contact person or LinkedIn profiles were found. They have a partnership with UniHomes.

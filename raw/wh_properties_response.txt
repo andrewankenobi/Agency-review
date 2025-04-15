@@ -1,18 +1,18 @@
 *   **Letting Agent:** WH Properties
-*   **Bills Included on Listings?:** Yes (Based on Privacy Policy mentioning "Sheffield University Student Accommodation Bills Included")
+*   **Bills Included on Listings?:** Yes
 *   **Website Url:** https://whproperties.co.uk
-*   **Student Listings Live:** Yes (Website focuses on student accommodation)
-*   **Key channels live on:** Not Found (No explicit mention of Rightmove, Zoopla, OnTheMarket, UniHomes found in search results related to WH Properties)
-*   **Branches:** Not Found (Appears to be a single location based on contact details)
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Not Found (Listings appear to be primarily on their own website. No evidence found of listings on Rightmove, Zoopla, OnTheMarket, or UniHomes)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Lisa Wiseman
-    *   Position: Data Controller / Landlord (as per Privacy Policy)
+    *   Full Name: Lindsay Wiseman
+    *   Position: Proprietor
 *   **Contact Information:**
-    *   Phone: 01142668070
+    *   Phone: 0114 266 8070 / 07903 071618
     *   Address: 11 Commonside, Sheffield, S10 1GA
     *   Email: info@whproperties.co.uk
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Not Found (Searches for company number returned unrelated companies like "WH Properties Holding Ltd" and "W H Property Services Ltd")
-*   **Notes/Comments:** The agency appears to specialize in student accommodation in Sheffield. The Privacy Policy on their website was the primary source for contact details and the key contact person. No evidence found of listings on major portals or a LinkedIn presence. "Bills Included" is inferred from the Privacy Policy page title.
+*   **Other Linkedin/Extra Details:** The Privacy Policy also lists Lisa Wiseman as a Data Controller. The website mentions an "excellent maintenance team" including specific names: Annabelle Lamb, Tori Russell, John Bales (NIC EIC Electrician), Paul Lamb (Exterior Maintenance), Nick Dadd (Joiner), Billy Justice, Chris Crowe.
+*   **Notes/Comments:** The agency specializes in student accommodation in Sheffield, particularly near Sheffield University (Crookesmoor, Crookes, Walkley). They explicitly state bills are included. The business is managed by the proprietor, Lindsay Wiseman. No company number or broader portal listings were found. There is another "WH Properties" in Canterbury (whbstudentlets.co.uk) and a "WH Property Management" in Nashville, USA (whpmtn.com), which are distinct entities. There's also a large UK estate agent chain "William H Brown" (often abbreviated WH Brown), which is unrelated.

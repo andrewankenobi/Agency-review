@@ -1,18 +1,18 @@
 *   **Letting Agent:** Hallam Hills
-*   **Bills Included on Listings?:** Some (Listings mention "Part Bills Included" or "Utility Bills & Internet Included" for specific student properties)
+*   **Bills Included on Listings?:** Some (Listings mention "Part Bills Included" or "Utility Bills Included" depending on the property) [6]
 *   **Website Url:** https://www.hallamhills.co.uk/
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove
-*   **Branches:** 1 (Based on the single address found)
+*   **Student Listings Live:** Yes [6, 12]
+*   **Key channels live on:** Rightmove [2, 18, 20] (Zoopla, OnTheMarket, UniHomes not explicitly confirmed in search results)
+*   **Branches:** 1 (Only one address listed) [2, 3]
 *   **Key Contact Person:**
-    *   Full Name: Wasim Khan
-    *   Position: Director / Manager
+    *   Full Name: Wasim Khan [15]
+    *   Position: Director [15]
 *   **Contact Information:**
-    *   Phone: 0114 327 8853 (also listed as 0114 697 3682 on Home.co.uk)
-    *   Address: 1 St Mary's House, 9-11 London Road, Sheffield, S2 4LA
-    *   Email: ask@hallamhills.co.uk (General), admin@hallamhills.co.uk (Complaints)
+    *   Phone: 0114 327 8853 [3, 10] (Alternative found: 0114 697 3682 [9])
+    *   Address: 1 St Mary's House, Unit 9-11 London Road, Sheffield, S2 4LA [2, 3]
+    *   Email: ask@hallamhills.co.uk [3, 10] (Alternative for complaints: admin@hallamhills.co.uk [3])
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 08622245 (HALLAMHILLS LTD)
-*   **Notes/Comments:** The agency focuses on Sheffield, particularly areas S2, S3, S8, and S10. They handle both sales and lettings, including student lettings. Some listings specify "Part Bills Included" (Water, Laundry) or "Utility Bills & Internet Included". Only Rightmove was explicitly mentioned as a portal they list on. Companies House lists Wasim Khan as the active director.
+*   **Other Linkedin/Extra Details:** Company Number: 08622245 [7]
+*   **Notes/Comments:** Hallam Hills focuses on lettings (including student lets) and sales in Sheffield. They list properties on Rightmove. Some listings specify partial or full bills included. The primary contact appears to be Director Wasim Khan based on Companies House data. No company or key contact LinkedIn profiles were readily found via search.

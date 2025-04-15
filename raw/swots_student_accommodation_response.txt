@@ -1,18 +1,18 @@
 *   **Letting Agent:** Swots Student Accommodation
-*   **Bills Included on Listings?:** Some (Found listings mentioning "bills inclusive" on Rightmove, but not explicitly stated as standard on their website or all listings)
+*   **Bills Included on Listings?:** Some (Website states average rent is £110pppw including bills, but some options are offered without bills at around £90pppw)
 *   **Website Url:** https://swots.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Explicitly mentioned on their website and found listings)
-*   **Branches:** Not Found (Appears to be a single location based in Sheffield)
+*   **Key channels live on:** Rightmove (Explicitly mentioned on their website and found on Rightmove search results)
+*   **Branches:** Not Found (Appears to be a single location based on contact info)
 *   **Key Contact Person:**
-    *   Full Name: Not Found
-    *   Position: Not Found (Described as an independent, family-run business)
+    *   Full Name: Not Found (Described as an independent, family-run business, but specific names not listed)
+    *   Position: Not Found
 *   **Contact Information:**
     *   Phone: 0114 266 7663
     *   Address: The Observatory, 34A Beech Hill Road, Broomhill, Sheffield, S10 2SB
-    *   Email: Not Found (Contact form available on website)
+    *   Email: Not Found (Contact form on website, no direct email listed)
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Established in 1982. States they own all their properties and are not letting agents in the traditional sense.
-*   **Notes/Comments:** Information primarily sourced from their website and Rightmove listings. They emphasize being property owners rather than just agents. No specific contact person or email address was found publicly listed. No LinkedIn presence was identified.
+*   **Other Linkedin/Extra Details:** Established in 1982. They state they own all their properties and are not letting agents in the traditional sense, focusing solely on their own portfolio.
+*   **Notes/Comments:** Information primarily sourced from the agency's website and Rightmove listings. No specific contact person or LinkedIn presence was identified. They emphasize being property owners rather than just agents. Some search results referred to "SWOT" analysis or unrelated entities.
