@@ -1,18 +1,19 @@
 *   **Letting Agent:** West One Lettings
-*   **Bills Included on Listings?:** Some (Listings mention "All inclusive rent", "Bills Included", "Inclusive Rent Available", or "excluding bills" depending on the property)
+*   **Bills Included on Listings?:** Some (Listings mention "excluding bills", "bills included", or "all inclusive rent" options)
 *   **Website Url:** https://westone-student-accommodation-sheffield.co.uk/
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found - listings appear via other agents like Redbrik), OnTheMarket (Not Found - listings appear via other agents like Belvoir)
-*   **Branches:** 1 (Based on contact address)
+*   **Key channels live on:** Rightmove (1 listing found for West One Lettings), Zoopla (1 listing found for West One development via Redbrik), OnTheMarket (1 listing found for West One development via Belvoir), Own Website (Multiple listings)
+*   **Branches:** 1 (The office is located at West One Plaza)
 *   **Key Contact Person:**
-    *   Full Name: Alistair Macdonald
-    *   Position: Office Manager, Maintenance & property manager (Mentioned in a document for Gatecrasher Apartments)
+    *   Full Name: Karen Fox
+    *   Position: Office Manager, Letting Negotiator (Based on a document for Huttons building, managed by West One Lettings)
+    *   *Note: Other names mentioned in documents include Alistair Macdonald (Office Manager for Gatecrasher), Paige Kilner, Amelia Barnes, Tayla Smith (Letting Negotiator/Administrator roles).*
 *   **Contact Information:**
-    *   Phone: 0114 272 2400 (General Lettings), 0114 213 3371 (Gatecrasher Apartments)
-    *   Address: West One Lettings Office, West One Plaza, Fitzwilliam Street, Sheffield S1 4JB
-    *   Email: residential@cityestates.com, city@westonespace.com, gatecrasher@westonespace.com, ecclesallroad@westonespace.com (Different emails listed on various contact pages)
+    *   Phone: 0114 272 2400 (General/Huttons/West One Apartments), 0114 213 3371 (Gatecrasher Apartments)
+    *   Address: West One Lettings, West One Plaza, Fitzwilliam Street, Sheffield, S1 4JB
+    *   Email: city@westonespace.com (General/Huttons/West One Apartments), gatecrasher@westonespace.com (Gatecrasher Apartments), residential@cityestates.com (Mentioned on contact page)
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Part of West One Property Solutions Group / City Estates. Registered company address for Elmsdale Estates Ltd (appears in website footer): 11 Broomgrove Rd, Sheffield, S10 2LW. A company named WEST ONE ACCOMMODATION LIMITED (04336491) was dissolved in 2017.
-*   **Notes/Comments:** West One Lettings primarily manages properties developed/owned by City Estates/Elmsdale Estates Ltd, focusing heavily on student accommodation within specific developments (West One, Gatecrasher, Hutton's Buildings, Porterbrook etc.). Listings on major portals like Zoopla/OnTheMarket seem to be handled by other agencies (e.g., Blundells, Redbrik, Belvoir) for properties within the West One development, rather than directly by West One Lettings. Some properties offer all-inclusive rent, while others explicitly state bills are excluded. Multiple contact emails are provided across different pages/developments. Found reference to an Office Manager in a specific building's information pack.
+*   **Other Linkedin/Extra Details:** West One Lettings is part of Elmsdale Estates Ltd (Registered company address: 11 Broomgrove Rd, Sheffield, S10 2LW). They state they are property owners, not just letting agents. They manage several apartment buildings including West One, Gatecrasher, Hutton's Buildings, Broomgrove, Sellers Wheel, Niche, Porterbrook, Speedwell Works.
+*   **Notes/Comments:** West One Lettings primarily manages properties owned by their parent company, focusing on student and professional accommodation in Sheffield. Contact details (phone/email) can vary depending on the specific building being inquired about. Found listings on major portals but they seem to be listed via other agents (Redbrik, Belvoir) or under the specific development name rather than "West One Lettings". Their own website lists available properties. Some sources mention "West One Student Lettings" or "West.ONE Student Accommodation Sheffield". A dissolved company "WEST ONE ACCOMMODATION LIMITED" (04336491) was found, but the current operating entity appears to be Elmsdale Estates Ltd.

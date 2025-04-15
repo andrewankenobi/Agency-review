@@ -1,12 +1,12 @@
 *   **Letting Agent:** Dove Properties (Dove Properties and Estates Limited)
-*   **Bills Included on Listings?:** Some (Listings may mention "All Inclusive Available" or similar options, but it's not standard on all)
+*   **Bills Included on Listings?:** Some (The website states "Unless clearly stated otherwise in the property advertisement... it is likely your contract with Dove Properties will be for rent only (no bills included)". Some listings mention bills included, e.g., a house share on Rightmove.)
 *   **Website Url:** https://www.sheffieldstudenthousing.co.uk/
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Listings found, count not specified), Zoopla (Not explicitly found for Dove Properties, but Zoopla lists Sheffield properties), OnTheMarket (Not explicitly found for Dove Properties)
-*   **Branches:** 1 (Based on single address listed)
+*   **Student Listings Live:** Yes (The website focuses heavily on student accommodation and lists numerous student properties.)
+*   **Key channels live on:** Rightmove (32 listings found via Home.co.uk, specific listings visible), OnTheMarket (Listings visible), Zoopla (Not explicitly found, but likely given presence on others), Dove Properties Website (Over 450 student properties claimed)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Robert Dove
-    *   Position: Director and Founder
+    *   Full Name: Robert Vernon Dove / Graham Peter Dove (Directors listed on Companies House) / Emma Carver (Lettings Manager mentioned on website)
+    *   Position: Director / Director / Lettings Manager
 *   **Contact Information:**
     *   Phone: 0114 266 0660
     *   Address: 430 Ecclesall Road, Sheffield, South Yorkshire, S11 8PX
@@ -14,5 +14,5 @@
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 05402824 (Dove Properties and Estates Limited). Established over 25 years ago. Family-run business. Awarded Sheffield City Council "Letting Agent of the Year" (date not specified, but referred to as "most recent" or "reigning"). Members of NRLA, CMP, The Property Ombudsman. Also operates a residential lettings site: www.doveresidential.co.uk.
-*   **Notes/Comments:** Primarily focused on student accommodation in Sheffield near the universities. Information readily available on their website and Companies House. Difficulty finding specific listing counts on portals or LinkedIn profiles via search. Key contact identified from the residential lettings part of their website.
+*   **Other Linkedin/Extra Details:** Company Number: 05402824 (Dove Properties and Estates Limited)
+*   **Notes/Comments:** The agency specializes in student accommodation in Sheffield and also has a residential lettings arm (Dove Residential). They claim to have over 450 student properties. Specific listing counts on portals vary depending on the source (e.g., Home.co.uk vs Rentright). No dedicated company or key contact LinkedIn profiles were readily found via search.

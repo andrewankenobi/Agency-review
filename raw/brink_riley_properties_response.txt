@@ -1,20 +1,18 @@
 *   **Letting Agent:** Brink Riley Properties
-*   **Bills Included on Listings?:** Some (Some listings mention water rates and internet included, others mention "all bills included", while others state tenant is responsible for electricity/council tax. Rightmove data suggests "bills included" is a popular search term, especially for students.)
+*   **Bills Included on Listings?:** Some (Listings mention "All bills included" [9, 13, 16, 28], "Water bills included" [11, 14], and "No bills included" [5])
 *   **Website Url:** https://brinkriley.co.uk
-*   **Student Listings Live:** Yes (They have a dedicated student section and listings mention suitability for students.)
-*   **Key channels live on:** Zoopla (214 listings found in one search result, 68 in another), Rightmove (Listings found, count not specified), OnTheMarket (Listings found, count not specified), allAgents (Listed, 0 reviews)
-*   **Branches:** 3 (Leicester, Portsmouth, Essex/Witham)
+*   **Student Listings Live:** Yes [4, 6, 8, 11, 12, 13, 16, 19, 24, 28]
+*   **Key channels live on:** Zoopla (214 listings) [12, 25], Rightmove [14, 15, 18, 25, 26, 29], OnTheMarket [9, 18, 19, 25, 28]
+*   **Branches:** 3 (Leicester, Portsmouth, Essex/London) [2, 3, 6, 13, 17]
 *   **Key Contact Person:**
-    *   Full Name: Natalie Mansfield
-    *   Position: Director (Director of Lettings and Management)
-    *   Full Name: Pieter Brink
-    *   Position: Director (Director of Sales)
+    *   Full Name: Natalie Mansfield [4, 17]
+    *   Position: Director [4, 17] (Director of Lettings and Management [4])
 *   **Contact Information:**
-    *   Phone: 0116 208 1100 (Leicester), 0239 435 0275 (Portsmouth), 01376 510 669 (Essex/Witham), 0800 228 9437 (General)
-    *   Address: 30 Belvoir Street, Leicester, LE1 6HQ (Leicester); 16 Guildhall Walk, Portsmouth, PO1 2DD (Portsmouth); Suite 1 (GF), 8 Freebournes Court, Witham, Essex, CM8 2BL (Essex/Witham)
-    *   Email: info@brinkriley.co.uk
+    *   Phone: Leicester: 0116 208 1100 [1, 2, 3, 21]; Portsmouth: 0239 435 0275 [2, 3]; Essex/London: 01376 510 669 [2, 3, 7, 18]; Mobile: +44 730 638 8558 [1]; Freephone: 0800 228 9437 [17]
+    *   Address: Leicester: 30 Belvoir Street, Leicester, LE1 6HQ [1, 2, 3, 6, 9, 13, 16, 17, 19, 21, 28] (Also listed as 27 Belvoir Street, LE1 6SL [5, 23]); Portsmouth: 16 Guildhall Walk, Portsmouth, PO1 2DD [1, 2, 3, 6, 13, 17]; Essex/London: Suite 1 (GF), 8 Freebournes Court, Witham, Essex, CM8 2BL [1, 2, 3, 6, 7, 10, 13, 17, 18]; Registered Office: 67 Newland Street, Witham, Essex, England, CM8 1AA [31]
+    *   Email: info@brinkriley.co.uk [1, 2, 3, 13, 17]
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
+    *   Company Profile URL: Not Found (Generic LinkedIn links found [20, 22, 27], but not a specific company profile)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 08389378 (BRINK RILEY PROPERTIES LIMITED). Established in 2012. Won Gold Winner Letting Agent in Leicester (LE1) from British Property Awards 2020-2021, 2022-2023 & 2024-2025.
-*   **Notes/Comments:** The agency focuses on lettings, management (including block/estate), student lettings, and sales/investment, operating across several UK cities including Leicester, London, Essex, Manchester, Liverpool, Bristol, Cardiff, Nottingham, Portsmouth, and Sheffield. They emphasize their experience and service, particularly for overseas landlords. Zoopla listing counts varied between search results. Found multiple addresses for the Leicester office (27 Belvoir St and 30 Belvoir St). Used 30 Belvoir St as it appears more consistently on their website and award listings.
+*   **Other Linkedin/Extra Details:** Company Number: 08389378 [10, 31]. Established in 2012 [4, 17]. Family-run company [2]. Operates in multiple cities including Leicester, London, Essex, Manchester, Liverpool, Bristol, Cardiff, Nottingham, Sheffield [2, 8, 12, 14, 15, 16, 17, 18, 24, 26]. Won Gold Winner Letting Agent in Leicester (British Property Awards) 2020-2021, 2022-2023 & 2024-2025 [4, 21].
+*   **Notes/Comments:** The agency has a strong focus on student lettings across several UK cities. They have multiple contact addresses listed, including a registered office address different from their operational branch addresses. Listing counts on portals were not consistently available, but Zoopla showed 214 listings at one point. Bills included vary significantly between properties. Key contact identified as Natalie Mansfield, Director. No specific LinkedIn profiles found.

@@ -1,9 +1,9 @@
 *   **Letting Agent:** M3 Lettings
-*   **Bills Included on Listings?:** Some (Several listings on their website explicitly state "Bills included")
+*   **Bills Included on Listings?:** Yes (Many listings explicitly state "Bills included")
 *   **Website Url:** https://www.m3lettings.com/
-*   **Student Listings Live:** Yes (Website focuses on student accommodation, many listings mention "student house")
-*   **Key channels live on:** Rightmove (Found listings, count not specified), Zoopla (Not Found), OnTheMarket (Found profile, count not specified)
-*   **Branches:** 1 (Based on single address found)
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Rightmove (Listings found, count not specified), OnTheMarket (Listings found, count not specified), Zoopla (Not Found - Search results show other agents in M3 postcode, not M3 Lettings), Own Website (67 properties listed on website)
+*   **Branches:** 1 (Based in Crookesmoor, Sheffield)
 *   **Key Contact Person:**
     *   Full Name: Michael Monaghan
     *   Position: Managing Director
@@ -14,5 +14,5 @@
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Described as an independent, family-based firm established in 2007. Specializes in Sheffield student property market.
-*   **Notes/Comments:** Information primarily sourced from the agency's website and portal listings (Rightmove, OnTheMarket). No company LinkedIn profile found. Zoopla search results focused on agents in the M3 postcode (Manchester) rather than M3 Lettings itself.
+*   **Other Linkedin/Extra Details:** Company Number: 05691024 (M3 Lettings Ltd) / 09318997 (M3 Lettings Property Services Limited) - Note: Two company numbers found, likely related entities. M3 Lettings Ltd incorporated 30/01/2006.
+*   **Notes/Comments:** M3 Lettings is an independent, family-based firm established in 2007, specializing in student and professional lettings in Sheffield, particularly around Crookesmoor. They emphasize a personal service and 24/7 accessibility. Many listings include bills. Found listings on Rightmove and OnTheMarket, but not Zoopla. Two related company numbers were found via Companies House and Cylex/Endole.

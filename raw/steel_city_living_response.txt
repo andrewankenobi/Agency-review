@@ -1,18 +1,18 @@
 *   **Letting Agent:** Steel City Living
-*   **Bills Included on Listings?:** Yes
+*   **Bills Included on Listings?:** Some (Their website mentions "excluding bills" as an option, implying some might include them. General search results show "bills included" is a popular search term, but no specific confirmation for Steel City Living's current listings.) [3, 4, 7, 9, 10, 12]
 *   **Website Url:** https://steelcityliving.co.uk
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
-*   **Branches:** Not Found (Appears to be a single, independent agent)
+*   **Student Listings Live:** Yes [5, 12, 18, 19]
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found) - Search results mention these portals generally but do not confirm Steel City Living listings or counts. [16, 17, 26, 28, 30, 37, 38]
+*   **Branches:** Not Found (Appears to be a single, independent agent based on website description) [5, 18]
 *   **Key Contact Person:**
     *   Full Name: Not Found
     *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 07384 252558
-    *   Address: 12 Rudyard Road, Hillsborough, Sheffield, S6 2LD (Postal address from Privacy Notice)
-    *   Email: hello@steelcityliving.co.uk
+    *   Phone: 07384 252558 [12, 18]
+    *   Address: Not Found (Website focuses on property areas like Ecclesall Road, Crookesmoor, Crookes, SHU City / Shoreham Street but doesn't list an office address) [5, 18]
+    *   Email: hello@steelcityliving.co.uk [12]
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: Not Found (STEEL CITY LIVING LIMITED exists on Companies House, but it's unclear if this is the same entity without a registered address matching the contact details). ICO Registration Number mentioned but not provided in search results.
-*   **Notes/Comments:** The agency focuses on student properties in Sheffield, particularly in areas like Ecclesall Road, Crookesmoor, Crookes, and near SHU City Campus. They emphasize being a small, independent agent with a dedicated maintenance team. Search results frequently confused "Steel City Living" (the letting agent) with "Steel City" (a specific student accommodation building in Sheffield managed by other companies like Future Generation/Evo Student/Homes for Students). No listings found on major portals (Rightmove, Zoopla, OTM) via search, though this doesn't definitively mean they aren't listed. Contact details primarily sourced from their website's Privacy Notice.
+*   **Other Linkedin/Extra Details:** Not Found
+*   **Notes/Comments:** Steel City Living appears to be a small, independent letting agent specializing in student accommodation in popular Sheffield areas like Ecclesall Road and Crookesmoor. Their website emphasizes their focus on student lettings. Direct contact information (phone/email) is available, but specific details like branch count, key personnel, and listings on major portals were not found in the search results. The website mentions properties are managed but doesn't specify if they have a physical office address. Some search results refer to "Steel City" as a specific student accommodation building or other unrelated businesses, requiring careful filtering. [2, 6, 11, 13, 14, 15, 20, 21, 22, 23, 25, 27, 33, 34, 36, 39, 42]

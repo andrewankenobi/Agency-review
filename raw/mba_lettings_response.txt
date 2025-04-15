@@ -1,18 +1,20 @@
 *   **Letting Agent:** MBA Lettings & Property Management Ltd
-*   **Bills Included on Listings?:** Some (One listing found explicitly states rent includes gas, electricity, water and internet)
+*   **Bills Included on Listings?:** Some (Examples found with bills included, some with only specific bills like gas/water included, others likely without)
 *   **Website Url:** https://www.mbalettings.com/
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Listings found, count not specified), Zoopla (Listings found, count not specified), OnTheMarket (Listings found, count not specified)
-*   **Branches:** 1 (Based on single address listed)
+*   **Key channels live on:** Rightmove (Listings found, count not specified), Zoopla (Not Found for MBA Lettings Sheffield, results show MB Property Services London), OnTheMarket (Not Found)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
+    *   Full Name: Mark Bennett
+    *   Position: Managing Director
     *   Full Name: Sally Williams
     *   Position: Director / Property Manager
 *   **Contact Information:**
     *   Phone: 0114 267 6267
-    *   Address: 221 Fulwood Road, Broomhill, Sheffield, South Yorkshire, S10 3BA
-    *   Email: admin@mbalettings.com
+    *   Address: 221 Fulwood Road, Broomhill, Sheffield, South Yorkshire, S10 3BA (Website contact page) / 501 Glossop Road, Broomhill, Sheffield, S10 2QE (RICS listing, older address?)
+    *   Email: admin@mbalettings.com / mw@mbalettings.com (Found on a specific listing PDF)
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 05408005 (M.B.A. LETTINGS & PROPERTY MANAGEMENT LIMITED)
-*   **Notes/Comments:** The agency is based in Sheffield and manages properties for both students and professionals. They are independent Chartered Surveyors regulated by RICS. Mark Bennett was the founder/Managing Director but appears to have resigned as a director in Jan 2023 according to Companies House. Sally Williams is listed as an active Director on Companies House and described as Director/Property Manager on affiliated websites. While listings are found on major portals, specific counts were not available in the search results. One specific listing on Rightmove confirmed bills included, suggesting it's offered on at least some properties.
+*   **Other Linkedin/Extra Details:** Company Number: 05406680 (M.B.A. LETTINGS & PROPERTY MANAGEMENT LIMITED). Regulated by RICS and ARLA.
+*   **Notes/Comments:** The agency specializes in student and professional lettings in Sheffield, particularly around the Broomhill area. They emphasize their experience (over 15 years) and regulation by RICS/ARLA. Two different addresses were found (221 Fulwood Road and 501 Glossop Road), though both are in Broomhill, Sheffield. 221 Fulwood Road is listed on their website's contact page. 501 Glossop Road appears on the RICS directory and older site references/surveyor side of the business. Mark Bennett is mentioned as MD on Rightmove, Sally Williams as Director/Property Manager on RICS and another site (Studio Hundreds). Listings were confirmed on Rightmove but not easily found/quantified on Zoopla or OTM for this specific agency. Some listings explicitly mention bills included or partially included.

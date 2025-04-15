@@ -1,9 +1,9 @@
 *   **Letting Agent:** Igloo Accommodation
-*   **Bills Included on Listings?:** No (unless otherwise specified). They note that companies offer inclusive bills packages and can help set this up.
+*   **Bills Included on Listings?:** No (unless otherwise specified, but inclusive packages can be arranged)
 *   **Website Url:** https://www.iglooaccommodation.co.uk/
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Listings found, count not specified), Zoopla (Not Found), OnTheMarket (Not Found). Their website mentions they specialize in student accommodation in Sheffield.
-*   **Branches:** 1 (Based on single address found)
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
+*   **Branches:** 1
 *   **Key Contact Person:**
     *   Full Name: Not Found
     *   Position: Not Found
@@ -14,5 +14,5 @@
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Revenue: $5 Million, Employees: <25 (Source: Apollo.io via search result [28], requires verification). Specializes in student accommodation in Sheffield, operating for over 25 years.
-*   **Notes/Comments:** The search results frequently returned information for other companies named "Iglu" or "Igloo" involved in accommodation (hostels, holiday homes, Australian student accommodation). Care was taken to filter for the specific Sheffield-based letting agency. No specific key contact person was identified through the search. Listing counts on portals were not readily available.
+*   **Other Linkedin/Extra Details:** Specializes in student accommodation in Sheffield, catering to groups and individuals. Offers properties from 1 to 10 bedrooms.
+*   **Notes/Comments:** The agency focuses heavily on the student market in Sheffield, with properties near both universities. While standard listings don't include bills, they offer assistance in setting up inclusive packages. No presence found on major UK property portals (Rightmove, Zoopla, OnTheMarket) via search. Several other businesses use "Igloo" or "Iglu" for accommodation (Australia, Aviemore, Nottingham, France, Finland), but the Sheffield agency appears distinct. No specific key contact person identified from website or search results.

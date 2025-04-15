@@ -1,18 +1,18 @@
 *   **Letting Agent:** Home Made
-*   **Bills Included on Listings?:** Not Found (General information suggests tenants are usually responsible for bills unless specified in the tenancy agreement, but no specific policy found for Home Made listings).
+*   **Bills Included on Listings?:** Some (Some listings on portals like Rightmove mention "Bills included" or "Services included", but it's not universal across all listings or explicitly stated as standard practice on their website. Renters should check individual listings and tenancy agreements.)
 *   **Website Url:** https://home-made.com
-*   **Student Listings Live:** Not Found (Website focuses on general lettings for landlords and renters, no specific student section found).
-*   **Key channels live on:** Rightmove (Mentioned as a major portal they likely use), Zoopla (Mentioned as a major portal they likely use), OnTheMarket (Mentioned as a major portal they likely use). Specific listing counts were not found in the search results. Home Made states they market across "all major listings portals".
-*   **Branches:** 0 (They state they do not have high street branches and operate from one office).
+*   **Student Listings Live:** Yes (Listings marketed by Home Made appear on student accommodation searches on portals like OnTheMarket, though their main website doesn't have a dedicated student section.)
+*   **Key channels live on:** Zoopla (491 listings), OnTheMarket (Listings found, count not specified), Rightmove (Listings found, count not specified)
+*   **Branches:** Not Found (They state they don't have expensive high street branches and operate across cities like London, Manchester, and Liverpool from a central base, likely their London office.)
 *   **Key Contact Person:**
-    *   Full Name: Asaf Navot
-    *   Position: CEO & Founder
+    *   Full Name: Not Found (Specific key contact person like CEO/Director not readily found in search results.)
+    *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: +44 207 846 0122 (or 0207 846 0122)
-    *   Address: 2-6 Boundary Row, London, SE1 8HP
+    *   Phone: +44 207 846 0122
+    *   Address: Home Made, 2-6 Boundary Row, London, SE1 8HP
     *   Email: Not Found (Contact form available on website)
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (Generic LinkedIn information returned, no specific company profile URL found).
+    *   Company Profile URL: https://www.linkedin.com/company/home-made-com/ (Inferred from Zoopla social links, requires verification)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 10103015 (HOME-MADE UK PROPERTIES LIMITED)
-*   **Notes/Comments:** Home Made positions itself as a tech-focused hybrid letting agency aiming to reduce costs compared to traditional high street agents. They operate across London, Manchester, and Liverpool. They emphasize transparency and efficiency. No specific information found regarding whether bills are included in listings or if they have dedicated student lettings. Listing counts on portals were not available.
+*   **Other Linkedin/Extra Details:** Company Number: Not Found (Not listed on website footer or easily found via search. "Accent Homemade Limited" found with Company number 05591747, but this appears to be a different entity focused on shared ownership under Accent Housing, not the letting agency Home Made at home-made.com). Registered with The Property Redress Scheme and Client Money Protect scheme.
+*   **Notes/Comments:** Home Made positions itself as a "proptech lettings and management company" focused on using technology to offer lower fees than traditional high street agents. They operate in London, Manchester, and Liverpool, with plans to expand. While specific listing counts on Rightmove/OnTheMarket weren't immediately available, Zoopla shows a significant number (491). Finding a specific key contact person or company number proved difficult through standard searches. Their website emphasizes landlord services and build-to-rent partnerships.

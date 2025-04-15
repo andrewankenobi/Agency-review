@@ -1,18 +1,18 @@
 *   **Letting Agent:** Strawberry Student Homes
-*   **Bills Included on Listings?:** Some (Listings show price per person per week excluding bills, and some also show a price including bills)
+*   **Bills Included on Listings?:** Some (Listings show price per person per week (pppw) both excluding and including bills)
 *   **Website Url:** https://strawberrystudenthomes.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). Listings appear to be primarily on their own website.
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found), StuRents (Found, but specific listing count not available), Own Website (58 listings)
 *   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Chris Ashton
+    *   Full Name: Chris (Surname not specified)
     *   Position: Operations Director and Business Manager
 *   **Contact Information:**
     *   Phone: 0114 266 8315
     *   Address: 343 Ecclesall Rd, Sharrow, Sheffield S11 8PF
     *   Email: info@strawberrystudenthomes.co.uk
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
+    *   Company Profile URL: Not Found (Only found a profile for "Strawberry Place" student accommodation in Newcastle, which seems unrelated, and a Cal Poly Strawberry Center)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 10012377. Other key staff listed on website: Amy (Admin Manager and Head of Marketing), Jemma Ashton (Office Manager and Company Secretary). Directors listed on Companies House: David Paul Allen, Robert Harold Allen, Christopher Geoffrey Ashton. Secretary: Jemma Marie Ashton.
-*   **Notes/Comments:** The agency specializes in student accommodation in Sheffield, particularly around Ecclesall Road. They state they own and manage their entire property portfolio. Search results often confused this agency with "Vita Student Strawberry Place" in Newcastle or other unrelated "Strawberry" named entities. No evidence found of listings on major portals like Rightmove, Zoopla, or OnTheMarket.
+*   **Other Linkedin/Extra Details:** Company Number: 10012377 (STRAWBERRY STUDENT HOMES LIMITED)
+*   **Notes/Comments:** Strawberry Student Homes appears to be a landlord owning and managing their own properties primarily in the Ecclesall Road area of Sheffield, rather than a traditional letting agent. They focus on student accommodation for Sheffield Hallam and University of Sheffield students. Listings were found on their own website and StuRents, but not on the major UK portals (Rightmove, Zoopla, OTM) during this search. Some search results referred to "Strawberry Place" or "Strawberry Hill" which are different student accommodation providers/locations.

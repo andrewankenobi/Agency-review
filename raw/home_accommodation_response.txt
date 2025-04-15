@@ -1,18 +1,18 @@
 *   **Letting Agent:** Home Accommodation
-*   **Bills Included on Listings?:** Not Found (General search results indicate 'bills included' is a popular search term, but no specific information found on the agency's website or listings regarding this policy)
+*   **Bills Included on Listings?:** Some (Listings on their website explicitly state "Bills Not Included" for some properties, while others don't specify. General rental market trends show increasing demand for 'bills included' options, but it's not standard practice for all landlords.)
 *   **Website Url:** https://homeaccommodation.co.uk
-*   **Student Listings Live:** Not Found (Website is minimal; general search results show many agencies specialize in student lets, but no specific confirmation for Home Accommodation)
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
-*   **Branches:** Not Found (Companies House lists one registered office address, suggesting a single location)
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** HomeAccommodation.co.uk (Listings visible), Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Not Found (Companies House lists officers, but no specific 'key contact' identified)
+    *   Full Name: Not Found
     *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: Not Found
-    *   Address: 171 Cleveland Way, Stevenage, Hertfordshire, England, SG1 6BX (Registered Office Address from Companies House)
-    *   Email: Not Found
+    *   Phone: 0114 2685454 (Note: 07871778367 is for WhatsApp messages only during office hours)
+    *   Address: 305 Western Bank, Sheffield, S10 2TJ
+    *   Email: info@homeaccommodation.co.uk
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 14729317 (HOME ACCOMMODATION LIMITED, Incorporated on 14 March 2023)
-*   **Notes/Comments:** The website provided (https://homeaccommodation.co.uk) appears to be a placeholder or under construction, containing no specific details about the letting agency's services, listings, or contact information beyond the company name. Most information found relates to a registered company "HOME ACCOMMODATION LIMITED" via Companies House. No active property listings were found on major portals (Rightmove, Zoopla, OnTheMarket) under this name. There is another company, "@ HOME ACCOMMODATION SERVICES LTD" (Company number 06677035), but this seems distinct.
+*   **Other Linkedin/Extra Details:** Specialises in student accommodation in Sheffield, close to Sheffield University and Sheffield Hallam campuses. They state they are not @Home Accommodation Ltd (London).
+*   **Notes/Comments:** The agency focuses specifically on the Sheffield student market. Their website lists properties, but they don't appear to be actively listing on major UK portals like Rightmove, Zoopla, or OnTheMarket based on current search results. Contact details are clearly available on their website. No specific company registration number or key personnel names were found in the search results.

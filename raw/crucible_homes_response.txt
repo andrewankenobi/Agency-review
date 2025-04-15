@@ -1,18 +1,18 @@
 *   **Letting Agent:** Crucible Homes
-*   **Bills Included on Listings?:** Some (Found examples of listings with bills included, particularly studio apartments in Kelham Island)
+*   **Bills Included on Listings?:** Some (Found listings specifically mentioning "All Bills Inclusive" [25, 30], but others state "No Utilities included" [21] or don't specify)
 *   **Website Url:** https://cruciblehomes.co.uk
-*   **Student Listings Live:** Yes (Mentioned as providing student accommodation in Sheffield, listings found on Rightmove under student category)
-*   **Key channels live on:** Rightmove (Listings found), Zoopla (Listings found), OnTheMarket (Mentioned on GetAgent and their own site)
-*   **Branches:** 2 (Chapeltown S35, Wickersley S66)
+*   **Student Listings Live:** Yes (Mentioned as providing student accommodation in Sheffield [8], Dundee [33], and listings found on Rightmove under student accommodation sections [18, 19])
+*   **Key channels live on:** Rightmove (Listings found [14, 18, 19, 25, 30, 36, 41]), Zoopla (Listings found, 9 residential to rent across both branches as per Zoopla profiles [1, 2, 23, 28]), OnTheMarket (Listings found [12, 16, 20, 31])
+*   **Branches:** 2 (Chapeltown, Sheffield S35 and Wickersley, Rotherham S66/S61 [1, 2, 3, 4, 7, 9, 12, 13, 16, 17, 29]) (Note: A third address at Dun Works, Sheffield S3 is listed on their website [4, 7, 9] but seems to be related to specific developments/apartments rather than a full branch office)
 *   **Key Contact Person:**
-    *   Full Name: Not Found
-    *   Position: Not Found
+    *   Full Name: Chantelle Hardie [4] (or Gemma O'Hara [4], Michael Rowbottom [4])
+    *   Position: General Manager [4] (or Branch Manager [4])
 *   **Contact Information:**
-    *   Phone: Chapeltown: 0114 245 9696; Wickersley: 01709 500 333; New Homes: 01709 794 203; Dun Works: 0114 349 2056
-    *   Address: Chapeltown: 11 Lound Side, Chapeltown, Sheffield S35 2UQ; Wickersley: 234 Bawtry Road, Wickersley, Rotherham S66 1AA; Dun Works: Apartment 4 Sanderson 29 Acorn Street, Sheffield S3 8FB
-    *   Email: sales@cruciblehomes.co.uk; newhomes@cruciblehomes.co.uk
+    *   Phone: Chapeltown: 0114 245 9696 [1, 4, 6, 7, 16, 22, 29]; Wickersley: 01709 500 333 [2, 4, 6, 7, 9, 13, 27, 39]; New Homes: 01709 794 203 [4, 7]; Dun Works: 0114 349 2056 [4, 7]
+    *   Address: Chapeltown: 11 Lound Side, Chapeltown, Sheffield, S35 2UQ [1, 4, 7, 16, 23, 29]; Wickersley: 234 Bawtry Road, Wickersley, Rotherham, S66 1AA [2, 4, 7, 9, 12, 13, 17, 39]
+    *   Email: sales@cruciblehomes.co.uk [4, 6, 7, 10]; newhomes@cruciblehomes.co.uk [4, 7]
 *   **LinkedIn:**
-    *   Company Profile URL: https://www.linkedin.com/company/crucible-homes/ (Found via website and search results)
+    *   Company Profile URL: https://www.linkedin.com/company/crucible-homes/ [1, 4, 7, 9, 29] (Link found on Zoopla and Crucible website)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Reg No: 6350868. VAT No: GB 471 3525 56. Operated by Syha Enterprises Limited (Company number 06350868). 100% of profits go into housing and support for vulnerable people.
-*   **Notes/Comments:** Information was readily available on their website and third-party sites like GetAgent and Zoopla. Specific key contact person details were not found. They list properties on major portals. They have specific contact details for different branches/departments. They emphasize their social mission of reinvesting profits.
+*   **Other Linkedin/Extra Details:** Company Number: Not explicitly found for Crucible Homes itself, but it's noted as a trading brand of SYHA Enterprises [40]. A "CRUCIBLE PROPERTY COMPANY LIMITED" exists (08611468) [15], but its direct relation is unclear. Crucible Homes is a 'profit for purpose' business, giving 100% of profits to housing/support for vulnerable people via South Yorkshire Housing Association (SYHA) [1, 2, 7, 40]. They are partners with Forge New Homes [5].
+*   **Notes/Comments:** Crucible Homes operates as an independent estate and letting agent with two main branches in South Yorkshire (Sheffield and Rotherham). They emphasize their social mission. Information on specific listing counts per portal varies or wasn't readily available in aggregate. Found conflicting information on addresses/branches (e.g., S66 vs S61 for Wickersley, the Dun Works address). Some search results referred to places named Crucible in the US (PA) [11, 21, 24, 26, 32, 35, 38].

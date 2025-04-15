@@ -1,11 +1,11 @@
 *   **Letting Agent:** Sheffield Property To Let
-*   **Bills Included on Listings?:** Some (The FAQ page mentions an "All Inclusive option" may be available if discussed with the landlord/agent, but doesn't state it's standard. Other Sheffield agents mention bills packages are common, often via third parties like UniHomes.)
+*   **Bills Included on Listings?:** Not Found (The website focuses on student accommodation where bills included is common, but it's not explicitly stated as standard across all listings. General search results discuss the pros and cons of bills included rentals.)
 *   **Website Url:** https://sheffieldpropertytolet.co.uk
-*   **Student Listings Live:** Yes (The website heavily focuses on student accommodation)
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found) (Search results show listings from other Sheffield agents like Shefflets, Hunters, Dove Properties, PJ Properties, Martin & Co, Whitehornes on these portals, but no direct listings found for Sheffield Property To Let itself. Their website states they are independent landlords, not agents, which might explain the lack of portal presence.)
-*   **Branches:** 1 (Based on the single address listed)
+*   **Student Listings Live:** Yes (The agency specializes in student accommodation)
+*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found) (Listings appear to be primarily on their own website. No evidence found of listings on major portals.)
+*   **Branches:** 1 (Based on the single address provided)
 *   **Key Contact Person:**
-    *   Full Name: Patrick Scott Yeardley or Matthew Scott Francis Yeardley (Companies House lists both as active directors)
+    *   Full Name: Matthew Scott Francis Yeardley (Appointed Director Jan 2021, based on Companies House filing)
     *   Position: Director
 *   **Contact Information:**
     *   Phone: 07951515970
@@ -15,4 +15,4 @@
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
 *   **Other Linkedin/Extra Details:** Company Number: 11688971 (SHEFFIELD PROPERTY TO LET LTD)
-*   **Notes/Comments:** The company website emphasizes they are independent landlords, not agents, providing student accommodation for over 30 years. Their FAQ page mentions dealing with "Letting Agent (Igloo Accommodation) / Landlord", suggesting they might use Igloo Accommodation for some aspects, or this is outdated information. No listings were found on major portals under their name. Contact details and director information were found on their website and Companies House.
+*   **Notes/Comments:** The agency states they are independent landlords, not agents, specializing in student accommodation in Sheffield for over 30 years. They emphasize a personal service. Listings seem confined to their own website. Found company registration details via Companies House.

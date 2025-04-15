@@ -1,12 +1,12 @@
 *   **Letting Agent:** Shefflets Ltd
-*   **Bills Included on Listings?:** Some (One listing found explicitly mentions "ALL BILLS INCLUDED", others may vary)
+*   **Bills Included on Listings?:** Some (One listing found explicitly states "All Bills Included", another mentions a "bills inclusive package would be available")
 *   **Website Url:** https://shefflets.com
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Listings found, count not specified), Zoopla (31 listings to rent, 8 for sale), OnTheMarket (Listings found, count not specified), Shefflets.com
-*   **Branches:** 1 (953 Ecclesall Road, Banner Cross, Sheffield, S11 8TN)
+*   **Student Listings Live:** Yes (Mentioned on website, partner with Housing Hand, specific student properties listed on portals)
+*   **Key channels live on:** Rightmove (Listings found, count not specified), Zoopla (31 listings to rent, 8 for sale), OnTheMarket (Not Found), Shefflets.com (Listings found, count not specified)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Kevin Gaskell
-    *   Position: Director / Portfolio Manager
+    *   Full Name: Lynsey Gaskell
+    *   Position: Director & Sales and Lettings Valuer
 *   **Contact Information:**
     *   Phone: 0114 321 77 77
     *   Address: 953 Ecclesall Road, Banner Cross, Sheffield, S11 8TN
@@ -14,5 +14,5 @@
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 06215529. Directors listed as Kevin Gaskell and Lynsey Elaine Gaskell. Previous directors/co-founders (involved with Vouch) Simon Tillyer and Jaime Melody Tillyer. Shefflets Holdings Ltd (Company No: 12723737) owns 75% or more shares.
-*   **Notes/Comments:** Shefflets is described as a family-run business operating in Sheffield. They handle both lettings (residential and student) and sales. They partner with UniHomes and Housing Hand. They won Gold Winner Letting Agent in Sheffield (S7-11) in the British Property Awards 2024-2025. Zoopla lists 31 rental properties and 8 properties for sale. Rightmove and OnTheMarket listings confirmed but counts not readily available from search results. Some listings mention bills included, particularly house shares.
+*   **Other Linkedin/Extra Details:** Company Number: 06215529. Directors listed on Companies House: Kevin Gaskell, Lynsey Elaine Gaskell. Family-run business established in 2007. Awarded Gold Winner Letting Agent in Sheffield (S7-11) 2024-2025 by British Property Awards.
+*   **Notes/Comments:** Shefflets also operates a sales division (Sheffsales). They emphasize being a local, family-run business focused on Sheffield. They partner with UniHomes, suggesting a focus on student lettings, and some listings explicitly mention suitability for students or offer bills-inclusive packages. No dedicated company LinkedIn profile was found in the search results.

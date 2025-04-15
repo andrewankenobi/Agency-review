@@ -1,56 +1,18 @@
-**Analysis of Search Results:**
-
-The initial search assumed Capland Properties was based in Hendon, London, as per the website URL provided (`capland.co.uk`). However, the search results overwhelmingly point to **Capland Properties being a student letting agency based in Sheffield**.
-
-*   **Contact Info:** Results [2], [3], [6], [9], [12], [18], [24] consistently give the address as 353 Ecclesall Road, Sheffield, S11 8PF and the phone number as 0114 2687222. The email is info@capland.co.uk.
-*   **Student Lettings:** Results [2], [3], [8], [9], [11], [12], [15], [19], [21], [24], [26], [36] explicitly state Capland Properties specializes in student accommodation in Sheffield, mentioning areas like Ecclesall, Crookes, Broomhill, etc.
-*   **Bills Included:** Results [3], [7], [11], [15], [19] show examples of listings offered *with* or *without* bills included, indicating it's an option on at least some properties. Therefore, "Some" is the correct answer.
-*   **Key Contact:** Results [5], [12], [13], [36] identify Rex Caplan as the Director/head of the business.
-*   **Branches:** All results point to the single Sheffield address.
-*   **Channels:** Results [32] mention listing on Rightmove. Results [39] mention Rightmove and Zoopla (though this is a general article, not specific listing proof). Direct searches on Rightmove, Zoopla, and OnTheMarket for "Capland Properties Sheffield" are needed for current counts. *Performing quick portal checks:*
-    *   Rightmove: Shows Capland Properties (Sheffield) with ~40 properties for rent.
-    *   Zoopla: Shows Capland Properties (Sheffield) with ~40 properties for rent.
-    *   OnTheMarket: Shows Capland Properties (Sheffield) with ~40 properties for rent.
-*   **LinkedIn:** No company profile found for Capland Properties (Sheffield). The previous result was likely for a different entity or an error. No profile found for Rex Caplan easily linked to the business.
-*   **Company Number:** Result [6] gives the Company Number for CAPLAND PROPERTIES LIMITED in Sheffield as 03854195. Result [4] also confirms this company number and address.
-*   **Website:** The website `capland.co.uk` *does* belong to the Sheffield agency, despite the `.co.uk` TLD not being city-specific. The content matches the Sheffield student focus.
-
-**Revised Information:**
-
-*   **Letting Agent:** Capland Properties (Sheffield)
-*   **Bills Included on Listings?:** Some
+*   **Letting Agent:** Capland Properties
+*   **Bills Included on Listings?:** Some (Listings on their website show a standard rent price and an "All Inclusive" price which includes bills)
 *   **Website Url:** https://capland.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (~40 listings), Zoopla (~40 listings), OnTheMarket (~40 listings)
-*   **Branches:** 1
+*   **Key channels live on:** Rightmove (Listings found, count not specified), Studentpad (Listings found, count not specified), OnTheMarket (Not Found), Zoopla (Not Found)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
     *   Full Name: Rex Caplan
-    *   Position: Director
+    *   Position: Head of Business/Landlord
 *   **Contact Information:**
     *   Phone: 0114 2687222
-    *   Address: 353 Ecclesall Road, Sheffield, S11 8PF
-    *   Email: info@capland.co.uk
+    *   Address: 353 Ecclesall Road, Sheffield, South Yorkshire, S11 8PF
+    *   Email: info@capland.co.uk / helen@capland.co.uk
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 03854195. Specialises in Sheffield student accommodation.
-*   **Notes/Comments:** Agency is based in Sheffield, focusing on student lettings. Initial assumption of London location based on URL was incorrect. Listing counts are approximate.
-
-*   Letting Agent: Capland Properties
-*   Bills Included on Listings?: Some
-*   Website Url: https://capland.co.uk
-*   Student Listings Live: Yes
-*   Key channels live on: Rightmove (~40 listings), Zoopla (~40 listings), OnTheMarket (~40 listings)
-*   Branches: 1
-*   Key Contact Person:
-    *   Full Name: Rex Caplan
-    *   Position: Director
-*   Contact Information:
-    *   Phone: 0114 2687222
-    *   Address: 353 Ecclesall Road, Sheffield, S11 8PF
-    *   Email: info@capland.co.uk
-*   LinkedIn:
-    *   Company Profile URL: Not Found
-    *   Key Contact Profile URL: Not Found
-*   Other Linkedin/Extra Details: Company Number: 03854195
-*   Notes/Comments: Agency specializes in student accommodation in Sheffield. Listing counts are approximate and may vary.
+*   **Other Linkedin/Extra Details:** Company Number: 03854195 (CAPLAND PROPERTIES LIMITED)
+*   **Notes/Comments:** Capland Properties is a family-run business specializing in student accommodation in Sheffield for over 50 years. They own the properties they rent out. Listings on their website offer an option for "All Inclusive" rent. They are listed on Rightmove and Studentpad, but specific counts were not found, and no presence was found on Zoopla or OnTheMarket during this search. The key contact appears to be Rex Caplan.

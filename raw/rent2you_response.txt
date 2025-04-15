@@ -1,18 +1,18 @@
-*   **Letting Agent:** Rent2you Ltd
-*   **Bills Included on Listings?:** Some (Some listings mention "all bills included", particularly student properties, but it's not universal across all listings. General searches indicate "bills included" is a popular search term, but not always standard.)
+*   **Letting Agent:** Rent2you
+*   **Bills Included on Listings?:** Not explicitly stated on the website, but "all inclusive packages" are mentioned for landlords. Renters typically need to check individual listings.
 *   **Website Url:** https://rent2you.org
-*   **Student Listings Live:** Yes (The agency mentions advertising on Unihomes and targets students, with some listings specifically marked as student properties.)
-*   **Key channels live on:** Rightmove (Mentioned on website), Zoopla (Mentioned on website), OnTheMarket (Listings found), Unihomes (Mentioned on website), PrimeLocation (Mentioned on website)
-*   **Branches:** Not Found (Appears to be primarily based in Sheffield, but no specific branch count found.)
+*   **Student Listings Live:** Yes (Mentioned on Yell.com and their website implies student lettings by mentioning Unihomes as a channel)
+*   **Key channels live on:** Rightmove, Zoopla, OnTheMarket, Unihomes, PrimeLocation (Specific listing counts not found in search results)
+*   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
     *   Full Name: Gina May Turnbull
     *   Position: Director
 *   **Contact Information:**
-    *   Phone: 0114 212 9777
-    *   Address: 88 Carr Road, Sheffield, South Yorkshire, S6 2WZ (Registered Office Address)
+    *   Phone: 0114 212 9777 (also listed as 0114 446 5539 on OnTheMarket)
+    *   Address: 88 Carr Road, Sheffield, South Yorkshire, S6 2WZ
     *   Email: hello@rent2you.org
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (Searches returned profiles for unrelated companies with similar names, mainly car rentals.)
+    *   Company Profile URL: Not Found (A profile exists but appears to be for a different Rent2You in Rotterdam or Lisbon)
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Number: 13491973 (Incorporated 4 July 2021)
-*   **Notes/Comments:** The agency focuses on the Sheffield area. While the website mentions advertising on major portals, specific listing counts weren't readily available from the search results. Found multiple unrelated companies named "Rent2you" (car rentals, Malaysian interior design) during the search. The registered office address was found via Companies House data.
+*   **Other Linkedin/Extra Details:** Company Number: 13491973 (RENT2YOU LTD, incorporated 4 July 2021). Nature of Business (SIC): 68209 - Other letting and operating of own or leased real estate, 98000 - Residents property management. Primarily serves Sheffield.
+*   **Notes/Comments:** Rent2you appears to be a letting agency focused on the Sheffield area, offering services primarily to landlords but also listing properties for tenants, including students. They emphasize an all-inclusive management service for landlords. There are other companies globally with similar names (e.g., car rental in Riyadh, property management in Lisbon/Rotterdam), but the UK entity is RENT2YOU LTD based in Sheffield.

@@ -1,18 +1,18 @@
 *   **Letting Agent:** WH Properties
-*   **Bills Included on Listings?:** Some (The website mentions "Sheffield University Student Accommodation Bills Included" on a page title [20], and general search results indicate 'bills included' is a common feature, especially for student lets [18, 19], but it's not explicitly confirmed for all listings on their site.)
+*   **Bills Included on Listings?:** Not Found (The website's FAQ page states tenants are responsible for setting up and paying utilities, suggesting bills are generally not included, but this isn't explicitly confirmed for all listings).
 *   **Website Url:** https://whproperties.co.uk
-*   **Student Listings Live:** Yes (The website has sections and page titles specifically mentioning student accommodation [20, 23].)
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found) (Search results often show William H Brown or other similarly named agencies on these portals [14, 21, 26, 31, 40, 41, 44, 45], but not specifically WH Properties at whproperties.co.uk. A TikTok result mentions Rightmove in relation to a WH Properties Sheffield listing [38], but direct portal listings weren't confirmed.)
-*   **Branches:** Not Found (Appears to be a single location based on contact details.)
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Not Found (Searches did not reveal listings on major UK portals like Rightmove, Zoopla, or OnTheMarket under this specific name. There are other agencies with similar names, e.g., William H Brown, HW Estate Agents, Whitlock and Heaps, and a WH Properties in Nashville, TN, USA, but none match the provided website/UK context).
+*   **Branches:** Not Found (Website suggests a single operation focused on Sheffield).
 *   **Key Contact Person:**
-    *   Full Name: Lisa Wiseman [23] or Lindsay Wiseman [23] (Listed as Data Controller/Landlord) / Annabelle Lamb [20] (Operations Manager) / Tori Russell [20] (Sales and Marketing Administrator)
-    *   Position: Data Controller/Landlord [23] / Operations Manager [20] / Sales and Marketing Administrator [20]
+    *   Full Name: Not Found
+    *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 01142668070 [23]
-    *   Address: 11 Commonside Sheffield S10 1GA [23]
-    *   Email: info@whproperties.co.uk [23]
+    *   Phone: Not Found (No phone number listed on the website's FAQ or contact sections).
+    *   Address: Not Found (No physical address listed on the website).
+    *   Email: Not Found (Website uses a contact form, no direct email address found).
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found (Search results show profiles for other companies like W H Malcolm Ltd [28] or WH Matthews & Co [24], but not this specific agency.)
+    *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Company Name potentially "Lindsay & Lisa Wiseman" trading as WH Properties [23]. There is a registered company "WH PROPERTIES LTD" [46], but it's unclear if it's the same entity without further details like company number or address matching. Another company "WH Properties Holding Ltd" also exists [32].
-*   **Notes/Comments:** The agency appears to specialize in student accommodation in Sheffield, particularly for Sheffield University students [20, 23]. The contact details point to Lisa and Lindsay Wiseman as key individuals. Difficulty arose in distinguishing this specific "WH Properties" from others with similar names (e.g., William H Brown [17], Whitlock and Heaps [9], WH Property Management [34], WH Properties in Nashville [3, 29, 30]) and confirming their presence on major UK property portals.
+*   **Other Linkedin/Extra Details:** The agency appears to specialize in student accommodation in Sheffield. They state they do not charge administration fees to tenants. Rent payment is requested via post-dated cheques.
+*   **Notes/Comments:** Information is scarce. The website (whproperties.co.uk) focuses heavily on student lettings in Sheffield. It lacks standard contact details like a phone number or address, relying on a web form. No presence found on major UK property portals or LinkedIn under this name. There is a "WH Properties Holding Ltd" registered in the UK, but it's unclear if it's related. Several US-based entities and other UK agencies (like William H Brown) share similar names, causing confusion in search results.

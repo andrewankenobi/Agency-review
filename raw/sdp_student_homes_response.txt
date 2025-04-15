@@ -1,11 +1,11 @@
 *   **Letting Agent:** SDP Student Homes
-*   **Bills Included on Listings?:** Some (Website property search has filters for "Inclusive Bills (27)" and "Inclusive Bills Available (21)")
+*   **Bills Included on Listings?:** Some (Listings mention "Rent + bills package", "Rent incl. bills", "Inclusive Bills", and "Inclusive Bills Available")
 *   **Website Url:** https://sdpstudenthomes.co.uk
-*   **Student Listings Live:** Yes (Website focuses exclusively on student homes in Sheffield)
-*   **Key channels live on:** SDP Website (52 listings), Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found)
+*   **Student Listings Live:** Yes
+*   **Key channels live on:** Rightmove (Mentioned as a portal they list on), StuRents (1 listing found), OnTheMarket (Not Found), Zoopla (Not Found)
 *   **Branches:** 1 (Based on single address found)
 *   **Key Contact Person:**
-    *   Full Name: Symon Donovan (Founder)
+    *   Full Name: Symon Donovan
     *   Position: Founder
 *   **Contact Information:**
     *   Phone: 0114 258 0060
@@ -14,5 +14,5 @@
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** The website footer mentions "Copyright @ 2023 Symon Donovan Properties Limited". A search for "SDP LETTINGS AND MANAGEMENT LIMITED" on Companies House exists, but it's unclear if this is the same entity without further verification.
-*   **Notes/Comments:** Information primarily sourced from the agency's website and directory listings. The founder's name (Symon Donovan) is mentioned on the "About Us" page. No listings found on major UK property portals (Rightmove, Zoopla, OnTheMarket) via search, suggesting they may primarily list on their own site or other student-specific platforms. The website indicates they manage over 60 properties, but the live search shows 52. Some properties offer bills included, while others have a bills package available.
+*   **Other Linkedin/Extra Details:** Company Name: Symon Donovan Properties Limited. Company Number: 05214664 (from Kompass, needs verification). Specializes in student accommodation in Sheffield for over 30 years.
+*   **Notes/Comments:** Primarily focused on student properties in Sheffield, particularly near Sheffield Hallam University (SHU) and the city centre. Website mentions over 60 properties. Some listings specify bills included or available as a package. Limited presence found on major portals via search, though their website states they list on major portals like Rightmove. Founder Symon Donovan started the company in 1992.

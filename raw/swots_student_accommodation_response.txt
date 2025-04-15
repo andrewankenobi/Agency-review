@@ -1,18 +1,18 @@
 *   **Letting Agent:** Swots Student Accommodation
-*   **Bills Included on Listings?:** Not Found (General search results discuss bills included, but no specific information found on Swots' website or listings about whether their properties typically include bills)
+*   **Bills Included on Listings?:** Not explicitly stated on their website or in search results, but common for student accommodation (especially purpose-built) to include bills. Some private rented sector (PRS) student houses include bills, others don't. [4, 8, 14]
 *   **Website Url:** https://swots.co.uk
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Listings count not specified), Zoopla (Not Found), OnTheMarket (Not Found)
-*   **Branches:** 1 (Based on single address found)
+*   **Student Listings Live:** Yes [6, 9]
+*   **Key channels live on:** Rightmove (Listings mentioned, but count not specified) [13, 16, 24], Zoopla (Not Found) [37, 40], OnTheMarket (Not Found) [38]
+*   **Branches:** 1 (Based on single address found) [2]
 *   **Key Contact Person:**
-    *   Full Name: Not Found
-    *   Position: Not Found (The business is described as independent and family-run)
+    *   Full Name: Not Found (Family-run business, but specific names not listed) [9]
+    *   Position: Not Found
 *   **Contact Information:**
-    *   Phone: 0114 266 7663
-    *   Address: The Observatory, 34A Beech Hill Road, Broomhill, Sheffield, S10 2SB
-    *   Email: Not Found (Contact form available on Rightmove)
+    *   Phone: 0114 266 7663 [2]
+    *   Address: The Observatory, 34A Beech Hill Road, Broomhill, Sheffield, S10 2SB [2]
+    *   Email: Not Found (Contact form on website) [2]
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Established in 1982. They state they own all their properties, not acting as letting agents for others. They focus on accommodation in Broomhill, Crookesmoor, and Crookes areas of Sheffield.
-*   **Notes/Comments:** Information primarily sourced from the agency's website and Rightmove listings. No specific listing counts were found on Rightmove. No presence found on Zoopla or OnTheMarket via search. No specific contact person identified. No company number found. The agency emphasizes being property owners rather than just letting agents.
+*   **Other Linkedin/Extra Details:** Established in 1982, independent and family-run business. They own the properties they let. [9] Submitted written evidence regarding government white paper on private rented sector. [15]
+*   **Notes/Comments:** Swots specializes in student accommodation in Sheffield, particularly for Sheffield University students, focusing on areas like Broomhill, Crookesmoor, and Crookes. [6, 9] They state they are property owners, not just letting agents. [9] Finding specific listing counts on portals or key contact names proved difficult via search. Bills inclusion is unclear from available online info.

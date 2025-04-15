@@ -1,9 +1,9 @@
-*   **Letting Agent:** Oak Estates (Note: There appear to be multiple agencies with similar names. This research focuses on the one associated with oakestates.net, which seems to be based in Sheffield)
-*   **Bills Included on Listings?:** Not Found (General information about 'bills included' packages was found, but not specific to Oak Estates listings)
+*   **Letting Agent:** Oak Estates
+*   **Bills Included on Listings?:** Not Found (General information suggests 'bills included' is a popular search term, but no specific confirmation for Oak Estates listings was found on their site or portals).
 *   **Website Url:** https://www.oakestates.net/
-*   **Student Listings Live:** Yes
-*   **Key channels live on:** Zoopla (Listings found for Oak Estates Sheffield S11), Rightmove (Not Found for Sheffield branch, other Oak Estates found), OnTheMarket (Not Found for Sheffield branch, other Oak Estates found)
-*   **Branches:** 1 (Based on website contact details for Sheffield)
+*   **Student Listings Live:** Yes (The website mentions experience with student lettings and finding accommodation for students).
+*   **Key channels live on:** Zoopla (Listings found, count not specified), Rightmove (Mentioned as a channel used by some 'Oak Estates' agencies, but specific listings for oakestates.net not confirmed), OnTheMarket (Not Found), PrimeLocation (Listings found, count not specified).
+*   **Branches:** Not Found (Multiple agencies named Oak Estates exist with different branch structures. The specific agency at oakestates.net appears to be based in Sheffield, but the number of branches isn't clear from the search results).
 *   **Key Contact Person:**
     *   Full Name: Not Found
     *   Position: Not Found
@@ -12,7 +12,7 @@
     *   Address: Studio 5 (1st Floor Above Kettle Black), 301 Ecclesall Road, Sheffield, S11 8NX
     *   Email: info@oakestates.net
 *   **LinkedIn:**
-    *   Company Profile URL: Not Found
+    *   Company Profile URL: Not Found (Profiles exist for other 'Oak Estates' agencies, but not specifically for the one at oakestates.net).
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Specializes in properties for professionals, families, and students in Sheffield.
-*   **Notes/Comments:** The website oakestates.net specifically points to an agency in Sheffield focused on student and professional lets. Several other agencies named "Oak Estates" or similar exist (e.g., in Watford, London, Bristol), which appeared in search results but are distinct entities. Information on key portals and LinkedIn specifically for the Sheffield branch (oakestates.net) was limited. Zoopla confirms the Sheffield branch (S11) and its focus on student lettings. No specific information found regarding whether bills are included in their listings.
+*   **Other Linkedin/Extra Details:** The agency focuses on properties for professionals, families, and students in Sheffield. They mention having an in-house maintenance team. There is a dormant company named "Oak Estates Ltd" (Company No. 12163061) registered in Oldham, but it's unclear if this is related to the Sheffield agency. Another active company "OAK ESTATES LIMITED" (Company No. 04876377) exists, but its relation is also unclear.
+*   **Notes/Comments:** There are multiple letting agencies named "Oak Estates" operating in different parts of the UK (e.g., London, Watford, Bristol). The provided website URL (oakestates.net) points to an agency based in Sheffield, specializing in student and professional lets. Information specific to *this* Oak Estates (Sheffield) was sometimes difficult to isolate from results for other agencies with the same or similar names. Portal listing counts were not readily available for this specific agency. No specific key contact person was identified from the website or search results.

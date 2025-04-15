@@ -1,18 +1,18 @@
 *   **Letting Agent:** SheffieldRooms
-*   **Bills Included on Listings?:** Yes
+*   **Bills Included on Listings?:** Yes (Listings state "INCLUDING ALL BILLS" or "ALL' bills included")
 *   **Website Url:** https://sheffieldrooms.co.uk
 *   **Student Listings Live:** Yes
-*   **Key channels live on:** Rightmove (Not Found), Zoopla (Not Found), OnTheMarket (Not Found). Listings appear to be primarily on their own website.
-*   **Branches:** Not Found (Appears to be a single, family-run operation)
+*   **Key channels live on:** Not Found (No listings found on Rightmove, Zoopla, or OnTheMarket via search)
+*   **Branches:** Not Found (Appears to be a single location/family-run business)
 *   **Key Contact Person:**
     *   Full Name: Julie Hopkins
-    *   Position: Owner
+    *   Position: Owner / Data Controller
 *   **Contact Information:**
-    *   Phone: 07946 253595 (Julie) / 07817 841965 (Paul)
-    *   Address: 20 Ashgate Road, Sheffield, S10 3BZ
+    *   Phone: 07946 253595 (Julie Hopkins) / 07817 841965 (Paul Hopkins)
+    *   Address: 20 Ashgate Road, Sheffield, S10 3BZ (Listed as Data Controller address)
     *   Email: info@sheffieldrooms.co.uk
 *   **LinkedIn:**
     *   Company Profile URL: Not Found
     *   Key Contact Profile URL: Not Found
-*   **Other Linkedin/Extra Details:** Family run company (Paul and Julie Hopkins). HMO registered. Properties accredited on Sheffield Council/Sheffield Hallam University SNUG scheme.
-*   **Notes/Comments:** Focuses on student and professional accommodation in Sheffield. Emphasizes being a family-run business with good customer service. Listings found directly on their website include video tours. No evidence found of listings on major portals like Rightmove, Zoopla, or OnTheMarket.
+*   **Other Linkedin/Extra Details:** Family run company since 1997. Properties are HMO registered and SNUG accredited by Sheffield Council/Universities.
+*   **Notes/Comments:** Primarily focused on student and professional accommodation in Sheffield. Website emphasizes being approachable and providing good customer service. Listings mention specific availability dates (e.g., July 2025). No evidence of listings on major UK property portals found during the search. Contact address is listed under the Privacy Notice for the Data Controller.
