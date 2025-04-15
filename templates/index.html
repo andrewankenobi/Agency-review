@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letting Agency Research</title>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --google-blue: #4285f4;
+            --google-red: #ea4335;
+            --google-yellow: #fbbc05;
+            --google-green: #34a853;
+            --google-gray: #5f6368;
+            --google-light-gray: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Google Sans', Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--google-light-gray);
+            color: var(--google-gray);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo span {
+            font-size: 24px;
+            font-weight: 500;
+            color: var(--google-gray);
+        }
+
+        .search-box {
+            flex: 1;
+            max-width: 600px;
+            position: relative;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 45px 12px 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--google-blue);
+            box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.1);
+        }
+
+        .search-box::after {
+            content: '🔍';
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--google-gray);
+            font-size: 18px;
+        }
+
+        .refresh-btn {
+            background-color: var(--google-blue);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.3s;
+            white-space: nowrap;
+        }
+
+        .refresh-btn:hover {
+            background-color: #3367d6;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .agencies-list {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 100%;
+        }
+
+        .agency-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: transform 0.3s;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .agency-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+        }
+
+        .agency-card h3 {
+            color: var(--google-blue);
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .agency-card .agency-url {
+            display: block;
+            color: var(--google-blue);
+            text-decoration: none;
+            margin-bottom: 20px;
+            word-break: break-all;
+        }
+
+        .agency-card .agency-url:hover {
+            text-decoration: underline;
+        }
+
+        .agency-details {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .detail-item {
+            background: var(--google-light-gray);
+            padding: 15px;
+            border-radius: 12px;
+            transition: background-color 0.3s;
+        }
+
+        .detail-item.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .detail-item:hover {
+            background: #e8f0fe;
+        }
+
+        .detail-section {
+            margin-bottom: 8px;
+        }
+
+        .detail-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .detail-section-label {
+            font-weight: 500;
+            color: var(--google-blue);
+            margin-bottom: 4px;
+            font-size: 13px;
+        }
+
+        .detail-value {
+            color: #202124;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .raw-data-section {
+            margin-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            padding-top: 20px;
+        }
+
+        .raw-data-toggle {
+            background: var(--google-light-gray);
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            color: var(--google-blue);
+            cursor: pointer;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .raw-data-toggle:hover {
+            background: #e8f0fe;
+        }
+
+        .raw-data-toggle::after {
+            content: '▼';
+            font-size: 12px;
+            transition: transform 0.3s;
+        }
+
+        .raw-data-toggle.expanded::after {
+            transform: rotate(180deg);
+        }
+
+        .raw-data-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+            margin-top: 10px;
+        }
+
+        .raw-data-content.expanded {
+            max-height: 500px;
+        }
+
+        .raw-data-content pre {
+            margin: 0;
+            padding: 15px;
+            background: var(--google-light-gray);
+            border-radius: 8px;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .chat-interface {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            transform: translateY(100%);
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .chat-interface.active {
+            transform: translateY(0);
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .chat-header {
+            padding: 15px;
+            background: var(--google-blue);
+            color: white;
+            border-radius: 8px 8px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-header h2 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .close-chat {
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .chat-messages {
+            height: 300px;
+            overflow-y: auto;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 0;
+        }
+
+        .chat-input {
+            padding: 15px;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .chat-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: var(--google-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .chat-button:hover {
+            transform: scale(1.1);
+        }
+
+        .chat-button i {
+            color: white;
+            font-size: 24px;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <span>Letting Agency Research</span>
+            </div>
+            <div class="search-box">
+                <input type="text" id="agency-search" placeholder="Search agencies..." oninput="filterAgencies()">
+            </div>
+            <button class="refresh-btn" onclick="refreshData()">Refresh Data</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <div id="agencies-container"></div>
+            
+            <div class="chat-interface">
+                <h2>Ask Questions</h2>
+                <div class="chat-messages" id="chat-messages"></div>
+                <div class="chat-input">
+                    <input type="text" id="chat-input" placeholder="Ask a question about the agencies...">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Chat Button -->
+    <div class="chat-button" onclick="toggleChat()">
+        <i>💬</i>
+    </div>
+
+    <!-- Chat Interface -->
+    <div class="chat-interface" id="chat-interface">
+        <div class="chat-header">
+            <h2>Ask Questions</h2>
+            <button class="close-chat" onclick="toggleChat()">×</button>
+        </div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" id="chat-input" placeholder="Ask a question about the agencies...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        let allAgencies = []; // Store all agencies for filtering
+
+        // Load agencies data
+        async function loadAgencies() {
+            try {
+                const response = await fetch('/api/agencies');
+                allAgencies = await response.json();
+                // Sort agencies by name
+                allAgencies.sort((a, b) => a['Letting Agent'].localeCompare(b['Letting Agent']));
+                displayAgencies(allAgencies);
+            } catch (error) {
+                console.error('Error loading agencies:', error);
+            }
+        }
+
+        // Filter agencies based on search input
+        function filterAgencies() {
+            const searchTerm = document.getElementById('agency-search').value.toLowerCase();
+            const filteredAgencies = allAgencies.filter(agency => {
+                const searchableFields = [
+                    agency['Letting Agent'],
+                    agency['address'],
+                    agency['full_name'],
+                    agency['email'],
+                    agency['phone']
+                ];
+                return searchableFields.some(field => 
+                    field && field.toString().toLowerCase().includes(searchTerm)
+                );
+            });
+            displayAgencies(filteredAgencies);
+        }
+
+        // Display agencies
+        function displayAgencies(agencies) {
+            const container = document.getElementById('agencies-container');
+            
+            if (agencies.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 40px; color: var(--google-gray);">
+                        <h3>No agencies found</h3>
+                        <p>Try adjusting your search terms</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = '';
+
+            agencies.forEach(agency => {
+                const card = document.createElement('div');
+                card.className = 'agency-card';
+
+                let content = `
+                    <div class="agency-info">
+                        <h3>${agency['Letting Agent']}</h3>
+                        <a href="${agency['Website Url']}" class="agency-url" target="_blank">${agency['Website Url']}</a>
+                        <div class="agency-details">
+                            <div class="detail-item">
+                                <div class="detail-section">
+                                    <div class="detail-section-label">Address</div>
+                                    <div class="detail-value">${agency['address'] || 'N/A'}</div>
+                                </div>
+                                <div class="detail-section">
+                                    <div class="detail-section-label">Phone</div>
+                                    <div class="detail-value">${agency['phone'] || 'N/A'}</div>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-section">
+                                    <div class="detail-section-label">Contact Person</div>
+                                    <div class="detail-value">${agency['full_name'] || 'N/A'}</div>
+                                </div>
+                                <div class="detail-section">
+                                    <div class="detail-section-label">Position</div>
+                                    <div class="detail-value">${agency['position'] || 'N/A'}</div>
+                                </div>
+                                <div class="detail-section">
+                                    <div class="detail-section-label">Email</div>
+                                    <div class="detail-value">${agency['email'] || 'N/A'}</div>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-section">
+                                    <div class="detail-section-label">Agency Details</div>
+                                    <div class="detail-value">
+                                        <strong>Branches:</strong> ${agency['branches'] || 'N/A'}<br>
+                                        <strong>Bills Included:</strong> ${agency['bills_included'] ? 'Yes' : 'No'}<br>
+                                        <strong>Student Listings:</strong> ${agency['student_listings'] ? 'Yes' : 'No'}<br>
+                                        <strong>Channels:</strong> ${Array.isArray(agency['channels']) ? agency['channels'].join(', ') : (agency['channels'] || 'N/A')}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail-item full-width">
+                                <div class="detail-section">
+                                    <div class="detail-section-label">Additional Information</div>
+                                    <div class="detail-value">
+                                        ${agency['notes/comments'] ? `<strong>Notes:</strong> ${agency['notes/comments']}<br><br>` : ''}
+                                        ${agency['other_linkedin/extra_details'] ? `<strong>Additional Details:</strong> ${agency['other_linkedin/extra_details']}<br><br>` : ''}
+                                        ${agency['linkedin'] ? `<strong>LinkedIn:</strong> ${agency['linkedin']}` : ''}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="raw-data-section">
+                            <button class="raw-data-toggle" onclick="toggleRawData(this)">
+                                Raw Data
+                            </button>
+                            <div class="raw-data-content">
+                                <pre>${JSON.stringify(agency, null, 2)}</pre>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                card.innerHTML = content;
+                container.appendChild(card);
+            });
+        }
+
+        // Toggle raw data visibility
+        function toggleRawData(button) {
+            const content = button.nextElementSibling;
+            button.classList.toggle('expanded');
+            content.classList.toggle('expanded');
+        }
+
+        // Refresh data
+        async function refreshData() {
+            const button = document.querySelector('.refresh-btn');
+            button.disabled = true;
+            button.textContent = 'Refreshing...';
+            
+            try {
+                const response = await fetch('/api/refresh', { method: 'POST' });
+                if (response.ok) {
+                    await loadAgencies();
+                    alert('Data refreshed successfully!');
+                } else {
+                    throw new Error('Failed to refresh data');
+                }
+            } catch (error) {
+                console.error('Error refreshing data:', error);
+                alert('Error refreshing data. Please check the console for details.');
+            } finally {
+                button.disabled = false;
+                button.textContent = 'Refresh Data';
+            }
+        }
+
+        // Chat functionality
+        async function sendMessage() {
+            const input = document.getElementById('chat-input');
+            const message = input.value.trim();
+            if (!message) return;
+
+            // Add user message to chat
+            addMessage(message, 'user');
+            input.value = '';
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: message }),
+                });
+
+                const data = await response.json();
+                if (data.answer) {
+                    addMessage(data.answer, 'bot');
+                } else {
+                    throw new Error(data.error || 'Failed to get response');
+                }
+            } catch (error) {
+                console.error('Error sending message:', error);
+                addMessage('Sorry, there was an error processing your question.', 'bot');
+            }
+        }
+
+        // Chat toggle functionality
+        function toggleChat() {
+            const chatInterface = document.getElementById('chat-interface');
+            chatInterface.classList.toggle('active');
+        }
+
+        // Update addMessage to handle HTML
+        function addMessage(text, sender) {
+            const messagesContainer = document.getElementById('chat-messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            messageDiv.innerHTML = text;
+            messagesContainer.appendChild(messageDiv);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            loadAgencies();
+            
+            // Add enter key support for chat
+            document.getElementById('chat-input').addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+        });
+    </script>
+</body>
+</html> 

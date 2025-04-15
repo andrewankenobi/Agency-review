@@ -1,0 +1,280 @@
+import os
+import json
+import time
+import logging
+from typing import List, Dict, Any
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+from google import genai
+from google.genai import types
+from dotenv import load_dotenv
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('agency_research.log', mode='w'),  # 'w' mode overwrites the file
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+# Add a startup message to indicate new run
+logger.info("Starting agency research application")
+logger.info("Log file cleared for new run")
+
+
+def load_environment_variables() -> str:
+    """Load environment variables and return the Gemini API key."""
+    load_dotenv()
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise ValueError("GEMINI_API_KEY environment variable is not set")
+    logger.info("Successfully loaded environment variables")
+    return api_key
+
+
+def load_agencies(file_path: str = "agencies.json") -> List[Dict[str, str]]:
+    """Load the list of agencies from the JSON file."""
+    try:
+        with open(file_path, "r") as f:
+            agencies = json.load(f)
+            logger.info(f"Successfully loaded {len(agencies)} agencies from {file_path}")
+            return agencies
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Agencies file not found: {file_path}")
+    except json.JSONDecodeError:
+        raise ValueError(f"Invalid JSON format in {file_path}")
+
+
+def load_system_prompt(file_path: str = "system_prompt.txt") -> str:
+    """Load the system prompt from the text file."""
+    try:
+        with open(file_path, "r") as f:
+            prompt = f.read().strip()
+            logger.info(f"Successfully loaded system prompt from {file_path}")
+            return prompt
+    except FileNotFoundError:
+        raise FileNotFoundError(f"System prompt file not found: {file_path}")
+
+
+def initialize_gemini_client(api_key: str) -> genai.Client:
+    """Initialize the Gemini client with the API key."""
+    client = genai.Client(api_key=api_key)
+    logger.info("Successfully initialized Gemini client")
+    return client
+
+
+def construct_user_prompt(agency_name: str, agency_url: str) -> str:
+    """Construct the user prompt for a specific agency."""
+    prompt = f"""Execute the letting agency research as defined in the system prompt for the following entity:
+
+* **Agency Name:** {agency_name}
+* **Agency URL:** {agency_url}
+"""
+    logger.debug(f"Constructed prompt for {agency_name}")
+    return prompt
+
+
+def process_agency(
+    agency: Dict[str, str],
+    system_prompt: str,
+    client: genai.Client
+) -> Dict[str, Any]:
+    """Process a single agency using the Gemini API."""
+    logger.info(f"Starting processing for agency: {agency['name']}")
+    user_prompt = construct_user_prompt(agency["name"], agency["url"])
+    
+    # Prepare the Gemini call
+    contents = [
+        types.Content(
+            role="user",
+            parts=[
+                types.Part.from_text(text=user_prompt)
+            ]
+        )
+    ]
+    
+    tools = [types.Tool(google_search=types.GoogleSearch())]
+    
+    generate_content_config = types.GenerateContentConfig(
+        temperature=0,
+        tools=tools,
+        response_mime_type="text/plain",
+        system_instruction=[types.Part.from_text(text=system_prompt)]
+    )
+    
+    try:
+        logger.debug(f"Sending API request for {agency['name']}")
+        response = client.models.generate_content_stream(
+            model="gemini-2.5-pro-preview-03-25",
+            contents=contents,
+            config=generate_content_config
+        )
+        
+        # Collect the response text
+        full_response = ""
+        for chunk in response:
+            if chunk.text:
+                full_response += chunk.text
+                logger.debug(f"Received chunk for {agency['name']}: {chunk.text[:100]}...")
+        
+        logger.debug(f"Full response for {agency['name']}: {full_response[:200]}...")
+        
+        # Convert markdown response to JSON
+        try:
+            # Initialize result dictionary with basic info
+            result = {
+                "Letting Agent": agency["name"],
+                "Website Url": agency["url"]
+            }
+            
+            # Split response into lines and process each line
+            lines = full_response.split('\n')
+            for line in lines:
+                line = line.strip()
+                if line.startswith('*   **'):
+                    # Extract key and value from markdown format
+                    key_value = line[6:-2].split(':**')  # Remove '*   **' and '**'
+                    if len(key_value) == 2:
+                        key = key_value[0].strip()
+                        value = key_value[1].strip()
+                        
+                        # Clean up the key to match expected format
+                        key = key.replace(' ', '_').lower()
+                        
+                        # Handle special cases
+                        if key == 'bills_included_on_listings?':
+                            key = 'bills_included'
+                            value = value.lower() in ['yes', 'some']
+                        elif key == 'student_listings_live':
+                            key = 'student_listings'
+                            value = value.lower() == 'yes'
+                        elif key == 'key_channels_live_on':
+                            key = 'channels'
+                            value = [channel.strip() for channel in value.split(',')]
+                        
+                        result[key] = value
+            
+            # Validate required fields
+            required_fields = ['bills_included', 'student_listings', 'channels']
+            for field in required_fields:
+                if field not in result:
+                    logger.warning(f"Missing required field '{field}' for {agency['name']}")
+                    result[field] = None
+            
+            logger.info(f"Successfully processed {agency['name']}")
+            return result
+            
+        except Exception as e:
+            logger.error(f"Error converting response to JSON for {agency['name']}: {str(e)}")
+            return {
+                "Letting Agent": agency["name"],
+                "Website Url": agency["url"],
+                "Error": f"Error converting response to JSON: {str(e)}",
+                "Raw Response": full_response[:500]
+            }
+        
+    except Exception as e:
+        logger.error(f"Error processing agency {agency['name']}: {str(e)}", exc_info=True)
+        return {
+            "Letting Agent": agency["name"],
+            "Website Url": agency["url"],
+            "Error": str(e)
+        }
+
+
+def save_results(results: List[Dict[str, Any]], file_path: str = "output.json") -> None:
+    """Save the results to a JSON file."""
+    with open(file_path, "w") as f:
+        json.dump(results, f, indent=2)
+    logger.info(f"Saved {len(results)} results to {file_path}")
+
+
+def process_agency_batch(
+    agencies: List[Dict[str, str]],
+    system_prompt: str,
+    client: genai.Client
+) -> List[Dict[str, Any]]:
+    """Process a batch of agencies in parallel."""
+    logger.info(f"Starting batch processing for {len(agencies)} agencies")
+    batch_results = []
+    
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        # Submit all tasks
+        future_to_agency = {
+            executor.submit(process_agency, agency, system_prompt, client): agency
+            for agency in agencies
+        }
+        
+        # Process results as they complete
+        for future in as_completed(future_to_agency):
+            agency = future_to_agency[future]
+            try:
+                result = future.result()
+                batch_results.append(result)
+                logger.info(f"Completed processing: {agency['name']}")
+            except Exception as e:
+                logger.error(f"Error processing agency {agency['name']}: {str(e)}", exc_info=True)
+                batch_results.append({
+                    "Letting Agent": agency["name"],
+                    "Website Url": agency["url"],
+                    "Error": str(e)
+                })
+    
+    logger.info(f"Completed batch processing with {len(batch_results)} results")
+    return batch_results
+
+
+def main(test_mode: bool = False) -> None:
+    try:
+        logger.info("Starting agency research application")
+        if test_mode:
+            logger.info("Running in TEST MODE - will only process first 5 agencies")
+        
+        # Load configuration
+        api_key = load_environment_variables()
+        all_agencies = load_agencies()
+        system_prompt = load_system_prompt()
+        
+        # Initialize Gemini
+        client = initialize_gemini_client(api_key)
+        
+        # Process agencies in batches of 5
+        batch_size = 5
+        all_results = []
+        
+        # In test mode, only process first 5 agencies
+        if test_mode:
+            all_agencies = all_agencies[:5]
+            logger.info(f"Test mode: Processing only {len(all_agencies)} agencies")
+        
+        for i in range(0, len(all_agencies), batch_size):
+            batch = all_agencies[i:i + batch_size]
+            logger.info(f"\nProcessing batch {i//batch_size + 1} of {(len(all_agencies) + batch_size - 1)//batch_size}")
+            logger.info(f"Agencies in this batch: {', '.join(agency['name'] for agency in batch)}")
+            
+            batch_results = process_agency_batch(batch, system_prompt, client)
+            all_results.extend(batch_results)
+            
+            # Save results after each batch
+            save_results(all_results)
+            logger.info(f"Saved results after batch {i//batch_size + 1}")
+            
+            # Add a small delay between batches to avoid rate limiting
+            if i + batch_size < len(all_agencies):
+                logger.info("Waiting 10 seconds before next batch...")
+                time.sleep(10)
+        
+        logger.info("\nProcessing complete. All results saved to output.json")
+        
+    except Exception as e:
+        logger.error(f"Error in main: {str(e)}", exc_info=True)
+        raise
+
+
+if __name__ == "__main__":
+    # Set test_mode=True to only process first 5 agencies
+    main(test_mode=True) 
