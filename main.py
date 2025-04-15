@@ -93,13 +93,21 @@ def clean_markdown_text(text: str) -> str:
     """Clean up markdown formatting while preserving all content."""
     # Remove markdown bold markers
     text = text.replace('**', '')
-    # Remove markdown list markers
+    # Remove markdown list markers but preserve the content
     text = text.replace('*   ', '')
     # Replace *or* with a comma for better readability
     text = text.replace('*or*', ',')
-    # Remove extra whitespace
-    text = ' '.join(text.split())
+    # Remove extra whitespace but preserve newlines
+    text = '\n'.join(line.strip() for line in text.split('\n'))
     return text.strip()
+
+
+def ensure_text_completeness(text: str) -> str:
+    """Ensure text fields are complete and not truncated."""
+    # Check for common truncation patterns
+    if text.endswith('...') or text.endswith('...]') or text.endswith('...)'):
+        logger.warning(f"Detected potentially truncated text: {text}")
+    return text
 
 
 def process_agency(
@@ -196,6 +204,8 @@ def process_agency(
                             else:
                                 # Clean up markdown formatting while preserving content
                                 value = clean_markdown_text(value)
+                                # Ensure text completeness
+                                value = ensure_text_completeness(value)
                             
                             result[key] = value
                 
@@ -250,9 +260,32 @@ def process_agency(
 
 def save_results(results: List[Dict[str, Any]], file_path: str = "output.json") -> None:
     """Save the results to a JSON file."""
-    with open(file_path, "w") as f:
-        json.dump(results, f, indent=2)
-    logger.info(f"Saved {len(results)} results to {file_path}")
+    try:
+        # Only create directory if file_path contains a directory
+        dir_path = os.path.dirname(file_path)
+        if dir_path:
+            os.makedirs(dir_path, exist_ok=True)
+        
+        # Save with better handling of long strings
+        with open(file_path, "w", encoding='utf-8') as f:
+            json.dump(
+                results, 
+                f, 
+                indent=2,
+                ensure_ascii=False,  # Preserve non-ASCII characters
+                default=str  # Handle any non-serializable objects
+            )
+        
+        # Verify the saved file
+        with open(file_path, "r", encoding='utf-8') as f:
+            loaded_data = json.load(f)
+            if len(loaded_data) != len(results):
+                logger.error(f"Data loss detected! Saved {len(loaded_data)} items but expected {len(results)}")
+            
+        logger.info(f"Saved {len(results)} results to {file_path}")
+    except Exception as e:
+        logger.error(f"Error saving results to {file_path}: {str(e)}")
+        raise
 
 
 def process_agency_batch(

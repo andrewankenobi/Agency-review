@@ -1097,6 +1097,9 @@ ${Array.isArray(agency['channels']) ? agency['channels'].map(channel => `- ${cha
         document.addEventListener('DOMContentLoaded', () => {
             loadAgencies();
             
+            // Add search functionality
+            document.getElementById('searchInput').addEventListener('input', filterAgencies);
+            
             // Add enter key support for chat
             document.getElementById('chat-input').addEventListener('keypress', (e) => {
                 if (e.key === 'Enter') {
